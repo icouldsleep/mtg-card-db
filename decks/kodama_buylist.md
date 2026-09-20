@@ -114,7 +114,8 @@ the snapshot because scryfall.db keeps one printing per card and theirs landed o
 Secret Lair or promo. Several are expensive: Craterhoof Behemoth, Vorinclex, Ulamog,
 Scute Swarm, The Earth Crystal.
 
-Unpriced: Boseiju, Who Endures, Craterhoof Behemoth, Cultivate, Eternal Witness, Exploration, Finale of Devastation, Hickory Woodlot, Kamahl, Heart of Krosa, Lotus Cobra, Nature's Lore, Nylea, God of the Hunt, Regrowth, Scute Swarm, Silverback Elder, The Earth Crystal, Toski, Bearer of Secrets, Ulamog, the Ceaseless Hunger, Vorinclex, Voice of Hunger
+The unpriced cards are marked inline above; a comma-separated summary line is
+unreadable here because several of the names contain commas themselves.
 
 ### Paste-ready buy list
 
