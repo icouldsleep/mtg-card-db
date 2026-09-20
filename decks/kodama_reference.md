@@ -7,7 +7,7 @@ Staging link (original 181-card pool, now superseded by the 100 below): https://
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
 - `kodama_buylist.md` — which cards come from the Tramplesaurus Rex precon and which still need buying, with prices.
-- `kodama_purchase_list.txt` — the 59 cards to buy, bare lines only, for mass-entry importers.
+- `kodama_purchase_list.txt` — the cards to buy, bare lines only, for mass-entry importers.
 - `kodama_play_guide.pdf` — 8-page play guide: the Kodama trigger explained properly, the free-land chain, Scute Swarm's doubling, the Sabertooth loops, Woodland Bellower targets, and a misplays list.
 
 ## Base
@@ -30,8 +30,8 @@ Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort 
 NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
 NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24), so land slots stay at 37. Front face is a {2}{G} sorcery returning any card from your graveyard to hand; back face is a land that enters tapped. Like the other MDFCs looked at for this deck, the back face is a plain `Land`, **not Forest-typed**, so Nature's Lore and Three Visits cannot fetch it.
 
-### Ramp (12)
-Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc
+### Ramp (13)
+Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
 ### Draw (9)
@@ -59,8 +59,8 @@ Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Sylvan S
 Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis
 NOTE: **Genesis works from the graveyard, and a board wipe is its enabler.** "At the beginning of your upkeep, if this creature is in your graveyard, you may pay {2}{G}. If you do, return target creature card from your graveyard to your hand." A wrath puts Genesis in the yard alongside everything else it will rebuild, which is exactly what this deck needs, since a wide board of fat creatures is a wrath magnet. It returns to HAND, not the battlefield, so recovery is slow against a curve topping out at 10 mana - inevitable, not fast.
 
-### Removal (7)
-Beast Within, Kenrith's Transformation, Primal Might, Ulamog the Ceaseless Hunger, Warping Wail, Reclamation Sage, Silverback Elder
+### Removal (6)
+Beast Within, Kenrith's Transformation, Primal Might, Ulamog the Ceaseless Hunger, Reclamation Sage, Silverback Elder
 
 ### Tokens (1)
 Primeval Bounty
@@ -87,7 +87,7 @@ Before the swap the deck had **three** cards that could destroy an artifact or e
 | Windswept Heath | Evolving Wilds | Real fetch enters untapped and puts the Forest in untapped, so both landfall triggers land the turn you play it. |
 | Verdant Catacombs | Terramorphic Expanse | Same. Bought on price — all five green-capable fetches are identical in mono-green. |
 
-NOTE: **Warping Wail was considered for this cut and kept.** It is awkward to cast off only six colorless sources, but it is the only card in the deck that can counter anything, and mono-green has almost no other access to that. Its Eldrazi Scion mode also makes a token, which is a Kodama trigger.
+NOTE: **Warping Wail was considered for this cut and kept at the time** — awkward off only six colorless sources, but the only card in the deck that could counter anything, and its Eldrazi Scion mode makes a token. **Superseded: it was cut in the sixth swap below for Radagast of Rhosgobel.** The deck now has no counterspell at all; that is a known, accepted gap.
 
 ## Third swap, Sept 20, 2026 (2 cards)
 
@@ -126,8 +126,20 @@ NOTE: several other cards were checked in the same pass and ruled out.
 - **The Astonishing Ant-Man** ({G}{U}) and **Tear Asunder** are both illegal here. Ant-Man is green *and* blue, so its identity is [G, U]. Tear Asunder's mana cost is a clean {1}{G}, but its **Kicker {1}{B}** puts black in its identity — costs in rules text count. Easy trap: a green mana cost does not mean a green identity.
 - **Beorn's Hospitality** ({1}{G}) is Bristly Bill's ability on an enchantment — landfall, +1/+1 counter on target creature. Already rejected once under the counters preference.
 - **Ironscale Hydra** ({3}{G}{G} 5/5) prevents all combat damage dealt to it and grows instead. Unkillable blocker, die-friendly, but does nothing for the Kodama engine.
-- **Radagast of Rhosgobel** ({2}{G}{G} 2/5, $6.65) — first creature spell each turn costs {2} less and can be cast as though it had flash. The most interesting leftover; makes Sabertooth recasts cheaper and dodges sorcery-speed removal. Not added, but worth revisiting.
+- **Radagast of Rhosgobel** — no longer a close call; **added in the sixth swap below.**
 - **Radagast the Brown** ({2}{G}{G} 2/5) digs on every **nontoken** creature entering, and tokens are most of this deck's ETBs.
+
+## Sixth swap, Sept 20, 2026 (1 card)
+
+| In | Out | Why |
+|---|---|---|
+| Radagast of Rhosgobel {2}{G}{G} 2/5, $6.65 | Warping Wail | "The first creature spell you cast each turn costs {2} less to cast and can be cast as though it had flash." The discount is live every turn against a curve of Craterhoof 8, Vorinclex 8, Ulamog 10, Avenger 7, Bellower and Multani 6, and a pile of 5s. It also cheapens the **Temur Sabertooth loops**: bouncing and recasting Reclamation Sage drops from {1}{G} + {2}{G} to {1}{G} + **{G}**. Warping Wail needed {C} off only six colorless sources in a deck of 24 Forests, and its modes were narrow. Trading a card you often cannot cast for a creature also means one more body and one more Kodama trigger. |
+
+NOTE: **the discount only applies to creature spells you CAST** — same caveat as Silverback Elder. It does nothing for creatures Kodama puts onto the battlefield, for tokens, or for anything Woodland Bellower, Green Sun's Zenith, Natural Order or Finale of Devastation puts down, since none of those are cast.
+
+NOTE: Radagast is **legendary**, so Woodland Bellower (nonlegendary only) cannot fetch it. Green Sun's Zenith and Natural Order can.
+
+NOTE: **the deck now has zero counterspells.** Warping Wail was the only one. That is an accepted cost, not an oversight — mono-green barely has the option, and the card was frequently uncastable.
 
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
@@ -154,7 +166,7 @@ Also cut, first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul
 
 Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic Expanse.
 
-Cut in the third, fourth and fifth Sept 20 swaps: Greater Good, 1x Forest, Regrowth, Zendikar's Roil.
+Cut in the third through sixth Sept 20 swaps: Greater Good, 1x Forest, Regrowth, Zendikar's Roil, Warping Wail.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.

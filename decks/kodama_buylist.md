@@ -45,7 +45,7 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
 - 1 Lightning Greaves — $6.13
 - 1 The Earth Crystal — no price in snapshot
 
-**Creature (26)**
+**Creature (27)**
 - 1 Avenger of Zendikar — $0.43
 - 1 Azusa, Lost but Seeking — $11.86
 - 1 Courser of Kruphix — $2.42
@@ -58,6 +58,7 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
 - 1 Multani, Yavimaya's Avatar — $0.30
 - 1 Nylea, God of the Hunt — no price in snapshot
 - 1 Ohran Frostfang — $7.91
+- 1 Radagast of Rhosgobel — $6.65
 - 1 Rampaging Baloths — $5.31
 - 1 Reclamation Sage — $0.32
 - 1 Sakura-Tribe Elder — $0.34
@@ -92,11 +93,10 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
 - 1 Primal Might — $0.25
 - 1 Three Visits — $5.32
 
-**Instant (4)**
+**Instant (3)**
 - 1 Heroic Intervention — $10.25
 - 1 Return of the Wildspeaker — $2.99
 - 1 Veil of Summer — $15.79
-- 1 Warping Wail — $4.08
 
 **Land (10)**
 - 1 Bala Ged Recovery // Bala Ged Sanctuary — no price in snapshot
@@ -112,7 +112,7 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
 
 ### Cost
 
-Priced subtotal **$352.24** — a floor, not an estimate. 19 of these have no price in
+Priced subtotal **$354.81** — a floor, not an estimate. 19 of these have no price in
 the snapshot; those are marked inline above.
 
 ### Paste-ready buy list
@@ -156,6 +156,7 @@ the snapshot; those are marked inline above.
 1 Ohran Frostfang
 1 Primal Might
 1 Primeval Bounty
+1 Radagast of Rhosgobel
 1 Rampaging Baloths
 1 Reclamation Sage
 1 Return of the Wildspeaker
@@ -174,7 +175,6 @@ the snapshot; those are marked inline above.
 1 Veil of Summer
 1 Verdant Catacombs
 1 Vorinclex, Voice of Hunger
-1 Warping Wail
 1 Windswept Heath
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
