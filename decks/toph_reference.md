@@ -149,7 +149,8 @@ Seismic Tutelage doubles counters on the enchanted creature when it attacks; Kal
 
 # RULINGS ESTABLISHED THIS SESSION
 
-- **Garruk's Uprising does NOT trigger on earthbent lands.** It needs a power-4+ creature to ENTER. Animating a land isn't entering, and a land that dies and returns comes back as a land, not a creature. Artifacts under Toph enter as LANDS, not creatures — also no trigger. Solemn was the only artifact creature and it's cut. **Treat Garruk's Uprising as a trample-granter that occasionally cantrips.**
+- **Garruk's Uprising does NOT trigger on earthbent lands.** It needs a power-4+ creature to ENTER. Animating a land isn't entering, and a land that dies and returns comes back as a land, not a creature. Artifacts under Toph enter as LANDS, not creatures — also no trigger. Solemn was the only artifact creature and it's cut.
+  - **⚑ CORRECTED Sept 20, 2026 — the old conclusion "treat it as a trample-granter that occasionally cantrips" was WRONG and cost the card a slot before the owner caught it.** Everything above is true about lands and artifacts, but it ignored the creatures. **Rampaging Baloths creates 4/4 Beast tokens** — power 4 — so **every landfall trigger draws a card off Garruk's Uprising**, doubled by Ancient Greenwarden. **The Mind Stone** blinking Terastodon (9/9) or Avenger of Zendikar (5/5) draws another every end step. On top of that: Ghalta, Craterhoof, Terastodon, Avenger, Rhonas, Kalonian Hydra (enters with four counters), Ancient Greenwarden, Badgermole, Flopsie and Bumi all trigger it when cast. **It is a draw engine in this deck. Do not cut it.**
 - **Planar Outburst is SAFE for earthbent lands** — it destroys all NONLAND creatures, and an earthbent land is still a land. Base mode {3}{W}{W}; you never have to pay Awaken.
 - **Farseek CAN fetch Temple Garden, Sacred Foundry, and Stomping Ground** (they're Plains/Mountain cards). Claude wrongly claimed otherwise. It has exactly three legal targets — narrow, but it's 2-mana ramp plus a Landfall trigger that always does something turn two. **Rules note: Farseek says "tapped," which OVERRIDES the shockland's pay-2-life clause. NEVER pay the 2 life off a Farseek.**
 - **Gruul Turf: NEVER bounce an earthbent land with it.** Bouncing loses the land, its counters, and the Landfall trigger. Same caution applies to Multani's recursion cost.
@@ -177,7 +178,7 @@ Avatar Kyoshi Earthbender, Badgermole, Flopsie Bumi's Buddy, Hardened Scales, Ka
 **Rockalanche** — {2}{G} Sorcery — Lesson — earthbend X where X = Forests you control. Flashback {5}{G}. **Counts Forest TYPES, so Stomping Ground and Temple Garden count — ceiling is 16, not 14.** Double-dips with Toph Hardheaded Teacher (his cast trigger plus the Lesson bonus counter fires on a SEPARATE land).
 
 ## Draw (6)
-Guardian Project, **Ohran Frostfang**, Sylvan Library, **The Great Henge**, **Tireless Tracker**, **Toski Bearer of Secrets**
+Garruk's Uprising, **Ohran Frostfang**, Sylvan Library, **The Great Henge**, **Tireless Tracker**, **Toski Bearer of Secrets**
 
 **Tireless Tracker** — a RE-ADD. It was originally cut for the wrong reason: the question asked was whether Clues trigger Landfall (they don't), when the relevant question was whether Tracker triggers off YOUR landfall. It does, constantly — every nontoken artifact you cast under Toph is a land entering.
 **The Great Henge** — {X}{G}{G} where X is 8 minus your greatest creature power. **An earthbent land counts**, so a 4/4 land makes it 6 mana and Avatar Kyoshi's earthbend 8 makes it 2.
@@ -204,6 +205,8 @@ Ghostly Prison, **Gift of Immortality**, Heroic Intervention, **Iroas God of Vic
 Arcane Signet, Badgermole Cub, **Chromatic Lantern**, Cycle of Renewal, Earthbender Ascension, Farseek, Lotus Cobra, Nature's Lore, Shared Roots, Smothering Tithe, Sol Ring, **The Earth King**, Thran Dynamo, Wood Elves
 
 **Chromatic Lantern** — "Lands you control have '{T}: Add one mana of any color.'" **Under Toph your artifacts ARE lands, so Lantern grants them a mana ability.** Toph's parenthetical is REMINDER TEXT — it means the type change alone doesn't grant a mana ability, not that they can't gain one elsewhere. So Lightning Greaves, The Ozolith, and Zuran Orb become mana sources.
+
+**⚑ Lantern also fixes Thran Dynamo's colour problem (owner's point, Sept 20, 2026).** Thran Dynamo taps for {C}{C}{C}, which looks awkward in a deck measured at 76% green costs against 43% green production. But under Toph it is a land, so Lantern gives it a **second, separate** mana ability: "{T}: Add one mana of any color." You choose which to use when you tap it — three colorless for the top end, or one coloured mana when you are colour-screwed. **Thran Dynamo is not a weak slot here; it powers out Ghalta, Craterhoof, Terastodon and Akroma's Memorial, it enters as a land so it is a Landfall trigger, and it is a legal earthbend target.** Do not cut it on "colorless in a green deck" grounds.
 
 ## Recursion (3)
 **Ancient Greenwarden**, Toph Hardheaded Teacher, True Ancestry
@@ -245,9 +248,13 @@ Nothing else in the list trips Bracket 3's other restrictions: Strip Mine and Wa
 
 | IN | OUT |
 |---|---|
-| **Akroma's Memorial** {7} | **Garruk's Uprising** {2}{G} |
+| **Akroma's Memorial** {7} | **Guardian Project** {3}{G} |
 
-**Why Garruk's Uprising was the cut.** This file's own ruling already established that it barely functions here: "Garruk's Uprising does NOT trigger on earthbent lands... Treat Garruk's Uprising as a trample-granter that occasionally cantrips." Its one live ability is *"Creatures you control have trample."* **Akroma's Memorial grants trample too, and adds flying, first strike, vigilance, haste, protection from black and protection from red on top.** It strictly supersedes the only part of Garruk's Uprising that was working.
+**Garruk's Uprising was cut first and that was WRONG — owner corrected it, it stays.** See the corrected ruling in RULINGS above: Rampaging Baloths makes **4/4** Beast tokens, so every landfall trigger puts a power-4 creature onto the battlefield and draws a card off Garruk's Uprising. It is a draw engine here, not a cantrip. It is also the deck's only **cheap** trample source at 3 mana, and being an enchantment it sits on a different removal axis from a 7-mana artifact.
+
+**Why Guardian Project is the cut instead.** "Whenever a **nontoken** creature you control enters..." — that clause excludes every Baloths Beast, every Scute Swarm copy and every Avenger Plant. In a deck whose engine is landfall generating tokens, it is pointed at the wrong half, and Garruk's Uprising covers precisely what it misses. It also carries a name-uniqueness restriction, and at $19.59 it was the priciest marginal card in the list. What it caught that Garruk's cannot: small nontoken bodies like Wood Elves, Lotus Cobra, Tireless Tracker, Toski and Ohran Frostfang — real, but one-shot rather than a repeating engine.
+
+**What Akroma's Memorial adds.** Flying, first strike, vigilance, trample, haste, protection from black and from red, to everything. Vigilance patches the structural hole this file identifies, where attacking taps your lands and leaves nothing to block the crack-back. Protection from black and red is a large and previously unnoted defensive upgrade: your creatures cannot be targeted or damaged by black or red sources, and cannot be blocked by black or red creatures.
 
 **What this fixes.** Vigilance is the structural hole this file identifies — attacking taps your lands, so they can't block the crack-back, which is why Ghostly Prison "earns its slot structurally." Akroma's Memorial patches it directly. Trample source count is unchanged at three (Badgermole, Craterhoof, Akroma's Memorial) but the quality is higher. And **protection from black and from red is a large defensive upgrade** not previously noted: your creatures can't be targeted or damaged by black or red sources, and can't be blocked by black or red creatures.
 
@@ -259,7 +266,7 @@ Nothing else in the list trips Bracket 3's other restrictions: Strip Mine and Wa
 
 Haste from Akroma's Memorial is partly redundant, since earthbend already grants haste to earthbent lands.
 
-**⚑ ARCHIDEKT IS NOW ONE SWAP BEHIND THIS FILE.** Deck 26022574 was verified card-for-card against this file on Sept 20, 2026 and matched exactly at 100 — then this swap was applied here. Archidekt still lists Garruk's Uprising and not Akroma's Memorial. **Update Archidekt, then this line can go.** This file has a recorded history of the reverse problem (11 agreed swaps sitting unapplied on Archidekt while the file claimed they were done), so the direction of the gap is worth stating explicitly.
+**⚑ ARCHIDEKT IS NOW ONE SWAP BEHIND THIS FILE — Guardian Project out, Akroma's Memorial in.** Deck 26022574 was verified card-for-card against this file on Sept 20, 2026 and matched exactly at 100 — then this swap was applied here. Archidekt still lists Guardian Project and not Akroma's Memorial. (Garruk's Uprising is in both — it was briefly cut here and put straight back.) **Update Archidekt, then this line can go.** This file has a recorded history of the reverse problem (11 agreed swaps sitting unapplied on Archidekt while the file claimed they were done), so the direction of the gap is worth stating explicitly.
 
 ---
 
