@@ -283,5 +283,3 @@ Four Queza swaps were logged "complete" on Aug 11 that had never actually been m
 
 ### Cards wrongly flagged as weak — don't re-suggest cutting
 Elixir of Immortality, Jace the Mind Sculptor, Triskaidekaphile — all defended by the user with good reasoning already worked out.
-
-<!-- setup test line, 2026-09-20: safe to remove -->
