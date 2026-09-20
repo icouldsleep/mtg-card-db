@@ -4,6 +4,11 @@
 
 Staging link (original 181-card pool, now superseded by the 100 below): https://archidekt.com/decks/26413180/kodoma_of_the_mono_tree
 
+## Companion files in this folder
+- `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
+- `kodama_buylist.md` — which cards come from the Tramplesaurus Rex precon and which still need buying.
+- `kodama_play_guide.pdf` — 7-page play guide: the Kodama trigger explained properly, the free-land chain, Scute Swarm's doubling, the Sabertooth loops, Woodland Bellower targets, and a misplays list.
+
 ## Base
 Started from **Tramplesaurus Rex**, the mono-green precon from the Foundations Commander Decks set. Stock commander was Ghalta, Primal Hunger.
 
