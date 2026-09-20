@@ -1,4 +1,5 @@
 # Rules for this repo
+- Confirm with me before making any change. Propose what you want to edit, wait for my go-ahead, then edit. This applies to editing files, committing, and pushing. Asking me a question about a deck is not permission to change it — if I ask "how does this look" or "what do you think", answer and stop there.
 - Always commit and push directly to `main`. Never leave work on a `claude/...` branch, and don't open pull requests unless I ask.
 - Before editing, run `git checkout main && git pull`.
 - After pushing, confirm the change is on `main` on GitHub.
