@@ -25,10 +25,11 @@ Kodama's trigger is **not landfall-specific — it fires off ANY permanent enter
 ## The 100
 
 ### Lands (37)
-Bonders' Enclave, Castle Garenbrig, Demolition Field, Evolving Wilds, Mosswort Bridge, Rogue's Passage, Terramorphic Expanse, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Hickory Woodlot, Blighted Woodland, 25x Forest
+Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Hickory Woodlot, Blighted Woodland, 25x Forest
+NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
 
-### Ramp (11)
-Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning
+### Ramp (12)
+Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
 ### Draw (10)
@@ -58,9 +59,6 @@ Eternal Witness, Green Sun's Zenith, Finale of Devastation, Regrowth, Woodland B
 ### Removal (7)
 Beast Within, Kenrith's Transformation, Primal Might, Ulamog the Ceaseless Hunger, Warping Wail, Reclamation Sage, Silverback Elder
 
-### Pump (1)
-Blanchwood Armor
-
 ### Tokens (1)
 Primeval Bounty
 
@@ -78,6 +76,16 @@ Primeval Bounty
 ### The gap this fixed
 Before the swap the deck had **three** cards that could destroy an artifact or enchantment, and realistically two: **Beast Within** (3 mana, hits any permanent, hands them a 3/3), **Boseiju, Who Endures** (channel from a land, one shot, opponents only), and **Ulamog** (ten mana). For a mono-green deck — the color with the best artifact and enchantment removal in the game — that was the single biggest weakness in the list. It's now five sources, one of which (Reclamation Sage + Temur Sabertooth) is repeatable.
 
+## Second swap, later Sept 20, 2026 (3 cards)
+
+| In | Out | Why |
+|---|---|---|
+| Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun | Blanchwood Armor | Cast as a {2}{G} enchantment (so it takes a spell slot, not a land slot), digs 4 for a creature on entry, then transforms at your end step once you control four creatures — trivial here, Scute Swarm alone does it. The back face taps for {G} per creature: an affordable Gaea's Cradle. **Kamahl already pumps the whole team +3/+3 with trample every turn for free**, which makes Blanchwood Armor the most redundant card in the deck — a worse pump on one creature, on an Aura that loses two cards to one removal spell, in a deck built to go wide. |
+| Windswept Heath | Evolving Wilds | Real fetch enters untapped and puts the Forest in untapped, so both landfall triggers land the turn you play it. |
+| Verdant Catacombs | Terramorphic Expanse | Same. Bought on price — all five green-capable fetches are identical in mono-green. |
+
+NOTE: **Warping Wail was considered for this cut and kept.** It is awkward to cast off only six colorless sources, but it is the only card in the deck that can counter anything, and mono-green has almost no other access to that. Its Eldrazi Scion mode also makes a token, which is a Kodama trigger.
+
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
 
@@ -89,12 +97,19 @@ Before the swap the deck had **three** cards that could destroy an artifact or e
 - **World Shaper** {3}{G} 3/3 — mills 3 on attack; when it dies, returns **all** land cards from your graveyard to the battlefield tapped. With Greater Good already in the deck as a sac outlet, that's a huge landfall/Kodama turn. No counters involved.
 - **Thrashing Brontodon** {1}{G}{G} 3/4 — {1}, sacrifice: destroy target artifact or enchantment. A third body-plus-answer if the removal still feels thin.
 - **Krosan Grip** {2}{G} instant — destroy target artifact or enchantment, with split second, so while it's on the stack nobody can cast spells or activate non-mana abilities in response. The cleanest answer to a combo piece.
+- **Nykthos, Shrine to Nyx** — flagged by the owner as a possible future add. {2}, {T}: add mana of a chosen color equal to your devotion to it, which is high in mono-green. Caveat: it only makes {C} otherwise, and the deck already runs five colorless-only lands while casting Silverback Elder {2}{G}{G}{G}, Craterhoof {5}{G}{G}{G} and Unnatural Growth {1}{G}{G}{G}{G}. That's mitigated only while Yavimaya, Cradle of Growth is on the battlefield making every land a Forest — a one-card dependency.
+- **Grasslands ($0.35) and Mountain Valley ($0.30)** — budget double-trigger lands. They fetch a Forest **untapped** with no life payment, but they enter tapped, so the two landfall triggers split across turns. That makes them a sidegrade to Evolving Wilds rather than an upgrade. Worth it only as a replacement for **Hickory Woodlot** (enters tapped, two activations, then sacrifices itself) — not as extra tapped lands in a deck casting 8-drops.
+
+**Mosswort Bridge stays — do not suggest cutting it again.** An earlier review called its hideaway payoff too demanding. It isn't: the condition is 10 total power across your creatures, Kodama alone is a 6/6, and **Kamahl gives the whole team +3/+3 at the beginning of combat**, so you can activate the Bridge mid-combat after that trigger resolves and two creatures clear the bar. The payoff is playing the hidden card **without paying its mana cost**, off a library full of 6-to-10 drops (Craterhoof, Ulamog, Vorinclex, Avenger of Zendikar). A free 8-drop is worth a land that enters tapped, and playing a creature that way also triggers Silverback Elder.
+- **More fetchlands** — Wooded Foothills, Misty Rainforest and Prismatic Vista all do exactly what Windswept Heath and Verdant Catacombs do here. Only buy on price.
 - **Rejected on purpose: Bane of Progress.** Its ETB destroys **all** artifacts and enchantments, which in this deck means your own Sol Ring, The Earth Crystal, Primeval Bounty, Zendikar's Roil, Sylvan Library, Exploration, Burgeoning, Asceticism, Bear Umbra, plus Courser of Kruphix and Nylea (both enchantment creatures) and any Clue tokens. Far too much collateral.
 
 ## Cut from the original 181-card pool (redundant with something stronger staying in, not mistakes)
 Fyndhorn Elves, Druid of the Cowl, Ilysian Caryatid, Rampant Growth, Wood Elves, Farhaven Elf, Explosive Vegetation, Skyshroud Claim, Springbloom Druid, Shared Roots (explicitly filler), Case of the Locked Hothouse, Fanatic of Rhonas, Goreclaw Terror of Qal Sisma, Nissa Resurgent Animist, Rampant Rejuvenator, Seedship Agrarian, Stone-Seeder Hierophant, Tireless Provisioner, World Shaper, Yavimaya Elder, Adventure Awaits, Adventurous Impulse, Disciple of Freyalise, Genesis Hydra, Hunter's Insight, Inspiring Call, Momentous Fall, Pelakka Wurm, Regal Force, Rishkar's Expertise, Silverback Shaman, Soul's Majesty, Vizier of the Menagerie, Baloth Woodcrasher, Greensleeves Maro-Sorcerer, Glacier Godmaw, Khalni Heart Expedition, Territorial Scythecat, Sazh's Chocobo, Retreat to Kazandu, Grazing Gladehart, Embodiment of Insight, Undergrowth Champion, Tifa Lockhart, Scythecat Cub, Surrak and Goreclaw, Mossborn Hydra, Oran-Rief Hydra, Hooded Hydra, Darksteel Colossus, Overwhelming Stampede, Quakestrider Ceratops, Stonehoof Chieftain, Thrashing Brontodon, Archetype of Endurance, both Ulamog the Infinite Gyre, Commander's Plate, Mithril Coat, Darksteel Plate, Autumn's Veil, Spearbreaker Behemoth, Avoid Fate, Alpha Authority, Aspect of Mongoose, Sheltering Word, Ranger's Guile, Canopy Cover, Molting Skin, Broken Fall, Eldrazi Monument, Creeping Renaissance, Praetor's Counsel, Splendid Reclamation, Greenwarden of Murasa, Deadwood Treefolk, Khalni Ambush, Bridgeworks Battle, Ezuri's Predation.
 
-Also cut in the Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul Speaker, Gift of the Gargantuan.
+Also cut in the first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul Speaker, Gift of the Gargantuan.
+
+Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic Expanse.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.
@@ -114,6 +129,8 @@ Only **Seedborn Muse** is confirmed on the official Game Changers list among car
 - **Temur Sabertooth's indestructible is conditional.** "{1}{G}: You may return another creature you control to its owner's hand. **If you do**, this creature gains indestructible until end of turn." No bounce, no indestructible. Its real job is re-using ETBs (Reclamation Sage, Eternal Witness, Woodland Bellower, Avenger of Zendikar) and saving a creature from targeted removal by bouncing it.
 - **Silverback Elder only triggers on CAST creature spells.** It misses everything Kodama puts onto the battlefield for free, every token, and the creatures fetched by Woodland Bellower, Green Sun's Zenith and Finale of Devastation. Still worth it for repeatable artifact/enchantment destruction on a 5/7 body, but don't count the free permanents.
 - **Woodland Bellower puts its target onto the battlefield**, so it's two Kodama triggers off one card. Live targets in this build include Reclamation Sage, Eternal Witness, Tireless Tracker, Scute Swarm, Lotus Cobra, Managorger Hydra, Courser of Kruphix, Sakura-Tribe Elder and the mana dorks (nonlegendary, green, MV 3 or less).
+- **A fetchland is two landfall triggers and two Kodama triggers.** The fetchland enters (trigger one), you crack it, the Forest enters (trigger two). With Scute Swarm at six or more lands that is two copies off a single card.
+- **Growing Rites of Itlimoc transforms, it doesn't enter again.** The front face entering is a Kodama trigger because it's a permanent entering. The transform at your end step is **not** a land entering, so it gives no landfall trigger and no second Kodama trigger. Don't count on one.
 - **The Earth Crystal doubles ETB counters too.** It replaces counters being put on any creature you control, so Yorvo enters as an 8/8 and Kalonian Hydra as an 8/8 (which then doubles again when it attacks).
 - **Ohran Frostfang vs Ohran Viper**: Frostfang is the one in the deck — team deathtouch on attack + draw off combat damage to a player. Viper only affects itself.
 - **Toski and Ohran Frostfang stack** — both draw on combat damage to a player, so a connecting creature draws two.

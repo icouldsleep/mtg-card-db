@@ -4,7 +4,6 @@
 1 Bear Umbra
 1 Beast Whisperer
 1 Beast Within
-1 Blanchwood Armor
 1 Blighted Woodland
 1 Bonders' Enclave
 1 Boseiju, Who Endures
@@ -18,12 +17,12 @@
 1 Elemental Bond
 1 Elvish Mystic
 1 Eternal Witness
-1 Evolving Wilds
 1 Exploration
 1 Finale of Devastation
 25 Forest
 1 Greater Good
 1 Green Sun's Zenith
+1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project
 1 Heroic Intervention
 1 Hickory Woodlot
@@ -59,7 +58,6 @@
 1 Sylvan Library
 1 Sylvan Safekeeper
 1 Temur Sabertooth
-1 Terramorphic Expanse
 1 The Earth Crystal
 1 Three Visits
 1 Tireless Tracker
@@ -67,9 +65,11 @@
 1 Ulamog, the Ceaseless Hunger
 1 Unnatural Growth
 1 Veil of Summer
+1 Verdant Catacombs
 1 Vorinclex, Voice of Hunger
 1 War Room
 1 Warping Wail
+1 Windswept Heath
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
 1 Yorvo, Lord of Garenbrig

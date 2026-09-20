@@ -1,9 +1,9 @@
 # Kodama // Kamahl — buy list
 
-Verified 2026-09-20 against the Tramplesaurus Rex precon
-(https://archidekt.com/decks/26565889/tramplesaurus_rex_precon) — 69 distinct cards, 100 slots.
+Regenerated 2026-09-20 against the current 100.
+Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69 distinct, 100 slots).
 
-## Already have — do NOT buy (42 of the 100 slots, 18 distinct)
+## Already covered — do NOT buy (44 of the 100 slots)
 
 **Artifact (2)**
 - 1 Sol Ring
@@ -26,14 +26,16 @@ Verified 2026-09-20 against the Tramplesaurus Rex precon
 **Instant (1)**
 - 1 Beast Within
 
-**Land (29)**
+**Land (31)**
 - 1 Bonders' Enclave
 - 25 Forest
 - 1 Mosswort Bridge
 - 1 Rogue's Passage
+- 1 Verdant Catacombs _(ordered 2026-09-20)_
 - 1 War Room
+- 1 Windswept Heath _(ordered 2026-09-20)_
 
-## Need to buy (58 cards)
+## Need to buy (56 cards)
 
 **Commander (2)**
 - 1 Kamahl, Heart of Krosa — no price in snapshot
@@ -73,10 +75,10 @@ Verified 2026-09-20 against the Tramplesaurus Rex precon
 **Enchantment (10)**
 - 1 Asceticism — $7.39
 - 1 Bear Umbra — $19.39
-- 1 Blanchwood Armor — $0.26
 - 1 Burgeoning — $30.53
 - 1 Exploration — no price in snapshot
 - 1 Greater Good — $2.07
+- 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun — $10.75
 - 1 Guardian Project — $19.59
 - 1 Primeval Bounty — $0.34
 - 1 Sylvan Library — $28.24
@@ -97,25 +99,20 @@ Verified 2026-09-20 against the Tramplesaurus Rex precon
 - 1 Veil of Summer — $15.79
 - 1 Warping Wail — $4.08
 
-**Land (8)**
+**Land (6)**
 - 1 Blighted Woodland — $0.40
 - 1 Boseiju, Who Endures — no price in snapshot
 - 1 Castle Garenbrig — $10.42
 - 1 Demolition Field — $0.34
-- 1 Evolving Wilds — $0.25
 - 1 Hickory Woodlot — no price in snapshot
-- 1 Terramorphic Expanse — $0.24
 - 1 Yavimaya, Cradle of Growth — $18.01
 
 ### Cost
 
-Priced subtotal **$303.62**, but treat it as a floor. 18 of these have no price in
+Priced subtotal **$313.62** — a floor, not an estimate. 18 of these have no price in
 the snapshot because scryfall.db keeps one printing per card and theirs landed on a
-Secret Lair or promo. Several are expensive: Craterhoof Behemoth, Vorinclex, Ulamog,
-Scute Swarm, The Earth Crystal.
-
-The unpriced cards are marked inline above; a comma-separated summary line is
-unreadable here because several of the names contain commas themselves.
+Secret Lair or promo. The unpriced ones are marked inline above and include several
+expensive cards: Craterhoof Behemoth, Vorinclex, Ulamog, Scute Swarm, The Earth Crystal.
 
 ### Paste-ready buy list
 
@@ -124,7 +121,6 @@ unreadable here because several of the names contain commas themselves.
 1 Avenger of Zendikar
 1 Azusa, Lost but Seeking
 1 Bear Umbra
-1 Blanchwood Armor
 1 Blighted Woodland
 1 Boseiju, Who Endures
 1 Burgeoning
@@ -134,11 +130,11 @@ unreadable here because several of the names contain commas themselves.
 1 Cultivate
 1 Demolition Field
 1 Eternal Witness
-1 Evolving Wilds
 1 Exploration
 1 Finale of Devastation
 1 Greater Good
 1 Green Sun's Zenith
+1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project
 1 Heroic Intervention
 1 Hickory Woodlot
@@ -165,7 +161,6 @@ unreadable here because several of the names contain commas themselves.
 1 Sylvan Library
 1 Sylvan Safekeeper
 1 Temur Sabertooth
-1 Terramorphic Expanse
 1 The Earth Crystal
 1 Three Visits
 1 Tireless Tracker
