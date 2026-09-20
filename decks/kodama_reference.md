@@ -55,7 +55,7 @@ Nylea God of the Hunt, Rhonas the Indomitable
 Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Sylvan Safekeeper, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
 
 ### Recursion / Tutors (6)
-Eternal Witness, Green Sun's Zenith, Finale of Devastation, Regrowth, Woodland Bellower, Genesis
+Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis
 NOTE: **Genesis works from the graveyard, and a board wipe is its enabler.** "At the beginning of your upkeep, if this creature is in your graveyard, you may pay {2}{G}. If you do, return target creature card from your graveyard to your hand." A wrath puts Genesis in the yard alongside everything else it will rebuild, which is exactly what this deck needs, since a wide board of fat creatures is a wrath magnet. It returns to HAND, not the battlefield, so recovery is slow against a curve topping out at 10 mana - inevitable, not fast.
 
 ### Removal (7)
@@ -99,6 +99,20 @@ NOTE: **Natural Order was NOT added**, despite being proposed alongside these. I
 
 NOTE: **Cloudstone Curio and Timeless Witness are still open.** Curio ({3}, colorless, $13.70) bounces a permanent sharing a type whenever a nonartifact permanent enters, which pairs with Kodama putting lands back down for free — powerful, a known combo piece worth a bracket check, and it adds an optional trigger on *every* permanent entering, which is a real complexity cost with Scute Swarm out. Timeless Witness is MV 4, so unlike Eternal Witness (MV 3) it is **not** a Woodland Bellower target; run it alongside, don't replace.
 
+## Fourth swap, Sept 20, 2026 (1 card)
+
+| In | Out | Why |
+|---|---|---|
+| Natural Order {2}{G}{G} (**Game Changer**) | Regrowth | Four mana, sacrifice a green creature, put a green creature from your library onto the battlefield. **The sacrifice cost is paid with a token here** — Scute Insects, Avenger's Plants, Baloths' Beasts, Zendikar's Roil Elementals and Zabu are all green creatures — so it does not cost you a real body. Target is Craterhoof Behemoth, which also gives a Kodama trigger as it enters. Regrowth went because **Bala Ged Recovery has identical text and is also a land**, and Genesis now covers repeat creature recursion; Regrowth's only edge was one mana. |
+
+NOTE: **Ulamog is NOT a legal Natural Order target.** Natural Order searches for a *green creature card* and Ulamog, the Ceaseless Hunger has an empty colors array — it is colorless. Legal targets in this deck are Craterhoof Behemoth, Vorinclex Voice of Hunger, Avenger of Zendikar, Woodland Bellower and the rest of the green creatures.
+
+NOTE: three other cards were considered in the same pass and **rejected**:
+- **Worldly Tutor** ({G} instant, Game Changer, $35.03) — puts the creature on *top of your library*, not in hand or on the battlefield. Green Sun's Zenith and Finale of Devastation both put creatures straight onto the battlefield and are not Game Changers, so this would spend a bracket slot on the worst tutor of the three.
+- **Biorhythm** ({6}{G}{G}, Game Changer, $34.43) — sets each player's life total to their creature count. Most opponents have creatures, so it usually leaves them at 2 or 3 life rather than dead. Craterhoof costs the same eight mana, actually kills, is not a Game Changer, and is already in the deck. It also sets your own life to your creature count.
+- **Cloudstone Curio** ({3}, not a Game Changer, $13.70) — powerful, but it puts an optional trigger on every nonartifact permanent entering, which with Scute Swarm out means dozens of decisions per turn. Deferred on complexity, not power.
+- **Timeless Witness** — recursion is already seven deep, and at MV 4 Woodland Bellower cannot fetch it.
+
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
 
@@ -120,9 +134,11 @@ NOTE: **Cloudstone Curio and Timeless Witness are still open.** Curio ({3}, colo
 ## Cut from the original 181-card pool (redundant with something stronger staying in, not mistakes)
 Fyndhorn Elves, Druid of the Cowl, Ilysian Caryatid, Rampant Growth, Wood Elves, Farhaven Elf, Explosive Vegetation, Skyshroud Claim, Springbloom Druid, Shared Roots (explicitly filler), Case of the Locked Hothouse, Fanatic of Rhonas, Goreclaw Terror of Qal Sisma, Nissa Resurgent Animist, Rampant Rejuvenator, Seedship Agrarian, Stone-Seeder Hierophant, Tireless Provisioner, World Shaper, Yavimaya Elder, Adventure Awaits, Adventurous Impulse, Disciple of Freyalise, Genesis Hydra, Hunter's Insight, Inspiring Call, Momentous Fall, Pelakka Wurm, Regal Force, Rishkar's Expertise, Silverback Shaman, Soul's Majesty, Vizier of the Menagerie, Baloth Woodcrasher, Greensleeves Maro-Sorcerer, Glacier Godmaw, Khalni Heart Expedition, Territorial Scythecat, Sazh's Chocobo, Retreat to Kazandu, Grazing Gladehart, Embodiment of Insight, Undergrowth Champion, Tifa Lockhart, Scythecat Cub, Surrak and Goreclaw, Mossborn Hydra, Oran-Rief Hydra, Hooded Hydra, Darksteel Colossus, Overwhelming Stampede, Quakestrider Ceratops, Stonehoof Chieftain, Thrashing Brontodon, Archetype of Endurance, both Ulamog the Infinite Gyre, Commander's Plate, Mithril Coat, Darksteel Plate, Autumn's Veil, Spearbreaker Behemoth, Avoid Fate, Alpha Authority, Aspect of Mongoose, Sheltering Word, Ranger's Guile, Canopy Cover, Molting Skin, Broken Fall, Eldrazi Monument, Creeping Renaissance, Praetor's Counsel, Splendid Reclamation, Greenwarden of Murasa, Deadwood Treefolk, Khalni Ambush, Bridgeworks Battle, Ezuri's Predation.
 
-Also cut in the first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul Speaker, Gift of the Gargantuan.
+Also cut, first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul Speaker, Gift of the Gargantuan.
 
 Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic Expanse.
+
+Cut in the third and fourth Sept 20 swaps: Greater Good, 1x Forest, Regrowth.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.
@@ -131,7 +147,7 @@ Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenz
 Gaea's Cradle was considered but is Reserved List — not reprinted, ~$1,600+, skipped.
 
 ## Game Changers — checked against the official list, Sept 20, 2026
-**The deck runs exactly ONE Game Changer: Seedborn Muse.** Owner targets Bracket 3, which allows three, so two slots are free.
+**The deck runs TWO Game Changers: Seedborn Muse and Natural Order.** Owner targets Bracket 3, which allows three, so one slot remains free — deliberately left empty rather than spent on Worldly Tutor or Biorhythm (see the fourth swap above for why both were rejected).
 
 Verified against the official Commander Brackets Game Changers list supplied by the owner. **scryfall.db cannot answer this** — it has no game-changer column and no such key in its `legalities` JSON. Archidekt's API does expose a `gameChanger` boolean, and it independently agreed: Seedborn Muse only.
 

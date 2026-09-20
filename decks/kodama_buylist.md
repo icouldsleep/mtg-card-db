@@ -87,9 +87,9 @@ Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69
 - 1 Cultivate — no price in snapshot
 - 1 Finale of Devastation — no price in snapshot
 - 1 Green Sun's Zenith — $34.86
+- 1 Natural Order — $14.66
 - 1 Nature's Lore — no price in snapshot
 - 1 Primal Might — $0.25
-- 1 Regrowth — no price in snapshot
 - 1 Three Visits — $5.32
 
 **Instant (4)**
@@ -110,9 +110,8 @@ Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69
 
 ### Cost
 
-Priced subtotal **$312.99** — a floor, not an estimate. 19 of these have no price in
-the snapshot because scryfall.db keeps one printing per card and theirs landed on a
-Secret Lair or promo. The unpriced ones are marked inline above.
+Priced subtotal **$327.65** — a floor, not an estimate. 18 of these have no price in
+the snapshot; those are marked inline above.
 
 ### Paste-ready buy list
 
@@ -146,6 +145,7 @@ Secret Lair or promo. The unpriced ones are marked inline above.
 1 Lightning Greaves
 1 Lotus Cobra
 1 Multani, Yavimaya's Avatar
+1 Natural Order
 1 Nature's Lore
 1 Nylea, God of the Hunt
 1 Ohran Frostfang
@@ -153,7 +153,6 @@ Secret Lair or promo. The unpriced ones are marked inline above.
 1 Primeval Bounty
 1 Rampaging Baloths
 1 Reclamation Sage
-1 Regrowth
 1 Return of the Wildspeaker
 1 Sakura-Tribe Elder
 1 Scute Swarm

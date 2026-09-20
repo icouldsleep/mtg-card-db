@@ -39,6 +39,7 @@
 1 Managorger Hydra
 1 Mosswort Bridge
 1 Multani, Yavimaya's Avatar
+1 Natural Order
 1 Nature's Lore
 1 Nylea, God of the Hunt
 1 Ohran Frostfang
@@ -46,7 +47,6 @@
 1 Primeval Bounty
 1 Rampaging Baloths
 1 Reclamation Sage
-1 Regrowth
 1 Return of the Wildspeaker
 1 Rhonas the Indomitable
 1 Rogue's Passage
