@@ -1,6 +1,6 @@
 # Cards Reference — Toph, the First Metalbender EDH Deck
 
-Last updated: September 3, 2026. **Verified card-by-card against live Archidekt:** https://archidekt.com/decks/26022574/copy_of_toph **Deck size: 100.** Naya (R/G/W). Archidekt header says Bracket 3, but see the bracket note below — it's really a 4.
+Last updated: **September 20, 2026**. Previously verified card-by-card against live Archidekt on Sept 3 and re-verified Sept 20 (exact match at 100 before that day's swap). **Archidekt link:** https://archidekt.com/decks/26022574/copy_of_toph **Deck size: 100.** Naya (R/G/W). Archidekt header says Bracket 3, but see the bracket note below — it's really a 4.
 
 ---
 
@@ -168,16 +168,16 @@ Toph, the First Metalbender
 ## Anthem (1)
 Toph, Greatest Earthbender — earthbend X on ETB where X = mana spent; **land creatures you control have DOUBLE STRIKE**.
 
-## Artifact (1)
-The Mind Stone
+## Artifact (2)
+Akroma's Memorial, The Mind Stone
 
 ## Counters (10)
 Avatar Kyoshi Earthbender, Badgermole, Flopsie Bumi's Buddy, Hardened Scales, Kalonian Hydra, **Rockalanche**, Seismic Tutelage, Solid Ground, The Ozolith, **Toph the Blind Bandit**
 
 **Rockalanche** — {2}{G} Sorcery — Lesson — earthbend X where X = Forests you control. Flashback {5}{G}. **Counts Forest TYPES, so Stomping Ground and Temple Garden count — ceiling is 16, not 14.** Double-dips with Toph Hardheaded Teacher (his cast trigger plus the Lesson bonus counter fires on a SEPARATE land).
 
-## Draw (7)
-Garruk's Uprising, Guardian Project, **Ohran Frostfang**, Sylvan Library, **The Great Henge**, **Tireless Tracker**, **Toski Bearer of Secrets**
+## Draw (6)
+Guardian Project, **Ohran Frostfang**, Sylvan Library, **The Great Henge**, **Tireless Tracker**, **Toski Bearer of Secrets**
 
 **Tireless Tracker** — a RE-ADD. It was originally cut for the wrong reason: the question asked was whether Clues trigger Landfall (they don't), when the relevant question was whether Tracker triggers off YOUR landfall. It does, constantly — every nontoken artifact you cast under Toph is a land entering.
 **The Great Henge** — {X}{G}{G} where X is 8 minus your greatest creature power. **An earthbent land counts**, so a 4/4 land makes it 6 mana and Avatar Kyoshi's earthbend 8 makes it 2.
@@ -225,13 +225,41 @@ Enlightened Tutor, Green Sun's Zenith, Natural Order
 
 ---
 
-# BRACKET — this is a 4, not a 3
+# BRACKET — this is a 3 (corrected Sept 20, 2026)
 
-**FOUR Game Changers: Enlightened Tutor, Green Sun's Zenith, Natural Order, and SMOTHERING TITHE.** Four exceeds the Bracket 3 cap of three. Archidekt's "Upgraded (3)" header is a user-set field, not computed.
+**CORRECTED Sept 20, 2026: this deck runs THREE Game Changers, not four — Enlightened Tutor, Natural Order, and Smothering Tithe. That is exactly at the Bracket 3 cap, so the deck is a legitimate Bracket 3.**
 
-**User decided to KEEP Smothering Tithe** (Sept 2) — it's strong ramp and Treasures fix the green-heavy costs. The Bracket 4 status is accepted knowingly. **Do not re-suggest cutting it.**
+**Green Sun's Zenith is NOT a Game Changer.** The earlier "four Game Changers" claim counted it. Two independent checks say otherwise: it does not appear in the green section of the official list (now stored at `game_changers.md` in the repo root), and Archidekt's API flags it `false` on this exact deck. Archidekt's live flags on deck 26022574 return exactly `['Enlightened Tutor', 'Natural Order', 'Smothering Tithe']`.
+
+Nothing else in the list trips Bracket 3's other restrictions: Strip Mine and Wasteland are single-target, not mass land denial; there are no extra-turn spells; and the one infinite-combo risk (a free repeatable sac outlet beyond Zuran Orb alongside a landfall payoff) is flagged below as something to avoid, not something present.
+
+**User decided to KEEP Smothering Tithe** (Sept 2) — it's strong ramp and Treasures fix the green-heavy costs. **Do not re-suggest cutting it.** Note the original reason for that decision ("accept Bracket 4") no longer applies: keeping it now costs nothing, since three is within the cap.
+
+**Always check `game_changers.md` rather than recalling a card's status.** scryfall.db has no game-changer field at all.
 
 **Would push further / avoid:** adding a free repeatable sac outlet beyond Zuran Orb (Ashnod's Altar, etc.) alongside a Landfall payoff creates an infinite-Landfall engine.
+
+---
+
+# CHANGE LOG — September 20, 2026
+
+| IN | OUT |
+|---|---|
+| **Akroma's Memorial** {7} | **Garruk's Uprising** {2}{G} |
+
+**Why Garruk's Uprising was the cut.** This file's own ruling already established that it barely functions here: "Garruk's Uprising does NOT trigger on earthbent lands... Treat Garruk's Uprising as a trample-granter that occasionally cantrips." Its one live ability is *"Creatures you control have trample."* **Akroma's Memorial grants trample too, and adds flying, first strike, vigilance, haste, protection from black and protection from red on top.** It strictly supersedes the only part of Garruk's Uprising that was working.
+
+**What this fixes.** Vigilance is the structural hole this file identifies — attacking taps your lands, so they can't block the crack-back, which is why Ghostly Prison "earns its slot structurally." Akroma's Memorial patches it directly. Trample source count is unchanged at three (Badgermole, Craterhoof, Akroma's Memorial) but the quality is higher. And **protection from black and from red is a large defensive upgrade** not previously noted: your creatures can't be targeted or damaged by black or red sources, and can't be blocked by black or red creatures.
+
+**It is an artifact, so under Toph it enters as a LAND — that's a Landfall trigger — and it is a legal earthbend target.**
+
+**Two honest costs:**
+1. **A 3-drop became a 7-drop.** This file flags curve tension on every 5-8 mana add. Owner's position (Sept 20) is that the deck does not actually have a slow-start problem, so this was accepted.
+2. **Protection from red blocks your own Chaos Warp.** Chaos Warp is {2}{R}; with Akroma's Memorial on the battlefield you cannot target your own creatures with it. Niche, but real — this file flagged it in advance and it is confirmed.
+
+Haste from Akroma's Memorial is partly redundant, since earthbend already grants haste to earthbent lands.
+
+**⚑ ARCHIDEKT IS NOW ONE SWAP BEHIND THIS FILE.** Deck 26022574 was verified card-for-card against this file on Sept 20, 2026 and matched exactly at 100 — then this swap was applied here. Archidekt still lists Garruk's Uprising and not Akroma's Memorial. **Update Archidekt, then this line can go.** This file has a recorded history of the reverse problem (11 agreed swaps sitting unapplied on Archidekt while the file claimed they were done), so the direction of the gap is worth stating explicitly.
 
 ---
 
@@ -333,12 +361,12 @@ User's read: **"draw and ramp feel a bit slow."** Correct diagnosis, and the raw
 - **Official ruling: Spine's ability does NOT let you sacrifice it — you need an outside outlet. Zuran Orb is one, and ONLY because Toph makes artifacts lands.**
 - **The loop:** earthbend Spine → sac to Zuran Orb → gain 2 → earthbend returns it tapped → ETB destroys a permanent → Landfall fires. **Roughly one free removal per turn cycle**, rate-limited because each earthbend's delayed trigger is one-shot and it returns as a plain land with no counters. **NOT infinite.** Directly patches the removal gap (8, only two sweepers).
 
-**3. Akroma's Memorial** (~$36 as of the Bello pricing) — {7} Artifact. Flying, first strike, vigilance, trample, haste, pro-black, pro-red to your creatures.
+**3. Akroma's Memorial — NO LONGER A CANDIDATE, ADDED Sept 20, 2026** (owner had it on hand). See the swap entry below. Verified text: {7} Legendary Artifact, $36.21 — "Creatures you control have flying, first strike, vigilance, trample, haste, and protection from black and from red."
 - Trample from a non-fragile source, plus evasion, plus the same vigilance fix.
 - **Overlaps Embodiment on vigilance** — probably don't need both.
 - **Downside: pro-red means your own Chaos Warp can't target your creatures.**
 
-**4. Vorinclex, Voice of Hunger** — {6}{G}{G}. Doubles your land mana; opponents' lands don't untap. **DELISTED as a Game Changer Oct 21, 2025 — no bracket cost** (and this deck is knowingly Bracket 4 anyway).
+**4. Vorinclex, Voice of Hunger** — {6}{G}{G}. Doubles your land mana; opponents' lands don't untap. **DELISTED as a Game Changer Oct 21, 2025 — no bracket cost.** Confirmed absent from the official list in `game_changers.md`.
 - **The deck's only true mana doubler**, which is a real gap.
 - **But 8 mana is a win-more card in a deck whose stated problem is turns 3-5.** Ranked last for that reason.
 
@@ -352,7 +380,7 @@ User's read: **"draw and ramp feel a bit slow."** Correct diagnosis, and the raw
 
 ## Still to do before any of this is applied
 1. **Re-pull Archidekt.** Standing rule; last verified Sept 3.
-2. **Price Embodiment, Spine, Akroma's, Vorinclex.** Not checked this session.
+2. **Price Embodiment, Spine, Vorinclex.** Still not checked. Akroma's Memorial is done — $36.21, and it's in the deck now.
 3. **Choose cuts.** None identified yet.
 
 ## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
@@ -373,7 +401,7 @@ Shared Roots → Three Visits (better rate, but loses the Lesson subtype relevan
 Only 8 removal spells, with just Austere Command and Planar Outburst as sweepers. Spine of Ish Sah + Zuran Orb would patch this (see ruling below on how that actually works here).
 
 ### Bracket
-Four Game Changers confirmed: Enlightened Tutor, Green Sun's Zenith, Natural Order, Smothering Tithe = Bracket 4 by rule. User knowingly kept Smothering Tithe; Archidekt's own "3" header is user-set, not computed.
+~~Four Game Changers confirmed... = Bracket 4 by rule.~~ **SUPERSEDED Sept 20, 2026 — Green Sun's Zenith is not a Game Changer. The deck runs three and is a legitimate Bracket 3. See the BRACKET section above and `game_changers.md`.**
 
 ### Rulings established (Toph-specific interactions — easy to miss)
 1. **Earthbend has no duration** — earthbent lands are permanently creatures. This is why Badgermole Cub doubles their mana and why haste matters (a land-creature couldn't otherwise tap while summoning sick). Vigilance genuinely gives blockers in Toph (contrast: it does NOT in Bello, where the animation ends at end of turn).
