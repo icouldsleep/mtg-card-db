@@ -4,3 +4,4 @@
 - Before editing, run `git checkout main && git pull`.
 - After pushing, confirm the change is on `main` on GitHub.
 - For anything about Magic cards or decks, follow my "magic" skill: look up every card in scryfall.db before talking about it, read the full deck file in decks/ before discussing a deck, and show decklists grouped by card type.
+- **Game Changers: check `game_changers.md` in the repo root. Never state a card's Game Changer status from memory, and never from scryfall.db — the database has no game-changer field at all.** That file holds the official list, verified card by card. If a deck file and `game_changers.md` disagree, `game_changers.md` wins.
