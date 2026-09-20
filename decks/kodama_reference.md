@@ -32,7 +32,7 @@ NOTE: Courser of Kruphix is a new add (found via full-database query) — plays 
 
 ### Landfall payoffs / token engines (8)
 Scute Swarm, Avenger of Zendikar, Lotus Cobra, Bristly Bill Spine Sower, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Zendikar's Roil
-NOTE: Bristly Bill (doubles landfall triggers) and Ka-Zar (land-from-library + growing Zabu token) are new adds. This category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
+NOTE: Bristly Bill (landfall puts a +1/+1 counter on a creature; {3}{G}{G} doubles +1/+1 counters on all your creatures — counters engine, stacks with The Earth Crystal and Kalonian Hydra) and Ka-Zar (land-from-library + growing Zabu token) are new adds. This category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
 
 ### Counters / Hydras (4)
 Kalonian Hydra, Managorger Hydra, The Earth Crystal, Yorvo Lord of Garenbrig
