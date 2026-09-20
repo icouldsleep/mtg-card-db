@@ -1,6 +1,7 @@
 1 Asceticism
 1 Avenger of Zendikar
 1 Azusa, Lost but Seeking
+1 Bala Ged Recovery // Bala Ged Sanctuary
 1 Bear Umbra
 1 Beast Whisperer
 1 Beast Within
@@ -19,8 +20,8 @@
 1 Eternal Witness
 1 Exploration
 1 Finale of Devastation
-25 Forest
-1 Greater Good
+24 Forest
+1 Genesis
 1 Green Sun's Zenith
 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project

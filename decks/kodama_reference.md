@@ -7,7 +7,7 @@ Staging link (original 181-card pool, now superseded by the 100 below): https://
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
 - `kodama_buylist.md` — which cards come from the Tramplesaurus Rex precon and which still need buying.
-- `kodama_play_guide.pdf` — 7-page play guide: the Kodama trigger explained properly, the free-land chain, Scute Swarm's doubling, the Sabertooth loops, Woodland Bellower targets, and a misplays list.
+- `kodama_play_guide.pdf` — 8-page play guide: the Kodama trigger explained properly, the free-land chain, Scute Swarm's doubling, the Sabertooth loops, Woodland Bellower targets, and a misplays list.
 
 ## Base
 Started from **Tramplesaurus Rex**, the mono-green precon from the Foundations Commander Decks set. Stock commander was Ghalta, Primal Hunger.
@@ -25,15 +25,16 @@ Kodama's trigger is **not landfall-specific — it fires off ANY permanent enter
 ## The 100
 
 ### Lands (37)
-Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Hickory Woodlot, Blighted Woodland, 25x Forest
+Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Hickory Woodlot, Blighted Woodland, Bala Ged Recovery, 24x Forest
 NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
+NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24), so land slots stay at 37. Front face is a {2}{G} sorcery returning any card from your graveyard to hand; back face is a land that enters tapped. Like the other MDFCs looked at for this deck, the back face is a plain `Land`, **not Forest-typed**, so Nature's Lore and Three Visits cannot fetch it.
 
 ### Ramp (12)
 Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
-### Draw (10)
-Sylvan Library, Tireless Tracker, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Greater Good, Return of the Wildspeaker, Courser of Kruphix
+### Draw (9)
+Sylvan Library, Tireless Tracker, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Return of the Wildspeaker, Courser of Kruphix
 NOTE: Courser of Kruphix is a new add (found via full-database query) — plays lands off the top, gains life, wasn't in the original 181-card pool.
 
 ### Landfall payoffs / token engines (7)
@@ -53,8 +54,9 @@ Nylea God of the Hunt, Rhonas the Indomitable
 ### Protection (9)
 Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Sylvan Safekeeper, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
 
-### Recursion / Tutors (5)
-Eternal Witness, Green Sun's Zenith, Finale of Devastation, Regrowth, Woodland Bellower
+### Recursion / Tutors (6)
+Eternal Witness, Green Sun's Zenith, Finale of Devastation, Regrowth, Woodland Bellower, Genesis
+NOTE: **Genesis works from the graveyard, and a board wipe is its enabler.** "At the beginning of your upkeep, if this creature is in your graveyard, you may pay {2}{G}. If you do, return target creature card from your graveyard to your hand." A wrath puts Genesis in the yard alongside everything else it will rebuild, which is exactly what this deck needs, since a wide board of fat creatures is a wrath magnet. It returns to HAND, not the battlefield, so recovery is slow against a curve topping out at 10 mana - inevitable, not fast.
 
 ### Removal (7)
 Beast Within, Kenrith's Transformation, Primal Might, Ulamog the Ceaseless Hunger, Warping Wail, Reclamation Sage, Silverback Elder
@@ -85,6 +87,17 @@ Before the swap the deck had **three** cards that could destroy an artifact or e
 | Verdant Catacombs | Terramorphic Expanse | Same. Bought on price — all five green-capable fetches are identical in mono-green. |
 
 NOTE: **Warping Wail was considered for this cut and kept.** It is awkward to cast off only six colorless sources, but it is the only card in the deck that can counter anything, and mono-green has almost no other access to that. Its Eldrazi Scion mode also makes a token, which is a Kodama trigger.
+
+## Third swap, Sept 20, 2026 (2 cards)
+
+| In | Out | Why |
+|---|---|---|
+| Genesis {4}{G} 4/4 | Greater Good | **Board wipe insurance.** Genesis only works from the graveyard, and a wrath puts it there for free alongside everything it will rebuild — this deck's wide board of fat creatures is a wrath magnet. Greater Good went on owner preference: ten other draw sources, and the sacrifice play pattern isn't wanted. Note the stated reason elsewhere ("it forces you to sacrifice your board") overstates it — Greater Good's sacrifice was optional. |
+| Bala Ged Recovery // Bala Ged Sanctuary | 1x Forest | Land slot that can instead be a {2}{G} sorcery returning any card from the graveyard. Land slots unchanged at 37. |
+
+NOTE: **Natural Order was NOT added**, despite being proposed alongside these. It reads "As an additional cost to cast this spell, **sacrifice a green creature**" — mandatory, where Greater Good's sacrifice was optional. Cutting Greater Good to avoid sacrificing creatures and then adding Natural Order is contradictory. **Worldly Tutor was also skipped**: $35.03 to put a creature on *top of your library*, when Green Sun's Zenith and Finale of Devastation already put creatures straight onto the battlefield.
+
+NOTE: **Cloudstone Curio and Timeless Witness are still open.** Curio ({3}, colorless, $13.70) bounces a permanent sharing a type whenever a nonartifact permanent enters, which pairs with Kodama putting lands back down for free — powerful, a known combo piece worth a bracket check, and it adds an optional trigger on *every* permanent entering, which is a real complexity cost with Scute Swarm out. Timeless Witness is MV 4, so unlike Eternal Witness (MV 3) it is **not** a Woodland Bellower target; run it alongside, don't replace.
 
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
@@ -117,8 +130,20 @@ Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenz
 ## Reserved List note
 Gaea's Cradle was considered but is Reserved List — not reprinted, ~$1,600+, skipped.
 
-## Game Changers
-Only **Seedborn Muse** is confirmed on the official Game Changers list among cards in this deck. Vorinclex is NOT currently on the GC list. The GC list changes over time — recheck it against the current official list rather than from memory before calling a bracket.
+## Game Changers — checked against the official list, Sept 20, 2026
+**The deck runs exactly ONE Game Changer: Seedborn Muse.** Owner targets Bracket 3, which allows three, so two slots are free.
+
+Verified against the official Commander Brackets Game Changers list supplied by the owner. **scryfall.db cannot answer this** — it has no game-changer column and no such key in its `legalities` JSON. Archidekt's API does expose a `gameChanger` boolean, and it independently agreed: Seedborn Muse only.
+
+Relevant entries from the official list (green and colorless are the only sections a mono-green deck can play):
+- **Green:** Biorhythm, Crop Rotation, Gaea's Cradle, Natural Order, **Seedborn Muse**, Survival of the Fittest, Worldly Tutor.
+- **Colorless:** Ancient Tomb, Chrome Mox, Field of the Dead, Glacial Chasm, Grim Monolith, Lion's Eye Diamond, Mana Vault, Mishra's Workshop, Mox Diamond, Panoptic Mirror, The One Ring, The Tabernacle at Pendrell Vale.
+
+Consequences worth keeping:
+- **Natural Order and Worldly Tutor are both Game Changers.** A separate chat proposed adding both; neither was applied. Adding them would have taken the deck to 3 of 3 and maxed out Bracket 3.
+- **Ancient Tomb, Field of the Dead and Gaea's Cradle are Game Changers**, which adds a bracket cost to three lands already rejected on deck grounds (price, needing seven differently-named lands, and the Reserved List respectively).
+- **Confirmed NOT Game Changers**, so they are free to add: Nykthos Shrine to Nyx, Growing Rites of Itlimoc, every fetchland, Grasslands, Mountain Valley, Cloudstone Curio, and Vorinclex Voice of Hunger.
+- The list changes over time. Recheck against the current official list before calling a bracket; never state a card's status from memory.
 
 ## Rules Notes Worked Out
 - **Kodama's trigger** fires off ANY permanent entering under your control (lands, tokens, creatures) — not landfall-specific. Confirmed against real oracle text Sept 19, 2026.
