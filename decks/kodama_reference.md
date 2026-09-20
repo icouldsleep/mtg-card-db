@@ -6,7 +6,8 @@ Staging link (original 181-card pool, now superseded by the 100 below): https://
 
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
-- `kodama_buylist.md` — which cards come from the Tramplesaurus Rex precon and which still need buying.
+- `kodama_buylist.md` — which cards come from the Tramplesaurus Rex precon and which still need buying, with prices.
+- `kodama_purchase_list.txt` — the 59 cards to buy, bare lines only, for mass-entry importers.
 - `kodama_play_guide.pdf` — 8-page play guide: the Kodama trigger explained properly, the free-land chain, Scute Swarm's doubling, the Sabertooth loops, Woodland Bellower targets, and a misplays list.
 
 ## Base
@@ -145,6 +146,8 @@ Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenz
 
 ## Reserved List note
 Gaea's Cradle was considered but is Reserved List — not reprinted, ~$1,600+, skipped.
+
+**Survival of the Fittest** was considered Sept 20, 2026 as a possible third Game Changer — it pairs well with Genesis, since discarding creatures to it is exactly what Genesis wants in the graveyard. Owner confirmed it is Reserved List and too expensive. **Skipped on price; do not re-suggest.** The third Game Changer slot stays deliberately empty.
 
 ## Game Changers — checked against the official list, Sept 20, 2026
 **The deck runs TWO Game Changers: Seedborn Muse and Natural Order.** Owner targets Bracket 3, which allows three, so one slot remains free — deliberately left empty rather than spent on Worldly Tutor or Biorhythm (see the fourth swap above for why both were rejected).

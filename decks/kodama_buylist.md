@@ -3,7 +3,9 @@
 Regenerated 2026-09-20 against the current 100.
 Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69 distinct, 100 slots).
 
-## Already covered — do NOT buy (43 of the 100 slots)
+Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card, not just by total.
+
+## Covered by the precon — do NOT buy (41 of the 100 slots)
 
 **Artifact (2)**
 - 1 Sol Ring
@@ -26,16 +28,14 @@ Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69
 **Instant (1)**
 - 1 Beast Within
 
-**Land (30)**
+**Land (28)**
 - 1 Bonders' Enclave
 - 24 Forest
 - 1 Mosswort Bridge
 - 1 Rogue's Passage
-- 1 Verdant Catacombs _(ordered 2026-09-20)_
 - 1 War Room
-- 1 Windswept Heath _(ordered 2026-09-20)_
 
-## Need to buy (57 cards)
+## Need to buy (59 cards)
 
 **Commander (2)**
 - 1 Kamahl, Heart of Krosa — no price in snapshot
@@ -98,7 +98,7 @@ Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69
 - 1 Veil of Summer — $15.79
 - 1 Warping Wail — $4.08
 
-**Land (8)**
+**Land (10)**
 - 1 Bala Ged Recovery // Bala Ged Sanctuary — no price in snapshot
 - 1 Blighted Woodland — $0.40
 - 1 Boseiju, Who Endures — no price in snapshot
@@ -106,14 +106,20 @@ Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69
 - 1 Demolition Field — $0.34
 - 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun — $10.75
 - 1 Hickory Woodlot — no price in snapshot
+- 1 Verdant Catacombs — no price in snapshot
+- 1 Windswept Heath — $18.12
 - 1 Yavimaya, Cradle of Growth — $18.01
 
 ### Cost
 
-Priced subtotal **$327.65** — a floor, not an estimate. 18 of these have no price in
-the snapshot; those are marked inline above.
+Priced subtotal **$345.77** — a floor, not an estimate. 19 of these have no price in
+the snapshot; those are marked inline above and include several expensive cards
+(Craterhoof Behemoth, Vorinclex, Ulamog, Scute Swarm, The Earth Crystal).
 
 ### Paste-ready buy list
+
+`decks/kodama_purchase_list.txt` holds this same list with no surrounding text, for pasting
+straight into a mass-entry importer such as Card Kingdom's Deck Builder (cardkingdom.com/builder).
 
 ```
 1 Asceticism
@@ -167,8 +173,10 @@ the snapshot; those are marked inline above.
 1 Toski, Bearer of Secrets
 1 Ulamog, the Ceaseless Hunger
 1 Veil of Summer
+1 Verdant Catacombs
 1 Vorinclex, Voice of Hunger
 1 Warping Wail
+1 Windswept Heath
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
 1 Yorvo, Lord of Garenbrig
