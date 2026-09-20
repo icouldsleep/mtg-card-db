@@ -1,3 +1,4 @@
+<!-- skill test, safe to remove -->
 # Cards Reference — Grand Arbiter Augustin IV EDH Deck ("Staxx of Hatred")
 
 Last updated: August 11 (rebuilt after environment reset — restored from conversation memory of a full live Archidekt sync plus a complete individual card-by-card verification pass, including lands). Source: https://archidekt.com/decks/21784346/staxx_of_hatred. Bracket: Optimized (4). Salt sum: 79.78 (highest of all tracked decks). Est cost: $939.87.
