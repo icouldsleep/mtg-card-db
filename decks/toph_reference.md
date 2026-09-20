@@ -1,0 +1,356 @@
+# Cards Reference — Toph, the First Metalbender EDH Deck
+
+Last updated: September 3, 2026. **Verified card-by-card against live Archidekt:** https://archidekt.com/decks/26022574/copy_of_toph **Deck size: 100.** Naya (R/G/W). Archidekt header says Bracket 3, but see the bracket note below — it's really a 4.
+
+---
+
+# THE RULES THAT MATTER
+
+## Earthbend — CR 701.66a
+**"Earthbend N": Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When that land dies or is put into exile, return it to the battlefield tapped under your control.**
+
+- **Haste is automatic and unconditional.** This is load-bearing — a land that's also a creature could not otherwise tap for mana while summoning sick. Haste is what lets earthbent lands tap, attack, or be sacrificed the same turn.
+- **NO DURATION.** An earthbent land stays a creature permanently. It does not wear off at end of turn. This matters enormously for Badgermole Cub (below).
+- **Returns on DEATH or EXILE only** — tapped, under the ORIGINAL earthbending player's control, and NOT as a creature (no counters, no creature type).
+- **Bounce and tuck are NOT covered.** Return-to-hand and shuffle-into-library lose the land permanently. This is the gap Zuran Orb fills.
+- **The return retriggers LANDFALL** — confirmed. The land dies, the delayed trigger returns it, and a land entering the battlefield is a Landfall trigger.
+- Sacrificing counts as dying. Strip Mine and Wasteland remain safe sac fodder.
+- **EARTHBENDS STACK — this is the single most commonly misread thing about the deck.** Earthbending an already-earthbent land does NOT reset it to 0/0 and back to 2/2. Base P/T resets, but **counters ACCUMULATE.**
+  - Earthbend 2 on a fresh land -> 0/0 base with 2 counters = **2/2**
+  - Earthbend 2 on that same land again -> base resets to 0/0 (it was ALREADY 0/0, so nothing changes) and 2 MORE counters go on = **4/4**
+  - Earthbend never removes counters. It only sets base P/T and adds.
+  - **Confirmed by the official ruling on The Boulder, Ready to Rumble:** you may target a land that is already a creature from a previous earthbend; it gets the counters, gains haste, and has its base P/T set to 0/0.
+  - **Where the reset ACTUALLY bites:** a NON-earthbend animation. If something made a land a 3/3 and you then earthbend it for 2, the base 3/3 is overwritten to 0/0 and you get a 2/2, not a 5/5. That is the only case the wording exists for.
+  - **PRACTICAL:** earthbend sources are plentiful — Toph's end step gives 2 every turn, Toph Hardheaded Teacher adds 1 per spell cast, Rockalanche can drop up to 16 at once, plus Ba Sing Se, Badgermole, Solid Ground, Bumi, Avatar Kyoshi (8), Toph Blind Bandit, Earthbender Ascension, and Toph Earthbending Master. Hardened Scales and Solid Ground each add one per earthbend; Doubling Season doubles the whole amount. **See the strategic rule below for whether to spread these or stack them — spread is the default.**
+- The land keeps its other types — an earthbent Forest still taps for {G}.
+
+## The commander
+**Toph, the First Metalbender** — {1}{R}{G}{W} — Legendary Creature — Human Warrior Ally — 3/3
+"Nontoken artifacts you control are lands in addition to their other types. (They don't gain the ability to {T} for mana.) At the beginning of your end step, earthbend 2."
+
+**CONFIRMED: nontoken artifacts entering DO trigger Landfall.** They enter already being lands, because the type-changing effect applies as they enter. Casting one does NOT use your land drop. Ten such sources in the deck: Sol Ring, Arcane Signet, Chromatic Lantern, Thran Dynamo, The Mind Stone, The Ozolith, Zuran Orb, Lightning Greaves, The Great Henge, and Tireless Tracker's Clues are the exception (see below).
+
+**The "nontoken" clause is deliberate and excludes:** Clue tokens (Tireless Tracker, True Ancestry), Treasure tokens (Smothering Tithe). These do NOT become lands and do NOT trigger Landfall.
+
+**Artifacts being lands also means they are legal EARTHBEND targets.** An earthbent Sol Ring is nearly unkillable — destroy and exile both bounce off it.
+
+---
+
+# ⚑ PRIMARY STRATEGIC RULE — SPREAD BY DEFAULT, CONCENTRATE TO CLOSE
+
+**Earthbends stack (counters accumulate; the base P/T reset is a no-op after the first). But stacking everything on ONE land is NOT the default plan — it's the finisher.** An earlier version of this file said "concentrate on one land." That was wrong and the user corrected it.
+
+## Why SPREADING is the default
+
+- **Attacking taps your lands.** A board that is one 30/30 swings, taps, and leaves you with nothing to block the crack-back. Ghostly Prison taxes attackers but doesn't stop a determined one. Several 8/8s let you attack with three and hold one back.
+- **Single point of failure.** Swords to Plowshares, Path to Exile, or Chaos Warp on the one huge land erases everything you built. Spread across four lands, one removal spell costs a quarter of your board.
+  - **And exile beats the safety net.** The Ozolith only catches counters when a creature DIES. Swords and Path EXILE — no counters banked. (Earthbend returns the land itself from exile, but with nothing on it.)
+- **The Earth King fetches a basic land FOR EACH power-4+ creature attacking.** One 30/30 fetches one land. Four 8/8s fetch four — four Landfall triggers, four Baloths Beasts, four Scute Swarm copies, four Lotus Cobra mana, four Tireless Tracker Clues. **Concentration actively shrinks your best engine.**
+- **Ohran Frostfang and Toski draw PER CREATURE that connects.** Four attackers with both out is eight cards. One attacker is two.
+- **Flopsie** says power-4+ creatures can't be blocked by more than one creature — that rewards a wide board of medium threats, not one giant.
+
+## When to CONCENTRATE
+
+Concentration is the **kill turn**, not the build-up.
+
+- **Toph, Greatest Earthbender gives land creatures DOUBLE STRIKE** — every counter counts twice.
+- **Seismic Tutelage** doubles counters on the enchanted creature when it attacks; **Kalonian Hydra** doubles the whole board on attack.
+- Stacked: 10 counters -> 20 (Seismic) -> 40 (Kalonian) -> **80 damage with double strike.** That kills a player from full life out of nowhere.
+- **Badgermole** grants trample to anything with a +1/+1 counter and **Ohran Frostfang** grants deathtouch to attackers — deathtouch + trample means assign 1 to each blocker and the rest to the face. A concentrated threat becomes effectively unblockable.
+
+**The play pattern: build several medium threats while the engines run, then dump The Ozolith's bank onto one of them the turn you go for lethal.**
+
+## The Ozolith is what makes both modes work
+When a threat dies, it was a creature with counters leaving the battlefield, so Ozolith banks every counter. Rebuild next combat. **This is insurance against destruction, not against exile.**
+
+# CORE INTERACTIONS (the stuff that wins games)
+
+## Zuran Orb — the protection engine
+{0} Artifact — "Sacrifice a land: You gain 2 life." Enters as a land under Toph, so it triggers Landfall for zero mana, and it is a FREE REPEATABLE sac outlet.
+
+**What it's actually for:** earthbend already survives death and exile. Zuran Orb covers **bounce and tuck** — sacrifice in response, converting a permanent loss into a death, which earthbend catches. The permanent returns, Landfall triggers, you gain 2, and their spell fizzles on an illegal target.
+**Zuran Orb turns effects that would remove your land from the game into effects that merely recycle it.**
+
+## ⚑⚑ THE ZURAN ORB RULE — ALWAYS SACRIFICE A LAND THAT IS GOING TO DIE ANYWAY
+
+**This is a standing rule, not a judgment call. If a land you control is about to die, be destroyed, be exiled, or be wiped — sacrifice it to Zuran Orb in response. Every single time.**
+
+Claude initially said to save Zuran Orb only for bounce/tuck. **Wrong — the user corrected this.** Sacrificing a doomed land is free value even when earthbend would have covered it anyway:
+
+- **2 life.** Real in a deck with almost no lifegain and a Sylvan Library eating 4 at a time.
+- **A targeted removal spell FIZZLES** — it loses its only legal target and is countered by game rules. The opponent loses the card entirely.
+- **Earthbend still returns the land**, so you lose nothing you weren't already losing.
+- **The Ozolith banks the counters** either way (leaving the battlefield covers death and exile both).
+- **The return is a LANDFALL TRIGGER.**
+
+**BEST APPLICATION — sac in response to a BOARD WIPE.** The land dies, the delayed earthbend trigger resolves FIRST and returns it **as a plain land, not a creature** — then the wipe resolves and can't touch it. **You dodge the sweeper entirely and gain 2 life doing it.**
+
+**The only two exceptions:**
+1. **Mid-combat, if the damage matters.** A blocker that is sacrificed before the combat damage step deals **NO damage at all** — combat damage is dealt simultaneously by creatures still on the battlefield, so a blocker that is already gone deals nothing. The attacker stays blocked (it won't hit you) but takes zero.
+   - **TRADE: do NOT sac.** A 2/2 earthbent land blocking a 2/2 attacker should be left in. They trade, the attacker dies, and your land comes back anyway via earthbend — plus the return is a Landfall trigger. Strictly better than 2 life.
+   - **CHUMP BLOCK: DO sac.** A 2/2 land blocking a 10/10 deals 2 damage and kills nothing. Sacrifice it — you absorb the attack, gain 2 life, and get the land back.
+   - **Attacker has deathtouch: DO sac.** You lose the land either way and it won't kill theirs.
+   - **Attacker has trample: do NOT sac.** Removing the blocker assigns ALL that damage to you.
+   - **IMPORTANT: Ohran Frostfang only grants deathtouch to ATTACKING creatures.** Your blockers do NOT have it. A small land blocking a big creature genuinely cannot kill it — that is always a chump block.
+   - **The rule of thumb means dying anyway WITHOUT COST.** In combat, dying is not free — the land is doing a job by dying. Judge whether that job is worth more than 2 life.
+2. **The land is not earthbent.** A plain land you sacrifice is gone for good, no return trigger. On those the trade is "lose the land, gain 2 life" — still correct if it was dying regardless, but never sac a healthy non-earthbent land.
+
+**On tapping for mana first:** only worth it if you have something to spend it on RIGHT THEN — you're already at instant speed holding priority, so Heroic Intervention, Origin of Metalbending, Rhonas's pump, or another Zuran activation are live. **Mana empties at the end of every step**, so if you have nothing to cast, tapping first gains you nothing. Claude overstated this as a general habit; it is situational.
+
+**EARTHBEND OZOLITH EARLY — user is right, Claude argued the wrong side of this and conceded.**
+
+Claude's bad argument was "leave it un-earthbent so it dodges creature wipes." **The decisive point: the counters are lost either way when it dies. The real question is whether you keep the CARD.**
+
+| | Creature wipes | Artifact removal / exile | If it dies |
+|---|---|---|---|
+| **Un-earthbent** | Immune | Vulnerable | **GONE PERMANENTLY** — card lost forever |
+| **Earthbent** | Vulnerable | Vulnerable | **RETURNS** tapped — bank lost, engine kept |
+
+Earthbend's delayed trigger returns it from **death OR exile**, permanently, regardless of what killed it. Trading "immune to one class of removal" for "recurs from all of them" is the better deal.
+
+**THE CYCLE (the correct way to play it):**
+1. Bank counters as earthbent lands and creatures die.
+2. At combat, move ALL counters onto a real threat.
+3. Ozolith is now 0/0 and dies as a state-based action.
+4. Earthbend returns it tapped — **and that return is a free LANDFALL TRIGGER** (Baloths, Scute Swarm, Lotus Cobra, Tireless Tracker, all doubled by Ancient Greenwarden).
+5. Toph's end-step earthbend 2 puts it back online.
+
+**Every time you empty the bank, you get a Landfall trigger.**
+
+**EARTHBENDING A LOADED OZOLITH DOES NOT LOSE THE COUNTERS — IT ACTIVATES THEM.** Earthbend adds; it never removes. An Ozolith sitting on 10 banked counters, earthbent for 2, is 0/0 base with **12 counters = a 12/12**. The whole bank goes live at once. With Toph, Greatest Earthbender out, land creatures have DOUBLE STRIKE — that's 24 damage out of your counter vault. Hardened Scales and Solid Ground each add one to the earthbend; Doubling Season doubles it.
+
+**The timing rule: bank while it's an artifact, earthbend when you're ready to swing.** Inert counters on a noncreature artifact are untouchable by creature removal. Earthbent, they're a threat but they're exposed to a wipe (and a wipe means the returned Ozolith is a fresh object with nothing on it).
+
+Also: Zuran Orb can sacrifice Ozolith either way (it's a land under Toph regardless), but saccing an UN-earthbent one kills it permanently. **The bounce/tuck protection only works if it's earthbent.**
+
+## The Mind Stone — a repeatable ETB engine
+{1}{W} Legendary Artifact, indestructible. {5}{W}, {T}: Harness. Then at the beginning of EVERY end step, exile a nonland permanent you control and return it.
+
+**Free repeatable blink once online.** Terastodon destroying three permanents every turn. Avenger of Zendikar making a Plant per land every turn. Craterhoof pumping every turn. Wood Elves fetching a Forest — a free Landfall trigger every turn. Plus Badgermole, Flopsie, Bumi, Toph Blind Bandit, and Solid Ground re-earthbending.
+
+**LIMITATION: it exiles a NONLAND permanent.** Under Toph your artifacts ARE lands, so it cannot blink them. Only non-artifact creatures and enchantments.
+
+## Iroas + The Earth King — the attack engine
+**Iroas, God of Victory** prevents ALL damage to attacking creatures and grants menace. Devotion rarely hits 7 in a green deck, so he's usually a non-creature indestructible enchantment — the abilities work regardless, and he's nearly unremovable.
+**The Earth King** — whenever one or more power-4+ creatures attack, fetch that many basic lands onto the battlefield. **Multiple lands entering at once = multiple simultaneous Landfall triggers.** Ruling: counts attackers when the ability TRIGGERS; later removal doesn't shrink the fetch.
+
+**Together: you alpha-strike every turn at zero risk, fetching a basic per big attacker.** Each fetch feeds Baloths, Scute Swarm, Lotus Cobra, Tireless Tracker, Avenger, and Toph Earthbending Master. **Ancient Greenwarden doubles all of it.**
+
+## Ohran Frostfang + Toski — the draw engine
+Both read "whenever a creature you control deals combat damage to a player, draw a card." **They stack — two cards per connecting creature.** Ohran also gives all ATTACKING creatures deathtouch; with Badgermole's trample (granted to anything with a +1/+1 counter), a big earthbent land is deathtouch + trample: assign 1 to each blocker, rest to face.
+
+**Toski is a 1/1 indestructible DEATHTOUCH attacker with Ohran out** — blockers die, Toski survives. Its forced attack applies only to Toski. It's also uncounterable and indestructible, so wraths and counterspells miss it.
+
+## Counter doublers stack multiplicatively
+Seismic Tutelage doubles counters on the enchanted creature when it attacks; Kalonian Hydra doubles the whole board. **A creature at 4 goes 4 → 8 → 16.** Doubling Season applies on top ("double the number of counters" means putting that many on, which Doubling Season doubles again) — 4 becomes 12, and Hardened Scales + Solid Ground push it to 16.
+**Best target is an earthbent land.** Rockalanche earthbends for up to 16; Avatar Kyoshi for 8. Seismic turns that into 20-30. **Iroas makes Seismic strictly better**, since it only pays off on attack and Iroas makes attacking free. The Aura two-for-one risk is covered by The Ozolith catching the counters.
+
+---
+
+# RULINGS ESTABLISHED THIS SESSION
+
+- **Garruk's Uprising does NOT trigger on earthbent lands.** It needs a power-4+ creature to ENTER. Animating a land isn't entering, and a land that dies and returns comes back as a land, not a creature. Artifacts under Toph enter as LANDS, not creatures — also no trigger. Solemn was the only artifact creature and it's cut. **Treat Garruk's Uprising as a trample-granter that occasionally cantrips.**
+- **Planar Outburst is SAFE for earthbent lands** — it destroys all NONLAND creatures, and an earthbent land is still a land. Base mode {3}{W}{W}; you never have to pay Awaken.
+- **Farseek CAN fetch Temple Garden, Sacred Foundry, and Stomping Ground** (they're Plains/Mountain cards). Claude wrongly claimed otherwise. It has exactly three legal targets — narrow, but it's 2-mana ramp plus a Landfall trigger that always does something turn two. **Rules note: Farseek says "tapped," which OVERRIDES the shockland's pay-2-life clause. NEVER pay the 2 life off a Farseek.**
+- **Gruul Turf: NEVER bounce an earthbent land with it.** Bouncing loses the land, its counters, and the Landfall trigger. Same caution applies to Multani's recursion cost.
+- **Multani's recursion bounces two lands** — same warning.
+- **Toph, the Blind Bandit's power counts +1/+1 counters on LANDS you control** — not the number of lands, not permanents. Note that a land dying and returning comes back with NO counters, so her power resets with your board.
+- **The Boulder, Ready to Rumble** (not in deck): its earthbend happens AFTER attackers are declared, so the animated land doesn't join that attack.
+- **Decimate synergy** (considered, rejected): a permanent with multiple card types can be chosen for more than one instance of "target," so an earthbent artifact-land covers artifact + creature + land at once — and it returns when it dies. Rejected anyway: 8 removal already, and the enchantment slot has no workaround (uncastable if no opponent has one).
+
+---
+
+# THE DECKLIST (100)
+
+## Commander (1)
+Toph, the First Metalbender
+
+## Anthem (1)
+Toph, Greatest Earthbender — earthbend X on ETB where X = mana spent; **land creatures you control have DOUBLE STRIKE**.
+
+## Artifact (1)
+The Mind Stone
+
+## Counters (10)
+Avatar Kyoshi Earthbender, Badgermole, Flopsie Bumi's Buddy, Hardened Scales, Kalonian Hydra, **Rockalanche**, Seismic Tutelage, Solid Ground, The Ozolith, **Toph the Blind Bandit**
+
+**Rockalanche** — {2}{G} Sorcery — Lesson — earthbend X where X = Forests you control. Flashback {5}{G}. **Counts Forest TYPES, so Stomping Ground and Temple Garden count — ceiling is 16, not 14.** Double-dips with Toph Hardheaded Teacher (his cast trigger plus the Lesson bonus counter fires on a SEPARATE land).
+
+## Draw (7)
+Garruk's Uprising, Guardian Project, **Ohran Frostfang**, Sylvan Library, **The Great Henge**, **Tireless Tracker**, **Toski Bearer of Secrets**
+
+**Tireless Tracker** — a RE-ADD. It was originally cut for the wrong reason: the question asked was whether Clues trigger Landfall (they don't), when the relevant question was whether Tracker triggers off YOUR landfall. It does, constantly — every nontoken artifact you cast under Toph is a land entering.
+**The Great Henge** — {X}{G}{G} where X is 8 minus your greatest creature power. **An earthbent land counts**, so a 4/4 land makes it 6 mana and Avatar Kyoshi's earthbend 8 makes it 2.
+**Sylvan Library** — treat it as a free scry-3 most turns. Only pay the 4 life when you actually need the card; Retreat to Kazandu and Zuran Orb are the only lifegain against Strip Mine, Wasteland, and three shocklands.
+
+## Evasion (2)
+Ghalta Primal Hunger, Rhonas the Indomitable
+
+## Finisher (2)
+Bumi Unleashed, Craterhoof Behemoth
+
+## Land (35)
+Ba Sing Se, Clifftop Retreat, Command Tower, Forest x14, **Gruul Turf**, Mountain x5, Plains x5, Rootbound Crag, Sacred Foundry, Stomping Ground, Strip Mine, Sunpetal Grove, Temple Garden, Wasteland
+
+## Landfall (6)
+Avenger of Zendikar, Multani Yavimaya's Avatar, Rampaging Baloths, Retreat to Kazandu, Scute Swarm, Toph Earthbending Master
+
+## Protection (5)
+Ghostly Prison, **Gift of Immortality**, Heroic Intervention, **Iroas God of Victory**, Lightning Greaves
+
+**Ghostly Prison earns its slot structurally:** your lands become attackers, so when you swing they're tapped and can't block the crack-back.
+
+## Ramp (14)
+Arcane Signet, Badgermole Cub, **Chromatic Lantern**, Cycle of Renewal, Earthbender Ascension, Farseek, Lotus Cobra, Nature's Lore, Shared Roots, Smothering Tithe, Sol Ring, **The Earth King**, Thran Dynamo, Wood Elves
+
+**Chromatic Lantern** — "Lands you control have '{T}: Add one mana of any color.'" **Under Toph your artifacts ARE lands, so Lantern grants them a mana ability.** Toph's parenthetical is REMINDER TEXT — it means the type change alone doesn't grant a mana ability, not that they can't gain one elsewhere. So Lightning Greaves, The Ozolith, and Zuran Orb become mana sources.
+
+## Recursion (3)
+**Ancient Greenwarden**, Toph Hardheaded Teacher, True Ancestry
+
+**Ancient Greenwarden doubles EVERY landfall trigger** — including all ten nontoken artifacts entering as lands, and every basic The Earth King fetches. Also lets you play lands from your graveyard, pairing with earthbent lands dying.
+**LESSONS in the deck:** Shared Roots, Cycle of Renewal, True Ancestry, Origin of Metalbending, Rockalanche. With Toph Hardheaded Teacher out, each earthbends 1 AND puts an extra counter on that land.
+
+## Removal (8)
+Austere Command, Beast Within, Chaos Warp, Origin of Metalbending, Path to Exile, Planar Outburst, Swords to Plowshares, Terastodon
+
+## Sac Outlet (1)
+Zuran Orb
+
+## Tokens (1)
+Doubling Season
+
+## Tutor (3)
+Enlightened Tutor, Green Sun's Zenith, Natural Order
+
+---
+
+# BRACKET — this is a 4, not a 3
+
+**FOUR Game Changers: Enlightened Tutor, Green Sun's Zenith, Natural Order, and SMOTHERING TITHE.** Four exceeds the Bracket 3 cap of three. Archidekt's "Upgraded (3)" header is a user-set field, not computed.
+
+**User decided to KEEP Smothering Tithe** (Sept 2) — it's strong ramp and Treasures fix the green-heavy costs. The Bracket 4 status is accepted knowingly. **Do not re-suggest cutting it.**
+
+**Would push further / avoid:** adding a free repeatable sac outlet beyond Zuran Orb (Ashnod's Altar, etc.) alongside a Landfall payoff creates an infinite-Landfall engine.
+
+---
+
+# ⛔ HARD RULES FOR FUTURE SESSIONS
+
+## NEVER suggest cutting Gift of Immortality
+User considers it one of the best cards in the deck. It stops the commander from ever staying down — Toph returns to the battlefield rather than the command zone, and Gift returns attached at the next end step. **That dodges commander tax entirely**, which matters enormously for a commander whose static ability the whole deck is built on.
+
+## Cards wrongly flagged as weak — user was right, do not re-propose
+- **Seismic Tutelage** — doublers stack multiplicatively; Iroas makes it strictly better.
+- **Rhonas** — Ohran grants deathtouch only to ATTACKING creatures. **Rhonas has it while BLOCKING**, a role nothing else fills. Also a 3-mana 5/5 indestructible that counts for Earth King's trigger and survives your own Planar Outburst and Austere Command.
+- **Farseek** — fetches all three shocklands including two green sources.
+- **The Mind Stone** — repeatable ETB blink engine.
+- **Badgermole Cub** — mana doubler on every earthbent land.
+- **Retreat to Kazandu** — one of only two lifegain sources.
+- **Multani** — reach is one of very few answers to fliers; graveyard recursion means removal doesn't stick.
+- **Ghalta** — costs 2-5 in practice, counts for Earth King, draws two on connect with Ohran + Toski.
+- **The Ozolith** — Claude called it "low-impact utility," then separately argued AGAINST earthbending it. Wrong on both counts. It catches counters from every earthbent land that dies, grows from those counters while earthbent, and earthbending is what gives the CARD recursion from death and exile. See its dedicated section above.
+
+## Enlightened Tutor targets, ranked
+1. **Doubling Season** — the game-ender. Doubles every earthbend (Rockalanche at 16 Forests becomes a 32/32) AND doubles Scute Swarm, Baloths, and Avenger tokens simultaneously. **It does NOT need to survive** — it's a replacement effect that applies when counters/tokens are created, so the value locks in on resolution and killing it later undoes nothing.
+2. **The Great Henge** — ramp, lifegain, a counter and a card per creature; usually only 2-3 mana with a board.
+3. **The Ozolith** — strong EARLY. Everything it banks compounds, and earthbent it becomes a self-recurring threat that generates a Landfall trigger each time you empty the bank.
+4. **Zuran Orb** — reactive: fetch it when you have a big earthbent threat that needs protection from bounce/tuck.
+
+## Rejected adds (with reasons)
+- **Rampant Growth** — strictly worse than Nature's Lore (fetches a Forest CARD, untapped). **CORRECTION Sept 15, 2026: this entry used to claim Shared Roots was "the same effect, but a Lesson." That was WRONG.** Shared Roots is "search your library for a **basic** land card, put it onto the battlefield **tapped**" — i.e. Rampant Growth WITH a Lesson subtype, not Nature's Lore. Verified on Scryfall.
+- **Darksteel Citadel** — colorless in a 76%-green deck, and **indestructible BREAKS the earthbend engine** (the return trigger fires on death; an indestructible land never dies). Sacrificing still works.
+- **Conduit of Worlds** — recursion half is nearly unusable (only if you haven't cast a spell, and then you can't cast anything else). Land-from-graveyard doesn't add triggers; Greenwarden does it better.
+- **Heliod, Sun-Crowned** — triggers once per life-GAINING EVENT, not per point. Only two lifegain sources in the deck. The {1}{W} lifelink grant is the useful half, but that's a 3-mana enchantment whose best mode is a mana sink.
+- **Decimate** — see rulings above.
+- **More landfall payoffs** — the deck is payoff-heavy already; add triggers or draw instead.
+- **Apex Altisaur, Woodfall Primus** — cut for curve; 9 and 8 mana respectively.
+
+---
+
+# MANA — fixed and verified Sept 2-3, 2026
+
+Basics went 10/7/7 → **14 Forest / 5 Mountain / 5 Plains**. Green production rose from 33% to **43%**.
+
+Current: Green cost 76% (65 pips / 50 cards) vs production 43%. White cost 15% vs production 24%. Red cost 8% vs production 24%. Colorless production 10%.
+
+**Green still trails on paper but this is the practical ceiling.** Austere Command and Planar Outburst both need double white, so white can't be trimmed further. **Do not push basics past 14 Forest, and 35 lands is the floor.**
+
+---
+
+# CHANGE LOG — September 2-3, 2026 (all applied and verified)
+
+| OUT | IN |
+|---|---|
+| Jungle Shrine | Gruul Turf |
+| Archetype of Aggression | Rockalanche |
+| Apex Altisaur | Ghostly Prison |
+| Woodfall Primus | Sylvan Library |
+| Hedron Archive | Zuran Orb |
+| Beast Whisperer | Ohran Frostfang |
+| Rishkar's Expertise | Toski, Bearer of Secrets |
+| Whispersilk Cloak | Iroas, God of Victory |
+| Swiftfoot Boots | The Earth King |
+| Cabaretti Courtyard | Toph, the Blind Bandit |
+| Solemn Simulacrum | Chromatic Lantern |
+| Tannuk, Memorial Ensign | The Great Henge |
+| Cultivate | Tireless Tracker |
+| Sakura-Tribe Elder | Ancient Greenwarden |
+
+**Draw went 5 → 7 and got far more reliable.** Every added draw card fires on its first trigger; Tannuk needed a second. The loss worth naming: Tannuk's per-landfall damage was a real secondary clock, especially doubled by Greenwarden. But this deck kills through combat, not pings.
+
+**Removal went 10 → 8.** Only Austere Command and Planar Outburst are sweepers. **This is the next real gap** — against a fast combo pod it's thin.
+
+---
+
+# ⚑ MAYBE-ADD LIST — under consideration, NOTHING PURCHASED OR APPLIED (Sept 15, 2026)
+
+**Deck is still at its verified 100.** User raised these; no cuts chosen yet.
+
+## The context that drove this
+User's read: **"draw and ramp feel a bit slow."** Correct diagnosis, and the raw counts hide it.
+
+- **Draw (7) is almost all win-more.** Ohran Frostfang and Toski need you already connecting. The Great Henge needs a big creature. Guardian Project needs creatures entering. Tireless Tracker needs landfall plus spare mana to crack Clues. Garruk's Uprising barely triggers here at all. **Sylvan Library is the only draw that functions turns 1-4.**
+- **Ramp (14) — only five pieces actually accelerate:** Sol Ring, Arcane Signet, Farseek, Nature's Lore, Lotus Cobra. The rest are Toph-dependent value, not acceleration.
+- **ZERO one-mana mana dorks.** The commander costs 4 and the whole deck is built on his static ability. Birds of Paradise / Llanowar Elves / Ignoble Hierarch would make turn-3 Toph routine and help the green pip gap.
+- **No true mana doubler.** Badgermole Cub (earthbent lands only) and Chromatic Lantern (grants a mana ability to every land, artifacts included) are the closest. **The Great Henge also taps for {G}{G}** — it is filed under Draw but IS a mana source; don't forget it when listing ramp.
+- **Lotus Cobra is the only landfall-to-mana card**, so most of the deck's many landfall triggers produce no mana.
+
+## TRAMPLE SOURCES (asked Sept 15) — only three
+**Badgermole** (to anything with a +1/+1 counter — the main one), **Garruk's Uprising** (blanket), **Craterhoof Behemoth** (one-shot ETB). **Badgermole Cub is NOT a trample source** despite the name — it's the mana doubler. Two persistent sources is thin for a deck whose kill plan is a concentrated trampler.
+
+## The four candidates, ranked for this deck
+
+**1. Embodiment of Insight** — {4}{G} Creature — Elemental 4/4. Vigilance. **"Land creatures you control have vigilance."** Landfall — target land you control becomes a 3/3 Elemental with haste until end of turn; it's still a land.
+- **The vigilance line is the real prize.** Earthbent lands are permanently creatures (no duration), so unlike the Bello deck this GENUINELY gives blockers on the crack-back — the exact hole Ghostly Prison patches. 5 mana vs Akroma's 7, no pro-red clause.
+- **LAYERS TRICK:** its animation sets base P/T to 3/3, which is a base-setting effect like earthbend's 0/0 — **later timestamp wins.** Target an ALREADY-earthbent land and the 3/3 overwrites the 0/0 base while counters stay on top: a land with 4 counters becomes a **7/7** until end of turn. Target a fresh land and then earthbend it and you get the bad end — earthbend's 0/0 overwrites the 3/3, leaving a 2/2. **Toph's earthbend fires at your end step, so don't point it at an Embodiment-animated land.**
+- Caveat: the file's own "more landfall payoffs" rejection cuts against the landfall half. Judge it as a vigilance card with a landfall rider.
+
+**2. Spine of Ish Sah** — {7} Artifact. "When this artifact enters, destroy target permanent. When this artifact is put into a graveyard from the battlefield, return it to its owner's hand." **Much stronger here than in the Bello deck, where it was rejected.**
+- Enters as a LAND under Toph = Landfall trigger. Legal earthbend target.
+- **⚑ THE TWO RETURN TRIGGERS FIGHT EACH OTHER — you do NOT get both.** Earthbend's delayed return and Spine's own return-to-hand both fire on the same event. You control both, so you order them: put earthbend's LAST on the stack so it resolves FIRST. Spine goes graveyard → battlefield; Spine's own trigger then can't find it in the graveyard and does nothing. **You want the earthbend one** — battlefield beats hand.
+- **The return re-triggers its ETB destroy.** Free removal, no 7-mana recast.
+- **Official ruling: Spine's ability does NOT let you sacrifice it — you need an outside outlet. Zuran Orb is one, and ONLY because Toph makes artifacts lands.**
+- **The loop:** earthbend Spine → sac to Zuran Orb → gain 2 → earthbend returns it tapped → ETB destroys a permanent → Landfall fires. **Roughly one free removal per turn cycle**, rate-limited because each earthbend's delayed trigger is one-shot and it returns as a plain land with no counters. **NOT infinite.** Directly patches the removal gap (8, only two sweepers).
+
+**3. Akroma's Memorial** (~$36 as of the Bello pricing) — {7} Artifact. Flying, first strike, vigilance, trample, haste, pro-black, pro-red to your creatures.
+- Trample from a non-fragile source, plus evasion, plus the same vigilance fix.
+- **Overlaps Embodiment on vigilance** — probably don't need both.
+- **Downside: pro-red means your own Chaos Warp can't target your creatures.**
+
+**4. Vorinclex, Voice of Hunger** — {6}{G}{G}. Doubles your land mana; opponents' lands don't untap. **DELISTED as a Game Changer Oct 21, 2025 — no bracket cost** (and this deck is knowingly Bracket 4 anyway).
+- **The deck's only true mana doubler**, which is a real gap.
+- **But 8 mana is a win-more card in a deck whose stated problem is turns 3-5.** Ranked last for that reason.
+
+## ⛔ THE CURVE TENSION — flag this every time
+**All four are 5-8 mana: 27 mana of top end added to a deck the user says feels slow.** Every one is a good card; together they make the diagnosed problem worse. **If the goal is fixing the slow start, the answer is 1-2 mana dorks and cheap card draw, not more 7-drops.**
+
+## Ramp swap under discussion
+- **Shared Roots OUT → Three Visits IN?** Three Visits fetches a Forest CARD untapped (so it grabs Stomping Ground and Temple Garden); Shared Roots fetches a BASIC, tapped. Better rate.
+- **The cost is the Lesson subtype** (Toph Hardheaded Teacher keys off it). Would drop Lessons from 5 to 4: Cycle of Renewal, True Ancestry, Origin of Metalbending, Rockalanche. **User's call — depends how often Teacher is actually on board.**
+- **User also asked about "the one that plays 2 lands, or 1 land and 1 in hand."** That's Cultivate — **already deliberately cut** in the Sept 3 rebuild for Tireless Tracker; don't re-add it by accident. If extra LAND DROPS are what's wanted (better in a landfall deck, since each drop is a live trigger), the real options are **Exploration, Azusa, Dryad of the Ilysian Grove, Wayward Swordtooth**.
+
+## Still to do before any of this is applied
+1. **Re-pull Archidekt.** Standing rule; last verified Sept 3.
+2. **Price Embodiment, Spine, Akroma's, Vorinclex.** Not checked this session.
+3. **Choose cuts.** None identified yet.
