@@ -126,3 +126,17 @@ No banned cards. Demonic Tutor and Natural Order are confirmed Game Changers (2 
 
 ## Strategic notes
 Self-mill into graveyard payoffs. Grows graveyard-scaling threats (Consuming Aberration, Barrowgoyf, Lord of Extinction) or mass-reanimates (Living Death, Victimize, Necromantic Selection, Reanimate), closes with Craterhoof off a reanimated board. Real landfall subpackage (Aesi, Tatyova, Multani, Avenger). Real deck-out risk if milling outpaces payoffs. Counterspells are the best answer to this deck from an opponent's perspective — it depends on a few big spells landing. Board wipes matter more than graveyard hate timed right.
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Open item — land swaps agreed Sept 16, 2026 but cards not yet acquired / not applied to paper deck or this file's main list
+- Pip count: ~40% B / ~44% G / ~16% U demand across the 100. Land sources pre-fix: ~20 G / ~15 B / ~13 U — black is under-sourced relative to demand (2 BBB cards: Necromantic Selection, Afterlife from the Loam), blue is over-fixed for how little it's asked to do.
+- **Swaps agreed, not yet in hand:**
+  - OUT Cephalid Coliseum, IN Polluted Delta
+  - OUT Evolving Wilds, IN Verdant Catacombs
+  - OUT Reliquary Tower, IN Field of the Dead
+  - OUT Memorial to Folly, IN Underground Mortuary (B/G surveil land — has Swamp+Forest types, fetchable by the new Verdant Catacombs)
+  - Basics: 9 Forest / 3 Island / 5 Swamp → 7 Forest / 3 Island / 7 Swamp (evens out G/B sources to match near-equal pip demand)
+
+### Open item — Morphic Pool, do NOT cut yet
+Originally proposed OUT Morphic Pool, IN Undercity Sewers (U/B surveil land, fetchable by Polluted Delta). **Correction on record:** Morphic Pool's actual text is "enters tapped unless you have two or more opponents" — same design as Rejuvenating Springs, not a plain tapland. In a normal 3-4 player pod it's untapped nearly every game, so it is NOT clearly weak. Revisit this specific swap before applying it — Undercity Sewers may still be worth it for the surveil upside, but the original "upgrade" framing was based on a wrong read of Morphic Pool.

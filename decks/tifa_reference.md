@@ -180,3 +180,11 @@ Options discussed: **Spidersilk Net** ({1} Equipment, +0/+2 and reach — **tuto
 
 # FINAL COUNT
 Commander 1 + Copy 2 + Counters 1 + Creature 2 + Draw 12 + Finisher 1 + Land 37 + Lifegain 1 + Protection 8 + Pump 3 + Ramp 15 + Recursion 3 + Removal 7 + Tokens 2 + Tutor 5 = **100**
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Structural history
+This deck ("Cloud" file originally) was an unverified precon transcription until Aug 22-30, 2026, when the real Archidekt list settled two open questions: **Tifa is NOT a co-commander** — she was a 99th creature card in the precon; and the deck was stock at Bracket 2. The precon was subsequently rebuilt as a near-complete copy of a friend's $1,112 optimized Cloud equipment list, with Tifa promoted to commander (the Naya color identity is identical, so the swap was free), plus four rounds of upgrades.
+
+### Layers ruling that applies here
++1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b) — they stack on top. But two base-P/T-setting effects do NOT stack; later timestamp wins. **This is why Sephiroth's 7/5 overwrites Aettir and Priwen's 40/40** if Sephiroth's effect is applied later.

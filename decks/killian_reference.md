@@ -112,3 +112,16 @@ Best three for ~$9: **Light-Paws, All That Glitters, Sigil of the Empty Throne.*
 
 ## FINAL COUNT
 Commander 1 + Copy 1 + Creature 4 + Drain 1 + Draw 12 + Enchantment 4 + Evasion 1 + Land 35 + Protection 11 + Pump 1 + Ramp 8 + Recursion 4 + Removal 13 + Sac Outlet 1 + Tokens 3 = **100**
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Open item — moving from Bracket 2 to Bracket 3-4, not yet applied
+- **Cut candidates that actively HURT the deck:** Firemane Commando, Breena the Demagogue, Keen Duelist — all three give opponents cards in a deck whose plan is goading them into each other.
+- **The real gap: no win condition beyond Eriette's drain.** Fix candidates: Vito, Thorn of the Dusk Rose (~$4), Marauding Blight-Priest (~$1), or Well of Lost Dreams (~$8).
+- **No tutors in the deck.** Enlightened Tutor + Smothering Tithe are the two best Game Changer slots to add.
+
+### Confirmed
+Aura Shards is Selesnya (G/W) — **NOT legal here** (Orzhov). It IS legal in the Naya Tifa deck.
+
+### Structural note
+This deck was added Aug 22-30, 2026 (the 8th deck), Orzhov Auras/goad/pillowfort, verified from Archidekt at that time.

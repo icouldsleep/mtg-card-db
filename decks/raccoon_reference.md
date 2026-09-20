@@ -164,3 +164,26 @@ No banned cards (checked against Mana Crypt, Jeweled Lotus, Dockside Extortionis
 ## ⚑ OPEN ITEMS
 1. **Caged Sun + Roaming Throne** interaction unverified (triggered mana ability).
 2. This file's own changelogs have now drifted from paper reality twice (Queza deck's Aug 22 discovery, this deck's Sept 16 discovery) — treat any changelog entry as unconfirmed until cross-checked against a fresh Archidekt pull, even ones marked "COMPLETED."
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Card text errors caught by checking PHYSICAL cards against the file (Sept 15, 2026)
+Photographing the acquired cards caught two errors three prior sessions of text-from-memory had missed:
+- **Instruments of War** — file said "+2/+0 and trample." Actual: Flash artifact, "As this enters, choose a creature type. Creatures you control of the chosen type get +1/+1." A tribal buff, not a team pump — now the weakest card in the deck.
+- **Street Riot** — file said "+2/+0." Actual: **+1/+0** and trample, only during your turn.
+Process lesson: do this (photograph physical cards) for any batch of new acquisitions.
+
+### Rules errors made and corrected
+- **Sight of the Scalelords does NOT fix the "no blockers" gap.** Animated permanents stop being creatures at end of turn, so they can't block on opponents' turns regardless of vigilance. Its actual value: keeping tap abilities live — Gilded Lotus, Thran Dynamo, and Hedron Archive can attack and still tap for mana.
+- **Spine of Ish Sah was oversold as "repeatable removal" here — rejected.** Its recursion needs a sac outlet, and the only one (Greater Good) was on the cut list; Bello's indestructible also makes it harder to kill deliberately. (Contrast: this same card IS good in the Toph deck, which has an artifacts-are-lands clause plus Zuran Orb as the outlet — see toph_reference.md.)
+- **Greater Good was oversold as the re-add** — its best targets (Ghalta, Craterhoof, Grothama) are creatures you'd rather keep attacking with; it's reactive insurance, not an engine. Revised to Weaver of Harmony instead, which was taken and later pulled back off the cut list.
+- **Roaming Throne's doubling applies to EVERY creature of the chosen type, no cap** — previously described in the singular by mistake.
+
+### Roaming Throne ruling (keep)
+Name **Elemental**. Doubles **triggered** abilities only — static effects (Fiery Emancipation, Gratuitous Violence, Berserkers' Onslaught, Street Riot) are untouched. Excludes itself. Doesn't copy — retriggers, with targets chosen separately per instance. Bello is a Raccoon Bard, not an Elemental, but has no triggers of his own so nothing is lost by that. **The whole engine dies if Bello leaves the battlefield.**
+
+### Final swap ledger (Sept 15, 2026 rebuild — applied)
+20 adds / 20 cuts, plus Farseek → Dancing from Dark to Dawn applied separately. **Farseek is spent — never re-propose it.** Cosmic Cube (Marvel, MV5 artifact, Ward 2, free spell on attack) added, paired with Swiftfoot Boots. All five mana rocks protected from cuts — correct since all are under Bello's MV4 floor.
+
+### Cross-deck layers rule that applies here too
++1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b), so counters stack on top of Bello's animated 4/4. But two base-P/T-setting effects don't stack — later timestamp wins (this is why Sephiroth's 7/5 overwrites Aettir/Priwen's 40/40 in the Tifa deck, a related case).

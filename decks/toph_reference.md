@@ -354,3 +354,36 @@ User's read: **"draw and ramp feel a bit slow."** Correct diagnosis, and the raw
 1. **Re-pull Archidekt.** Standing rule; last verified Sept 3.
 2. **Price Embodiment, Spine, Akroma's, Vorinclex.** Not checked this session.
 3. **Choose cuts.** None identified yet.
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Open item — maybe-add list from Sept 15, nothing applied yet
+Four candidate adds discussed, ranked: Embodiment of Insight > Spine of Ish Sah > Akroma's Memorial > Vorinclex, Voice of Hunger. **All four are 5-8 mana — flags curve tension against the deck's actual problem, which is being slow.** The honest fix is more 1-2 mana dorks and cheap draw, not more top end. No cuts identified yet to make room. Re-pull Archidekt and price all four before applying anything.
+
+### Open item — ramp swap under consideration
+Shared Roots → Three Visits (better rate, but loses the Lesson subtype relevant to Toph Hardheaded Teacher). Note: Cultivate was already cut earlier — don't re-add it by accident.
+
+### Diagnosis established Sept 15 — draw and ramp look healthy on paper but aren't
+- 6 of 7 draw cards are win-more (reward a board you don't have yet) — Sylvan Library is the only one live turns 1-4.
+- Only 5 of 14 ramp pieces actually accelerate: Sol Ring, Arcane Signet, Farseek, Nature's Lore, Lotus Cobra. The rest are Toph-dependent value.
+- Zero one-mana dorks under a 4-mana commander the whole deck depends on.
+- Lesson: count what's live on turns 1-4, not category totals. The Great Henge (filed under Draw) also taps for {G}{G} — read across the whole list, not just the section header.
+
+### Removal gap flagged
+Only 8 removal spells, with just Austere Command and Planar Outburst as sweepers. Spine of Ish Sah + Zuran Orb would patch this (see ruling below on how that actually works here).
+
+### Bracket
+Four Game Changers confirmed: Enlightened Tutor, Green Sun's Zenith, Natural Order, Smothering Tithe = Bracket 4 by rule. User knowingly kept Smothering Tithe; Archidekt's own "3" header is user-set, not computed.
+
+### Rulings established (Toph-specific interactions — easy to miss)
+1. **Earthbend has no duration** — earthbent lands are permanently creatures. This is why Badgermole Cub doubles their mana and why haste matters (a land-creature couldn't otherwise tap while summoning sick). Vigilance genuinely gives blockers in Toph (contrast: it does NOT in Bello, where the animation ends at end of turn).
+2. **Nontoken artifacts enter as lands under Toph, triggering Landfall** — but Clues and Treasures are tokens and do NOT trigger it. (Confirmed: Tireless Tracker's Clues generate no Landfall here.)
+3. **Base-P/T-setting effects don't stack — later timestamp wins — but +1/+1 counters (layer 7d) apply AFTER, stacking on top of whatever base P/T is currently set.** Example: Embodiment of Insight's landfall animation sets base P/T to 3/3; animate an already-earthbent land and the 3/3 overwrites the 0/0 while existing counters stay on top (4 counters = a 7/7 in that case). Do it in the wrong order and Toph's end-step earthbend overwrites the 3/3 back down to 0/0.
+4. **Spine of Ish Sah**: the two return triggers (earthbend's delayed return and Spine's own return-to-hand) fight over the same event — you do NOT get both. Order earthbend's return FIRST so Spine goes graveyard→battlefield and its own trigger can't find it; battlefield beats hand, and the return re-triggers the ETB destroy. Official ruling: Spine can't sacrifice itself for its own cost. **Zuran Orb is the sac outlet, and only works here because Toph makes artifacts lands.** Roughly one free removal per turn cycle, not infinite. (Contrast: this exact card was rejected the same day for the Bello/raccoon deck — Bello has no artifacts-are-lands clause, so there's no outlet there. Same card, opposite verdict, context-dependent.)
+5. **Shared Roots is NOT "Nature's Lore but a Lesson."** Actual text: search for a BASIC land, put it onto the battlefield TAPPED — it's Rampant Growth with a Lesson subtype. Corrected in this file already; don't repeat the old description.
+
+### Verification failures on record (don't repeat)
+- This file once listed Etali, Primal Conqueror as in the deck — that card was never in the real Archidekt list, and a "cut" was made against a phantom card.
+- The file also once omitted Bumi, Unleashed and Craterhoof Behemoth entirely (a whole missing "Finisher" category) and misfiled Tireless Tracker and Ghalta.
+- Cards wrongly flagged as weak in past sessions — don't re-suggest cutting: Seismic Tutelage (covered by The Ozolith catching counters), Rhonas, Farseek, The Mind Stone, Badgermole Cub, Multani, Ghalta.
+- Always re-pull Archidekt before recommending cuts — at one point 11 agreed swaps sat unapplied on Archidekt while the file claimed they were done.

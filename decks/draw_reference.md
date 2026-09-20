@@ -228,3 +228,58 @@ Utility: Command Tower, Exotic Orchard, Reflecting Pool, Mana Confluence (pay 1 
 Basics: 7 Island, 3 Plains, 1 Swamp.
 
 **Total: 101** (1 Commander + 14 Artifact + 13 Creature + 11 Enchantment + 2 Planeswalker + 9 Sorcery + 15 Instant + 36 Land)
+
+## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
+
+### Open item — deck is at 101, no cut chosen
+User added Sanguine Bond alongside the already-present Exquisite Blood (infinite lifegain/drain lock). Need to pick a cut to get back to 100.
+
+### Core Combo: The Reaver Loop
+**Drogskol Reaver + Sheoldred and/or Queza** = every draw's life gain re-triggers Reaver to draw again — a mandatory, self-sustaining loop that can draw the whole library.
+- **With Jace, Wielder of Mysteries in play:** his static ability turns "draw from empty library" into an instant win instead of a loss.
+- **Without Jace WoM:** must break the loop manually with Vapor Snag (bounce your own Reaver) before the library empties. Tutor Vapor Snag PROACTIVELY the moment Reaver + a drain payoff are both out and Jace isn't.
+- Reaver + Jin-Gitaxias's 7-card end-step draw snowballs the same way.
+
+### Other combo threads
+- Notion Thief + any symmetric draw effect (Windfall/Echo of Eons/Font of Mythos/Temple Bell) redirects opponents' draws entirely to you.
+- Consecrated Sphinx + any symmetric draw spell triggers once per opponent per card drawn.
+- Alhammarret's Archive + Teferi's Ageless Insight together quadruple extra draws, not just double.
+- Exquisite Blood + Sheoldred/Queza already converts opponent drain-loss into your life gain (live without Sanguine Bond).
+- Sanguine Bond + Exquisite Blood = full infinite lock — kept as a considered add specifically for a hard-reset situation (see open item above).
+- Gift of Immortality is repeatable (returns both creature and itself) — best target Solemn Simulacrum.
+- Sword of Light and Shadow + Reaver's double strike = two separate life-gain/recursion triggers per swing.
+- Aetherflux Reservoir + Reaver: an ordinary multi-rock turn triggers escalating life gain, each triggering Reaver.
+
+### Alternate win conditions, fastest to slowest
+1. Approach of the Second Sun — tutor + recast, wins on resolution, no upkeep wait (~turn 4 nut draw).
+2. Triskaidekaphile — bank hand to exactly 13 via Necropotence/Sea Gate Restoration.
+3. Twenty-Toed Toad (considered add) — triggers on attack alone at 20+ cards in hand.
+4. Drogskol Reaver + Jace WoM loop — safest true combo.
+5. Test of Endurance — rides the Reaver loop past 50 life passively.
+6. Straight Sheoldred/Queza attrition — default grind, turn 15-20+.
+
+### Tutor logic
+- Demonic Tutor / Vampiric Tutor: only access to ANY card (creatures, planeswalkers, all 36 lands).
+- Enlightened Tutor: artifact/enchantment only — prioritize Leyline of Anticipation or Sol Ring before Necropotence.
+- Mystical Tutor: instant/sorcery only — Farewell is the best "answer a scary board" pull; Cryptic Command is the only instant/sorcery removal piece that counters creatures.
+
+### Matchup notes
+Favored long-term vs. the user's own Teval mill/reanimator deck via attrition, but vulnerable to an uninterrupted Living Death/Victimize/Craterhoof turn — hold counters/wipes for that specifically. 1v1 archetype ratings: Control/mirror ~8.5-9/10, Voltron ~8/10, Combo ~7/10, Aggro ~6-7/10, Stax/Prison ~4-5/10 (worst). In a 4-player pod, Control/mirror rises further (Rhystic Study/Mystic Remora/Smothering Tithe scale with player count) but the deck draws early table hate for recognizable staples.
+
+### Rulings established
+- Protection from blue stops Queza's targeted drain, both Jaces' targeted abilities, and blue creature combat damage — does NOT stop Sheoldred, Temple Bell/Font/Windfall, or the counters/removal suite.
+- No-max-hand-size redundancy: Reliquary Tower, Nezahal, Sea Gate Restoration, Triskaidekaphile all grant it independently.
+- MDFC mode choice (e.g. Sea Gate Restoration) is permanent once played from hand.
+- Farewell exiles, does not destroy — the "Trisk + Gift of Immortality + Farewell" combo does NOT work.
+- Dovin's Veto, Fierce Guardianship, Swan Song only counter noncreature spells — only Force of Will/Counterspell/Cryptic Command counter creatures here.
+- Sword of Light and Shadow's recursion only fires on combat damage to a player, not on death.
+- Leyline of Anticipation affects ALL spells, not just sorceries.
+- Approach of the Second Sun costs {6}{W}; Enter the Infinite costs {10}{U}{U} (rejected as too slow given the Reaver loop already does this for free).
+- Faerie Mastermind's activation cost is {3}{U}, not {2}{U}.
+- Nezahal's discard-3 self-blink is EXILE, not death — no Gift of Immortality interaction.
+
+### Verification failure on record (don't repeat)
+Four Queza swaps were logged "complete" on Aug 11 that had never actually been made in paper or on Archidekt — discovered Aug 22. Always re-pull Archidekt before trusting a "done" note.
+
+### Cards wrongly flagged as weak — don't re-suggest cutting
+Elixir of Immortality, Jace the Mind Sculptor, Triskaidekaphile — all defended by the user with good reasoning already worked out.
