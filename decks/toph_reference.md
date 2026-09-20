@@ -373,9 +373,14 @@ User's read: **"draw and ramp feel a bit slow."** Correct diagnosis, and the raw
 - **Overlaps Embodiment on vigilance** — probably don't need both.
 - **Downside: pro-red means your own Chaos Warp can't target your creatures.**
 
-**4. Vorinclex, Voice of Hunger** — {6}{G}{G}. Doubles your land mana; opponents' lands don't untap. **DELISTED as a Game Changer Oct 21, 2025 — no bracket cost.** Confirmed absent from the official list in `game_changers.md`.
-- **The deck's only true mana doubler**, which is a real gap.
-- **But 8 mana is a win-more card in a deck whose stated problem is turns 3-5.** Ranked last for that reason.
+**4. Vorinclex, Voice of Hunger** — {6}{G}{G} 7/6 trample. **RE-EVALUATED Sept 20, 2026 — promoted, the old ranking missed a Toph-specific synergy.** Confirmed NOT a Game Changer against `game_changers.md`.
+- Verified text: "Whenever you **tap a land for mana**, add one mana of any type that land produced. Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step."
+- **⚑ Under Toph your artifacts ARE lands, so the first ability triggers off far more than your 35 lands.** Sol Ring goes to **3** mana, **Thran Dynamo to 4**, Arcane Signet and Chromatic Lantern to 2 each, on top of doubling every real land. In a normal green deck this doubles lands; here it taxes the whole artifact base too. The earlier "only true mana doubler, ranked last" framing undersold it badly.
+- **⛔ BRACKET FEEL, not bracket rules.** The deck is a confirmed legitimate Bracket 3 at exactly three Game Changers. Vorinclex is not a Game Changer and "opponents' lands don't untap" is not *mass land denial*, so it breaks no Bracket 3 rule. But a repeating one-sided land lock **plays** like a higher bracket, and brackets describe how a deck plays. **This is a table-feel decision, not a legality one.**
+- Still 8 mana, still a creature that eats a Swords to Plowshares with no built-in protection.
+- **Status: owner parked it in the maybes on Sept 20, 2026.** No cut identified. Weakest links if one is ever needed: Shared Roots (fetches a *basic*, tapped — see the Three Visits note) or True Ancestry, but cutting either drops Lessons from 5 to 4, which Toph Hardheaded Teacher keys off.
+
+**5. Embodiment of Insight — DOWNGRADED Sept 20, 2026, effectively dead.** This list already warned "overlaps Embodiment on vigilance — probably don't need both." **Akroma's Memorial is now in the deck and grants vigilance to everything**, so Embodiment's headline ability is redundant. What remains is a 4/4 for five plus the layers trick (animating an already-earthbent land overwrites the 0/0 base with 3/3 while counters stay on top, so 4 counters swings as a 7/7 instead of a 4/4) — roughly +3 damage a turn. At $0.22 it is nearly free to test, but it no longer earns a slot.
 
 ## ⛔ THE CURVE TENSION — flag this every time
 **All four are 5-8 mana: 27 mana of top end added to a deck the user says feels slow.** Every one is a good card; together they make the diagnosed problem worse. **If the goal is fixing the slow start, the answer is 1-2 mana dorks and cheap card draw, not more 7-drops.**
