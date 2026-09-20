@@ -3,7 +3,7 @@
 Regenerated 2026-09-20 against the current 100.
 Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69 distinct, 100 slots).
 
-Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card, not just by total.
+Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
 
 ## Covered by the precon — do NOT buy (41 of the 100 slots)
 
@@ -77,11 +77,11 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card, no
 - 1 Asceticism — $7.39
 - 1 Bear Umbra — $19.39
 - 1 Burgeoning — $30.53
+- 1 Dancing from Dark to Dawn — $7.86
 - 1 Exploration — no price in snapshot
 - 1 Guardian Project — $19.59
 - 1 Primeval Bounty — $0.34
 - 1 Sylvan Library — $28.24
-- 1 Zendikar's Roil — $1.39
 
 **Sorcery (7)**
 - 1 Cultivate — no price in snapshot
@@ -112,14 +112,12 @@ Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card, no
 
 ### Cost
 
-Priced subtotal **$345.77** — a floor, not an estimate. 19 of these have no price in
-the snapshot; those are marked inline above and include several expensive cards
-(Craterhoof Behemoth, Vorinclex, Ulamog, Scute Swarm, The Earth Crystal).
+Priced subtotal **$352.24** — a floor, not an estimate. 19 of these have no price in
+the snapshot; those are marked inline above.
 
 ### Paste-ready buy list
 
-`decks/kodama_purchase_list.txt` holds this same list with no surrounding text, for pasting
-straight into a mass-entry importer such as Card Kingdom's Deck Builder (cardkingdom.com/builder).
+`decks/kodama_purchase_list.txt` holds this same list with no surrounding text.
 
 ```
 1 Asceticism
@@ -134,6 +132,7 @@ straight into a mass-entry importer such as Card Kingdom's Deck Builder (cardkin
 1 Courser of Kruphix
 1 Craterhoof Behemoth
 1 Cultivate
+1 Dancing from Dark to Dawn
 1 Demolition Field
 1 Eternal Witness
 1 Exploration
@@ -180,5 +179,4 @@ straight into a mass-entry importer such as Card Kingdom's Deck Builder (cardkin
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
 1 Yorvo, Lord of Garenbrig
-1 Zendikar's Roil
 ```

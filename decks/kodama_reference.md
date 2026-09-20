@@ -21,7 +21,7 @@ Started from **Tramplesaurus Rex**, the mono-green precon from the Foundations C
 "At the beginning of combat on your turn, creatures you control get +3/+3 and gain trample until end of turn. {1}{G}: Until end of turn, target land you control becomes a 1/1 Elemental creature with vigilance, indestructible, and haste. It's still a land." Partner.
 
 ## Game Plan / Key Rules Finding
-Kodama's trigger is **not landfall-specific — it fires off ANY permanent entering under your control**, including tokens (creature or artifact). This means token generators are the deck's real engine, not just landfall payoffs: every token made is a free Kodama trigger, which can drop another permanent from hand for free, which can chain into more triggers if that permanent is itself a token-maker or a land. Extra-land-drop enablers (Exploration, Azusa, Loot, Burgeoning) double-dip: every extra land drop is simultaneously a **landfall trigger for nine different payoffs** (Scute Swarm, Avenger of Zendikar, Lotus Cobra, Rampaging Baloths, Zendikar's Roil, Tireless Tracker, Courser of Kruphix, Primeval Bounty, and Ka-Zar's Zabu token) AND a Kodama trigger. Kamahl's combat-trigger pump + trample is the closing finisher once the board is wide.
+Kodama's trigger is **not landfall-specific — it fires off ANY permanent entering under your control**, including tokens (creature or artifact). This means token generators are the deck's real engine, not just landfall payoffs: every token made is a free Kodama trigger, which can drop another permanent from hand for free, which can chain into more triggers if that permanent is itself a token-maker or a land. Extra-land-drop enablers (Exploration, Azusa, Loot, Burgeoning) double-dip: every extra land drop is simultaneously a **landfall trigger for nine different payoffs** (Scute Swarm, Avenger of Zendikar, Lotus Cobra, Rampaging Baloths, Dancing from Dark to Dawn, Tireless Tracker, Courser of Kruphix, Primeval Bounty, and Ka-Zar's Zabu token) AND a Kodama trigger. Kamahl's combat-trigger pump + trample is the closing finisher once the board is wide.
 
 ## The 100
 
@@ -39,7 +39,7 @@ Sylvan Library, Tireless Tracker, Beast Whisperer, Elemental Bond, Guardian Proj
 NOTE: Courser of Kruphix is a new add (found via full-database query) — plays lands off the top, gains life, wasn't in the original 181-card pool.
 
 ### Landfall payoffs / token engines (7)
-Scute Swarm, Avenger of Zendikar, Lotus Cobra, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Zendikar's Roil
+Scute Swarm, Avenger of Zendikar, Lotus Cobra, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn
 NOTE: this category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
 
 ### Counters / Hydras (4)
@@ -114,6 +114,21 @@ NOTE: three other cards were considered in the same pass and **rejected**:
 - **Cloudstone Curio** ({3}, not a Game Changer, $13.70) — powerful, but it puts an optional trigger on every nonartifact permanent entering, which with Scute Swarm out means dozens of decisions per turn. Deferred on complexity, not power.
 - **Timeless Witness** — recursion is already seven deep, and at MV 4 Woodland Bellower cannot fetch it.
 
+## Fifth swap, Sept 20, 2026 (1 card)
+
+| In | Out | Why |
+|---|---|---|
+| Dancing from Dark to Dawn {3}{G}{G} | Zendikar's Roil | **A strict upgrade.** Identical mana cost, identical enchantment type, identical landfall payoff (a 2/2 green token — Bear instead of Elemental, and nothing in the deck cares about creature type), plus an entire extra ability: "Whenever you cast a creature spell, put X +1/+1 counters on target creature you control, where X is that spell's mana value." Casting Craterhoof puts 8 counters on something. Costs $7.86 against Zendikar's Roil's $1.39; that price gap is the only downside. |
+
+NOTE: the counter half says **target** creature you control, so it never forces you to spread counters — point it at one creature and it stays one die. Same shape as Primeval Bounty, which the owner kept for that reason.
+
+NOTE: several other cards were checked in the same pass and ruled out.
+- **The Astonishing Ant-Man** ({G}{U}) and **Tear Asunder** are both illegal here. Ant-Man is green *and* blue, so its identity is [G, U]. Tear Asunder's mana cost is a clean {1}{G}, but its **Kicker {1}{B}** puts black in its identity — costs in rules text count. Easy trap: a green mana cost does not mean a green identity.
+- **Beorn's Hospitality** ({1}{G}) is Bristly Bill's ability on an enchantment — landfall, +1/+1 counter on target creature. Already rejected once under the counters preference.
+- **Ironscale Hydra** ({3}{G}{G} 5/5) prevents all combat damage dealt to it and grows instead. Unkillable blocker, die-friendly, but does nothing for the Kodama engine.
+- **Radagast of Rhosgobel** ({2}{G}{G} 2/5, $6.65) — first creature spell each turn costs {2} less and can be cast as though it had flash. The most interesting leftover; makes Sabertooth recasts cheaper and dodges sorcery-speed removal. Not added, but worth revisiting.
+- **Radagast the Brown** ({2}{G}{G} 2/5) digs on every **nontoken** creature entering, and tokens are most of this deck's ETBs.
+
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
 
@@ -139,7 +154,7 @@ Also cut, first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul
 
 Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic Expanse.
 
-Cut in the third and fourth Sept 20 swaps: Greater Good, 1x Forest, Regrowth.
+Cut in the third, fourth and fifth Sept 20 swaps: Greater Good, 1x Forest, Regrowth, Zendikar's Roil.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.

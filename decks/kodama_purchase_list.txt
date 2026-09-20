@@ -10,6 +10,7 @@
 1 Courser of Kruphix
 1 Craterhoof Behemoth
 1 Cultivate
+1 Dancing from Dark to Dawn
 1 Demolition Field
 1 Eternal Witness
 1 Exploration
@@ -56,4 +57,3 @@
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
 1 Yorvo, Lord of Garenbrig
-1 Zendikar's Roil
