@@ -148,9 +148,34 @@ Twenty 2/2 reach Spiders, forty with Doubling Season doubling the tokens. And **
 entering is an Aura Shards trigger.** Sacrificing is dying, so earthbend returns the Doll to do it
 again.
 
+## Urza's Saga — earthbend recycles it
+
+```
+I   — gains "{T}: Add {C}."
+II  — gains "{2}, {T}: Create a 0/0 Construct artifact creature token with
+             'This token gets +1/+1 for each artifact you control.'"
+III — Search your library for an artifact card with mana cost {0} or {1},
+      put it onto the battlefield, then shuffle. Then sacrifice the Saga.
+```
+
+**Constructs get +1/+1 for each artifact you control, and the deck runs 16.** Each Construct is
+itself an artifact, so they grow each other. Every one entering is an **Aura Shards trigger** and a
+**Garruk's Uprising draw**, since they are comfortably power 4.
+
+**Chapter III finds a card with actual mana cost `{0}` or `{1}`, not mana value** — official ruling.
+Five legal targets in the deck: **Zuran Orb `{0}`, Ornithopter `{0}`, Sol Ring `{1}`, The Ozolith
+`{1}`, Haywire Mite `{1}`.** Ozolith the Shattered Spire at `{1}{G}` does **not** qualify. It puts
+the artifact onto the battlefield, which under Toph is a land entering, so it's a landfall trigger.
+
+**Earthbend it before chapter III resolves.** The Saga sacrifices itself, sacrificing is dying, and
+earthbend returns it to the battlefield as a **fresh object with zero lore counters**. It restarts
+at chapter I. Repeatable Constructs and a repeatable tutor until the five targets run out.
+
+Without an earthbend on it, it's a land that deletes itself in three turns.
+
 ## The earthbend-target bottleneck
 
-Three cards want an earthbend target every turn. Toph gives you one, Annie two, Strionic Resonator
+Four cards want an earthbend target every turn. Toph gives you one, Annie two, Strionic Resonator
 three, Ba Sing Se a fourth for `{2}{G}`.
 
 | Spend it on | You get |
@@ -158,6 +183,7 @@ three, Ba Sing Se a fourth for `{2}{G}`.
 | The Stasis Coffin | Take zero damage until your next turn |
 | Ichor Wellspring | 2 cards |
 | Ornithopter | A flying attacker that costs no mana to swing with |
+| Urza's Saga | Restarts the Saga for another tutor and more Constructs |
 
 ---
 
@@ -375,6 +401,7 @@ Intervention and Lightning Greaves stop those. Two cards in 99 — the deck's bi
 
 - Arid Mesa
 - Ba Sing Se
+- Bala Ged Recovery // Bala Ged Sanctuary
 - Brushland
 - Clifftop Retreat
 - Command Tower
@@ -382,7 +409,6 @@ Intervention and Lightning Greaves stop those. Two cards in 99 — the deck's bi
 - Grasslands
 - Gruul Turf
 - Jetmir's Garden
-- Karplusan Forest
 - 2× Mountain
 - Mountain Valley
 - 3× Plains
@@ -393,11 +419,12 @@ Intervention and Lightning Greaves stop those. Two cards in 99 — the deck's bi
 - Strip Mine
 - Sunpetal Grove
 - Temple Garden
+- Urza's Saga
 - Wasteland
 - Windswept Heath
 - Wooded Foothills
 - Yavimaya, Cradle of Growth
-- Bala Ged Recovery // Bala Ged Sanctuary
+
 **Mana base:** 34 land-capable cards (12 basics — 7 Forest, 3 Plains, 2 Mountain — plus 21
 nonbasics and Bala Ged Recovery). Six fetchlands, each able to find all three shocklands.
 Plus 16 artifacts that are lands under Toph, for **50 effective lands**.
@@ -407,9 +434,13 @@ Lantern, Thran Dynamo, Twitching Doll. The other ten are lands for landfall and 
 purposes only. Chromatic Lantern and Great Divide Guide are the two cards that turn the whole pile
 into real mana, which makes them the highest-leverage permanents in the deck.
 
-**Karplusan Forest is not a Forest.** Its type line is just "Land." Only 10 cards in the deck are
-actual Forests: 7 basics plus Stomping Ground, Temple Garden and Jetmir's Garden. Yavimaya and
-Dryad of the Ilysian Grove each make *every* land a Forest, and under Toph that includes artifacts.
+**Only 10 cards in the deck are actual Forests**: 7 basics plus Stomping Ground, Temple Garden and
+Jetmir's Garden. That is what Rockalanche counts. Yavimaya and Dryad of the Ilysian Grove each make
+*every* land a Forest, and under Toph that includes all 16 artifacts, which is when Rockalanche goes
+from earthbend 2 to earthbend 20+.
+
+**Two lands tap for `{C}` only**: Strip Mine and Urza's Saga. With 51 green pips, that is the limit.
+Do not add more colorless-only utility lands.
 
 ---
 
