@@ -1,0 +1,81 @@
+1 Aang, Swift Savior
+1 Alms Collector
+1 Angelic Arbiter
+1 Arcane Signet
+1 Archaeomancer
+1 Archivist of Oghma
+1 Archon of Emeria
+1 Aura Thief
+1 Aura of Silence
+1 Austere Command
+1 Aven Mindcensor
+1 Azorius Charm
+1 Azorius Signet
+1 Blind Obedience
+1 Command Tower
+1 Consecrated Sphinx
+1 Containment Priest
+1 Counterspell
+1 Cyclonic Rift
+1 Deep Gnome Terramancer
+1 Deserted Beach
+1 Disdainful Stroke
+1 Doorkeeper Thrull
+1 Dovin's Veto
+1 Drannith Magistrate
+1 Elesh Norn, Mother of Machines
+1 Enchanted Evening
+1 Enlightened Tutor
+1 Evolving Wilds
+1 Farewell
+1 Floodfarm Verge
+1 Force of Will
+1 Ghost Quarter
+1 Ghostly Prison
+1 Glacial Fortress
+1 Grand Arbiter Augustin IV
+1 Hallowed Fountain
+10 Island
+1 Isochron Scepter
+1 Jin-Gitaxias, Core Augur
+1 Kataki, War's Wage
+1 Kira, Great Glass-Spinner
+1 Lavinia, Azorius Renegade
+1 Leonin Arbiter
+1 Leyline of Anticipation
+1 Linvala, Keeper of Silence
+1 Misleading Signpost
+1 Mystic Gate
+1 Omen Machine
+1 Opalescence
+1 Opposition
+12 Plains
+1 Port Town
+1 Prairie Stream
+1 Propaganda
+1 Render Silent
+1 Rest in Peace
+1 Rhystic Study
+1 Sea of Clouds
+1 Smothering Tithe
+1 Snapcaster Mage
+1 Sol Ring
+1 Soulherder
+1 Sphinx's Revelation
+1 Stony Silence
+1 Strip Mine
+1 Subtlety
+1 Suppressor Skyguard
+1 Supreme Verdict
+1 Talisman of Progress
+1 Teferi, Mage of Zhalfir
+1 Terramorphic Expanse
+1 Thassa, Deep-Dwelling
+1 Thought Vessel
+1 Time Warp
+1 Time Wipe
+1 Vendilion Clique
+1 Wasteland
+1 Web of Inertia
+1 Windborn Muse
+1 Wizards of Thay

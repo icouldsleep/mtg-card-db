@@ -1,0 +1,86 @@
+1 Abrade
+1 Akroma's Memorial
+1 Arasta of the Endless Web
+1 Arcane Signet
+1 Archetype of Endurance
+1 Asceticism
+1 Bear Umbra
+1 Beast Within
+1 Bello, Bard of the Brambles
+1 Berserkers' Onslaught
+1 Blasphemous Act
+1 Caged Sun
+1 Case of the Locked Hothouse
+1 Chaos Warp
+1 Chimil, the Inner Sun
+1 Cinder Glade
+1 Command Tower
+1 Copperline Gorge
+1 Cosmic Cube
+1 Craterhoof Behemoth
+1 Dancing from Dark to Dawn
+1 Destiny Spinner
+1 Eidolon of Blossoms
+1 Eternal Witness
+1 Evolving Wilds
+1 Exotic Orchard
+1 Fellwar Stone
+1 Fiery Emancipation
+11 Forest
+1 Forgotten Cave
+1 Game Trail
+1 Garruk's Uprising
+1 Ghalta, Primal Hunger
+1 Giggling Skitterspike
+1 Gilded Lotus
+1 Gratuitous Violence
+1 Grothama, All-Devouring
+1 Gruul Signet
+1 Gruul Turf
+1 Gruul War Chant
+1 Halana and Alena, Partners
+1 Hedron Archive
+1 Herald of the Pantheon
+1 Heroic Intervention
+1 Karplusan Forest
+1 Kodama of the East Tree
+1 Lightning Greaves
+1 Lotus Cobra
+1 Mithril Coat
+1 Mossfire Valley
+1 Mosswort Bridge
+5 Mountain
+1 Nature's Will
+1 Obelisk of Urd
+1 Path of Ancestry
+1 Path of Discovery
+1 Primeval Bounty
+1 Pyreswipe Hawk
+1 Raging Ravine
+1 Rampaging Baloths
+1 Reliquary Tower
+1 Roaming Throne
+1 Rootbound Crag
+1 Sanctum Weaver
+1 Sandwurm Convergence
+1 Savage Mansion
+1 Setessan Champion
+1 Sheltered Thicket
+1 Sight of the Scalelords
+1 Sol Ring
+1 Street Riot
+1 Sunbird's Invocation
+1 Talisman of Impulse
+1 Tempt with Discovery
+1 Terramorphic Expanse
+1 The Regalia
+1 Thickest in the Thicket
+1 Thought Vessel
+1 Thran Dynamo
+1 Three Visits
+1 Unnatural Growth
+1 Vorinclex, Voice of Hunger
+1 Warstorm Surge
+1 Weaver of Harmony
+1 Wildsear, Scouring Maw
+1 Wooded Ridgeline
