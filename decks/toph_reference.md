@@ -308,6 +308,13 @@ Intervention and Lightning Greaves stop those. Two cards in 99 — the deck's bi
 
 ---
 
+# COMPANION FILES
+
+- `decks/toph_play_guide.pdf` - 8-page play guide: earthbend rules, the three loops,
+  counter math, draw rates, protection and the mulligan guide.
+
+---
+
 # THE DECKLIST (100)
 
 ### Commander (1)
