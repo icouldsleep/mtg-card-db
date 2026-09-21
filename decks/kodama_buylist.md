@@ -1,125 +1,36 @@
 # Kodama // Kamahl — buy list
 
-Regenerated 2026-09-20 against the current 100.
-Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon (69 distinct, 100 slots).
+Regenerated 2026-09-21 against the current 100, after the six-card swap that added
+Ancient Greenwarden, The Great Henge, Terastodon, Sandwurm Convergence,
+Circle of Dreams Druid and Tireless Provisioner.
 
-Reconciles exactly: **41 precon slots + 59 to buy = 100**, verified per card.
+Precon source: https://archidekt.com/decks/26565889/tramplesaurus_rex_precon
 
-## Covered by the precon — do NOT buy (41 of the 100 slots)
+Reconciles exactly: **40 precon slots + 60 to buy = 100**, verified per card against
+`scryfall.db`.
 
-**Artifact (2)**
-- 1 Sol Ring
-- 1 Swiftfoot Boots
+Prices are deliberately not listed here — ask if you want them.
 
-**Creature (7)**
-- 1 Beast Whisperer
-- 1 Elder Gargaroth
-- 1 Elvish Mystic
-- 1 Llanowar Elves
-- 1 Loot, Exuberant Explorer
-- 1 Managorger Hydra
-- 1 Rhonas the Indomitable
+## Covered by the precon — do NOT buy (40 of the 100 slots)
 
-**Enchantment (3)**
-- 1 Elemental Bond
-- 1 Kenrith's Transformation
-- 1 Unnatural Growth
+**Artifact (2)** — Sol Ring, Swiftfoot Boots
 
-**Instant (1)**
-- 1 Beast Within
+**Creature (6)** — Beast Whisperer, Elder Gargaroth, Elvish Mystic, Llanowar Elves,
+Loot Exuberant Explorer, Rhonas the Indomitable
 
-**Land (28)**
-- 1 Bonders' Enclave
-- 24 Forest
-- 1 Mosswort Bridge
-- 1 Rogue's Passage
-- 1 War Room
+**Enchantment (3)** — Elemental Bond, Kenrith's Transformation, Unnatural Growth
 
-## Need to buy (59 cards)
+**Instant (1)** — Beast Within
 
-**Commander (2)**
-- 1 Kamahl, Heart of Krosa — no price in snapshot
-- 1 Kodama of the East Tree — $3.34
+**Land (28)** — Bonders' Enclave, 24× Forest, Mosswort Bridge, Rogue's Passage, War Room
 
-**Artifact (2)**
-- 1 Lightning Greaves — $6.13
-- 1 The Earth Crystal — no price in snapshot
+**Managorger Hydra was a precon card and is now cut**, which is why precon coverage
+dropped from 41 slots to 40.
 
-**Creature (27)**
-- 1 Avenger of Zendikar — $0.43
-- 1 Azusa, Lost but Seeking — $11.86
-- 1 Courser of Kruphix — $2.42
-- 1 Craterhoof Behemoth — no price in snapshot
-- 1 Eternal Witness — no price in snapshot
-- 1 Genesis — $1.44
-- 1 Ka-Zar of the Savage Land — $0.22
-- 1 Kalonian Hydra — $5.13
-- 1 Lotus Cobra — no price in snapshot
-- 1 Multani, Yavimaya's Avatar — $0.30
-- 1 Nylea, God of the Hunt — no price in snapshot
-- 1 Ohran Frostfang — $7.91
-- 1 Radagast of Rhosgobel — $6.65
-- 1 Rampaging Baloths — $5.31
-- 1 Reclamation Sage — $0.32
-- 1 Sakura-Tribe Elder — $0.34
-- 1 Scute Swarm — no price in snapshot
-- 1 Seedborn Muse — $18.83
-- 1 Silverback Elder — no price in snapshot
-- 1 Sylvan Safekeeper — $21.47
-- 1 Temur Sabertooth — $0.90
-- 1 Tireless Tracker — $0.32
-- 1 Toski, Bearer of Secrets — no price in snapshot
-- 1 Ulamog, the Ceaseless Hunger — no price in snapshot
-- 1 Vorinclex, Voice of Hunger — no price in snapshot
-- 1 Woodland Bellower — $4.83
-- 1 Yorvo, Lord of Garenbrig — $1.16
-
-**Enchantment (8)**
-- 1 Asceticism — $7.39
-- 1 Bear Umbra — $19.39
-- 1 Burgeoning — $30.53
-- 1 Dancing from Dark to Dawn — $7.86
-- 1 Exploration — no price in snapshot
-- 1 Guardian Project — $19.59
-- 1 Primeval Bounty — $0.34
-- 1 Sylvan Library — $28.24
-
-**Sorcery (7)**
-- 1 Cultivate — no price in snapshot
-- 1 Finale of Devastation — no price in snapshot
-- 1 Green Sun's Zenith — $34.86
-- 1 Natural Order — $14.66
-- 1 Nature's Lore — no price in snapshot
-- 1 Primal Might — $0.25
-- 1 Three Visits — $5.32
-
-**Instant (3)**
-- 1 Heroic Intervention — $10.25
-- 1 Return of the Wildspeaker — $2.99
-- 1 Veil of Summer — $15.79
-
-**Land (10)**
-- 1 Bala Ged Recovery // Bala Ged Sanctuary — no price in snapshot
-- 1 Blighted Woodland — $0.40
-- 1 Boseiju, Who Endures — no price in snapshot
-- 1 Castle Garenbrig — $10.42
-- 1 Demolition Field — $0.34
-- 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun — $10.75
-- 1 Hickory Woodlot — no price in snapshot
-- 1 Verdant Catacombs — no price in snapshot
-- 1 Windswept Heath — $18.12
-- 1 Yavimaya, Cradle of Growth — $18.01
-
-### Cost
-
-Priced subtotal **$354.81** — a floor, not an estimate. 19 of these have no price in
-the snapshot; those are marked inline above.
-
-### Paste-ready buy list
-
-`decks/kodama_purchase_list.txt` holds this same list with no surrounding text.
+## Need to buy (60 cards)
 
 ```
+1 Ancient Greenwarden
 1 Asceticism
 1 Avenger of Zendikar
 1 Azusa, Lost but Seeking
@@ -129,9 +40,9 @@ the snapshot; those are marked inline above.
 1 Boseiju, Who Endures
 1 Burgeoning
 1 Castle Garenbrig
+1 Circle of Dreams Druid
 1 Courser of Kruphix
 1 Craterhoof Behemoth
-1 Cultivate
 1 Dancing from Dark to Dawn
 1 Demolition Field
 1 Eternal Witness
@@ -142,7 +53,6 @@ the snapshot; those are marked inline above.
 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project
 1 Heroic Intervention
-1 Hickory Woodlot
 1 Ka-Zar of the Savage Land
 1 Kalonian Hydra
 1 Kamahl, Heart of Krosa
@@ -154,22 +64,24 @@ the snapshot; those are marked inline above.
 1 Nature's Lore
 1 Nylea, God of the Hunt
 1 Ohran Frostfang
-1 Primal Might
 1 Primeval Bounty
 1 Radagast of Rhosgobel
 1 Rampaging Baloths
 1 Reclamation Sage
 1 Return of the Wildspeaker
 1 Sakura-Tribe Elder
+1 Sandwurm Convergence
 1 Scute Swarm
 1 Seedborn Muse
 1 Silverback Elder
 1 Sylvan Library
 1 Sylvan Safekeeper
 1 Temur Sabertooth
+1 Terastodon
 1 The Earth Crystal
+1 The Great Henge
 1 Three Visits
-1 Tireless Tracker
+1 Tireless Provisioner
 1 Toski, Bearer of Secrets
 1 Ulamog, the Ceaseless Hunger
 1 Veil of Summer
@@ -177,6 +89,18 @@ the snapshot; those are marked inline above.
 1 Vorinclex, Voice of Hunger
 1 Windswept Heath
 1 Woodland Bellower
-1 Yavimaya, Cradle of Growth
-1 Yorvo, Lord of Garenbrig
-```
+1 Yavimaya, Cradle of Growth```
+
+`decks/kodama_purchase_list.txt` holds this same list with no surrounding text.
+
+## Note on the fetchlands
+
+All five green-capable fetchlands are functionally identical in mono-green — Windswept
+Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest and Prismatic Vista. The
+second basic type they name is irrelevant here. Buy whichever two are cheapest.
+
+## Reserved List — do not re-suggest
+
+**Gaea's Cradle** and **Survival of the Fittest** were both considered and rejected on
+price. Circle of Dreams Druid is the deck's answer to the Cradle effect and is a creature,
+so every tutor in the deck can find it.

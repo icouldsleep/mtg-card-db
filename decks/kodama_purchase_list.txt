@@ -1,3 +1,4 @@
+1 Ancient Greenwarden
 1 Asceticism
 1 Avenger of Zendikar
 1 Azusa, Lost but Seeking
@@ -7,9 +8,9 @@
 1 Boseiju, Who Endures
 1 Burgeoning
 1 Castle Garenbrig
+1 Circle of Dreams Druid
 1 Courser of Kruphix
 1 Craterhoof Behemoth
-1 Cultivate
 1 Dancing from Dark to Dawn
 1 Demolition Field
 1 Eternal Witness
@@ -20,7 +21,6 @@
 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project
 1 Heroic Intervention
-1 Hickory Woodlot
 1 Ka-Zar of the Savage Land
 1 Kalonian Hydra
 1 Kamahl, Heart of Krosa
@@ -32,22 +32,24 @@
 1 Nature's Lore
 1 Nylea, God of the Hunt
 1 Ohran Frostfang
-1 Primal Might
 1 Primeval Bounty
 1 Radagast of Rhosgobel
 1 Rampaging Baloths
 1 Reclamation Sage
 1 Return of the Wildspeaker
 1 Sakura-Tribe Elder
+1 Sandwurm Convergence
 1 Scute Swarm
 1 Seedborn Muse
 1 Silverback Elder
 1 Sylvan Library
 1 Sylvan Safekeeper
 1 Temur Sabertooth
+1 Terastodon
 1 The Earth Crystal
+1 The Great Henge
 1 Three Visits
-1 Tireless Tracker
+1 Tireless Provisioner
 1 Toski, Bearer of Secrets
 1 Ulamog, the Ceaseless Hunger
 1 Veil of Summer
@@ -56,4 +58,3 @@
 1 Windswept Heath
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
-1 Yorvo, Lord of Garenbrig

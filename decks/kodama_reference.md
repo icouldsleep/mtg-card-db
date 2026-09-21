@@ -25,25 +25,25 @@ Kodama's trigger is **not landfall-specific — it fires off ANY permanent enter
 
 ## The 100
 
-### Lands (37)
-Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Hickory Woodlot, Blighted Woodland, Bala Ged Recovery, 24x Forest
+### Lands (36)
+Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Blighted Woodland, Bala Ged Recovery, 24x Forest
 NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
 NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24), so land slots stay at 37. Front face is a {2}{G} sorcery returning any card from your graveyard to hand; back face is a land that enters tapped. Like the other MDFCs looked at for this deck, the back face is a plain `Land`, **not Forest-typed**, so Nature's Lore and Three Visits cannot fetch it.
 
-### Ramp (13)
-Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Cultivate, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel
+### Ramp (14)
+Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel, **Circle of Dreams Druid**, **The Great Henge**
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
-### Draw (9)
-Sylvan Library, Tireless Tracker, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Return of the Wildspeaker, Courser of Kruphix
+### Draw (8)
+Sylvan Library, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Return of the Wildspeaker, Courser of Kruphix
 NOTE: Courser of Kruphix is a new add (found via full-database query) — plays lands off the top, gains life, wasn't in the original 181-card pool.
 
-### Landfall payoffs / token engines (7)
-Scute Swarm, Avenger of Zendikar, Lotus Cobra, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn
+### Landfall payoffs / token engines (10)
+Scute Swarm, Avenger of Zendikar, Lotus Cobra, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn, **Tireless Provisioner**, **Ancient Greenwarden**, **Sandwurm Convergence**
 NOTE: this category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
 
-### Counters / Hydras (4)
-Kalonian Hydra, Managorger Hydra, The Earth Crystal, Yorvo Lord of Garenbrig
+### Counters / Hydras (2)
+Kalonian Hydra, The Earth Crystal
 NOTE: all four only grow counters already on a creature, or carry them on themselves — none of them spread counters onto new creatures. That's deliberate, see the counters preference below.
 
 ### Finishers / big bodies (4)
@@ -60,12 +60,12 @@ Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodl
 NOTE: **Genesis works from the graveyard, and a board wipe is its enabler.** "At the beginning of your upkeep, if this creature is in your graveyard, you may pay {2}{G}. If you do, return target creature card from your graveyard to your hand." A wrath puts Genesis in the yard alongside everything else it will rebuild, which is exactly what this deck needs, since a wide board of fat creatures is a wrath magnet. It returns to HAND, not the battlefield, so recovery is slow against a curve topping out at 10 mana - inevitable, not fast.
 
 ### Removal (6)
-Beast Within, Kenrith's Transformation, Primal Might, Ulamog the Ceaseless Hunger, Reclamation Sage, Silverback Elder
+Beast Within, Kenrith's Transformation, **Terastodon**, Ulamog the Ceaseless Hunger, Reclamation Sage, Silverback Elder
 
 ### Tokens (1)
 Primeval Bounty
 
-**Total: 2 commanders + 37 lands + 61 spells = 100**
+**Total: 2 commanders + 36 lands + 62 spells = 100**
 
 ## Swap applied Sept 20, 2026 (4 cards)
 
