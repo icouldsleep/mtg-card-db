@@ -95,7 +95,7 @@ Brackets describe how a deck plays, not only its card list — the count is nece
 
 Checking these has already caught two real errors in the deck files, so they are worth naming explicitly.
 
-- **Green Sun's Zenith — NOT a Game Changer.** `toph_reference.md` counted it as one and concluded the Toph deck was Bracket 4 on four Game Changers. It is not on the green list, and Archidekt independently flags it `False`. Toph actually runs **three** (Enlightened Tutor, Natural Order, Smothering Tithe), which is exactly at the Bracket 3 cap.
+- **Green Sun's Zenith — NOT a Game Changer.** `toph_reference.md` counted it as one and concluded the Toph deck was Bracket 4 on four Game Changers. It is not on the green list, and Archidekt independently flags it `False`. Toph actually runs **three** (Enlightened Tutor, Aura Shards, Smothering Tithe), which is exactly at the Bracket 3 cap. Natural Order was swapped out for Aura Shards on 2026-09-21; both are Game Changers, so the count never moved.
 - **Vorinclex, Voice of Hunger — NOT a Game Changer.** Delisted Oct 21, 2025 per the Toph file; absent from the green list above, which agrees.
 - **Sol Ring — NOT a Game Changer**, despite being the most format-defining card in Commander.
 - **Survival of the Fittest IS one** (green), and is also Reserved List and expensive — rejected on price for the Kodama deck.
@@ -107,6 +107,6 @@ Recorded so these don't get recomputed from scratch or from memory each time.
 | Deck | Count | Which |
 |---|---|---|
 | Kodama // Kamahl | 2 of 3 | Seedborn Muse, Natural Order |
-| Toph, the First Metalbender | 3 of 3 | Enlightened Tutor, Natural Order, Smothering Tithe |
+| Toph, the First Metalbender | 3 of 3 | Enlightened Tutor, Aura Shards, Smothering Tithe |
 
-Other decks in `decks/` have not been audited against this list yet.
+Last reconciled against both deck files on **2026-09-21**. Other decks in `decks/` have not been audited against this list yet.
