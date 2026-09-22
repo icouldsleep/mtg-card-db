@@ -29,26 +29,28 @@ Lord of Extinction — {3}{B}{G} — Creature — Elemental — */* — "Power/t
 
 ## Land (38) — individually verified
 Breeding Pool — Land — Forest Island — "({T}: Add {G} or {U}.) As this land enters, you may pay 2 life. If you don't, it enters tapped."
-Cephalid Coliseum — Land — "{T}: Add {U}. This land deals 1 damage to you. Threshold — {U},{T}, Sacrifice: target player draws three, then discards three. Activate only with 7+ cards in your graveyard."
 Command Tower — Land — "{T}: Add one mana of any color in your commander's color identity."
 Crypt of Agadeem — Land — "Enters tapped. {T}: Add {B}. {2},{T}: Add {B} for each black creature card in your graveyard."
 Dreamroot Cascade — Land — "Enters tapped unless you control 2+ other lands. {T}: Add {G} or {U}."
-Evolving Wilds — Land — "{T}, Sacrifice: search for a basic land card, put onto battlefield tapped."
 Exotic Orchard — Land — "{T}: Add one mana of any color that a land an opponent controls could produce."
+Field of the Dead — Land — "Enters tapped. {T}: Add {C}. Whenever this or another land you control enters, if you control 7+ lands with different names, create a 2/2 black Zombie."
 Foreboding Landscape — Land — "{T}: Add {C}. {T}, Sacrifice: search for basic Swamp/Forest/Island, put onto battlefield tapped. Cycling {B}{G}{U}."
-9x Forest.
+6x Forest.
 Hinterland Harbor — Land — "Enters tapped unless you control a Forest or Island. {T}: Add {G} or {U}."
 3x Island.
-Memorial to Folly — Land — "Enters tapped. {T}: Add {B}. {2}{B},{T}, Sacrifice: return target creature card from graveyard to hand."
 Morphic Pool — Land — "Enters tapped unless you have 2+ opponents. {T}: Add {U} or {B}."
 Opulent Palace — Land — "Enters tapped. {T}: Add {B}, {G}, or {U}."
 Overgrown Tomb — Land — Swamp Forest — "({T}: Add {B} or {G}.) As this land enters, you may pay 2 life. If you don't, it enters tapped."
+Polluted Delta — Land — "{T}, Pay 1 life, Sacrifice: search for an Island or Swamp card, put onto battlefield, then shuffle."
 Rejuvenating Springs — Land — "Enters tapped unless you have 2+ opponents. {T}: Add {G} or {U}."
 Reliquary Tower — Land — "You have no maximum hand size. {T}: Add {C}."
 Sunken Hollow — Land — Island Swamp — "({T}: Add {U} or {B}.) Enters tapped unless you control 2+ basic lands."
-5x Swamp.
+6x Swamp.
 Terramorphic Expanse — Land — "{T}, Sacrifice: search for basic land card, put onto battlefield tapped."
+Undercity Sewers — Land — Island Swamp — "({T}: Add {U} or {B}.) Enters tapped. When this land enters, surveil 1."
+Underground Mortuary — Land — Swamp Forest — "({T}: Add {B} or {G}.) Enters tapped. When this land enters, surveil 1."
 Undergrowth Stadium — Land — "Enters tapped unless you have 2+ opponents. {T}: Add {B} or {G}."
+Verdant Catacombs — Land — "{T}, Pay 1 life, Sacrifice: search for a Swamp or Forest card, put onto battlefield, then shuffle."
 Watery Grave — Land — Island Swamp — "({T}: Add {U} or {B}.) As this land enters, you may pay 2 life. If you don't, it enters tapped."
 Woodland Cemetery — Land — "Enters tapped unless you control a Swamp or Forest. {T}: Add {B} or {G}."
 Zagoth Triome — Land — Swamp Forest Island — "({T}: Add {B}, {G}, or {U}.) Enters tapped. Cycling {3}."
@@ -129,14 +131,38 @@ Self-mill into graveyard payoffs. Grows graveyard-scaling threats (Consuming Abe
 
 ## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
 
-### Open item — land swaps agreed Sept 16, 2026 but cards not yet acquired / not applied to paper deck or this file's main list
-- Pip count: ~40% B / ~44% G / ~16% U demand across the 100. Land sources pre-fix: ~20 G / ~15 B / ~13 U — black is under-sourced relative to demand (2 BBB cards: Necromantic Selection, Afterlife from the Loam), blue is over-fixed for how little it's asked to do.
-- **Swaps agreed, not yet in hand:**
-  - OUT Cephalid Coliseum, IN Polluted Delta
-  - OUT Evolving Wilds, IN Verdant Catacombs
-  - OUT Reliquary Tower, IN Field of the Dead
-  - OUT Memorial to Folly, IN Underground Mortuary (B/G surveil land — has Swamp+Forest types, fetchable by the new Verdant Catacombs)
-  - Basics: 9 Forest / 3 Island / 5 Swamp → 7 Forest / 3 Island / 7 Swamp (evens out G/B sources to match near-equal pip demand)
+### APPLIED Sept 22, 2026 — land swaps (cards in hand, paper deck updated)
+Agreed Sept 16, acquired and applied Sept 22. Pip demand ~44% G / ~40% B / ~16% U; sources
+pre-swap were G 21 / B 18 / U 16, so black was under-sourced relative to demand.
 
-### Open item — Morphic Pool, do NOT cut yet
-Originally proposed OUT Morphic Pool, IN Undercity Sewers (U/B surveil land, fetchable by Polluted Delta). **Correction on record:** Morphic Pool's actual text is "enters tapped unless you have two or more opponents" — same design as Rejuvenating Springs, not a plain tapland. In a normal 3-4 player pod it's untapped nearly every game, so it is NOT clearly weak. Revisit this specific swap before applying it — Undercity Sewers may still be worth it for the surveil upside, but the original "upgrade" framing was based on a wrong read of Morphic Pool.
+- OUT Cephalid Coliseum, IN Polluted Delta
+- OUT Evolving Wilds, IN Verdant Catacombs
+- OUT Memorial to Folly, IN Underground Mortuary (B/G surveil land, typed Swamp Forest, so
+  fetchable by the new Verdant Catacombs)
+- OUT 3 Forest, IN Field of the Dead + Undercity Sewers
+- Basics: 9 Forest / 3 Island / 5 Swamp -> 6 Forest / 3 Island / 6 Swamp
+
+Post-swap sources: G 20 / B 22 / U 17. Still 38 lands, 100 cards. Distinct land names 24 -> 26.
+
+Two deviations from the Sept 16 plan, both deliberate:
+1. The plan had 7 Forest / 3 Island / 7 Swamp. With Undercity Sewers and Underground Mortuary
+   both adding black on their own, 7 Swamps overshot -- it put black at 23 sources against 40
+   pips while green fell to 19 against 44, inverting the ratio the swap was meant to fix.
+   6/3/6 keeps green at 20 and blue untouched at 17.
+2. The plan had OUT Reliquary Tower for Field of the Dead. Cutting a Forest instead is strictly
+   better: a basic is a duplicate name, so cutting one and adding a uniquely-named land raises
+   the distinct-name count that Field of the Dead actually cares about.
+
+### KEEP — Reliquary Tower, do not propose as a cut
+Tatyova, Benthic Druid draws a card on every land drop, and Teval plus the deck's land recursion
+can put several lands onto the battlefield in a single turn. Without the Tower that overfills the
+hand and cards get discarded at cleanup. It is a payoff enabler, not a mana land -- judge it on
+that, not on the fact that it only taps for {C}.
+
+### KEEP — Morphic Pool, do not propose as a cut
+Morphic Pool's actual text is "enters tapped unless you have two or more opponents" -- same design
+as Rejuvenating Springs, not a plain tapland. In a normal 3-4 player pod it is untapped nearly
+every game. An earlier proposal had it cut for Undercity Sewers; that framing was based on a wrong
+read of the card. Undercity Sewers was added alongside it instead (a Forest paid for the slot), so
+the deck now runs both. Note Field of the Dead's Zombies are tokens and so do NOT feed Teval's or
+Sidisi's "creature cards put into your graveyard from your library" triggers.

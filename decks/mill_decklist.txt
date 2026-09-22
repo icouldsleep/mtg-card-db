@@ -7,7 +7,6 @@
 1 Barrowgoyf
 1 Breeding Pool
 1 Buried Alive
-1 Cephalid Coliseum
 1 Colossal Grave-Reaver
 1 Command Tower
 1 Commander's Sphere
@@ -19,13 +18,13 @@
 1 Dreamroot Cascade
 1 Entomb
 1 Eternal Witness
-1 Evolving Wilds
 1 Exotic Orchard
 1 Extract from Darkness
 1 Farseek
+1 Field of the Dead
 1 Forbidden Alchemy
 1 Foreboding Landscape
-9 Forest
+6 Forest
 1 Grisly Salvage
 1 Harrow
 1 Hedge Shredder
@@ -41,7 +40,6 @@
 1 Living Death
 1 Lord of Extinction
 1 Lumra, Bellow of the Woods
-1 Memorial to Folly
 1 Morphic Pool
 1 Muldrotha, the Gravetide
 1 Multani, Yavimaya's Avatar
@@ -51,6 +49,7 @@
 1 Opulent Palace
 1 Overgrown Tomb
 1 Phyrexian Reclamation
+1 Polluted Delta
 1 Reanimate
 1 Rejuvenating Springs
 1 Reliquary Tower
@@ -66,7 +65,7 @@
 1 Sol Ring
 1 Springbloom Druid
 1 Sunken Hollow
-5 Swamp
+6 Swamp
 1 Swiftfoot Boots
 1 Syr Konrad, the Grim
 1 Tatyova, Benthic Druid
@@ -75,7 +74,10 @@
 1 The Soul Stone
 1 Thought Vessel
 1 Three Visits
+1 Undercity Sewers
+1 Underground Mortuary
 1 Undergrowth Stadium
+1 Verdant Catacombs
 1 Victimize
 1 Watery Grave
 1 Will of the Abzan
