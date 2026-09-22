@@ -166,3 +166,29 @@ every game. An earlier proposal had it cut for Undercity Sewers; that framing wa
 read of the card. Undercity Sewers was added alongside it instead (a Forest paid for the slot), so
 the deck now runs both. Note Field of the Dead's Zombies are tokens and so do NOT feed Teval's or
 Sidisi's "creature cards put into your graveyard from your library" triggers.
+
+### Open item — Misty Rainforest, agreed Sept 22 2026, card NOT yet acquired
+Do not apply to the decklist until the card is in hand and the paper deck is updated.
+
+- OUT Terramorphic Expanse, IN Misty Rainforest
+
+Why Terramorphic and not a basic Swamp: Misty Rainforest searches for a Forest or Island card
+only, so cutting a Swamp for it would be a straight -1 black source. Cutting Terramorphic costs
+nothing because Misty replaces it as a fetch outright.
+
+  now                        U 17 / B 22 / G 20
+  cut a Swamp                U 18 / B 21 / G 21
+  cut Terramorphic Expanse   U 18 / B 22 / G 21   <- free, keeps black intact
+
+Misty beats Terramorphic on both axes that matter here: it enters untapped (Terramorphic always
+fetches tapped, costing a turn of tempo against the deck's {1}{G}{G} turn-3 and three {2}{G}{G}
+four-drops), and it finds nonbasics -- Breeding Pool, Zagoth Triome, Undercity Sewers, any card
+with a Forest or Island type. Terramorphic only finds basics. The one thing Terramorphic does
+better is find a Swamp, and black is already the best-served colour at 22 sources against 40 pips.
+
+Green is the colour with no slack: 44 pips, 27 of them at cmc 4 or less, versus black's 40 pips
+mostly on five-plus-drops. Misty puts green at 21 land sources, which is where the help was needed.
+
+Post-swap the deck stays 38 lands / 6 Forest / 3 Island / 6 Swamp / 34 mana producers / 4 fetches.
+Also worth noting every fetch is two landfall triggers with Tatyova, Benthic Druid -- the fetch
+enters, then the land it finds enters -- and two name-checks for Field of the Dead.
