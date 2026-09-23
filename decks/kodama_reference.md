@@ -209,3 +209,30 @@ Consequences worth keeping:
 
 ## Status
 **Built.** This is a real, finalized 100-card list, not a staging pool. Physical assembly still depends on owning/acquiring the actual cards (e.g. the Tramplesaurus Rex precon components).
+
+## Open item — Nykthos, Shrine to Nyx, not yet acquired (logged Sept 23, 2026)
+Do not apply to the decklist until the card is in hand and the paper deck is updated.
+No cut has been chosen — that decision is open.
+
+**Why it is the one real gap.** The mana base itself is already strong and needs nothing: 35 lands,
+34 of them untapped, only Castle Garenbrig conditional, 27 direct green sources. Yavimaya, Cradle of
+Growth makes every land a Forest, so the colourless utility lands (War Room, Rogue's Passage,
+Demolition Field, Bonders' Enclave, Blighted Woodland) all tap for {G} once it is down. There is no
+fixing problem to solve in a mono-green deck.
+
+What is missing is a payoff land rather than a fixing land:
+
+  Nykthos, Shrine to Nyx — {T}: Add {C}. {2}, {T}: Choose a colour. Add mana of that colour equal
+  to your devotion to that colour.
+
+The deck carries **83 green pips across its permanents**, and Kamahl in particular is pip-heavy, so
+six to ten devotion by turn five is routine. That turns {2} into six-plus green mana in a deck whose
+plan is deploying enormous permanents and chaining Kodama triggers off them. It scales with the deck
+doing what it already wants to do, which none of the current lands do.
+
+**Considered and rejected as additions, Sept 23 2026:**
+- Ancient Tomb — colourless ramp, but the constraint here is {G}{G} costs, not generic mana.
+- Gaea's Cradle — strong but a much larger ask, and wants a creature-count check first.
+- Wasteland / Strip Mine — land hate is a meta call, not a gap in this deck.
+- Cavern of Souls — mono-colour, no fixing needed.
+- Homeward Path — only worth it against a table that steals creatures.
