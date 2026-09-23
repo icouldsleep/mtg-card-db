@@ -188,3 +188,36 @@ This deck ("Cloud" file originally) was an unverified precon transcription until
 
 ### Layers ruling that applies here
 +1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b) — they stack on top. But two base-P/T-setting effects do NOT stack; later timestamp wins. **This is why Sephiroth's 7/5 overwrites Aettir and Priwen's 40/40** if Sephiroth's effect is applied later.
+
+## Open item — three pain lands, not yet acquired (logged Sept 23, 2026)
+Do not apply to the decklist until the cards are in hand and the paper deck is updated.
+Straight 1-for-1 colour-matched swaps, so no cut decision is needed. Deck stays 100 cards / 37 lands.
+
+  OUT Canopy Vista    IN Brushland          (G/W)
+  OUT Cinder Glade    IN Karplusan Forest   (R/G)
+  OUT Radiant Summit  IN Battlefield Forge  (R/W)
+
+**Why these three and not others.** All three outgoing lands fail the SAME check --
+"enters tapped unless you control two or more basic lands." The deck runs only 9 basics
+(3 Plains / 3 Mountain / 3 Forest) in 37 lands, so on turn 4 with five lands out you expect
+about 1.2 basics. You will frequently have zero or one, and all three come down tapped
+together. It is a correlated failure, not three independent small risks.
+
+Pain lands have no condition at all: always untapped, and they tap for {C} with no damage
+when only generic mana is needed. Untapped count goes 21 -> 24 of 37, which matters for a
+commander with Melee that wants to connect early.
+
+Life cost was raised and accepted by the user -- the deck gains plenty of life, and the
+existing three fetches (1 each) and two shocks (2 each) already tax the total.
+
+**Turbulent Steppe is a KEEPER -- do not propose it as a cut.** Its text is "enters tapped
+unless your opponents control eight or more lands," which is COMBINED across the table.
+Three opponents at three lands each is nine on turn 3, so in a normal pod it is untapped
+from turn 3 onward, the same as the Battlebond lands (Bountiful Promenade, Spectator
+Seating, Spire Garden). It reads like a late-game clause in a duel and is not one in EDH.
+
+**Considered and rejected as the fix:** fast lands (Razorverge Thicket, Copperline Gorge,
+Inspiring Vantage) are untapped only with two or fewer other lands, which in a 37-land deck
+turns them into taplands for most of the game. Horizon lands (Horizon Canopy, Sunbaked
+Canyon) are a reasonable alternative with flood insurance attached, but there is no R/G
+horizon land, so they cannot cover all three pairs.
