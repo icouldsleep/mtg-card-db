@@ -221,3 +221,19 @@ Inspiring Vantage) are untapped only with two or fewer other lands, which in a 3
 turns them into taplands for most of the game. Horizon lands (Horizon Canopy, Sunbaked
 Canyon) are a reasonable alternative with flood insurance attached, but there is no R/G
 horizon land, so they cannot cover all three pairs.
+
+**Knock-on cost of the pain-land swap, considered and accepted.** Pain lands are untyped, so
+removing the three battle lands (all of which carry basic land types) drops the typed-land count
+from 16 to 13. That slightly thins fetch targets and Clifftop Retreat enablers. Checked and fine:
+Jetmir's Garden is Land - Mountain Forest Plains, so ALL THREE fetches (Arid Mesa, Windswept Heath,
+Wooded Foothills) can still find it and it fixes every colour. Each fetch retains 9-10 targets, and
+Temple Garden (Forest Plains) and Stomping Ground (Mountain Forest) stay typed alongside the nine
+basics. Clifftop Retreat keeps ten enablers.
+
+**No further land cuts needed.** The other conditionals only look slow on paper:
+- Bountiful Promenade / Spectator Seating / Spire Garden -- "2+ opponents", always untapped in a pod
+- Overgrown Farmland / Rockfall Vale / Sundown Pass -- "2+ other lands", untapped from turn 3
+- Starting Town -- untapped on your FIRST THREE TURNS and tapped after, which is the right end of
+  the game for a Melee commander; also taps for any colour for 1 life
+- Clifftop Retreat -- ten Mountain/Plains enablers remain after the swap
+- Jetmir's Garden -- always tapped, but it is the triome and every fetch can find it
