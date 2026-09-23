@@ -56,7 +56,7 @@
 1 Notion Thief
 1 Path to Exile
 1 Phyrexian Arena
-3 Plains
+2 Plains
 1 Polluted Delta
 1 Psychosis Crawler
 1 Queza, Augur of Agonies

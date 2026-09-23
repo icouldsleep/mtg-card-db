@@ -4,7 +4,11 @@ Last updated: September 16, 2026 — re-pulled and fully verified against https:
 
 **SYNC HISTORY — read this before trusting anything below.** The four "Batch 1 / Felidar / Ancient Tomb / Mana Vault" swaps were logged COMPLETE on Aug 11 but had never actually been made in paper or on Archidekt. The user discovered this on Aug 22 and physically made them then. Lesson: a "complete" entry in this file is not proof the physical deck matches. Confirm with the user or re-pull Archidekt.
 
-**Sept 16, 2026 sync — CONFIRMED LIVE.** The Decorum Dissertation / The One Ring swap (Temple Bell and Sword of Light and Shadow out) that was sitting "pending" in this file is now confirmed on Archidekt. On top of that, the user added **Sanguine Bond**, joining **Exquisite Blood** (already in the deck) to complete the classic infinite lock: any life gain triggers Exquisite Blood to drain an opponent for that much, which Sanguine Bond then converts back into life gain for you, looping. **Deck sits at 101 cards INTENTIONALLY — this is not an open problem, do not keep raising it.** Sanguine Bond is the designated pull for lower-power tables, which puts the deck at a legal 100 when it matters. At higher power it stays in as half the Exquisite Blood lock. If a card is ever added permanently, Triskaidekaphile was floated as the cut — but see the do-not-cut list below: Trisk is half a win-con with Necropotence and should be the LAST thing considered, not the default. Note Forge plays whatever the decklist says, so simulation results for this deck are from a 101-card list and must be reported as such. Basics unchanged: 7 Island / 3 Plains / 1 Swamp.
+**Sept 16, 2026 sync — CONFIRMED LIVE.** The Decorum Dissertation / The One Ring swap (Temple Bell and Sword of Light and Shadow out) that was sitting "pending" in this file is now confirmed on Archidekt. On top of that, the user added **Sanguine Bond**, joining **Exquisite Blood** (already in the deck) to complete the classic infinite lock: any life gain triggers Exquisite Blood to drain an opponent for that much, which Sanguine Bond then converts back into life gain for you, looping. **RESOLVED Sept 23, 2026 — deck is a legal 100.** Sanguine Bond is now PERMANENT (it is half the Exquisite Blood lock and was being pulled for lower-power tables just to make the count legal). The slot was paid for by cutting a basic Plains, not a spell: 3 Plains -> 2. Lands 36 -> 35.
+
+Why a Plains and not a spell: every spell examined turned out to be load-bearing. Why a Plains and not Shadowy Backstreet (the other candidate): Shadowy Backstreet is typed Plains Swamp, so it still counts as a Plains for Flooded Strand and Marsh Flats -- cutting the basic costs no white fetch target -- and it keeps a black source. Black looks loose at 17 pips but Phyrexian Arena {1}{B}{B} on three and Sheoldred {2}{B}{B} on four are real early double-black, so 17 sources beats 16. Cost is one untapped land, 23 -> 22 of 35.
+
+Sources after the cut: W 19 / U 23 / B 17 against pip demand W 22 / U 41 / B 17. Blue is the tight colour -- 30 of its 41 pips arrive by turn 4, including two {U}{U}{U} four-drops (Cryptic Command, Jace Wielder of Mysteries) -- which is why the cut was steered away from any blue source.
 
 **CONSIDERED AND KEPT — do not re-suggest these as cuts:**
 - **Elixir of Immortality** — the graveyard reset is real utility with Echo of Eons and Archaeomancer, and against mill. Not just the 5 life.
@@ -217,7 +221,7 @@ Back: Land — "Sea Gate, Reborn enters tapped unless you pay 3 life. {T}: Add {
 
 **Vapor Snag** — Instant — "Return target creature to its owner's hand. Its controller loses 1 life." (Can target your own creatures — used as the Reaver-loop breaker.)
 
-## Land (36 total)
+## Land (35 total)
 
 Fetches: Flooded Strand, Marsh Flats, Polluted Delta (each pay 1 life, sacrifice, search a basic).
 Shocklands: Godless Shrine, Hallowed Fountain, Watery Grave (pay 2 life or enters tapped).
@@ -225,9 +229,9 @@ Checklands: Drowned Catacomb, Glacial Fortress, Isolated Chapel (enter tapped un
 Painlands: Adarkar Wastes, Caves of Koilos, Underground River (deal 1 damage per colored mana).
 Surveil duals: Meticulous Archive, Shadowy Backstreet (enter tapped, surveil 1 on ETB).
 Utility: Command Tower, Exotic Orchard, Reflecting Pool, Mana Confluence (pay 1 life, any color), Reliquary Tower (no max hand size, taps for {C}), Arcane Sanctum (enters tapped, taps for W/U/B), Raffine's Tower (enters tapped, has cycling), Morphic Pool / Sea of Clouds / Vault of Champions (enter tapped unless 2+ opponents), Ancient Tomb ({T}: Add {C}{C}, deals 2 damage to you).
-Basics: 7 Island, 3 Plains, 1 Swamp.
+Basics: 7 Island, 2 Plains, 1 Swamp.
 
-**Total: 101** (1 Commander + 14 Artifact + 13 Creature + 11 Enchantment + 2 Planeswalker + 9 Sorcery + 15 Instant + 36 Land)
+**Total: 100** (1 Commander + 14 Artifact + 13 Creature + 11 Enchantment + 2 Planeswalker + 9 Sorcery + 15 Instant + 35 Land)
 
 ## Carried over from pending_changes.md / conversation_history.md (merged Sept 19, 2026 — these files are being retired now that GitHub is the source of truth)
 
