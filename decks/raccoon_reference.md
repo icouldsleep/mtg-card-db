@@ -187,3 +187,42 @@ Name **Elemental**. Doubles **triggered** abilities only — static effects (Fie
 
 ### Cross-deck layers rule that applies here too
 +1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b), so counters stack on top of Bello's animated 4/4. But two base-P/T-setting effects don't stack — later timestamp wins (this is why Sephiroth's 7/5 overwrites Aettir/Priwen's 40/40 in the Tifa deck, a related case).
+
+## Open item — three lands to add, not yet acquired (logged Sept 23, 2026)
+Do not apply to the decklist until the cards are in hand and the paper deck is updated.
+Three cards coming in, so three slots are needed. Only one cut is settled.
+
+  OUT Path of Ancestry   IN Stomping Ground   (settled)
+  IN Kessig Wolf Run     -- cut not chosen
+  IN Inventors' Fair     -- cut not chosen
+
+**Kessig Wolf Run is the important one.** Bello grants indestructible, haste, and "whenever this
+creature deals combat damage TO A PLAYER, draw a card" -- but NOT trample. Indestructible makes
+blocking safe for you; it does not make it profitable. A 1/1 chump block stops the damage reaching
+a player, which switches off the card draw entirely. Kessig Wolf Run ({X}{R}{G}, {T}: target
+creature gets +X/+0 and trample) fixes that and scales into a finisher. Rogue's Passage does the
+same job worse and is fine as redundancy if wanted.
+
+**Inventors' Fair** -- the deck runs 31 non-Equipment artifacts / non-Aura enchantments at mv 4+,
+so the "three or more artifacts" condition is trivial. Free life each upkeep plus an artifact tutor.
+
+**Why Path of Ancestry is the settled cut.** Bello is a Raccoon Bard, and he is the ONLY card in
+the deck sharing a creature type with himself, so the scry trigger essentially never fires. Strip
+that and it is an always-tapped land adding "any colour in your commander's identity" -- which in a
+two-colour deck is just R or G. A tapland with no upside, sitting alongside eight other taplands.
+Stomping Ground replaces it as an untapped RG source, and being typed Mountain Forest it also turns
+on Rootbound Crag and can be revealed to Game Trail.
+
+**Leading candidate for one of the remaining cuts: Savage Mansion.** {4}, {T}: Surveil 1 is a poor
+rate, and it is otherwise just another tapped RG dual.
+
+**Considered and rejected:**
+- Ancient Tomb -- strong fit on paper (31 permanents at mv 4+) but declined by the user on cost.
+- Castle Garenbrig -- its six mana is creature-spells-only, and this deck's threats are artifacts
+  and enchantments cast as artifacts. Bad fit despite looking like a green ramp land.
+- Nykthos, Shrine to Nyx -- devotion is low here; the permanents are largely colourless artifacts.
+
+**Taplands that EARN their slot -- do not propose these as cuts:** Gruul Turf (taps for two, net
+ramp), Raging Ravine (creature land that grows), Forgotten Cave and Sheltered Thicket (cycling, so
+never dead late), Mosswort Bridge (hideaway 4), Wooded Ridgeline (looks like a bare tapland but is
+typed Mountain Forest, so it enables Rootbound Crag and is revealable to Game Trail).
