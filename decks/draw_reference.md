@@ -287,3 +287,50 @@ Four Queza swaps were logged "complete" on Aug 11 that had never actually been m
 
 ### Cards wrongly flagged as weak — don't re-suggest cutting
 Elixir of Immortality, Jace the Mind Sculptor, Triskaidekaphile — all defended by the user with good reasoning already worked out.
+
+### Open item — Niv-Mizzet, Ghost Counsel, releases 2026-10-02 (not yet legal)
+Reality Fracture Commander (frc), rare. {2}{W}{W}{B}{B} — Legendary Creature — Spirit Dragon — 4/4.
+"Flying. Whenever you gain life, you may pay that much life. If you do, draw that many cards.
+{T}: Each opponent loses 1 life and you gain 1 life."
+
+**This card is already on the Archidekt list as a placeholder.** That is why Archidekt reads 101
+while this repo reads 100 — the repo tracks what is physically playable, Archidekt is holding the
+plan. Do not "fix" the discrepancy by adding it here before Oct 2.
+
+**Decision, Sept 23 2026: run it at 101 when it releases. No cut chosen, deliberately.**
+The plan is to find out whether {2}{W}{W}{B}{B} is even castable before paying a card for it.
+It would be the most colour-demanding card in the deck by a wide margin — double white AND double
+black at six mana, against 19 white and 17 black sources. Nothing else in the list asks for that;
+Supreme Verdict is the only other WW and it is at four mana.
+
+**Why it is worth the trouble: it is a two-card win with the commander.**
+  draw a card -> Queza: target opponent loses 1, you gain 1
+              -> Niv-Mizzet: pay that 1 life, draw 1 card
+              -> Queza triggers again ...
+Net life change per iteration is zero, so nothing limits the loop. "May pay" means it is optional,
+so there is no forced deck-out. Loop to drain the table, or empty the library with Jace, Wielder of
+Mysteries for the win. Psychosis Crawler makes it hit all opponents at once instead of one target.
+Alhammarret's Archive and Sheoldred both scale it. Unlike Sanguine Bond + Exquisite Blood, this
+needs only ONE card besides the commander, and the commander is always available.
+
+Note Well of Lost Dreams is NOT the same effect and is not the cut: it pays {X} MANA, not life, so
+it is a mana-gated engine rather than a loop, it is colourless and castable off Sol Ring or Ancient
+Tomb, and it works off any lifegain without needing Queza on the battlefield.
+
+### DO NOT re-propose these as the Niv-Mizzet cut — all were considered and rejected Sept 23
+Eight cards were suggested and each turned out to be load-bearing:
+
+- **Font of Mythos, Windfall, Echo of Eons** — these are NOT symmetrical liabilities, they are a
+  burn package with Sheoldred, who drains each opponent 2 per card drawn. Font = 6 damage per
+  opponent per turn. Echo = 14 each. Windfall = 2x your hand size to each opponent, and with
+  Twenty-Toed Toad setting max hand size to 20 that is exactly 40 damage to the whole table from
+  full life. Notion Thief is the second mode on the same cards.
+- **Twenty-Toed Toad** — its win trigger needs only ITSELF to attack, not two creatures. The
+  "attack with two or more creatures" clause governs the counter-and-draw trigger only. 20 cards
+  in hand plus one attack wins, and the Toad sets the hand size that enables it.
+- **Gilded Lotus** — 17 cards in the deck cost 5+, ten cost 6+.
+- **Approach of the Second Sun** — burying itself seven deep is not a real cost in a deck that
+  draws 4+ per turn before doublers. Casting it means you get it back next turn.
+- **Felidar Sovereign** — six counterspells plus Gift of Immortality protect it to upkeep.
+- **Triskaidekaphile** — already on the do-not-cut list above; half a win-con with Necropotence.
+- **Well of Lost Dreams** — see above, different resource and different requirements.
