@@ -7,7 +7,6 @@
 1 Bruvac the Grandiloquent
 1 Commander's Plate
 1 Court of Cunning
-1 Cut Your Losses
 1 Cyclonic Rift
 1 Diligent Excavator
 1 Drift of Phantasms
@@ -15,6 +14,7 @@
 1 Drowned Secrets
 1 Essence Flux
 1 Fierce Guardianship
+1 Fleet Swallower
 1 Fleeting Memories
 1 Folio of Fancies
 1 Fool's Demise

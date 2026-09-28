@@ -196,6 +196,32 @@ and would break Bracket 3. (Dramatic Reversal is not currently in the deck eithe
 - **Roadkill Rodney / Gorgon Flail** — the only real deathtouch-plus-go-wide options in the colour
   identity. Left out because deathtouch is the black deck's theme, but both are legal and would work
   (damage to creatures is not prevented). Rodney's Squad makes multiple 2/1 deathtouchers.
+- **Every Ulamog.** All nine were checked. **Not one contains the word "mill"** — they all *exile* or
+  annihilate. Ulamog, the Ceaseless Hunger reads "defending player **exiles** the top twenty cards",
+  which means **Bruvac does not double it, The Water Crystal does not add to it, and Zellix makes no
+  Horrors from it.** It breaks all three engines at once, the same trap as Tasha's Hideous Laughter.
+  It is also {10} and **colourless**, so neither Sapphire Medallion nor The Water Crystal discounts it
+  (both read "**blue** spells cost {1} less"). Enablers would be Eldrazi Temple and Eye of Ugin, both
+  lands, but they cost blue sources and are blank without Ulamog in hand.
+- **Cut Your Losses** — replaced by Fleet Swallower on 2026-09-28. Three cards did "half a library"
+  (Traumatize MV5, Cut Your Losses MV6, Fleet Swallower MV7) and the deck averages 6.0 mana on turn 8,
+  so two of them compete for the same single turn. Cut Your Losses had the worst rate of the three:
+  Traumatize plus a mana, still rounds **down**, and its casualty 2 wants a creature with power 2+,
+  which the 1/1 Zellix Horrors cannot pay.
+
+## Fleet Swallower — the top-end finisher
+
+**Fleet Swallower** {5}{U}{U} 6/6 Fish — "Whenever this creature attacks, target player mills half
+their library, rounded **up**."
+
+- It is an **attack** trigger, so it works under the prevent clause.
+- It is **blue**, so Sapphire Medallion + The Water Crystal drop it to **{3}{U}{U}, five mana**.
+- **With Bruvac out, "half their library" doubles into their whole library.** One-card kill.
+- Under Mindskinner its 6 damage also converts to 6 mill for each opponent, on top of the half-library.
+
+Backup option not included: **Terisian Mindbreaker** {7} colourless 6/4, same half-library attack
+trigger, with **unearth {1}{U}{U}{U}** for an immediate hasty swing. Says mill, but colourless so no
+cost reduction applies.
 
 ## Fliers and evasion census
 
