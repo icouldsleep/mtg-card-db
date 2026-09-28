@@ -1,5 +1,6 @@
 1 Accorder's Shield
 1 Aetherize
+1 Akroma's Memorial
 1 Altar of Dementia
 1 Altar of the Brood
 1 An Offer You Can't Refuse
@@ -49,7 +50,6 @@
 1 Screaming Swarm
 1 Siren's Ruse
 1 Slip Out the Back
-1 Slither Blade
 1 Sol Ring
 1 Spellskite
 1 Sphinx Mindbreaker
