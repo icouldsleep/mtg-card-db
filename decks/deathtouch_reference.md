@@ -29,13 +29,22 @@ Three axes that feed each other:
 
 ## The kill
 
-  Exquisite Blood OR Bloodthirsty Conqueror  ("opponent loses life -> you gain that much")
+  Exquisite Blood OR Bloodthirsty Conqueror    ("opponent loses life -> you gain that much")
                     x
-  Vito, Thorn of the Dusk Rose               ("you gain life -> target opponent loses that much")
+  Vito, Thorn of the Dusk Rose OR
+  Marauding Blight-Priest                      ("you gain life -> opponent(s) lose life")
 
-Either pairing is an infinite loop. **Sanguine Bond is in the MAYBEBOARD** at the owner's request;
-adding it would take the combo from two assemblies to four. Exsanguinate and Gray Merchant both
-start the loop and are fine on their own as big drain.
+**FOUR assemblies, all infinite.** Marauding Blight-Priest IS a combo piece, not a lesser backup:
+opponent loses 1 -> Exquisite Blood gains you 1 -> Blight-Priest drains each opponent -> loop.
+An earlier draft of this file wrongly called it "non-infinite backup"; Archidekt's bracket checker
+flagged it correctly and the claim was withdrawn.
+
+**Sanguine Bond stays in the MAYBEBOARD.** With four assemblies already, it is redundancy the deck
+does not need, and adding it pushes the bracket assessment toward 4.
+
+Exsanguinate and Gray Merchant both start the loop and are fine on their own as big drain. Note the
+pair does NOT self-start -- once both halves are down you still need one life-change event (a
+lifelink attack, Crypt Ghast extort) to kick it off.
 
 ## Why the deck needs tutors
 
@@ -64,7 +73,28 @@ Coffers and is in the list as redundancy, not as an equal.
 **2 Game Changers: Demonic Tutor, Vampiric Tutor.**
 
 Sol Ring is NOT a Game Changer -- game_changers.md says so explicitly. An earlier draft of this
-file wrongly listed it after a sloppy substring match hit that very sentence.
+file wrongly listed it after a sloppy substring match hit that very sentence. Archidekt's bracket
+checker independently returns the same two names.
+
+## Bracket: 3 (Upgraded)
+
+Assessed 2026-09-28 against the rules in game_changers.md. Archidekt estimates 4; this deck is
+recorded as 3, deliberately.
+
+- **Game Changers: 2 of 3 allowed.** Under the cap.
+- **No mass land denial, no chained extra turns.**
+- **The combo is not "cheap and early."** Cheapest assembly is EIGHT mana across two cards --
+  Vito {2}{B} plus Exquisite Blood {4}{B} -- and it needs a third life-change event to start.
+  Realistic assembly is turn 6-8, which is inside the "late game, around turn 6+, is fine" window
+  the bracket rules allow.
+
+Archidekt guesses 4 because it counts combo PIECES without weighing their cost. The honest
+counter-argument for 4 is the five tutors, which make assembly far more consistent than a deck
+hoping to topdeck it.
+
+**Move this to Bracket 4 if** Sanguine Bond comes in from the maybeboard, or if in practice the
+tutors assemble the kill by turn 5-6 consistently. Either way, say it out loud at the table: a
+turn-7 combo nobody was warned about is the actual problem, not the label.
 
 ## Rejected during design — do not re-propose
 
