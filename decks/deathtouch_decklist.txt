@@ -1,0 +1,72 @@
+1 Arcane Signet
+1 Archetype of Finality
+1 Avacyn, Angel of Horror
+1 Basilisk Collar
+1 Black Market
+1 Black Widow, Deadly Hunter
+1 Blightwing Bandit
+1 Bloodthirsty Conqueror
+1 Bojuka Bog
+1 Bubbling Muck
+1 Cabal Coffers
+1 Cabal Ritual
+1 Cabal Stronghold
+1 Case of the Gorgon's Kiss
+1 Charcoal Diamond
+1 Commander's Plate
+1 Cover of Darkness
+1 Crypt Ghast
+1 Culling the Weak
+1 Dark Ritual
+1 Dauthi Embrace
+1 Demonic Tutor
+1 Deserted Temple
+1 Diabolic Intent
+1 Dire Fleet Poisoner
+1 Dire Fleet Ravager
+1 Exquisite Blood
+1 Exsanguinate
+1 Feed the Swarm
+1 Foulmire Knight
+1 Gifted Aetherborn
+1 Go for the Throat
+1 Gonti, Lord of Luxury
+1 Gray Merchant of Asphodel
+1 Grim Tutor
+1 Hired Poisoner
+1 Hooded Blightfang
+1 Kaya's Ghostform
+1 Liliana of the Dark Realms
+1 Marauding Blight-Priest
+1 Night's Whisper
+1 Nighthawk Scavenger
+1 Nirkana Revenant
+1 Nykthos, Shrine to Nyx
+1 Pharika's Chosen
+1 Phyrexian Arena
+1 Qarsi Revenant
+1 Quietus Spike
+1 Rancid Rats
+1 Read the Bones
+1 Rogue's Passage
+1 Sheoldred, the Apocalypse
+1 Sidisi, Undead Vizier
+1 Snuff Out
+1 Sol Ring
+29 Swamp
+1 Swiftfoot Boots
+1 The Darkness Crystal
+1 Thornbite Staff
+1 Thrill-Kill Assassin
+1 Tinybones, the Pickpocket
+1 Torment of Hailfire
+1 Typhoid Rats
+1 Urborg, Tomb of Yawgmoth
+1 Vampire Nighthawk
+1 Vampire of the Dire Moon
+1 Vampiric Tutor
+1 Village Rites
+1 Viridian Longbow
+1 Virtus the Veiled
+1 Vito, Thorn of the Dusk Rose
+1 White Widow, Yelena Belova
