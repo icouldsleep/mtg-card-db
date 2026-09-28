@@ -137,6 +137,29 @@ Angel of Finality, Destroy Evil, Heraldic Banner, Patchwork Banner.
 is the wrong reasoning in a singleton deck — two copies of anthem-plus-vigilance means you actually
 draw one. It is also an Angel and a flier, so Lyra pumps it and gives it lifelink.
 
+## Commander's Plate — every mono-coloured deck should run it
+
+`{1}` Equipment. Equipped creature gets **+3/+3** and has **protection from each color that's not in
+your commander's color identity**. Equip commander {3}, Equip {5}.
+
+Mono-white means protection from **blue, black, red and green** — four of the five colours, the most
+this card can ever give. On Lyra she becomes an **8/8 flying, first-strike, lifelinking** threat that:
+
+- **cannot be blocked by any non-white creature** (protection stops blocking, not just damage)
+- cannot be targeted by their removal
+- takes no damage from any of those colours
+
+For this deck the number that matters is **8 life per connection** — 40 to 48 in a single swing, or
+**16 with Doctor Strange** doubling it. Two hits clears Test of Endurance's 50.
+
+**What protection does not stop:** white removal, colourless removal (Karn, Ugin, All Is Dust),
+non-targeted wipes (Damnation, Farewell), -X/-X effects, and sacrifice edicts. That is why
+Teferi's Protection, Flawless Maneuver, Swiftfoot Boots and Gift of Immortality stay — they cover
+what the Plate cannot.
+
+Swiftfoot Boots is not made redundant: Equipment stack, and haste is the one thing the Plate does
+not provide.
+
 ## Bracket
 
 **Bracket 3, exactly at the cap. 3 Game Changers:** Enlightened Tutor, Smothering Tithe,

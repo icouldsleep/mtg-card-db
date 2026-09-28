@@ -13,6 +13,7 @@
 1 Bishop of Wings
 1 Bonders' Enclave
 1 Brave the Sands
+1 Commander's Plate
 1 Commander's Sphere
 1 Cosmos Elixir
 1 Court of Grace
@@ -26,7 +27,6 @@
 1 Exorcise
 1 Fateful Absence
 1 Felidar Sovereign
-1 Firemane Commando
 1 Flawless Maneuver
 1 Giada, Font of Hope
 1 Gift of Immortality
