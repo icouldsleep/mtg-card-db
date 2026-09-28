@@ -331,13 +331,41 @@ black, red and green, and **protection prevents damage from sources of those col
 any non-blue creature, takes zero damage, and deals 13. With vigilance he attacks for 13 mill *and*
 blocks for free every turn.
 
-Rejected alternatives: **Angel's Trumpet** {3} grants vigilance to **all** creatures including
+Rejected alternative: **Angel's Trumpet** {3} grants vigilance to **all** creatures including
 opponents', and damages you for each of your creatures that did not attack — it punishes exactly the
-posture this deck sometimes needs. **Akroma's Memorial** {7} is a genuine haymaker (the whole team
-gets flying, haste, trample and **protection from black and red**, which blanks the mono-black
-deathtouch deck's entire ability to interact) but it is 7 mana in a deck averaging 6.0 on turn 8,
-and it is a win-more card. Keep it in mind if pod testing shows mono-black still running this deck
-over.
+posture this deck sometimes needs.
+
+## Akroma's Memorial — vigilance is the point, and it is a DEFENSIVE card
+
+`{7}` Legendary Artifact. Creatures you control have flying, first strike, **vigilance**, trample,
+haste, **and protection from black and from red.**
+
+This was initially filed as win-more. That was wrong. The pod diagnostic says the mill is already
+lethal — four opponents decked across twelve games — while every loss was at life 0. **The deck does
+not need more mill, it needs more turns alive.** Vigilance buys turns at zero cost to the mill plan,
+because it removes the choice between swinging and blocking. Equipment cannot deliver that; it
+equips one creature. This is the **only** team-wide vigilance grant in the colour identity.
+
+It stacks three more answers onto the same problem:
+- **Protection from black and red** — blockers cannot be damaged or targeted by either colour.
+  Against the mono-black deathtouch deck that is total immunity, which fixes the one matchup where
+  blocking genuinely was a losing action.
+- **Flying** on every Zellix Horror token: evasion, so more mill.
+- **Haste**: tokens attack the turn they are created.
+
+There are real bodies to protect: **9 of 19 creatures have toughness 4 or more**, including two
+6/6s, a 5/4 and two 4/4s.
+
+**The cost, plainly:** it is **colourless**, so neither Sapphire Medallion nor The Water Crystal
+discounts it — both read "**blue** spells cost {1} less". That is the same trap that disqualified
+Ulamog. A true undiscounted 7 mana in a deck averaging 6.0 on turn 8, so it lands turn 8-9 and will
+sometimes sit in hand. High Tide is the realistic enabler.
+
+**The curve is not the objection.** Even with it this deck is the cheapest of the eleven in this
+repo at avg CMC 2.62 with 8 cards at 5+. Old Toph ran 3.74 with 18 at 5+ and 12 at 6+ — and old
+Toph's failure was never its curve, it was the AI declining to cast its commander while holding the
+mana (81% of its whiff games had a red land out). This deck casts its commander in 95% of games at a
+median of its own turn 3.
 
 ## Open items
 
