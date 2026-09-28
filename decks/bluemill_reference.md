@@ -1,0 +1,217 @@
+# Cards Reference — The Mindskinner mono-blue mill (NEW / UNBUILT)
+
+**Status: EXPERIMENTAL, NOT BUILT.** Designed Sept 28, 2026. No cards acquired, nothing sleeved.
+This is a paper design, not a record of a physical deck. Do not treat it like the other reference
+files that describe decks the owner actually owns.
+
+**Every card below was resolved against `scryfall.db`.** All 100 were checked for colour identity
+(zero off-colour) and Commander legality.
+
+## Commander
+
+**The Mindskinner** — {U}{U}{U} — Legendary Enchantment Creature — Nightmare — **10/1**
+"The Mindskinner can't be blocked. If a source you control would deal damage to an opponent,
+**prevent** that damage and **each opponent** mills that many cards."
+
+## What the deck does
+
+**Opponent-mill only. This deck does not self-mill** — that was an explicit design constraint from
+the owner. Stitcher Geralf was cut for exactly this reason ("each player mills three" includes you).
+Vantress Gargoyle's `{T}: each player mills a card` is the only self-mill left and it is optional;
+you would rather be attacking with it.
+
+Three axes:
+
+1. **The commander converts damage into pod-wide mill.** Any damage you would deal to an opponent
+   becomes mill *to every opponent*. In a four-player game that is 3x value on every point of power.
+   A 13/4 Mindskinner (with Commander's Plate) swings for **13 mill to each opponent = 39 a turn**.
+2. **Go wide off Zellix.** Zellix, Sanity Flayer makes a 1/1 Horror every time a player mills one or
+   more creature cards. Commander decks are ~30% creatures, so milling 20 a turn produces multiple
+   Horrors a turn. Each Horror is another point of power feeding axis 1.
+3. **Mill multipliers.** Bruvac doubles every opponent mill. The Water Crystal adds +4 to every mill
+   instance. Both are replacement effects on the same event, so **the milling player chooses the
+   order** and will pick the cheaper one — off one damage that is 6 per opponent, not 10.
+
+## THE PREVENT CLAUSE — read this before adding any card
+
+Mindskinner **prevents** the damage. Prevented damage is never dealt. So every card whose trigger
+reads "deals combat damage to a player" or "an opponent loses life" **does nothing while your own
+commander is on the battlefield.** These are traps and were all deliberately excluded:
+
+- Crosstown Courier, Towering-Wave Mystic, Merfolk Windrobber, Shriekgeist, Reef Pirates
+- Mindscour Dragon, Screeching Silcaw, Undead Alchemist
+- **Mindcrank** (no damage means no life loss)
+- Quietus Spike's halve-life trigger, Sword of Body and Mind's mill trigger
+- Blighted Agent (infect damage is prevented too, so no poison counters)
+- Daring Saboteur (its loot trigger is damage-based)
+
+**What to add instead:** attack-triggered, ETB, upkeep, cast-triggered, draw-triggered and landfall
+mill. Those all work. Screaming Swarm ("whenever you attack with one or more creatures") and
+Veteran Ice Climber ("whenever this creature attacks") are attack triggers, not damage triggers,
+which is why they are in and the list above is not.
+
+Damage to **creatures** is NOT prevented — only damage to an opponent (a player). That is why
+deathtouch would still function here, if you ever wanted it.
+
+## The commander is also your biggest liability
+
+While Mindskinner is out **you can never deal damage to a player.** Your 10/1 cannot kill anybody.
+That matters against Elixir of Immortality, Feldon's Cane, Gaea's Blessing, or an opponent at 3 life
+with 40 cards left.
+
+**The toggle:** only two of your five blink/phase effects can turn the prevention off for a combat.
+
+| Card | Wording | Toggles it off? |
+|---|---|---|
+| **Slip Out the Back** {U} | "it **phases out**" — gone until your next turn | **YES** |
+| **Teferi's Time Twist** {1}{U} | returns "at the beginning of the next **end step**" | **YES** — after the damage step |
+| Essence Flux {U} | "exile, **then return**" — same resolution | No, he is back before damage |
+| Siren's Ruse {1}{U} | same | No |
+| Blur {2}{U} | same | No |
+
+**The line:** swing wide, leave Mindskinner at home, then Slip Out the Back on him during declare
+blockers. All your other damage lands as real damage. Do NOT attack with him and then phase him —
+a phased or exiled attacker is removed from combat and deals nothing.
+
+**Vodalian Illusionist** ({U}{U}, {T}: target creature phases out) is the repeatable version of both
+this toggle and the protection.
+
+## Where blinking actually multiplies mill
+
+The immediate blinks want to point at the ETB-mill creatures, not the commander:
+
+- **Essence Flux {U} on Sphinx Mindbreaker = each opponent mills 10 again.** With Bruvac that is 20
+  each, so **60 mill across the table for one blue mana.**
+- Jace's Mindseeker (mill 5 + cast a free instant/sorcery off the top)
+- Manic Scribe (3 each), Homarid Explorer-style ETBs, Wall of Lost Thoughts (4),
+  Overwhelmed Apprentice (2 each)
+- **Ghostly Flicker {2}{U}** blinks two targets — Sphinx Mindbreaker + Jace's Mindseeker in one card.
+
+## Commander's Plate — the best version of this card that exists
+
+`Equipped creature gets +3/+3 and has protection from each color that's NOT in your commander's
+color identity. Equip commander {3}, Equip {5}.`
+
+Mono-U means protection from **White, Black, Red AND Green** — four of five colours. Mindskinner
+becomes **13/4**, and the jump from 1 to 4 toughness fixes his single real weakness (a 10/1 dies to
+any ping: Orcish Bowmasters, a stray Shock, Pestilence).
+
+Protection covers **D**amage, **E**nchant/equip, **B**locking, **T**argeting. So Swords, Path,
+Murder, Doom Blade, Beast Within, Krosan Grip and Chaos Warp all bounce off, and
+**Blasphemous Act does not kill him.**
+
+**Its three holes — this is why the blinks stay in:**
+1. **Blue removal.** Pongify, Rapid Hybridization, Cyclonic Rift, counterspells. Blue is in your
+   identity, so no protection from it.
+2. **Colourless.** Karn, Ugin, All Is Dust, Ulamog.
+3. **Non-targeted wipes and edicts.** Damnation, Toxic Deluge (-X/-X — Deluge for 4 still gets him),
+   Farewell, sacrifice effects.
+
+Plate and the blinks are complements, not redundancy. Plate blanks four colours permanently; the
+blinks cover what Plate cannot touch.
+
+## Tutoring — three tutors, one spell slot
+
+- **Drift of Phantasms** {2}{U} 0/5 flying defender — transmute {1}{U}{U} finds any **MV 3** card.
+  That is **21 cards in this deck**, including **Bruvac**, Court of Cunning, Fractured Sanity, all
+  three draw-engine enchantments, Memory Erosion, Zellix and Fierce Guardianship. MV 3 is where this
+  deck lives. It is also the best blocker in the deck.
+- **Urza's Saga** (land) — chapter III searches for an artifact MV <=1 and puts it **onto the
+  battlefield**: **Commander's Plate**, Sol Ring, or Altar of the Brood. Chapter II makes Constructs
+  that get +1/+1 per artifact — real bodies for the go-wide plan and Altar of Dementia fuel.
+- **Inventors' Fair** (land) — `{4}, {T}, sac: search your library for an artifact`. Any artifact,
+  so Commander's Plate or The Water Crystal. Plus 1 life a turn with 3+ artifacts (you run 10).
+
+Two of the three cost no spell slot. **Mystical Tutor and Gifts Ungiven were rejected: both are
+Game Changers** (see `game_changers.md`) and the deck is already at the Bracket 3 cap.
+
+## Mana — measured, not guessed
+
+40,000-game Monte Carlo on this exact mana base (36 lands, 32 blue sources, 4 rocks):
+
+| | |
+|---|---|
+| Commander down by turn 3 | **75%** |
+| Mana-screwed (<=2 mana on turn 4) | **6.7%** |
+| Lands stranded in hand on turn 7 | **0.06** |
+| Mean mana available T4 / T6 / T8 | **3.9 / 5.1 / 6.0** |
+
+**Screw is not a problem and flood is essentially zero — 36 lands is correct, not excessive.**
+
+**More ramp does not help.** A fourth mana rock is worth **+0.14 mana on turn 8** and cuts screw by
+0.9%. Even 38 lands plus a 4th rock only buys +0.35 mana by turn 8. You get one land drop a turn and
+games end around turn 8; you cannot ramp past that.
+
+**What does help is untap effects and cost reduction**, which is why the deck runs:
+- **High Tide** {U} — every Island taps for an extra {U} this turn. You have **31 Islands** (30
+  basics + Mystic Sanctuary, which is an Island). Six Islands out = **12 mana for one mana.** Dead
+  when your hand is empty; it is an "I have four spells and six lands" card.
+- **Frantic Search** {2}{U} — draw 2, discard 2, untap three lands. Net free, and the two draws
+  trigger Psychic Corrosion + Sphinx's Tutelage + Teferi's Tutelage for **up to 12 mill per opponent
+  off a free spell.**
+- **Sapphire Medallion** + **The Water Crystal** stack for **{2} off every blue spell.**
+
+**Treasure tokens were considered and rejected.** Mono-blue's best treasure makers are Sailor of
+Means and Corsair Captain — one treasure for three mana is bad ramp. Note that
+**An Offer You Can't Refuse gives its two treasures to the OPPONENT** ("its controller creates").
+
+**Do not count on The Water Crystal's `{4}{U}{U}` tap ability.** That is 6 mana; you will average
+6.0 on turn 8. Play that card for the static text (+4 to every mill, blue spells cost {1} less), not
+the activation. Same for Rogue's Passage {4} and Inventors' Fair {4}+sacrifice — late game or never.
+
+**Your protection is nearly free, which is what saves the deck.** Fierce Guardianship costs {0} with
+the commander out; Slip Out the Back, Swan Song, An Offer You Can't Refuse and Essence Flux are all
+{U}. Holding up protection while deploying is what normally breaks a mana-hungry blue deck.
+
+## Theme density
+
+| Deck | Cards saying the word | % of all 100 | **% of non-land cards** |
+|---|---|---|---|
+| Black deathtouch | 28 | 28% | 44% |
+| **This deck ("mill")** | **37** | **37%** | **57%** |
+
+36 of the 100 cards are lands and cannot say "mill". Of the 65 that could, 37 do.
+
+## Bracket
+
+**Bracket 3, exactly at the cap. 3 Game Changers:** Rhystic Study, Fierce Guardianship,
+Cyclonic Rift. Verified against `game_changers.md` card by card. **No room for a fourth** without
+moving to Bracket 4. Commander's Plate, High Tide, Sapphire Medallion and Urza's Saga are all
+confirmed NOT Game Changers.
+
+No mass land denial, no chained extra turns, no cheap early two-card infinite combo.
+**Caution: do not add Isochron Scepter** — with Dramatic Reversal that is a cheap two-card infinite
+and would break Bracket 3. (Dramatic Reversal is not currently in the deck either.)
+
+## Cards rejected, and why
+
+- **Nephalia Drownyard** — a land that mills 3, looks perfect, but its ability costs {1}{U}{B} so its
+  colour identity is {B}{U}. **Illegal in mono-blue.**
+- **Tasha's Hideous Laughter** — *exiles* rather than mills. Does not say the word, does not fill
+  graveyards, and starves Zellix of creature cards.
+- **Mindcrank** and the whole damage-triggered mill package — see THE PREVENT CLAUSE above.
+- **Mystical Tutor, Gifts Ungiven** — Game Changers, deck is at the cap.
+- **Thassa, God of the Sea** — devotion to blue 5 is unrealistic here.
+- **Whirler Rogue** — Mindskinner is already unblockable.
+- **Roadkill Rodney / Gorgon Flail** — the only real deathtouch-plus-go-wide options in the colour
+  identity. Left out because deathtouch is the black deck's theme, but both are legal and would work
+  (damage to creatures is not prevented). Rodney's Squad makes multiple 2/1 deathtouchers.
+
+## Fliers and evasion census
+
+Unblockable: The Mindskinner (13/4 with Plate), Slither Blade, Veteran Ice Climber, plus
+Rogue's Passage.
+Fliers: Vantress Gargoyle (**5/4 for {1}{U}** — can't attack unless the defender has 7+ cards in
+graveyard, which in a mill deck is permanently true by turn 3), Screaming Swarm, Sphinx Mindbreaker,
+Jace's Mindseeker. Drift of Phantasms is a 0/5 flying **defender** and cannot attack.
+
+Unblockable beats flying here: flying still gets blocked by fliers and reach, and in a three-opponent
+pod somebody always has one.
+
+## Open items
+
+- Not built. No cards acquired.
+- Never simulated as of this writing.
+- Optional adds discussed but not included: Belltower Sphinx (2/5 flier, defensive),
+  Soratami Mindsweeper (land-bounce mill, re-triggers Hedron/Ruin Crab), Mindeye Drake,
+  Cloud of Faeries (free 1/1 flier, untaps 2 lands), Snap, Turnabout, Fabricate, Mind Stone.
