@@ -577,8 +577,12 @@ earthbend target selection, stacking Annie Joins Up with Strionic Resonator, the
 ordering the five counter-modifiers before the doublers. Forge does none of it. A deck that mostly
 attacks loses far less in translation, so head-to-head numbers understate Toph specifically.
 
-## Companion documents
+## Companion document
 
-- `toph_play_guide.pdf` — the 9-page play guide (Sept 21). Re-verified Sept 28: every card it names
-  is still in the deck, and its Bracket 3 header is correct.
-- `toph_play_guide_addendum.pdf` — the two sections above, for reading alongside it.
+- `toph_play_guide.pdf` — the play guide, 12 pages. Originally written Sept 21; **rebuilt Sept 28**
+  with the fetch package and Forge simulation sections folded in, so it is a single current
+  document with no addendum. Every card it names was re-verified against the decklist, and its
+  Bracket 3 header is correct.
+
+The guide is generated, not hand-edited. The build script lives outside the repo; if it needs
+changing again, regenerate rather than patching the PDF.
