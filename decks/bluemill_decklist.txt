@@ -1,12 +1,13 @@
+1 Aetherize
 1 Altar of Dementia
 1 Altar of the Brood
-1 Ambassador Laquatus
 1 An Offer You Can't Refuse
 1 Arcane Signet
 1 Blur
 1 Bruvac the Grandiloquent
 1 Commander's Plate
 1 Court of Cunning
+1 Crawlspace
 1 Cyclonic Rift
 1 Diligent Excavator
 1 Drift of Phantasms
@@ -31,7 +32,6 @@
 1 Maddening Cacophony
 1 Manic Scribe
 1 Memory Erosion
-1 Mind Sculpt
 1 Mystic Remora
 1 Mystic Sanctuary
 1 Otawara, Soaring City

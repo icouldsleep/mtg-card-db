@@ -234,6 +234,69 @@ Jace's Mindseeker. Drift of Phantasms is a 0/5 flying **defender** and cannot at
 Unblockable beats flying here: flying still gets blocked by fliers and reach, and in a three-opponent
 pod somebody always has one.
 
+## Combat posture — do NOT hold creatures back as blockers
+
+Measured over a 3-way pod (deathtouch / this deck / Kodama), 12 games with full logs:
+
+- **Blue lost to life total 0 in 10 of 12 games. It never once lost to an empty library.**
+- In those same 12 games it **decked four opponents** (Virtus twice, Kodama twice) but converted
+  only two into wins.
+
+The mill is already lethal. The deck dies before it can collect. That is why the answer is not
+"keep blockers home" — every creature held back is mill you did not deal, and under the commander a
+creature's damage mills **every** opponent, so attacking is worth roughly 3x blocking in a pod.
+
+**Attack with everything. The defence is non-combat:**
+
+- **Crawlspace** {3} — no more than two creatures can attack you each combat. Does **not** restrict
+  your own attacks. Guts a go-wide board without ever blocking.
+- **Aetherize** {3}{U} — return all attacking creatures to hand. A fog that also undoes their board.
+- **Propaganda** {2}{U} — taxes {2} per attacker.
+- **Cyclonic Rift** overloaded — bounces the table.
+
+**The only creatures that should ever be home are the ones that cannot attack anyway:**
+
+| Card | Why it is the designated blocker |
+|---|---|
+| **Drift of Phantasms** 0/5 flier | **Defender** — literally cannot attack, so it costs the attack plan nothing |
+| **Wall of Lost Thoughts** 0/4 | **Defender** — same |
+| **Veteran Ice Climber** 1/3 | **Vigilance** — attacks *and* blocks, so it is never a choice |
+
+Vantress Gargoyle can't block unless you hold 4+ cards in hand (Reliquary Tower, Thought Vessel and
+Folio of Fancies make that easy, but it is an attacker first).
+
+Two more outs that make blocking unnecessary: **Altar of Dementia** converts a creature that is
+about to die into mill equal to its power at instant speed, and **Vodalian Illusionist** phases a
+creature out to save it.
+
+**Against a deathtouch deck specifically, blocking is always a losing action** — deathtouch makes
+any amount of damage lethal, so toughness is irrelevant and a 0/5 Wall trades with a 1/1. This is
+why high-toughness blockers were rejected in favour of Crawlspace and Aetherize.
+
+## Pod vs heads-up — the format matters enormously
+
+| | Heads-up vs deathtouch | 3-way pod (73 decided games, 3 seeds) |
+|---|---|---|
+| This deck's win rate | **14%** | **28.8%**, 95% CI [18.4%, 39.2%] |
+| Median kill turn | 9 | 15 |
+
+Par in a 3-way pod is 33.3%, and the confidence interval contains it — this deck, the deathtouch
+deck (38.4%) and Kodama (32.9%) are **statistically indistinguishable**. The heads-up result was a
+format artifact: "each opponent mills that many" is a 3x multiplier that does not exist in 1v1, and
+~99 cards from one library in 9 turns is out of reach.
+
+Seed variance was large enough that a single pod run is worthless: Kodama scored 48% on one seed and
+21.7% on another, over the same matchup. Always run several seeds.
+
+Key cards resolved more often in longer pod games than heads-up: Bruvac 10% -> 33%,
+Commander's Plate 20% -> 25%, Traumatize 15% -> 25%.
+
+**Unresolved: Court of Cunning resolved 0 times in 32 logged games**, against an expected ~20% per
+game. That is roughly a 1-in-1000 outcome, so it is probably not variance — the likeliest
+explanation is that Forge's AI never casts it, possibly because it does not evaluate the monarch.
+Sphinx's Tutelage also came in 0/12. **Do not read either as a card-quality signal**; on paper Court
+of Cunning is still the strongest card in the deck.
+
 ## Open items
 
 - Not built. No cards acquired.
