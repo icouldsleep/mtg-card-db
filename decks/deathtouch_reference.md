@@ -4,8 +4,19 @@
 This is a paper design, not a record of a physical deck. Do not treat it like the other eight
 reference files, which describe decks the owner actually owns.
 
+**Archidekt:** https://archidekt.com/decks/26876893/deathtouch_mono_black — verified card-for-card
+against this list on 2026-09-28 (100 cards, zero differences, Virtus correctly set as commander).
+The only textual variance is naming: Archidekt writes the Adventure card as
+`Foulmire Knight // Profane Insight`, this list uses the front-face name `Foulmire Knight`.
+
 **Every card below was resolved against `scryfall.db`.** Colour identity was checked on all 100
 (zero off-colour), and every card has a Forge card script, so the deck is simulatable.
+
+**Note on double-faced and Adventure cards.** This list stores front-face names only. The sim
+harness handles that (it splits on `//`), but a naive lookup against `scryfall.db` will silently
+fail to resolve `Foulmire Knight`, which is stored as `Foulmire Knight // Profane Insight`. Any
+script counting theme density must fall back to a `LIKE 'name //%'` match or it will undercount.
+Foulmire Knight does have deathtouch; the verified count is **28 of 100, 44% of non-land cards**.
 
 ## Commander
 
@@ -353,3 +364,14 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 29x Swamp.
 **Urborg, Tomb of Yawgmoth** — Land — Legendary Land
 "Each land is a Swamp in addition to its other land types."
+
+## Simulation
+
+Registered in the `mtg-sim` harness as deck key **`deathtouch`** (aka virtus, monoblack, black).
+Results to date, Forge AI piloting both sides:
+
+- **Heads-up vs the blue mill deck: 43-7 (86%)**, decided=50, median kill turn 9. Heads-up strips
+  the blue deck's pod multiplier, so this number flatters this deck considerably.
+- **Three-way pod vs blue mill and Kodama: 38.4%** over 73 decided games across 3 seeds, 95% CI
+  [27.2%, 49.5%]. Par is 33.3% and the interval contains it, so all three decks are statistically
+  indistinguishable.
