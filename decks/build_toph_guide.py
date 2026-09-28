@@ -388,26 +388,10 @@ for x in [
   "<b>Sacrificing an un-earthbent artifact to Zuran Orb kills it for good.</b> Earthbend first, always.",
 ]: S.append(b(x))
 
-S.append(Paragraph("Appendix &mdash; Forge simulation results are a floor, not a rating", H2))
-S.append(p("Recorded so no future simulation number is misread as a verdict on the deck. Across three matchups the "
-           "Forge AI failed to cast Toph in <b>18%, 32% and 40%</b> of games. A diagnostic on the whiff games proved "
-           "this is a <b>piloting failure, not a mana failure</b>:"))
-S.append(T([["Finding in the whiff games","What it rules out"],
- ["13 of 16 ran six turns or longer","Not \"the game ended too early\""],
- ["81% had a red land on the battlefield","Not colour screw"],
- ["One game had nine lands plus a Birds of Paradise idle for thirteen turns","Not mana at all"],
- ["Logs showed Command Tower animated while three artifacts sat idle","Wrong earthbend targets &mdash; the rule above is artifacts first"]],
- [3.4*inch, 3.1*inch]))
-S.append(Spacer(1,6))
-S.append(p("This deck's power is almost entirely sequencing: which permanent to earthbend each end step, stacking "
-           "Annie Joins Up with Strionic Resonator, running the Stasis Coffin loop, ordering the five "
-           "counter-modifiers before the doublers. Forge does none of it. A deck that mostly attacks loses far less "
-           "in translation, so head-to-head simulation numbers understate Toph specifically."))
-
 S.append(Spacer(1,14))
-S.append(Paragraph("All card text verified against scryfall.db. Original guide Sept 21 2026; rebuilt Sept 28 2026 "
-                   "with the fetch package and simulation sections added. Bracket 3 confirmed against "
-                   "game_changers.md &mdash; three Game Changers: Aura Shards, Enlightened Tutor, Smothering Tithe.",
+S.append(Paragraph("All card text verified against scryfall.db. Bracket 3 confirmed against "
+                   "game_changers.md &mdash; three Game Changers: Aura Shards, Enlightened Tutor, "
+                   "Smothering Tithe. Last revised Sept 28 2026.",
                    NOTE))
 
 def footer(canvas, doc):

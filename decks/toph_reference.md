@@ -579,10 +579,12 @@ attacks loses far less in translation, so head-to-head numbers understate Toph s
 
 ## Companion document
 
-- `toph_play_guide.pdf` — the play guide, 12 pages. Originally written Sept 21; **rebuilt Sept 28**
-  with the fetch package and Forge simulation sections folded in, so it is a single current
-  document with no addendum. Every card it names was re-verified against the decklist, and its
-  Bracket 3 header is correct.
+- `toph_play_guide.pdf` — the play guide, 11 pages. Originally written Sept 21; **rebuilt Sept 28**
+  with the fetch package folded in. Every card it names was re-verified against the decklist, and
+  its Bracket 3 header is correct.
+
+**The guide is for a person picking up the deck and playing it.** Keep tooling and simulation
+findings out of it — the Forge section above belongs here in the reference, not in the guide.
 
 The guide is generated, not hand-edited. The build script lives outside the repo; if it needs
 changing again, regenerate rather than patching the PDF.
