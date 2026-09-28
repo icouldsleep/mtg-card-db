@@ -529,3 +529,56 @@ Lotus Petal, Natural Order (→ Aura Shards), and 12 basic lands.
 
 **Avenger of Zendikar was nearly cut and then kept** — with Aura Shards in the deck, entering with
 eight lands is eight destroy triggers.
+
+## The fetch package — six fetches, seven landfall payoffs
+
+**Every fetch is two landfall triggers**: once when the fetch itself enters, once when the land it
+finds enters. That is why a fetch beats a basic here, and why you never cut one for a basic.
+
+| Fetch | The fetch itself | The land it finds |
+|---|---|---|
+| Arid Mesa | untapped | **untapped** |
+| Prismatic Vista | untapped | **untapped** |
+| Windswept Heath | untapped | **untapped** |
+| Wooded Foothills | untapped | **untapped** |
+| Grasslands | **enters tapped** | **untapped** |
+| Mountain Valley | **enters tapped** | **untapped** |
+
+**Grasslands and Mountain Valley are the ones that get misread.** The land itself enters tapped, but
+what it *fetches* comes in untapped — their search text has no tapped clause. Slower to deploy, not
+slower to pay off.
+
+**Seven landfall payoffs see both triggers:** Avenger of Zendikar, Evolution Sage, Felidar Retreat,
+Lotus Cobra, Rampaging Baloths, Scute Swarm, Toph Earthbending Master.
+
+**Traveling Chocobo doubles both halves** — "if a land or Bird you control entering the battlefield
+causes a triggered ability of a permanent you control to trigger, that ability triggers an
+additional time." So **one fetch is four landfall triggers**, and with Scute Swarm out at six or
+more lands every one of those four makes a *copy of Scute Swarm*.
+
+Chocobo does **not** double Toph's end-step earthbend — that trigger is not caused by a land
+entering. It is a landfall multiplier only.
+
+## Forge simulation — the AI cannot pilot this deck
+
+Recorded so no future sim result is misread as a verdict on the deck. Across three matchups the
+Forge AI failed to cast Toph in **18%, 32% and 40%** of games. The diagnostic proved this is a
+**piloting failure, not a mana failure**:
+
+| Finding in the whiff games | What it rules out |
+|---|---|
+| 13 of 16 ran six turns or longer | Not "the game ended early" |
+| 81% had a red land on the battlefield | Not colour screw |
+| One had nine lands plus a Birds of Paradise idle for thirteen turns | Not mana at all |
+| Logs showed Command Tower animated while three artifacts sat idle | Wrong earthbend targets — the rule is artifacts first |
+
+**Any Toph simulation number is a floor, not a rating.** This deck's power is sequencing —
+earthbend target selection, stacking Annie Joins Up with Strionic Resonator, the Stasis Coffin loop,
+ordering the five counter-modifiers before the doublers. Forge does none of it. A deck that mostly
+attacks loses far less in translation, so head-to-head numbers understate Toph specifically.
+
+## Companion documents
+
+- `toph_play_guide.pdf` — the 9-page play guide (Sept 21). Re-verified Sept 28: every card it names
+  is still in the deck, and its Bracket 3 header is correct.
+- `toph_play_guide_addendum.pdf` — the two sections above, for reading alongside it.
