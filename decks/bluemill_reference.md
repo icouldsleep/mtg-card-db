@@ -297,6 +297,48 @@ explanation is that Forge's AI never casts it, possibly because it does not eval
 Sphinx's Tutelage also came in 0/12. **Do not read either as a card-quality signal**; on paper Court
 of Cunning is still the strongest card in the deck.
 
+## The commander has NO ETB trigger — blinking him mills nothing
+
+The Mindskinner's text is entirely static: "can't be blocked" plus the damage-prevention
+replacement effect. **There is nothing that triggers on entering the battlefield.** Blinking or
+recasting him mills zero. His mill comes from converting damage, which requires him to **attack**.
+
+So the flicker suite is protection only, which is what it was picked for. Two cautions:
+
+- **If he is attacking and you blink or phase him, he is removed from combat and deals no damage** —
+  saving him mid-combat costs that swing's mill.
+- Point the immediate blinks (Essence Flux, Siren's Ruse, Blur, Ghostly Flicker) at the **ETB-mill
+  creatures** instead: Sphinx Mindbreaker (each opponent mills 10, so 20 each with Bruvac),
+  Jace's Mindseeker (5 + a free spell), Manic Scribe (3 each), Wall of Lost Thoughts (4),
+  Overwhelmed Apprentice (2 each).
+
+**To actually pick him up and recast him, use Altar of Dementia.** Sacrifice Mindskinner, mill equal
+to his power (10, or 13 with Commander's Plate), and he returns to the command zone. Instant speed,
+so it dodges exile and sacrifice edicts that Commander's Plate cannot stop, and it converts him into
+mill on the way out. Commander tax applies: {U}{U}{U} plus {2} per recast.
+
+## Accorder's Shield — why a {0} Equipment earns a slot
+
+`{0}` Artifact — Equipment. Equipped creature gets **+0/+3** and has **vigilance**. Equip {3}.
+
+The vigilance is the smaller half. **Mindskinner is a 10/1, and toughness 1 is his real weakness** —
+he dies to any incidental ping (Orcish Bowmasters, a stray Shock, Pestilence, a Goblin
+Sharpshooter). Accorder's Shield costs nothing to cast and makes him a **10/4 without needing
+Commander's Plate**, then a 13/7 with it. Equipment stack, so both can sit on him.
+
+The vigilance does matter in one specific spot: a Plated Mindskinner has protection from white,
+black, red and green, and **protection prevents damage from sources of those colours**. So he blocks
+any non-blue creature, takes zero damage, and deals 13. With vigilance he attacks for 13 mill *and*
+blocks for free every turn.
+
+Rejected alternatives: **Angel's Trumpet** {3} grants vigilance to **all** creatures including
+opponents', and damages you for each of your creatures that did not attack — it punishes exactly the
+posture this deck sometimes needs. **Akroma's Memorial** {7} is a genuine haymaker (the whole team
+gets flying, haste, trample and **protection from black and red**, which blanks the mono-black
+deathtouch deck's entire ability to interact) but it is 7 mana in a deck averaging 6.0 on turn 8,
+and it is a win-more card. Keep it in mind if pod testing shows mono-black still running this deck
+over.
+
 ## Open items
 
 - Not built. No cards acquired.

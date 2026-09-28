@@ -1,3 +1,4 @@
+1 Accorder's Shield
 1 Aetherize
 1 Altar of Dementia
 1 Altar of the Brood
@@ -9,7 +10,6 @@
 1 Court of Cunning
 1 Crawlspace
 1 Cyclonic Rift
-1 Diligent Excavator
 1 Drift of Phantasms
 1 Drown in Dreams
 1 Drowned Secrets
