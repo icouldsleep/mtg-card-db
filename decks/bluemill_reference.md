@@ -4,8 +4,18 @@
 This is a paper design, not a record of a physical deck. Do not treat it like the other reference
 files that describe decks the owner actually owns.
 
+**Archidekt:** https://archidekt.com/decks/26888106/blue_mono_mill — verified card-for-card against
+this list on 2026-09-28 (100 cards, zero differences, The Mindskinner correctly set as commander).
+
 **Every card below was resolved against `scryfall.db`.** All 100 were checked for colour identity
 (zero off-colour) and Commander legality.
+
+**Note on the two different "mill" counts.** Archidekt's Mill *category* reads 28 — that counts
+cards manually tagged as mill. The figure used throughout this file is **34**, which counts every
+card whose oracle text literally contains the word "mill", and that is the number the owner's
+density goal tracks. The difference is cards filed under other categories that still say mill:
+Altar of Dementia (Sac Outlet), Drift of Phantasms (Tutor), Vantress Gargoyle, Realmbreaker and
+others.
 
 ## Commander
 
