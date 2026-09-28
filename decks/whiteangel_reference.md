@@ -4,6 +4,9 @@
 owner is acquiring. **Every card was resolved against `scryfall.db`** — all 100 checked for colour
 identity (zero off-colour) and Commander legality.
 
+**Archidekt:** https://archidekt.com/decks/26887838/mono_life — verified card-for-card identical to
+this list on 2026-09-28 (100 cards, zero differences, Lyra correctly set as commander).
+
 ## Commander
 
 **Lyra Dawnbringer** — {3}{W}{W} — Legendary Creature — Angel — **5/5**
