@@ -47,9 +47,9 @@
 1 Rapid Hybridization
 1 Reliquary Tower
 1 Rhystic Study
-1 Rogue's Passage
 1 Ruin Crab
 1 Sapphire Medallion
+1 Silent Arbiter
 1 Siren's Ruse
 1 Slip Out the Back
 1 Sol Ring
