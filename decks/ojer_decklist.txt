@@ -4,7 +4,6 @@
 1 Blisterspit Gremlin
 1 Boltwave
 1 Burning Earth
-1 Chain Lightning
 1 Champion's Helm
 1 Chandra's Incinerator
 1 Chandra, Torch of Defiance
@@ -28,6 +27,7 @@
 1 Hero's Blade
 1 Hordeling Outburst
 1 Impact Tremors
+1 Imperial Recruiter
 1 Jeska's Will
 1 Kessig Flamebreather
 1 Koth, the Geomancer
@@ -36,6 +36,7 @@
 1 Lightning Bolt
 1 Liquimetal Torque
 1 Longshot, Rebel Bowman
+1 Magus of the Wheel
 1 Manabarbs
 1 Mind Stone
 25 Mountain
@@ -58,7 +59,6 @@
 1 Shivan Gorge
 1 Sokenzan, Crucible of Defiance
 1 Sol Ring
-1 Spear Spewer
 1 Spikefield Hazard
 1 Sulfuric Vortex
 1 Swiftfoot Boots

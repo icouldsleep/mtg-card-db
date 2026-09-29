@@ -150,16 +150,20 @@ effect helps, because impulse never fills your hand.
 
 | Draw and keep | Impulse — exile and play |
 |---|---|
-| Grab the Prize, Thrill of… *(cut)*, Faithless Looting, Needle Drop, Mind Stone | Virtue of Courage, Jeska's Will, Light Up the Stage, Wrenn's Resolve, Reckless Impulse, Chandra +1 |
+| Grab the Prize, Faithless Looting, Needle Drop, Mind Stone | Virtue of Courage, Jeska's Will, Light Up the Stage, Wrenn's Resolve, Reckless Impulse, Chandra +1 |
 | **War Room** — the only repeatable engine, and mono means it costs 1 life | |
-| **Wheel of Misfortune, Reforge the Soul** — refill from empty | |
+| **Wheel of Misfortune, Reforge the Soul, Magus of the Wheel** — refill from empty | |
 
 **Virtue of Courage scales with the pings**, since your damage instances are 4 and not 1.
-**Open question, flagged rather than asserted:** when one pinger hits all three opponents at once,
-does it trigger once or three times? The reading this deck assumes is **three times** — the trigger
-reads "deals noncombat damage to **an opponent**", and simultaneous damage to three opponents is
-three instances of that event, which would exile twelve cards off one Thermo-Alchemist tap. The
-`rulings` table has nothing on this; treat it as probable, not settled.
+
+**CONFIRMED, 2026-09-29: it triggers once per opponent.** The trigger reads "deals noncombat damage
+to **an opponent**", not "each opponent", so a single damage event hitting all three puts **three
+separate triggers** on the stack, each its own "may". With Ojer out, **one Thermo-Alchemist tap is
+3 triggers × 4 cards = 12 cards exiled** and playable that turn. (`scryfall.db`'s `rulings` table
+carries only generic Adventure rulings for this card; verified externally against tappedout,
+Gatherer and EDHREC, whose worked example is Dragon's Approach producing three triggers in a
+four-player game.) Note you must actually cast them that turn — at a 2.51 curve with rituals you
+convert a good share of twelve, not all of it.
 
 ### Razorkin Needlehead + a wheel is the deck's biggest burst
 
@@ -170,13 +174,39 @@ With Ojer out that is **4 damage per card drawn**. A wheel makes each opponent d
 
 **7 cards × 4 damage = 28 to each opponent, 84 across a four-pod, off a three-mana sorcery.**
 
-This is why the deck runs **two** wheels. **Reforge the Soul** was added 2026-09-29 over Thrill of
-Possibility — it is a burn spell here that happens to read "draw seven", and its miracle cost of
-{1}{R} makes it a two-mana kill off the top. **Magus of the Wheel** is the obvious third copy if
-this line proves itself.
+This is why the deck runs **three** wheels. **Reforge the Soul** (added over Thrill of Possibility)
+is a burn spell here that happens to read "draw seven", and its miracle cost of {1}{R} makes it a
+two-mana kill off the top.
+
+**Magus of the Wheel** {2}{R} 3/3 was added over Spear Spewer, and the reason is not that it is a
+third wheel — it is that **it is a wheel you do not have to fire.** The real hazard of wheels here
+is that they refill your *opponents*: without Razorkin on board, a wheel hands three players seven
+fresh cards including the removal they did not have. A sorcery wheel you draw is cast-it-or-sit-on-
+it. Magus sits on the battlefield and you crack it the turn Razorkin lands. It is also a creature,
+so casting it triggers Purphoros and Impact Tremors for **24 across a four-pod** before it wheels
+anything.
 
 Not a Bracket 3 problem: Razorkin, Ojer and a wheel are nine mana across several turns, and nothing
 about it is infinite.
+
+#### Tutoring: one card, and why that is nearly enough
+
+**Gamble is the only tutor in the 99.** Mono-red genuinely cannot search its library; this is the
+colour's defining weakness alongside enchantment removal. The deck mostly does not mind, because
+there is no combo piece to hunt — **37 payoffs, and any of them will do.** Redundancy is the tutor.
+
+**The exception is Razorkin Needlehead**, which became a combo piece the moment the wheel line was
+identified, and there is one copy. **Imperial Recruiter** {2}{R} 1/1 was added over Chain Lightning
+for that reason: ETB, search for a creature with power 2 or less, which in this deck is **11
+targets** — Blisterspit Gremlin, Electro, Electrostatic Field, Erebor Flamesmith, Firebrand Archer,
+Guttersnipe, Kessig Flamebreather, **Razorkin Needlehead**, Thermo-Alchemist and Unruly Catapult. It
+is never a dead draw, it finds the combo piece, and it is another body for Purphoros and Impact
+Tremors. Inventors' Fair and Hoarding Dragon were the artifact-tutor alternatives and are worse
+here, since the artifacts are not what you need to find.
+
+**Chain Lightning** was the slot because it is single-target where Boltwave deals the same 4 to
+*each* opponent, and its copy clause lets a red opponent pay {R}{R} and send it back — Toph, Tifa
+and Bello all play red.
 
 ### The Fire Crystal — considered, rejected
 
@@ -259,5 +289,5 @@ castable. Fire Diamond always makes red. It enters tapped, which costs a turn an
 
 ## Deck statistics
 
-100 cards · 32 lands (25 Mountain) · 19 creatures · 6 mana rocks · 28 instants and sorceries · 13 card-advantage sources ·
-average CMC 2.46 · zero off-colour · all commander-legal except the Koth release date above.
+100 cards · 32 lands (25 Mountain) · 20 creatures · 6 mana rocks · 27 instants and sorceries ·
+13 card-advantage sources · 1 tutor · average CMC 2.51 · zero off-colour · all commander-legal except the Koth release date above.
