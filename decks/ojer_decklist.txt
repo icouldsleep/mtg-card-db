@@ -51,6 +51,7 @@
 1 Ramunap Ruins
 1 Razorkin Needlehead
 1 Reckless Impulse
+1 Reforge the Soul
 1 Roiling Vortex
 1 Ruby Medallion
 1 Seething Song
@@ -63,7 +64,6 @@
 1 Swiftfoot Boots
 1 Tectonic Hazard
 1 Thermo-Alchemist
-1 Thrill of Possibility
 1 Tyrite Sanctum
 1 Unruly Catapult
 1 Urabrask

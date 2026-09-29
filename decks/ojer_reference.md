@@ -141,6 +141,53 @@ Tectonic Hazard, which are one-sided in the same way, and Fiery Confluence's rep
 to each *other* creature and 7 to each opponent, which is often lethal — but "each other creature"
 includes all of yours. It is a finisher, not a sweeper, and it turns off the engine on the way.
 
+## Card advantage, and the wheel kill
+
+**13 sources, which is a lot for mono-red, but most of it is impulse rather than draw.** You do not
+build a hand here, you play off the top at speed — which works at a 2.41 curve with rituals, and
+whose failure mode is specific: **exile cards while tapped out and they are gone.** No hand-size
+effect helps, because impulse never fills your hand.
+
+| Draw and keep | Impulse — exile and play |
+|---|---|
+| Grab the Prize, Thrill of… *(cut)*, Faithless Looting, Needle Drop, Mind Stone | Virtue of Courage, Jeska's Will, Light Up the Stage, Wrenn's Resolve, Reckless Impulse, Chandra +1 |
+| **War Room** — the only repeatable engine, and mono means it costs 1 life | |
+| **Wheel of Misfortune, Reforge the Soul** — refill from empty | |
+
+**Virtue of Courage scales with the pings**, since your damage instances are 4 and not 1.
+**Open question, flagged rather than asserted:** when one pinger hits all three opponents at once,
+does it trigger once or three times? The reading this deck assumes is **three times** — the trigger
+reads "deals noncombat damage to **an opponent**", and simultaneous damage to three opponents is
+three instances of that event, which would exile twelve cards off one Thermo-Alchemist tap. The
+`rulings` table has nothing on this; treat it as probable, not settled.
+
+### Razorkin Needlehead + a wheel is the deck's biggest burst
+
+> **Razorkin Needlehead** {R}{R} — Whenever an opponent draws a card, this creature deals 1 damage to
+> them. *(No once-per-turn clause.)*
+
+With Ojer out that is **4 damage per card drawn**. A wheel makes each opponent draw seven:
+
+**7 cards × 4 damage = 28 to each opponent, 84 across a four-pod, off a three-mana sorcery.**
+
+This is why the deck runs **two** wheels. **Reforge the Soul** was added 2026-09-29 over Thrill of
+Possibility — it is a burn spell here that happens to read "draw seven", and its miracle cost of
+{1}{R} makes it a two-mana kill off the top. **Magus of the Wheel** is the obvious third copy if
+this line proves itself.
+
+Not a Bracket 3 problem: Razorkin, Ojer and a wheel are nine mana across several turns, and nothing
+about it is infinite.
+
+### The Fire Crystal — considered, rejected
+
+{2}{R}{R}: red spells cost {1} less, creatures have haste, and {4}{R}{R},{T} for a temporary token
+copy. **Rejected on cost, not on quality** — it costs exactly what Ojer costs, and turn four is the
+commander's turn. Its first line duplicates Ruby Medallion at twice the price, and unlike **The Water
+Crystal** in `newmill`, whose middle line multiplies every mill trigger, the haste clause is not a
+damage payoff. It is better here than EDHREC's −12% synergy suggests, because four tap-pingers
+(Thermo-Alchemist, Unruly Catapult, Spear Spewer, Blisterspit Gremlin) each gain an activation the
+turn they land — just not four mana's worth.
+
 ## The self-damage ledger — the deck's real cost
 
 Five cards hurt you as well, and they stack:
@@ -212,5 +259,5 @@ castable. Fire Diamond always makes red. It enters tapped, which costs a turn an
 
 ## Deck statistics
 
-100 cards · 32 lands (25 Mountain) · 19 creatures · 6 mana rocks · 28 instants and sorceries ·
-average CMC 2.41 · zero off-colour · all commander-legal except the Koth release date above.
+100 cards · 32 lands (25 Mountain) · 19 creatures · 6 mana rocks · 28 instants and sorceries · 13 card-advantage sources ·
+average CMC 2.46 · zero off-colour · all commander-legal except the Koth release date above.
