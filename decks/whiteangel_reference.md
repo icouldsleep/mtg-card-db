@@ -184,6 +184,69 @@ The model **understates** the deck, because it cannot see the cost reducers: **S
 (Angel spells cost {2} less), **Herald of War** ({1} less), and **Giada** tapping for {W} toward
 Angel spells.
 
+## Simulation results
+
+Registered in the `mtg-sim` harness as deck key **`whiteangel`** (aka lyra, monowhite, white, angels).
+
+### Four-player pod: this deck, blue mill, black deathtouch, Kodama
+
+59 decided games over three seeds. **Par in a 4-way pod is 25%.**
+
+| Deck | Wins | Rate | 95% CI | vs par |
+|---|---|---|---|---|
+| **Lyra (this deck)** | **33/59** | **55.9%** | [43.3%, 68.6%] | **z = +5.49, significantly above** |
+| Virtus deathtouch | 11/59 | 18.6% | [8.7%, 28.6%] | not distinguishable |
+| Kodama | 8/59 | 13.6% | [4.8%, 22.3%] | z = -2.03, significantly below |
+| The Mindskinner mill | 7/59 | 11.9% | [3.6%, 20.1%] | z = -2.33, significantly below |
+
+It won every seed (63%, 40%, 65%). This is not seed variance — 33 wins where 15 were expected.
+
+**Why the format suits it:** median kill turn went 15 in the 3-way pod to 19-20 here. Longer games
+are strictly better for a deck whose plan is to accumulate life and flip a threshold, and lifelink
+blockers mean *being attacked* also feeds the engine. One game on seed 4242 hit the 1500s compute
+budget and was excluded.
+
+### Diagnostic — how it actually wins (10 games, full logs, seed 4242)
+
+**Both the fair plan and the threshold plan are live.** White won 5 of 10 in this sample, and
+**two of those five were Felidar Sovereign literally saying "you win the game"**, per the outcome
+lines:
+
+```
+Ai(3)-Lyra ... has won due to effect of 'Felidar Sovereign'          x2
+Ai(1)/Ai(2)/Ai(4) ... has lost because an opponent has won by spell 'Felidar Sovereign'
+Ai(2)-Virtus ... has lost due to effect of spell 'Angel of Destiny'  x1
+... has lost due to accumulation of 21 damage from generals          x2
+```
+
+The lifegain engine works: **9 of 10 games reached 40+ life, 6 of 10 reached 50+, median peak 66,
+and one game reached 923.** It also lost 4 of 10 to damage, so it is not invulnerable.
+
+**Trust the outcome lines, not trigger-text matching.** A diagnostic probe for Angel of Destiny's
+trigger text returned 0/10 even though an outcome line proves it fired, and cast-detection
+undercounted Felidar (1/10 cast vs 2/10 triggered). Forge logs reanimation and alternate entries
+differently from casts.
+
+### The blue-mill interaction — worth knowing at the table
+
+**The Mindskinner mill deck strips this deck's win conditions out of the library before it can draw
+them.** Three separate log entries in ten games:
+
+```
+Ai(3)-Lyra ... milled Grasp of Fate, Felidar Sovereign and Righteous Valkyrie
+Ai(3)-Lyra ... milled Plains and Felidar Sovereign
+Ai(3)-Lyra ... milled ... Court of Grace, Aetherflux Reservoir and Felidar Sovereign
+```
+
+Felidar Sovereign and Aetherflux Reservoir are 1-ofs, so a mill deck removing them is removing the
+plan, not just cards. Against a mill opponent, **Idyllic Tutor and Academy Rector are not
+interchangeable** — Rector puts an enchantment onto the battlefield from the library and cannot
+retrieve Test of Endurance once it is in the graveyard, whereas Enlightened Tutor and Idyllic Tutor
+also only search the library. Nothing in this deck recurs a milled win condition except Defy Death
+(creatures only, so Felidar yes, Test of Endurance no).
+
+If mill becomes a recurring problem at the table, that is the gap to fix.
+
 ## Open items
 
 - Not built. Precon not yet in hand as of writing.

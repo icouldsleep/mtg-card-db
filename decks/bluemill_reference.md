@@ -377,6 +377,38 @@ Toph's failure was never its curve, it was the AI declining to cast its commande
 mana (81% of its whiff games had a red land out). This deck casts its commander in 95% of games at a
 median of its own turn 3.
 
+## Four-player pod result, and an upside worth knowing
+
+Added to the 4-way pod (this deck, black deathtouch, white Lyra Angels, Kodama), 59 decided games
+over three seeds:
+
+| Deck | Rate | vs par (25%) |
+|---|---|---|
+| White Lyra | 55.9% | significantly above |
+| Black deathtouch | 18.6% | not distinguishable |
+| Kodama | 13.6% | significantly below |
+| **This deck** | **11.9%** | **significantly below (z = -2.33)** |
+
+This deck was at par (28.8%) in the 3-way pod. **Adding a fourth opponent gave it one more library
+to mill and one more attacker pointed at it, and the second clearly outweighed the first** — which
+matches the earlier diagnostic finding that it dies at life 0 rather than running out of time. One
+excluded game hit the compute clock, and those are the long games this deck is likeliest to win, so
+11.9% is very slightly pessimistic.
+
+**The upside: this deck attacks the white deck's plan better than anything else at the table.** Log
+entries from the white-deck diagnostic show it milling white's win conditions straight out of the
+library:
+
+```
+Ai(3)-Lyra ... milled Grasp of Fate, Felidar Sovereign and Righteous Valkyrie
+Ai(3)-Lyra ... milled Plains and Felidar Sovereign
+Ai(3)-Lyra ... milled ... Court of Grace, Aetherflux Reservoir and Felidar Sovereign
+```
+
+Felidar Sovereign and Aetherflux Reservoir are 1-ofs in that deck. Milling them removes the plan,
+not just cards. Worth remembering when choosing a mill target in a pod: the lifegain deck's win
+conditions are in its library, not on its board.
+
 ## Open items
 
 - Not built. No cards acquired.
