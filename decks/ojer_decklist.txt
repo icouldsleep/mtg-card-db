@@ -20,9 +20,9 @@
 1 End the Festivities
 1 Erebor Flamesmith
 1 Faithless Looting
-1 Fellwar Stone
 1 Fiery Confluence
 1 Fiery Inscription
+1 Fire Diamond
 1 Firebrand Archer
 1 Gamble
 1 Grab the Prize

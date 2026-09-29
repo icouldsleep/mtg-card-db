@@ -151,6 +151,21 @@ land is a Mountain) is from **Reality Fracture**, released **2026-10-02**. It re
 **Bracket 3, one slot free. 2 Game Changers:** Gamble, Jeska's Will. Verified against
 `game_changers.md`.
 
+## Mana base notes
+
+**33 lands, 29 of them red-producing.** The four that are not — Nykthos, Shivan Gorge, Tyrite
+Sanctum, War Room — are a mild tension against the 7 cards needing two or more red pips, which is
+the reason not to add a fifth colourless utility land.
+
+**Rocks matter more here than in most red decks.** Manabarbs and Burning Earth damage *you* whenever
+*you* tap a land; mana rocks, rituals and Koth's landfall trigger all sidestep that entirely. Four
+rocks (Sol Ring, Arcane Signet, Mind Stone, Fire Diamond) is on the light side for a deck that
+punishes its own land taps — a future revision could reasonably go up to six.
+
+**Fellwar Stone was cut for Fire Diamond on 2026-09-29.** Fellwar taps for a colour an *opponent's*
+land could produce, so against the mono-coloured decks in this collection it can produce nothing
+castable. Fire Diamond always makes red. It enters tapped, which costs a turn and is the whole price.
+
 ## Deck statistics
 
 100 cards · 33 lands (25 Mountain) · 30 instants and sorceries · average CMC 2.51 · zero off-colour ·
