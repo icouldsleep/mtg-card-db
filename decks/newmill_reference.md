@@ -1,7 +1,8 @@
 # Cards Reference — The Mindskinner voltron mill, REBUILD (`newmill`)
 
-**Status: EXPERIMENTAL, NOT BUILT.** Rebuilt 2026-09-29 from `oldmill`, which is kept intact for
-A/B testing. Sim harness key: **`newmill`**.
+**Status: PLAYTESTED, not yet built in paper.** Rebuilt 2026-09-29 from `oldmill`, which is kept
+intact for A/B testing. Sim harness key: **`newmill`**. **Three wins in three piloted games — see
+"Logged games" below.**
 
 **Every card resolved against `scryfall.db`** — all 100 checked for colour identity (zero
 off-colour) and Commander legality.
@@ -33,6 +34,76 @@ best mill spells in the format — is 42 total, once, and it is a three-mana car
 
 Mill-word count is **23**, down from 33, and that is intended. The metric stopped measuring the
 deck's output the moment the commander became the engine.
+
+## Logged games
+
+All three piloted by hand in Forge, 2026-09-29. **Three games, three wins.**
+
+### The four-pod — won on turn 19, all three opponents decked
+
+Four-player pod, `newmill` vs three opponents including the mono-black deathtouch deck (Virtus the
+Veiled, Gonti, Dauthi Embrace, Cabal Stronghold and Phyrexian Arena all on board at the end).
+
+| | |
+|---|---|
+| Result | Win, turn 19 — all three opponents lost drawing from an empty library |
+| Opponents' final life | **37, 39, 28** — essentially untouched |
+| Creatures drawn all game | **The Mindskinner only.** Zero others. |
+| Commander deaths | **Two.** Recast both times, paying tax to 5 then 7 mana. |
+| Equipment drawn | Genji Glove and Fireshrieker |
+| Support on board | Memory Erosion, Drowned Secrets, Rhystic Study, Altar of Dementia, Sol Ring, Arcane Signet, Inventors' Fair |
+
+**What this confirms.** The life totals are the tell: nobody was ever pressured, because under the
+prevent clause nobody *can* be. The game is decided entirely on cards, not on life, and the deck got
+there through a table containing the exact deck — mono-black deathtouch — that `oldmill` was losing
+to. It also won having drawn **none** of its other twelve creatures, which means the voltron plan
+does not need a board. The cost of that was three dead cards: Helm of the Host and Irenicus's Vile
+Duplication had nothing but the commander to copy, and Altar of Dementia had nothing to sacrifice.
+
+### The two heads-up games
+
+`newmill` also beat the green Kodama deck and the mono-black deathtouch deck in 1v1. Worth less than
+the pod game: one library to grind and a third of the incoming damage, at the same mill rate.
+
+## Play notes from those games
+
+**Genji Glove is the engine. Per turn, on a bare unblockable 10/1:**
+
+| Step | Damage prevented | Each opponent mills |
+|---|---|---|
+| Combat 1, first strike | 10 | 10 |
+| Combat 1, regular | 10 | 10 |
+| *untap, additional combat phase* | | |
+| Combat 2, first strike | 10 | 10 |
+| Combat 2, regular | 10 | 10 |
+| **Turn total** | | **40 per opponent — 120 across a four-pod** |
+
+**The Glove grants exactly one extra combat.** Its trigger reads "if it's the first combat phase of
+the turn", so combat 2 fails the check and does not chain a third.
+
+**Fireshrieker and Genji Glove do not stack.** Double strike is a binary keyword; having it twice
+does nothing. Once the Glove is attached, paying {2} to equip Fireshrieker is dead mana — hold it for
+a counterspell. This is **not** a reason to cut either one: two sources is why you find one at all,
+and Fireshrieker at {3} cast / {2} equip is the copy you can deploy four turns before the Glove. It
+only matters when a second creature is available to carry the spare.
+
+**Protecting an equipped commander — ranked.** The commander dying is the real cost in this deck
+(second cast 5 mana, third 7), and not all the protection is equal once Equipment is attached:
+
+1. **Slip Out the Back** {U} — best in the deck. Phases out the commander *and* "anything attached to
+   it", so the Equipment survives **still attached**. The +1/+1 counter also makes him an 11/1, which
+   is 44 mill per Genji turn instead of 40.
+2. **Lavaspur Boots** — ward {1} taxes every removal spell passively.
+3. **Spellskite** — redirect the target.
+4. **The blinks** (Siren's Ruse, Teferi's Time Twist, Essence Flux, Blur, Ghostly Flicker) — they
+   save the creature but **the Equipment falls off**, and re-equipping the Glove is another {3}.
+   Reach for these only when Slip Out the Back is not in hand.
+5. **Fool's Demise** — returns him to the battlefield on death, skipping the tax entirely.
+
+**Helm of the Host is the hidden ceiling.** The token copies are non-legendary and hasty, and their
+damage is prevented and converted to mill the same way — every copy is another 10 per opponent per
+combat. It was drawn in the logged game with no second creature to fall back on, so it only ever
+copied the commander.
 
 ## THE RULING — read this before adding any copy effect
 
@@ -133,6 +204,7 @@ counter *or* copy a creature *or* draw two), Counterspell {U}{U}, **Didn't Say P
 **Protecting the commander:** Commander's Plate (protection from four colours), Lavaspur Boots
 (ward), Spellskite, Vodalian Illusionist (repeatable phase-out), Slip Out the Back, Teferi's Time
 Twist, Fool's Demise, and the immediate blinks (Essence Flux, Siren's Ruse, Blur, Ghostly Flicker).
+**These are not interchangeable once Equipment is attached — see the ranked list under "Play notes".**
 
 **Altar of Dementia** doubles as the escape hatch: sacrifice the commander in response to exile and
 mill equal to his power on the way out; he returns to the command zone.
