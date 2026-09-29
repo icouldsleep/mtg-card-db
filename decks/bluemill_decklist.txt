@@ -27,11 +27,12 @@
 1 High Tide
 1 Increasing Confusion
 1 Inventors' Fair
-30 Island
+29 Island
 1 Jace's Mindseeker
 1 Jace, Memory Adept
 1 Maddening Cacophony
 1 Manic Scribe
+1 Maze of Ith
 1 Memory Erosion
 1 Mystic Remora
 1 Mystic Sanctuary

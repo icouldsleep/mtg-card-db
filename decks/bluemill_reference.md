@@ -409,6 +409,50 @@ Felidar Sovereign and Aetherflux Reservoir are 1-ofs in that deck. Milling them 
 not just cards. Worth remembering when choosing a mill target in a pod: the lifegain deck's win
 conditions are in its library, not on its board.
 
+## Why this deck loses to a go-wide flier deck, and what actually helps
+
+Measured from ten four-pod games with full logs (this deck, black deathtouch, white Lyra Angels,
+Kodama). Blue is the table's punching bag and it is dying in the air:
+
+| | |
+|---|---|
+| Total damage taken | **530** |
+| From **fliers** | **429 — 81%** |
+| From ground creatures | 99 |
+| Non-combat damage (pings, drain) | **0** |
+| Attack assignments at this deck | white 20, black 17, Kodama 3 |
+| **Times this deck blocked** | **0 out of 38** |
+
+The top nine damage sources were all white Angels. It declined every single block.
+
+**Blocking cannot fix this and more blockers will not fix it.** Each blocker answers one attacker
+per turn, while Angelic Accord and Resplendent Angel give white a free 4/4 flier *every end step*.
+24 fliers against four walls is twenty getting through. It is a 1-for-1 answer to a go-wide problem.
+
+**What does work is anything that ignores their creature count:**
+
+| Card | Why it scales |
+|---|---|
+| **Maze of Ith** (land) | `{T}: untap target attacking creature, prevent all combat damage to and by it.` Free, every turn, forever. Costs a land slot, not a card slot. |
+| **Crawlspace** {3} | Max two attackers. Does not care that they have 24. |
+| **Propaganda** {2}{U} | {2} per attacker — punishing against a wide board. |
+| **Silent Arbiter** {4} | No more than one creature can attack each combat. The hardest answer available. |
+| **Dissipation Field** {2}{U}{U} | Every permanent that damages you goes back to hand. |
+| **Meekstone** {1} | Power 3+ does not untap. Angels are 4/4s, and Mindskinner has vigilance from Accorder's Shield so it is unaffected; Horror tokens are 1/1s. |
+
+**The honest limit: these are all 1-ofs.** Crawlspace appeared in 2 of 10 games and Aetherize in 0.
+Adding more scaling effects means seeing one of them somewhat more often, not reliably. They narrow
+the matchup, they do not flip it.
+
+**This is one matchup, not a deck flaw.** This deck was at par (28.8%) in the 3-way pod without
+white. Warping it further to beat a flier deck makes it worse against Teval, Queza, Bello and Toph.
+Maze of Ith is the exception worth taking because it costs a land slot rather than a spell slot and
+helps against every aggressive deck.
+
+**Maze of Ith's real cost:** it produces no mana at all. The deck is now 36 lands of which **35 make
+mana**, and Islands went 30 to 29 (30 counting Mystic Sanctuary), which very slightly weakens
+High Tide.
+
 ## Open items
 
 - Not built. No cards acquired.
