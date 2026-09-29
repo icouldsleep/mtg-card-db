@@ -100,24 +100,67 @@ Eternal** then adds {R} for each 1 life opponents lost this turn at your postcom
   **Koth, the Geomancer** has reach, **Electro** flies.
 - **Blocking:** Electrostatic Field 0/4, Unruly Catapult 0/4, Thermo-Alchemist 0/3, Spear Spewer 0/2,
   Kessig Flamebreather 1/3. **The engine pieces are the defence.**
-- **Enchantments:** **Chaos Warp, and only Chaos Warp.** This is mono-red's structural hole and no
-  list fixes it. Mulligan toward it against blue or white.
+- **Enchantments:** Chaos Warp, plus a trick — **Liquimetal Torque**'s second ability makes any
+  nonland permanent an artifact until end of turn, so **Abrade or Vandalblast can then destroy an
+  enchantment**. That is three answers instead of one. Still mono-red's weakest axis; mulligan
+  toward them against blue or white.
+
+## Creature-ETB payoffs and the token mini-package
+
+Added 2026-09-29. **Impact Tremors** is not really a token card here — the deck runs **19 creatures**,
+so it triggers off the normal curve from turn two with no tokens at all, for 4 to each opponent a
+time. It is the second copy of the Purphoros effect.
+
+**Hordeling Outburst** {1}{R}{R} is the one token spell worth a slot, because it does two jobs at
+once: three bodies means three Purphoros triggers and three Impact Tremors triggers (**72 across a
+four-pod with both out**), while the spell itself still sets off Guttersnipe, Electrostatic Field,
+Erebor Flamesmith, Fiery Inscription, Firebrand Archer, Kessig Flamebreather, Longshot and Urabrask,
+and untaps Thermo-Alchemist and Unruly Catapult. A token *creature* like Beetleback Chief only does
+the first half.
+
+The quieter reason: the board is 0/2s and 0/4s that each stop exactly one attacker. **Three goblins
+are three more blockers**, which is the shape of defence the blue deck kept losing for want of.
+
+**Krenko, Mob Boss was left out.** It is the right card if this ever becomes a full goblin build, but
+{2}{R}{R} that must survive a rotation pulls slots away from the punisher shell.
+
+## Why there is no board wipe
+
+**Blasphemous Act was cut on 2026-09-29.** Thirteen damage to each creature kills Ojer, every pinger
+and every wall — in a deck where the creatures *are* the engine, the reset button costs more than
+the board it answers.
+
+**Red has no one-sided full wipe.** The honest options are a symmetric wipe that kills your own
+engine, or a one-sided partial sweeper that only kills small creatures. This deck takes the second:
+**Delayed Blast Fireball** {1}{R}{R} (2 damage to each opponent **and each creature they control** —
+4 to each opponent with Ojer, and your board is untouched), alongside End the Festivities and
+Tectonic Hazard, which are one-sided in the same way, and Fiery Confluence's repeatable
+1-damage-to-each-creature mode.
+
+**Chandra's Ignition was considered and rejected.** With Commander's Plate on a 7/7 Ojer it deals 7
+to each *other* creature and 7 to each opponent, which is often lethal — but "each other creature"
+includes all of yours. It is a finisher, not a sweeper, and it turns off the engine on the way.
 
 ## The self-damage ledger — the deck's real cost
 
 Five cards hurt you as well, and they stack:
 
-| Card | To you, per turn cycle |
-|---|---|
-| Manabarbs | ~5 (one per land you tap) |
-| Burning Earth | 1–2 — you run 25 Mountains, so it is **mostly one-sided** |
-| Roiling Vortex | 1 |
-| Sulfuric Vortex | 2, **and you cannot gain life** |
-| Pyrohemia | 1 per activation, plus 1 to each of your own creatures |
+| Card | **Each opponent takes** | You take |
+|---|---|---|
+| Manabarbs (~5 land taps each) | **20** | 5 |
+| Burning Earth (~3 nonbasics each; you run 25 Mountains) | **12** | 1–2 |
+| Roiling Vortex | **4** | 1 |
+| Sulfuric Vortex (**nobody gains life**) | **4** | 2 |
+| Pyrohemia (per {R}) | **4** | 1 |
+| **Per turn cycle** | **~40 each, ~120 across the table** | **~9–10** |
 
-With all of them out that is roughly **9–10 life a turn cycle off your own 40 — about four turns of
-clock on yourself.** That is the bargain, not a flaw: this build closes fast rather than grinding.
-Sulfuric Vortex is the single biggest tax if it ever needs trimming.
+**That is roughly 12 to 1 in your favour**, so the self-damage is not a problem worth solving. They
+die in about one full cycle once it is all online; you would need four.
+
+**The real risk is a stalled game, not the arithmetic.** Your clock runs whether or not the engine
+does. If Ojer is exiled and the pingers drop from 4 to 1, the punishers still take 9–10 off you per
+cycle while doing a third as much to them. So **deploy the punishers when you can close**, not on
+curve — and note that every extra mana rock cuts your own Manabarbs exposure.
 
 ## Deliberately excluded, and why
 
@@ -158,9 +201,10 @@ Sanctum, War Room — are a mild tension against the 7 cards needing two or more
 the reason not to add a fifth colourless utility land.
 
 **Rocks matter more here than in most red decks.** Manabarbs and Burning Earth damage *you* whenever
-*you* tap a land; mana rocks, rituals and Koth's landfall trigger all sidestep that entirely. Four
-rocks (Sol Ring, Arcane Signet, Mind Stone, Fire Diamond) is on the light side for a deck that
-punishes its own land taps — a future revision could reasonably go up to six.
+*you* tap a land; mana rocks, rituals and Koth's landfall trigger all sidestep that entirely. The
+deck runs **six rocks** — Sol Ring, Arcane Signet, Mind Stone, Fire Diamond, Liquimetal Torque,
+Worn Powerstone — and **32 lands rather than 33**, deliberately: in this deck a rock is strictly
+better than a land, because the land costs you life every time you tap it.
 
 **Fellwar Stone was cut for Fire Diamond on 2026-09-29.** Fellwar taps for a colour an *opponent's*
 land could produce, so against the mono-coloured decks in this collection it can produce nothing
@@ -168,5 +212,5 @@ castable. Fire Diamond always makes red. It enters tapped, which costs a turn an
 
 ## Deck statistics
 
-100 cards · 33 lands (25 Mountain) · 30 instants and sorceries · average CMC 2.51 · zero off-colour ·
-all commander-legal except the Koth release date above.
+100 cards · 32 lands (25 Mountain) · 19 creatures · 6 mana rocks · 28 instants and sorceries ·
+average CMC 2.41 · zero off-colour · all commander-legal except the Koth release date above.

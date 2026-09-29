@@ -1,12 +1,9 @@
 1 Abrade
 1 Arcane Signet
 1 Blackblade Reforged
-1 Blasphemous Act
 1 Blisterspit Gremlin
-1 Bolt Bend
 1 Boltwave
 1 Burning Earth
-1 Castle Embereth
 1 Chain Lightning
 1 Champion's Helm
 1 Chandra's Incinerator
@@ -14,7 +11,7 @@
 1 Chaos Warp
 1 Commander's Plate
 1 Deflecting Swat
-1 Desperate Ritual
+1 Delayed Blast Fireball
 1 Electro, Assaulting Battery
 1 Electrostatic Field
 1 End the Festivities
@@ -29,12 +26,15 @@
 1 Gut Shot
 1 Guttersnipe
 1 Hero's Blade
+1 Hordeling Outburst
+1 Impact Tremors
 1 Jeska's Will
 1 Kessig Flamebreather
 1 Koth, the Geomancer
 1 Lava Dart
 1 Light Up the Stage
 1 Lightning Bolt
+1 Liquimetal Torque
 1 Longshot, Rebel Bowman
 1 Manabarbs
 1 Mind Stone
@@ -44,7 +44,6 @@
 1 Nykthos, Shrine to Nyx
 1 Ojer Axonil, Deepest Might
 1 Play with Fire
-1 Price of Progress
 1 Purphoros, God of the Forge
 1 Pyretic Ritual
 1 Pyrohemia
@@ -73,4 +72,5 @@
 1 Virtue of Courage
 1 War Room
 1 Wheel of Misfortune
+1 Worn Powerstone
 1 Wrenn's Resolve
