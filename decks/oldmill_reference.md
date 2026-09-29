@@ -1,4 +1,9 @@
-# Cards Reference — The Mindskinner mono-blue mill (NEW / UNBUILT)
+# Cards Reference — The Mindskinner mono-blue mill, ORIGINAL BUILD (`oldmill`)
+
+> **This is the pre-rebuild list, kept deliberately for A/B testing against `newmill`.**
+> On 2026-09-29 the deck was rebuilt around voltron-ing the commander (see
+> `newmill_reference.md`). Both versions are maintained so they can be simulated head to head.
+> Sim harness key: **`oldmill`**. Do not delete this file.
 
 **Status: EXPERIMENTAL, NOT BUILT.** Designed Sept 28, 2026. No cards acquired, nothing sleeved.
 This is a paper design, not a record of a physical deck. Do not treat it like the other reference
