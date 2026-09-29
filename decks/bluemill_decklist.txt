@@ -1,5 +1,5 @@
 1 Accorder's Shield
-1 Aetherize
+1 Aetherspouts
 1 Akroma's Memorial
 1 Altar of Dementia
 1 Altar of the Brood
@@ -46,9 +46,9 @@
 1 Rhystic Study
 1 Rogue's Passage
 1 Ruin Crab
-1 Sage's Row Denizen
 1 Sapphire Medallion
 1 Screaming Swarm
+1 Silent Arbiter
 1 Siren's Ruse
 1 Slip Out the Back
 1 Sol Ring

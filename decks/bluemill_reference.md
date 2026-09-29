@@ -437,7 +437,19 @@ per turn, while Angelic Accord and Resplendent Angel give white a free 4/4 flier
 | **Crawlspace** {3} | Max two attackers. Does not care that they have 24. |
 | **Propaganda** {2}{U} | {2} per attacker — punishing against a wide board. |
 | **Silent Arbiter** {4} | No more than one creature can attack each combat. The hardest answer available. |
-| **Dissipation Field** {2}{U}{U} | Every permanent that damages you goes back to hand. |
+| **Dissipation Field** {2}{U}{U} | Every permanent that damages you goes back to hand. (not included) |
+
+**Silent Arbiter and Aetherspouts were added on this basis.** Aetherspouts replaced Aetherize: both
+fog an alpha strike, but Aetherize returns attackers to **hand** where they are recast next turn,
+while Aetherspouts puts them in the **library**. Note the owner chooses top or bottom, so you do not
+get to force the mill — but top means you mill it and bottom means it is buried, and either beats
+giving it back.
+
+**Screaming Swarm was deliberately NOT cut for Silent Arbiter**, despite the two being
+anti-synergistic (Swarm wants a wide attack, Arbiter allows one attacker). Two specific 1-ofs being
+on the battlefield simultaneously is a few percent of games — Screaming Swarm appeared in 0 of 10
+logged games and Crawlspace in 2. Cutting a card over a conflict that rarely materialises is the
+same error as cutting for redundancy.
 | **Meekstone** {1} | Power 3+ does not untap. Angels are 4/4s, and Mindskinner has vigilance from Accorder's Shield so it is unaffected; Horror tokens are 1/1s. |
 
 **The honest limit: these are all 1-ofs.** Crawlspace appeared in 2 of 10 games and Aetherize in 0.
