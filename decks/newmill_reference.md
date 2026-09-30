@@ -371,6 +371,27 @@ for one mana; High Tide needs a big Island-tapping turn this deck has never had.
 (Sol Ring, Commander's Plate, Lavaspur Boots, Accorder's Shield, Altar of the Brood) and its
 Construct token blocked in this very game. Treat it as 34.5 lands when counting.
 
+## Four-colour pod sim — 2026-09-30, 24 games
+
+`ojer` (red) vs `newmill` (blue) vs `deathtouch` (black) vs `kodama` (green). Five seeds, 5-game
+batches, 24 decided games, 1 drawn, median kill turn 17. Par in a four-way pod is **25%**.
+
+| Deck | Wins | Rate | 95% CI | vs par |
+|---|---|---|---|---|
+| deathtouch (black) | 11 | **45.8%** | [26%, 66%] | z = +2.36, **exact p = 0.021** |
+| ojer (red) | 8 | 33.3% | [14%, 52%] | z = +0.94, p = 0.23 |
+| kodama (green) | 3 | 12.5% | [0%, 26%] | z = −1.41, p = 0.12 |
+| newmill (blue) | 1 | **4.2%** | [0%, 12%] | z = −2.36, **exact p = 0.009** |
+
+**Only two of the four results are real.** Black is significantly above par and blue significantly
+below, on exact binomial tests. Red and green are both inside the noise — red finishing second
+means nothing at this sample size.
+
+**Method note:** a single unattended 45-game run is not possible in this environment. The harness
+caps background jobs at 10 minutes, and detaching with `setsid` does not survive either, because the
+container is reclaimed when the session idles. These 24 games came from 5-game batches run inside
+live turns; one batch timed out and produced nothing.
+
 ## Known weaknesses
 
 - **Fourteen creatures.** Thin. The flier problem documented in `oldmill_reference.md` — 81% of

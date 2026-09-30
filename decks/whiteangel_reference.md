@@ -4,7 +4,9 @@
 owner is acquiring. **Every card was resolved against `scryfall.db`** — all 100 checked for colour
 identity (zero off-colour) and Commander legality.
 
-**Archidekt:** https://archidekt.com/decks/26887838/mono_life — verified card-for-card identical to
+**Archidekt:** https://archidekt.com/decks/26887838/white_mono_life — renamed by the owner from
+`mono_life`; same deck id, both links resolve. Re-verified 2026-09-30 by diffing the Archidekt API
+against `whiteangel_decklist.txt`: 100 cards each, zero differences. Originally verified identical to
 this list on 2026-09-28 (100 cards, zero differences, Lyra correctly set as commander).
 
 ## Commander
