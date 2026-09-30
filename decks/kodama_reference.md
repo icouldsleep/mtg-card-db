@@ -2,7 +2,41 @@
 
 **STATUS: BUILT (100 cards).** Original build confirmed Sept 19, 2026; **4-card swap applied Sept 20, 2026** to fix the deck's artifact/enchantment removal gap and to pull out the +1/+1 counter spreader. Cut down from the 181-card Archidekt staging pool after a full database cross-check (existence, color identity, Commander legality, and full oracle text for every card) plus a synergy pass looking for interactions the category tags alone would've missed.
 
-Staging link (original 181-card pool, now superseded by the 100 below): https://archidekt.com/decks/26413180/kodoma_of_the_mono_tree
+**Archidekt (live, build in progress):** https://archidekt.com/decks/26590810/kodama_of_the_mono_tree
+— verified against this file on 2026-09-30 by diffing the Archidekt API against `kodama_decklist.txt`.
+100 cards each. **14 differences in each direction, and all 14 are the outstanding purchases** — the
+Archidekt list is an accurate picture of what is physically sleeved right now, and this file is the
+finished target. They converge when the last 14 cards arrive. Details under "Build status" below.
+
+The old staging link (`26413180`, the original 181-card pool) is **dead — it now returns 404** and
+has been removed. The other Archidekt link in this folder, `26565889/tramplesaurus_rex_precon` in
+`kodama_buylist.md`, is the **precon source** and is correctly different from the 100.
+
+
+## Build status — 2026-09-30
+
+**46 of the 60 cards on `kodama_purchase_list.txt` are in. Fourteen outstanding:**
+
+```
+Ancient Greenwarden      Growing Rites of Itlimoc
+Bala Ged Recovery        Natural Order
+Circle of Dreams Druid   Radagast of Rhosgobel
+Dancing from Dark to Dawn Sandwurm Convergence
+Genesis                  Terastodon
+The Great Henge          Tireless Provisioner
+Verdant Catacombs        Windswept Heath
+```
+
+**Nothing needed is missing from the buylist** — every one of the 14 appears on it, so the purchase
+list is complete and correct.
+
+**Precon leftovers still holding those 14 slots**, to come out as the cards arrive:
+
+```
+Blanchwood Armor · Cultivate · Evolving Wilds · Greater Good · Hickory Woodlot
+Managorger Hydra · Primal Might · Regrowth · Terramorphic Expanse · Tireless Tracker
+Warping Wail · Yorvo, Lord of Garenbrig · Zendikar's Roil · 1 extra Forest
+```
 
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
