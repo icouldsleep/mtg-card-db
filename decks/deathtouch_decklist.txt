@@ -1,13 +1,14 @@
 1 Arcane Signet
 1 Archetype of Finality
+1 Arnyn, Deathbloom Botanist
 1 Avacyn, Angel of Horror
 1 Basilisk Collar
 1 Black Market
-1 Black Widow, Deadly Hunter
 1 Blightwing Bandit
 1 Bloodthirsty Conqueror
 1 Bojuka Bog
 1 Bubbling Muck
+1 Burrog Banemaker
 1 Cabal Coffers
 1 Cabal Ritual
 1 Cabal Stronghold
@@ -23,7 +24,6 @@
 1 Deserted Temple
 1 Diabolic Intent
 1 Dire Fleet Poisoner
-1 Dire Fleet Ravager
 1 Exquisite Blood
 1 Exsanguinate
 1 Feed the Swarm
@@ -42,11 +42,10 @@
 1 Nighthawk Scavenger
 1 Nirkana Revenant
 1 Nykthos, Shrine to Nyx
-1 Pharika's Chosen
 1 Phyrexian Arena
 1 Qarsi Revenant
 1 Quietus Spike
-1 Rancid Rats
+1 Ravening Warg
 1 Read the Bones
 1 Rogue's Passage
 1 Sheoldred, the Apocalypse
@@ -70,3 +69,4 @@
 1 Virtus the Veiled
 1 Vito, Thorn of the Dusk Rose
 1 White Widow, Yelena Belova
+1 Witch of the Moors

@@ -376,6 +376,56 @@ Results to date, Forge AI piloting both sides:
   [27.2%, 49.5%]. Par is 33.3% and the interval contains it, so all three decks are statistically
   indistinguishable.
 
+## Swaps from collection, 2026-09-30
+
+Four one-for-one swaps, matched on mana value, all from cards the owner already had in hand — no
+purchases. **The deck's engine is lifegain, not just deathtouch:** Hooded Blightfang gains 1 life per
+deathtouch attacker, Vito turns lifegain into an opponent losing that much, and Marauding
+Blight-Priest adds 1 to each opponent on top. Cards that gain life are damage multipliers here.
+
+| In | Out | |
+|---|---|---|
+| **Arnyn, Deathbloom Botanist** {2}{B} 2/2 | Black Widow, Deadly Hunter {2}{B} 3/3 | The best of the batch |
+| **Burrog Banemaker** {B} 1/1 | Pharika's Chosen {B} 1/1 | Same body plus `{1}{B}: +1/+1`, so not a dead late topdeck |
+| **Ravening Warg** {1}{B} 2/2 | Rancid Rats {1}{B} 1/1 | Bigger body, gains 2 on attack |
+| **Witch of the Moors** {3}{B}{B} 4/4 | Dire Fleet Ravager {3}{B}{B} 4/4 | Repeating edict on the whole table |
+
+**Arnyn is an engine, not a body.** *"Whenever a creature you control with power or toughness 1 or
+less dies, target opponent loses 2 and you gain 2."* **Eleven creatures in the deck qualify** —
+Typhoid Rats, Hired Poisoner, Rancid Rats*, Vampire of the Dire Moon, Thrill-Kill Assassin,
+Tinybones, White Widow, Hooded Blightfang, Vito, Virtus and Pharika's Chosen* (*now swapped out).
+Chump-blocking with a 1/1 deathtoucher is what this deck does every turn, and with Arnyn out each one
+that dies is:
+
+| | |
+|---|---|
+| Arnyn | opponent −2, **you +2** |
+| Vito, off that lifegain | opponent −2 |
+| Marauding Blight-Priest | **each** opponent −1 |
+| **Per 1/1 that dies** | **6 across a four-pod** |
+
+**Witch of the Moors** — *"at your end step, if you gained life this turn, each opponent sacrifices a
+creature and you return a creature card from your graveyard to your hand."* Blightfang gains life
+every combat, so the condition is close to automatic and the edict repeats every turn. Dire Fleet
+Ravager's ETB was one big hit that also hit us.
+
+**Honest note on two of these.** Black Widow drew a card on every deathtouch connection and mono-black
+needs draw; Rancid Rats' skulk made it near-unblockable and a reliable Blightfang trigger. Both are
+real trades rather than free upgrades.
+
+**Considered and rejected from the same batch:** Crossbones (needs Villains; the deck has one),
+Dauthi Trapper, Lord of the Forsaken, Abyssal Harvester and Scathing Shadelock (no deathtouch, so
+Blightfang and Archetype don't see them), Canyon Crawler (the 6-slot is Archetype and Nirkana
+Revenant), and Grimdancer, Fell Stinger, Gutless Plunderer, Ninja of the Hand, Pirate Peddlers,
+Sidisi Regent and The Master of Lake-town (playable, not better than the slot). **Dreaded Bat-Cloud**
+{4}{B} 4/2 flying deathtouch, usually costing {1}{B}, was offered as an optional fifth and not taken.
+
+## Legality flag — Avacyn, Angel of Horror
+
+**Avacyn, Angel of Horror** {5}{B}{B}{B} 8/8 flying deathtouch is from **Reality Fracture Commander,
+released 2026-10-02**. It reads `commander: not_legal` in `scryfall.db` only because the set is not
+out yet; it has been in the deck since it was built on 2026-09-28. Same situation as Koth in `ojer`.
+
 ## Four-colour pod sim — 2026-09-30, 24 games
 
 `ojer` (red) vs `newmill` (blue) vs `deathtouch` (black) vs `kodama` (green). Five seeds, 5-game
