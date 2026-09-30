@@ -385,15 +385,32 @@ Blight-Priest adds 1 to each opponent on top. Cards that gain life are damage mu
 
 | In | Out | |
 |---|---|---|
-| **Arnyn, Deathbloom Botanist** {2}{B} 2/2 | Black Widow, Deadly Hunter {2}{B} 3/3 | The best of the batch |
+| **Arnyn, Deathbloom Botanist** {2}{B} 2/2 | Blightwing Bandit {3}{B} 2/2 | Engine with 11 live targets, for a 2/2 whose rider rarely turns on |
 | **Burrog Banemaker** {B} 1/1 | Pharika's Chosen {B} 1/1 | Same body plus `{1}{B}: +1/+1`, so not a dead late topdeck |
-| **Ravening Warg** {1}{B} 2/2 | Rancid Rats {1}{B} 1/1 | Bigger body, gains 2 on attack |
+| **Ravening Warg** {1}{B} 2/2 | Typhoid Rats {B} 1/1 | Bigger body, gains 2 on attack — and lifegain is damage here |
 | **Witch of the Moors** {3}{B}{B} 4/4 | Dire Fleet Ravager {3}{B}{B} 4/4 | Repeating edict on the whole table |
+
+### Two cuts I got wrong first, corrected the same day
+
+**Black Widow, Deadly Hunter was almost cut for Arnyn. That was a mistake.** Black Widow draws a card
+whenever a deathtoucher connects, and **Sheoldred is in this deck** — so the draw gains 2 life, which
+Vito converts to 2 loss and Blight-Priest to 1 more per opponent. **It feeds the same lifegain engine
+that justified Arnyn, and draws a card on top.** It is also a 3/3 to Arnyn's 2/2, and its trigger
+matches how the deck already plays: Hooded Blightfang rewards attacking with deathtouchers, so you
+are attacking regardless. With only **6 card-draw sources** in the deck, draw is the scarce resource,
+not damage. **Blightwing Bandit** was the right cut instead — its rider needs a first spell cast on
+an opponent's turn, and of the deck's 8 instants three are rituals you would never hold up.
+
+**Rancid Rats was almost cut for Ravening Warg. Also wrong.** Rancid Rats has **skulk**, so only 0/X
+and 1/X creatures can block it — it connects nearly every swing, which is a reliable Hooded
+Blightfang drain and a Black Widow draw. The vanilla 1/1 deathtouchers have no such upside, so
+**Typhoid Rats** went instead. Hired Poisoner is the identical remaining vanilla body if another
+1-drop ever needs to go.
 
 **Arnyn is an engine, not a body.** *"Whenever a creature you control with power or toughness 1 or
 less dies, target opponent loses 2 and you gain 2."* **Eleven creatures in the deck qualify** —
-Typhoid Rats, Hired Poisoner, Rancid Rats*, Vampire of the Dire Moon, Thrill-Kill Assassin,
-Tinybones, White Widow, Hooded Blightfang, Vito, Virtus and Pharika's Chosen* (*now swapped out).
+Hired Poisoner, Rancid Rats, Foulmire Knight, Vampire of the Dire Moon, Thrill-Kill Assassin,
+Tinybones, White Widow, Hooded Blightfang, Vito, Virtus and Burrog Banemaker — **11 after the swaps**.
 Chump-blocking with a 1/1 deathtoucher is what this deck does every turn, and with Arnyn out each one
 that dies is:
 

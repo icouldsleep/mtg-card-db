@@ -4,7 +4,7 @@
 1 Avacyn, Angel of Horror
 1 Basilisk Collar
 1 Black Market
-1 Blightwing Bandit
+1 Black Widow, Deadly Hunter
 1 Bloodthirsty Conqueror
 1 Bojuka Bog
 1 Bubbling Muck
@@ -45,6 +45,7 @@
 1 Phyrexian Arena
 1 Qarsi Revenant
 1 Quietus Spike
+1 Rancid Rats
 1 Ravening Warg
 1 Read the Bones
 1 Rogue's Passage
@@ -59,7 +60,6 @@
 1 Thrill-Kill Assassin
 1 Tinybones, the Pickpocket
 1 Torment of Hailfire
-1 Typhoid Rats
 1 Urborg, Tomb of Yawgmoth
 1 Vampire Nighthawk
 1 Vampire of the Dire Moon
