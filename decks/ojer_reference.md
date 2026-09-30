@@ -1,6 +1,10 @@
 # Cards Reference — Ojer Axonil, Deepest Might (`ojer`)
 
-**Status: NEW, NOT BUILT.** Created 2026-09-29. Sim harness key: **`ojer`**.
+**Status: NEW, uploaded to Archidekt 2026-09-30, not yet built in paper.** Created 2026-09-29. Sim harness key: **`ojer`**.
+
+**Archidekt:** https://archidekt.com/decks/26925771/ojer_mono_red — verified card-for-card against
+this file on 2026-09-30 by diffing the Archidekt API against `ojer_decklist.txt`: 100 cards each,
+zero differences in either direction.
 
 **Every card resolved against `scryfall.db`** — all 100 checked for colour identity (zero off-colour)
 and Commander legality. One legality flag, see "Koth" below.
