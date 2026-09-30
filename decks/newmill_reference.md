@@ -1,8 +1,10 @@
-# Cards Reference — The Mindskinner voltron mill, REBUILD (`newmill`)
+# Cards Reference — The Mindskinner mono-blue mill (`newmill`)
 
-**Status: PLAYTESTED, not yet built in paper.** Rebuilt 2026-09-29 from `oldmill`, which is kept
-intact for A/B testing. Sim harness key: **`newmill`**. **Three wins in three piloted games — see
-"Logged games" below.**
+**Status: PLAYTESTED, not yet built in paper.** Sim harness key: **`newmill`**. **Three wins in
+three piloted games — see "Logged games" below.**
+
+**Archidekt:** https://archidekt.com/decks/26944750/blue_mono_mill — verified card-for-card against
+`newmill_decklist.txt` on 2026-09-30. 100 cards, zero differences.
 
 **Every card resolved against `scryfall.db`** — all 100 checked for colour identity (zero
 off-colour) and Commander legality.
@@ -13,12 +15,11 @@ off-colour) and Commander legality.
 "Can't be blocked. If a source you control would deal damage to an opponent, **prevent** that damage
 and **each opponent** mills that many cards."
 
-## The thesis change
+## The commander as a mill engine
 
-`oldmill` was mill-goodstuff: 33 cards containing the word "mill", winning by accumulating spells.
-**This build treats the commander as the mill engine and voltrons him.** Every point of power on an
-unblockable body becomes mill to *each* opponent, so pumping him scales far harder than adding mill
-spells — and double strike doubles it outright.
+**Every point of power on an unblockable body becomes mill to *each* opponent**, so pumping the
+commander scales far harder than adding mill spells — and double strike doubles it outright. That is
+why the deck runs Equipment where a mill deck would run enchantments.
 
 | Setup (10 lands on board) | Per opponent | Table total (3 opponents) |
 |---|---|---|
@@ -29,14 +30,11 @@ spells — and double strike doubles it outright.
 | **+ Genji Glove instead** | **92** | **276** |
 | + one Helm of the Host copy | 184 | 552 |
 
-**That last row does not apply while Silent Arbiter is on the battlefield** — only one creature can
-attack each combat, so the copy waits. See the Silent Arbiter section for the trade.
-
 **Decking three opponents takes 297 total mill.** For comparison, Fractured Sanity — one of the
 best mill spells in the format — is 42 total, once, and it is a three-mana card.
 
-Mill-word count is **23**, down from 33, and that is intended. The metric stopped measuring the
-deck's output the moment the commander became the engine.
+Mill-word count is **23**, and that metric stopped measuring the deck's output the moment the
+commander became the engine.
 
 ## Logged games
 
@@ -58,9 +56,9 @@ Veiled, Gonti, Dauthi Embrace, Cabal Stronghold and Phyrexian Arena all on board
 
 **What this confirms.** The life totals are the tell: nobody was ever pressured, because under the
 prevent clause nobody *can* be. The game is decided entirely on cards, not on life, and the deck got
-there through a table containing the exact deck — mono-black deathtouch — that `oldmill` was losing
-to. It also won having drawn **none** of its other twelve creatures, which means the voltron plan
-does not need a board. The cost of that was three dead cards: Helm of the Host and Irenicus's Vile
+there through a table containing the exact deck — mono-black deathtouch — that this build had been
+losing to. It also won having drawn **none** of its other creatures, which means the commander
+alone does not need a board. The cost of that was three dead cards: Helm of the Host and Irenicus's Vile
 Duplication had nothing but the commander to copy, and Altar of Dementia had nothing to sacrifice.
 
 ### The two heads-up games
@@ -98,9 +96,9 @@ only matters when a second creature is available to carry the spare.
    is 44 mill per Genji turn instead of 40.
 2. **Lavaspur Boots** — ward {1} taxes every removal spell passively.
 3. **Spellskite** — redirect the target.
-4. **The blinks** (Siren's Ruse, Teferi's Time Twist, Essence Flux, Blur, Ghostly Flicker) — they
-   save the creature but **the Equipment falls off**, and re-equipping the Glove is another {3}.
-   Reach for these only when Slip Out the Back is not in hand.
+4. **The blinks** (Siren's Ruse, Teferi's Time Twist, Essence Flux, Blur) — they save the creature
+   but **the Equipment falls off**, and re-equipping the Glove is another {3}. Reach for these only
+   when Slip Out the Back is not in hand.
 5. **Fool's Demise** — returns him to the battlefield on death, skipping the tax entirely.
 
 **Helm of the Host is the hidden ceiling.** The token copies are non-legendary and hasty, and their
@@ -309,7 +307,7 @@ spell slot:
 - **Fabricate** {2}{U} — any artifact, to hand.
 - **Inventors' Fair** (land) — {4}, {T}, sac: any artifact.
 - **Urza's Saga** (land) — artifact MV <=1 onto the battlefield: Sol Ring, Commander's Plate,
-  Accorder's Shield, Lavaspur Boots, Altar of the Brood.
+  Accorder's Shield, Lavaspur Boots.
 
 ## The copy package (three cards)
 
@@ -330,74 +328,8 @@ counter *or* copy a creature *or* draw two), Counterspell {U}{U}, **Didn't Say P
 
 **Protecting the commander:** Commander's Plate (protection from four colours), Lavaspur Boots
 (ward), Spellskite, Vodalian Illusionist (repeatable phase-out), Slip Out the Back, Teferi's Time
-Twist, Fool's Demise, and the immediate blinks (Essence Flux, Siren's Ruse, Blur, Ghostly Flicker).
+Twist, Fool's Demise, and the immediate blinks (Essence Flux, Siren's Ruse, Blur).
 **These are not interchangeable once Equipment is attached — see the ranked list under "Play notes".**
-
-**Silent Arbiter** {4} — 1/5 Artifact Creature. *"No more than one creature can attack each combat.
-No more than one creature can block each combat."* The deck's main answer to going wide; see its own
-section below. Findable with Whir of Invention, Fabricate and Inventors' Fair, which is why it is
-better here than it was in `oldmill`.
-
-**Altar of Dementia** doubles as the escape hatch: sacrifice the commander in response to exile and
-mill equal to his power on the way out; he returns to the command zone. It is also the **off switch
-for Silent Arbiter** — sacrifice the Arbiter on any turn you actually want to attack with copies.
-
-## Silent Arbiter — added 2026-09-29, and the trade it makes
-
-Cut from the rebuild, then **added back** over `Rogue's Passage` after the A/B sim below. The
-reasoning for cutting it was that it blanks myriad and stops Helm of the Host tokens attacking. That
-is true, and it is not the whole picture.
-
-**What it buys.** The flier / go-wide problem is this deck's worst matchup and is documented in both
-references. The Arbiter caps the **whole table** at one attacker per combat, which is the only effect
-in the 99 that scales against an arbitrary number of creatures. Crawlspace, Propaganda and Maze of
-Ith then only have to handle that one attacker.
-
-**What it costs — the ceiling, not the floor.** The fail-safe still works completely: a Helm of the
-Host token is a **non-legendary copy of the commander**, so it is unblockable, it carries the
-prevention clause, it can wear the Genji Glove for {3}, and it **skips commander tax entirely.** If
-the commander is answered, one copy attacking per combat still mills each opponent 10, or 40 with the
-Glove on it. What the Arbiter removes is attacking with the commander *and* a copy in the same
-combat: roughly 60 mill per opponent per turn down to 40, when a spare body is available.
-
-**It does not slow the Genji Glove plan at all.** The limit is per *combat*; Genji Glove grants a
-second combat, and the equipped creature attacks in both.
-
-**It improves two cards.** *Court of Cunning* makes you the monarch, normally a death sentence for a
-13-creature deck — with the Arbiter down, opponents can send exactly one creature at the crown per
-combat. And *Jace, Memory Adept* becomes defensible for the same reason.
-
-**Why it is not simply "correct".** It is a real trade of top-end speed for a floor against the
-matchup that beats this deck. Altar of Dementia is the off switch when the copies want to swing.
-
-## The A/B sim, 2026-09-29 — 88 games
-
-`oldmill` and `newmill` each into an identical three-way pod with the mono-black deathtouch deck and
-Kodama. Same field, same three seeds (4242, 777, 31337), 15 games each. Par is 33.3%.
-
-| Arm | Blue wins | Decided | Win rate | 95% CI | vs par |
-|---|---|---|---|---|---|
-| `oldmill` | 11 | 43 | 25.6% | [12.5%, 38.6%] | z = −1.08, p = 0.28 — not distinguishable |
-| `newmill` | 7 | 45 | 15.6% | [5.0%, 26.1%] | z = −2.53, **p = 0.011 — below par** |
-
-The 10-point gap between arms is **not** significant (z = +1.17, p = 0.24). Two games in
-`oldmill`/4242 exceeded the compute budget and were excluded.
-
-**Read this with the pilot in mind.** The Forge AI does not hold up counterspells, sequence
-Equipment, or protect the commander, and `newmill` requires all three — the same 99 cards decked a
-four-pod on turn 19 when piloted by hand. `oldmill` is a pile of cards an AI can play competently.
-The arm difference is mostly a gap in driving.
-
-**The result that is not about piloting:**
-
-| Deck | with `oldmill` at the table | with `newmill` at the table |
-|---|---|---|
-| Deathtouch (Virtus) | 44.2% | **53.3%** |
-| Kodama | 30.2% | 31.1% |
-
-Deathtouch gained nine points when the blue seat swapped and Kodama did not move. The only defensive
-card `oldmill` had that `newmill` lacked was **Silent Arbiter**. That is what motivated adding it
-back.
 
 ## What was deliberately removed, and why
 
@@ -471,9 +403,9 @@ blue-producing rocks, three now counting Arcane Signet. Both enter tapped; that 
 Ghostly Flicker was the slot because blinks drop the Equipment and Slip Out the Back does the job
 for one mana; High Tide needs a big Island-tapping turn this deck has never had.
 
-**Urza's Saga was kept** despite deleting itself at the worst moment — it fetches five things here
-(Sol Ring, Commander's Plate, Lavaspur Boots, Accorder's Shield, Altar of the Brood) and its
-Construct token blocked in this very game. Treat it as 34.5 lands when counting.
+**Urza's Saga was kept** despite deleting itself at the worst moment — it fetches four things here
+(Sol Ring, Commander's Plate, Lavaspur Boots, Accorder's Shield) and its Construct token blocked in
+this very game. Treat it as 34.5 lands when counting.
 
 ## Four-colour pod sim — 2026-09-30, 24 games
 
@@ -498,11 +430,11 @@ live turns; one batch timed out and produced nothing.
 
 ## Known weaknesses
 
-- **Fourteen creatures.** Thin. The flier problem documented in `oldmill_reference.md` — 81% of
-  incoming damage came from fliers across ten logged four-pod games — is not solved, only narrowed.
-  Silent Arbiter, Crawlspace, Propaganda and Maze of Ith all answer attackers without caring how many
-  creatures the opponent has, but they are four 1-ofs. The build's real answer is still to win before
-  it matters.
+- **Fliers.** Across ten logged four-pod games, **81% of incoming damage came from fliers.** The
+  rebuild narrowed this rather than solving it: Cloud Elemental, Vantress Gargoyle, Benevolent River
+  Spirit and Hover Barrier block in the air, and Crawlspace, Propaganda and Maze of Ith answer
+  attackers without caring how many creatures the opponent has — but the last three are 1-ofs. The
+  build's real answer is still to win before it matters.
 - **All eggs in one basket.** An exile effect on the commander leaves the equipment as dead
   cardboard. The protection suite is good but not airtight, and Commander's Plate does not stop
   white or colourless removal, non-targeted wipes, -X/-X, or edicts.
