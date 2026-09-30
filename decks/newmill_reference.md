@@ -108,6 +108,110 @@ damage is prevented and converted to mill the same way — every copy is another
 combat. It was drawn in the logged game with no second creature to fall back on, so it only ever
 copied the commander.
 
+## THE REBUILD, 2026-09-30 — creatures ARE the mill engine
+
+The deck was losing because it treated the commander as the only mill source and filled the rest of
+the 99 with slow mill enchantments. That reading of the card was too narrow:
+
+> If a source **you control** would deal damage to an opponent, prevent that damage and **each
+> opponent** mills that many cards.
+
+**"A source you control" is any source.** With the commander on the battlefield every creature is a
+mill engine, and a far better one than any enchantment in the old list:
+
+| Attacking with the commander out | Mill per opponent | Across a four-pod |
+|---|---|---|
+| A 2/3 flier | 2 | 6 |
+| Vantress Gargoyle (5/4) | 5 | 15 |
+| Four creatures averaging 3 power | 12 | **36** |
+
+Psychic Corrosion milled 2 per draw. One 3/3 connecting mills 9. **Bruvac doubles all of it.**
+
+**The constraint that follows:** a blocked creature deals its damage to the blocker, not the player,
+so it mills nothing. **Evasion, not size, is what turns a body into mill.**
+
+**15 out:** Psychic Corrosion, Sphinx's Tutelage, Teferi's Tutelage, Drowned Secrets, Memory Erosion,
+Court of Cunning, Folio of Fancies, Jace Memory Adept, Altar of Dementia, Altar of the Brood, The
+Water Crystal, Windfall, Fractured Sanity, **Silent Arbiter** (it caps you at one attacker per combat
+and now fights the gameplan) and **Ruin Crab** (0/3, can never mill through combat).
+
+**15 in:** Thassa, God of the Sea · Mithril Coat · Charix, the Raging Isle · Mist-Cloaked Herald ·
+Triton Shorestalker · Slither Blade · Sleep-Cursed Faerie · Benevolent River Spirit · Cemetery
+Illuminator · Kitesail Larcenist · Skystrike Officer · Cloud Elemental · Reservoir Kraken · Hover
+Barrier · Wall of Frost.
+
+Creatures go **12 to 25**. Untouched: the commander, Genji Glove, Fireshrieker, all three copies, the
+equipment, protection, counterspells, mana, and the finisher package below.
+
+### The finisher — kicked Maddening Cacophony + Bruvac
+
+**Maddening Cacophony** kicked mills each opponent **half their library**. **Bruvac** doubles it.
+**Half, doubled, is the whole library — it decks the entire table off one card.** Six mana plus
+Bruvac's three, nothing infinite, comfortably inside Bracket 3.
+
+**Drift of Phantasms is the tutor for it.** Transmute {1}{U}{U} finds a card of the same mana value;
+Drift is MV 3 and **Bruvac is MV 3**. The 0/5 flying wall you keep for blocking is also the search
+engine for the kill.
+
+### Charix — know the window
+
+**{3}: Charix gets +X/−X, where X is the number of Islands you control.** The pump is +X/**−X**, so
+with a 0/17 base:
+
+| Islands | Charix becomes |
+|---|---|
+| 8 | 8/9 |
+| 12 | 12/5 |
+| 16 | **16/1** |
+| 17+ | **dies to state-based actions** |
+
+The deck runs 29 Islands. Activate between roughly 8 and 16 Islands; past that leave it as a wall.
+With Thassa making it unblockable, a 16-power Charix mills 48 across a four-pod.
+
+## Logged game — 2026-09-30, four-player win, all three opponents decked
+
+Piloted by hand. vs mono-red Ojer, mono-black deathtouch and Kodama green. **Won on turn 34.**
+
+| Turn | Setup | Power | Mill per opponent |
+|---|---|---|---|
+| 19 | Commander + Fireshrieker | 10 | 10 + 10 = **20** |
+| 23 | same | 10 | **20** |
+| 27 | + Blackblade Reforged (6 lands) | **16** | 16 + 16 = **32** (96 across the table) |
+| 31 | same | 16 | the remainder — all three empty |
+
+**Four connects emptied three 99-card libraries.**
+
+**Charix did its job on turn 25.** Green had Unnatural Growth doubling its board and sent a
+**12-power Kodama of the East Tree**; Charix blocked and shrugged it off. **Mist-Cloaked Herald ate a
+Lightning Bolt on turn 3** — a removal spell that was then not available for the commander on 15.
+Life held at **40 → 37 → 23 → 21 → 17**, against two aggressive boards.
+
+**The commander survived because it was protected, not because nobody tried.** The pilot cast it with
+{U} and **Slip Out the Back** in hand. Note that Slip Out the Back phases out the creature **and
+everything attached to it**, so the whole 32-mill package survives a Snuff Out for one mana — which
+the blink effects cut in this rebuild would not have done.
+
+## The commander is an ENCHANTMENT creature — the removal surface is wider than it looks
+
+**The Mindskinner is a Legendary *Enchantment* Creature — Nightmare.** In a logged game it died to
+**Reclamation Sage** (*"destroy target artifact or enchantment"*). It dies to creature removal **and**
+to Naturalize, Disenchant, Aura Shards, Back to Nature and every green or white catch-all.
+
+**That roughly doubles the number of cards at a typical table that can answer it**, and it is why
+"they targeted him the moment he came out" keeps happening. Build and pilot on the assumption the
+first copy dies.
+
+**Commander's Plate answers this specific case** — in mono-blue it grants protection from white,
+black, red and green, and Reclamation Sage's ability targets.
+
+## Do not feed the punishers — the Zellix lesson
+
+In a loss to the mono-red deck, **Zellix's Horror tokens were the pilot's own kill condition.**
+Zellix makes a 1/1 whenever a player mills a creature card; the red deck's **Rampaging Ferocidon**
+deals 1 damage to a creature's controller whenever another creature enters, which Ojer rewrote to 4.
+**Three Horrors in one turn was 12 damage to our own face.** Against any "whenever a creature enters"
+punisher, decline the Zellix triggers.
+
 ## THE RULING — read this before adding any copy effect
 
 Official Gatherer ruling, 2024-09-20:
