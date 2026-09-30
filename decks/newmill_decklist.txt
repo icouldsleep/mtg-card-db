@@ -8,6 +8,7 @@
 1 Blackblade Reforged
 1 Blur
 1 Bruvac the Grandiloquent
+1 Coldsteel Heart
 1 Commander's Plate
 1 Counterspell
 1 Court of Cunning
@@ -25,9 +26,7 @@
 1 Fractured Sanity
 1 Frantic Search
 1 Genji Glove
-1 Ghostly Flicker
 1 Helm of the Host
-1 High Tide
 1 Inventors' Fair
 1 Irenicus's Vile Duplication
 29 Island
@@ -51,6 +50,7 @@
 1 Sapphire Medallion
 1 Silent Arbiter
 1 Siren's Ruse
+1 Sky Diamond
 1 Slip Out the Back
 1 Sol Ring
 1 Spellskite

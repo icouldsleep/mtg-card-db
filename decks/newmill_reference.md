@@ -131,9 +131,29 @@ and this deck should be pure single-creature voltron instead.
 The counter-argument for this deck's reading: if a second body contributed nothing, then Zellix
 tokens and Vantress Gargoyle would contribute nothing while Mindskinner is out, and they clearly do.
 
-**Confidence is high but not absolute. Worth a judge call or a playgroup agreement before buying
-the copy package.** The copy package is deliberately kept to three cards so the deck still functions
-if the other reading prevails.
+**CONFIRMED IN PLAY, 2026-09-29 — Forge implements it per source.** From the game log of a
+four-player win, attacking with the commander and an Irenicus token (creature 425), where only the
+commander carried Fireshrieker:
+
+```
+Combat: sleepy assigned The Mindskinner (100) and The Mindskinner (425) to attack Tousba.
+Phase: sleepy's First Strike Damage Step
+Replacement Effect: If a source you control would deal damage to an opponent,
+                    prevent that damage and each opponent mills that many cards.
+  -> Roland milled 10 · Tousba milled 10
+Phase: sleepy's Combat Damage Step
+Replacement Effect: ...
+Replacement Effect: ...
+  -> Roland milled 10 · Tousba milled 10 · Roland milled 10 · Tousba milled 10
+```
+
+**One replacement effect in the first-strike step** (only one body had double strike), **two in the
+regular damage step** (both bodies). Thirty cards off each opponent in one combat. That is this
+deck's reading, not the article's.
+
+**Caveat: Forge is an implementation, not a judge.** Rules engines can be wrong. This is strong
+corroboration rather than a ruling, so a judge call or playgroup agreement is still the right move
+before a tournament. The copy package stays at three cards regardless.
 
 ## What does and does not work under the prevent clause
 
@@ -282,6 +302,74 @@ back.
   competing for the turns this deck needs to cast and equip.
 - **Traumatize, Realmbreaker, Hedron Crab, Thought Scour, Increasing Confusion, Drown in Dreams** —
   slow or single-target mill, which is a third as efficient as "each opponent" in a pod.
+
+## Logged game — 2026-09-29, four-player win, and what went wrong
+
+**Result: win.** `newmill` vs mono-black deathtouch (Roland), a GW defenders deck (Tousba) and
+mono-green (George). Roland **decked out**; George and Tousba killed each other. Finished on **6
+life** after Quietus Spike on a Nirkana Revenant halved the pilot twice.
+
+**The deck only actually killed one of the three.** Worth being honest about: this was surviving a
+bloodbath as much as milling a table.
+
+### The mana diagnosis — the important part
+
+The pilot was mana-starved the whole game, and **it was not variance**:
+
+| | |
+|---|---|
+| Cards seen (7 opening + 9 draws + 1 Tutelage) | ~17 |
+| Lands hit | 6 |
+| Rate | **35%** |
+| This deck's land density | **35%** |
+
+**Expectation was hit exactly, and expectation was not enough.** That is a deckbuilding fault, not a
+bad draw. The spiral from the log:
+
+| Turn | Lands | |
+|---|---|---|
+| 11 | **3** | Cast the commander for {U}{U}{U}, **tapped out**. Snuff Out (free — pay 4 life) kills it. |
+| 15 | 4 | Urza's Saga |
+| 19 | 5 | Island |
+| 23 | **4** | **Urza's Saga sacrifices itself to chapter III** on the exact turn the recast became affordable. Paid the 5-mana tax with all four Islands plus Sol Ring. |
+| 27 | 4 | Irenicus's Vile Duplication (4) + Fireshrieker equip (2) = exactly the six available |
+
+**The mana problem caused the commander problem.** At three lands you must tap out to deploy, so
+every protection spell is a dead card in hand; then the tax makes the recast 5, which took eight
+more turns. One removal spell cost twelve turns because a single blue mana could not be held up.
+
+### THE PLAY RULE THAT FOLLOWS
+
+**Do not cast The Mindskinner on turn three. Cast it on turn four with {U} open.** The commander is
+{U}{U}{U}, so turn three means tapping out, and this deck's whole protection suite costs one:
+
+- **Slip Out the Back** {U} — phases it out *with the Equipment still attached*. Saves it even from
+  free removal like Snuff Out, at instant speed.
+- **Swan Song** {U} and **An Offer You Can't Refuse** {U} — counter the removal instead.
+- **Spellskite** — its redirect costs {U/P}, so **2 life instead of mana** when you are tapped out.
+
+One blue open covers four different answers. A turn of tempo is far cheaper than twelve.
+
+### The commander is the table's number one removal target
+
+Reported by the pilot across multiple games, not just this one: *"they targeted mind the moment he
+came out."* That is not an unusually removal-heavy testing field — **a 10/1 unblockable body that
+mills 10 a hit is the most obvious removal magnet at any table.** Build and pilot on the assumption
+that the first copy dies. This is why the copy package and Fool's Demise earn their slots, and why
+the turn-four rule above matters more than any single card in the list.
+
+### Mana fix applied, 2026-09-29
+
+The deck ran 35 lands and four rocks, but **three of those four made colourless mana** (Sol Ring,
+Thought Vessel, Sapphire Medallion is a reducer), so they do nothing toward a {U}{U}{U} commander.
+**Sky Diamond** and **Coldsteel Heart** were added over **Ghostly Flicker** and **High Tide** —
+blue-producing rocks, three now counting Arcane Signet. Both enter tapped; that is the price.
+Ghostly Flicker was the slot because blinks drop the Equipment and Slip Out the Back does the job
+for one mana; High Tide needs a big Island-tapping turn this deck has never had.
+
+**Urza's Saga was kept** despite deleting itself at the worst moment — it fetches five things here
+(Sol Ring, Commander's Plate, Lavaspur Boots, Accorder's Shield, Altar of the Brood) and its
+Construct token blocked in this very game. Treat it as 34.5 lands when counting.
 
 ## Known weaknesses
 
