@@ -42,11 +42,11 @@ Morphic Pool — Land — "Enters tapped unless you have 2+ opponents. {T}: Add 
 Opulent Palace — Land — "Enters tapped. {T}: Add {B}, {G}, or {U}."
 Overgrown Tomb — Land — Swamp Forest — "({T}: Add {B} or {G}.) As this land enters, you may pay 2 life. If you don't, it enters tapped."
 Polluted Delta — Land — "{T}, Pay 1 life, Sacrifice: search for an Island or Swamp card, put onto battlefield, then shuffle."
+Misty Rainforest — Land — "{T}, Pay 1 life, Sacrifice: search for a Forest or Island card, put onto the battlefield, then shuffle."
 Rejuvenating Springs — Land — "Enters tapped unless you have 2+ opponents. {T}: Add {G} or {U}."
 Reliquary Tower — Land — "You have no maximum hand size. {T}: Add {C}."
 Sunken Hollow — Land — Island Swamp — "({T}: Add {U} or {B}.) Enters tapped unless you control 2+ basic lands."
 6x Swamp.
-Terramorphic Expanse — Land — "{T}, Sacrifice: search for basic land card, put onto battlefield tapped."
 Undercity Sewers — Land — Island Swamp — "({T}: Add {U} or {B}.) Enters tapped. When this land enters, surveil 1."
 Underground Mortuary — Land — Swamp Forest — "({T}: Add {B} or {G}.) Enters tapped. When this land enters, surveil 1."
 Undergrowth Stadium — Land — "Enters tapped unless you have 2+ opponents. {T}: Add {B} or {G}."
@@ -167,8 +167,8 @@ read of the card. Undercity Sewers was added alongside it instead (a Forest paid
 the deck now runs both. Note Field of the Dead's Zombies are tokens and so do NOT feed Teval's or
 Sidisi's "creature cards put into your graveyard from your library" triggers.
 
-### Open item — Misty Rainforest, agreed Sept 22 2026, card NOT yet acquired
-Do not apply to the decklist until the card is in hand and the paper deck is updated.
+### Misty Rainforest — APPLIED 2026-10-05 (agreed Sept 22 2026)
+Card arrived and the paper deck was updated by the owner.
 
 - OUT Terramorphic Expanse, IN Misty Rainforest
 
@@ -189,6 +189,7 @@ better is find a Swamp, and black is already the best-served colour at 22 source
 Green is the colour with no slack: 44 pips, 27 of them at cmc 4 or less, versus black's 40 pips
 mostly on five-plus-drops. Misty puts green at 21 land sources, which is where the help was needed.
 
-Post-swap the deck stays 38 lands / 6 Forest / 3 Island / 6 Swamp / 34 mana producers / 4 fetches.
+The deck stays 38 lands / 6 Forest / 3 Island / 6 Swamp / 34 mana producers / 4 fetches, now at
+U 18 / B 22 / G 21 sources.
 Also worth noting every fetch is two landfall triggers with Tatyova, Benthic Druid -- the fetch
 enters, then the land it finds enters -- and two name-checks for Field of the Dead.

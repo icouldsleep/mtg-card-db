@@ -40,6 +40,7 @@
 1 Living Death
 1 Lord of Extinction
 1 Lumra, Bellow of the Woods
+1 Misty Rainforest
 1 Morphic Pool
 1 Muldrotha, the Gravetide
 1 Multani, Yavimaya's Avatar
@@ -69,7 +70,6 @@
 1 Swiftfoot Boots
 1 Syr Konrad, the Grim
 1 Tatyova, Benthic Druid
-1 Terramorphic Expanse
 1 Teval, the Balanced Scale
 1 The Soul Stone
 1 Thought Vessel
