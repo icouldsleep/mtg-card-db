@@ -54,7 +54,7 @@ The Aetherspark — Legendary Artifact Planeswalker — Equipment.
 Lightning, Army of One — First strike, trample, lifelink. Stagger: after connecting, damage to that player/their permanents is DOUBLED until your next turn.
 
 ## Land (37)
-Arid Mesa, Bountiful Promenade, Canopy Vista, Cinder Glade, Clifftop Retreat, Command Tower, Exotic Orchard, Fabled Passage, Fire-Lit Thicket, Forest x3, Hushwood Verge, Inventors' Fair, Ishgard the Holy See, Jetmir's Garden, Mountain x3, Overgrown Farmland, Plains x3, Plaza of Heroes, Radiant Summit, Rockfall Vale, Spectator Seating, Spire Garden, Starting Town, Stomping Ground, Sunbillow Verge, Sundown Pass, Temple Garden, Thornspire Verge, Turbulent Steppe, Windswept Heath, Wooded Foothills
+Arid Mesa, Battlefield Forge, Bountiful Promenade, Brushland, Clifftop Retreat, Command Tower, Exotic Orchard, Fabled Passage, Fire-Lit Thicket, Forest x3, Hushwood Verge, Inventors' Fair, Ishgard the Holy See, Jetmir's Garden, Karplusan Forest, Mountain x3, Overgrown Farmland, Plains x3, Plaza of Heroes, Rockfall Vale, Spectator Seating, Spire Garden, Starting Town, Stomping Ground, Sunbillow Verge, Sundown Pass, Temple Garden, Thornspire Verge, Turbulent Steppe, Windswept Heath, Wooded Foothills
 
 **Three lands Claude evaluated WRONG — verified from card photos:**
 - **Plaza of Heroes has THREE mana abilities.** {T}: Add {C}. {T}: any color for **legendary spells only**. **{T}: one mana of any color among legendary permanents you control — NO restriction.** With Tifa alone out it taps R/G/W for anything. Effectively an untapped triland. Fourth ability: {3}, {T}, exile — a legendary creature gains hexproof + indestructible.
@@ -142,8 +142,8 @@ Stoneforge Mystic — ETB tutor an Equipment; {1}{W}, {T}: put one from hand ont
 
 Basics are **3 Plains / 3 Mountain / 3 Forest** — even, when demand is 53/27/20.
 
-**RECOMMENDED FIX: shift basics toward Plains — roughly 5 Plains / 2 Mountain / 2 Forest.** Green is the safest to cut; only 15 cards want it, and Bloom Tender, Kodama, Canopy Vista, Temple Garden, Stomping Ground, Jetmir's Garden, Hushwood Verge, and Thornspire Verge all still make it.
-**Caution:** Canopy Vista, Cinder Glade, and Radiant Summit each need **two or more basics** to enter untapped, and Nature's Lore needs a Forest card — Temple Garden, Canopy Vista, Stomping Ground, Cinder Glade, and Jetmir's Garden all qualify, so cutting a basic Forest is safe.
+**RECOMMENDED FIX: shift basics toward Plains — roughly 5 Plains / 2 Mountain / 2 Forest.** Green is the safest to cut; only 15 cards want it, and Bloom Tender, Kodama, Brushland, Temple Garden, Stomping Ground, Jetmir's Garden, Hushwood Verge, and Thornspire Verge all still make it.
+**Caution:** the "two or more basics" taplands are gone as of the Oct 5 pain-land swap, so basics no longer gate whether lands enter untapped. What they still gate is **Nature's Lore, which needs a Forest *card*** — and that pool shrank from five to **three**: Temple Garden, Stomping Ground and Jetmir's Garden. Brushland, Battlefield Forge and Karplusan Forest carry **no basic land subtype**, so they are not Forest cards and **cannot be fetched** by Arid Mesa, Windswept Heath or Wooded Foothills either. Cutting a basic Forest is still safe, but the margin is thinner than it was.
 
 ---
 
@@ -189,9 +189,10 @@ This deck ("Cloud" file originally) was an unverified precon transcription until
 ### Layers ruling that applies here
 +1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b) — they stack on top. But two base-P/T-setting effects do NOT stack; later timestamp wins. **This is why Sephiroth's 7/5 overwrites Aettir and Priwen's 40/40** if Sephiroth's effect is applied later.
 
-## Open item — three pain lands, not yet acquired (logged Sept 23, 2026)
-Do not apply to the decklist until the cards are in hand and the paper deck is updated.
-Straight 1-for-1 colour-matched swaps, so no cut decision is needed. Deck stays 100 cards / 37 lands.
+## Three pain lands — APPLIED 2026-10-05 (logged Sept 23, 2026)
+Cards arrived and the paper deck was updated by the owner, so this is now reflected in
+`tifa_decklist.txt`. Straight 1-for-1 colour-matched swaps, no cut decision needed.
+Deck stays 100 cards / 37 lands.
 
   OUT Canopy Vista    IN Brushland          (G/W)
   OUT Cinder Glade    IN Karplusan Forest   (R/G)
