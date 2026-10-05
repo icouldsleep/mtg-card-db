@@ -60,7 +60,7 @@ Kodama's trigger is **not landfall-specific — it fires off ANY permanent enter
 ## The 100
 
 ### Lands (36)
-Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Rogue's Passage, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Blighted Woodland, Bala Ged Recovery, 24x Forest
+Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort Bridge, Nykthos Shrine to Nyx, Verdant Catacombs, War Room, Boseiju Who Endures, Yavimaya Cradle of Growth, Blighted Woodland, Bala Ged Recovery, 24x Forest
 NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
 NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24), so land slots stay at 37. Front face is a {2}{G} sorcery returning any card from your graveyard to hand; back face is a land that enters tapped. Like the other MDFCs looked at for this deck, the back face is a plain `Land`, **not Forest-typed**, so Nature's Lore and Three Visits cannot fetch it.
 
@@ -244,13 +244,24 @@ Consequences worth keeping:
 ## Status
 **Built.** This is a real, finalized 100-card list, not a staging pool. Physical assembly still depends on owning/acquiring the actual cards (e.g. the Tramplesaurus Rex precon components).
 
-## Open item — Nykthos, Shrine to Nyx, not yet acquired (logged Sept 23, 2026)
-Do not apply to the decklist until the card is in hand and the paper deck is updated.
-No cut has been chosen — that decision is open.
+## Nykthos, Shrine to Nyx — APPLIED 2026-10-05 (logged Sept 23, 2026)
+Card arrived and the paper deck was updated by the owner.
+
+  OUT Rogue's Passage   IN Nykthos, Shrine to Nyx
+
+Deck stays 100 cards / 35 lands (36 counting Bala Ged Recovery's back face).
+
+**Why Rogue's Passage was the cut.** Both tap for {C}, so this is a colourless-for-colourless
+swap: green sources stay flat at 27 and the colourless-only count stays at five rather than
+rising to six, which matters with Silverback Elder {2}{G}{G}{G}, Craterhoof {5}{G}{G}{G} and
+Unnatural Growth {1}{G}{G}{G}{G} in the list. Rogue's Passage cost {4} per activation to make
+one creature unblockable, in a deck that is casting six- to nine-drops and rarely has the spare
+mana — and Kamahl already grants the whole team trample at the beginning of every combat, with
+Craterhoof doing it again on arrival.
 
 **Why it is the one real gap.** The mana base itself is already strong and needs nothing: 35 lands,
 34 of them untapped, only Castle Garenbrig conditional, 27 direct green sources. Yavimaya, Cradle of
-Growth makes every land a Forest, so the colourless utility lands (War Room, Rogue's Passage,
+Growth makes every land a Forest, so the colourless utility lands (War Room, Nykthos,
 Demolition Field, Bonders' Enclave, Blighted Woodland) all tap for {G} once it is down. There is no
 fixing problem to solve in a mono-green deck.
 

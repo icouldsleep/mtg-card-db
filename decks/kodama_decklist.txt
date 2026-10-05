@@ -41,6 +41,7 @@
 1 Multani, Yavimaya's Avatar
 1 Natural Order
 1 Nature's Lore
+1 Nykthos, Shrine to Nyx
 1 Nylea, God of the Hunt
 1 Ohran Frostfang
 1 Primeval Bounty
@@ -49,7 +50,6 @@
 1 Reclamation Sage
 1 Return of the Wildspeaker
 1 Rhonas the Indomitable
-1 Rogue's Passage
 1 Sakura-Tribe Elder
 1 Sandwurm Convergence
 1 Scute Swarm
