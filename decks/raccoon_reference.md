@@ -38,7 +38,7 @@ Key mechanical notes:
 1 Abrade · 1 Beast Within · 1 Chaos Warp · 1 Heroic Intervention
 
 ## Land (35)
-1 Cinder Glade · 1 Command Tower · 1 Copperline Gorge · 1 Evolving Wilds · 1 Exotic Orchard · 11 Forest · 1 Forgotten Cave · 1 Game Trail · 1 Gruul Turf · 1 Karplusan Forest · 1 Mossfire Valley · 1 Mosswort Bridge · 5 Mountain · 1 Path of Ancestry · 1 Raging Ravine · 1 Reliquary Tower · 1 Rootbound Crag · 1 Savage Mansion · 1 Sheltered Thicket · 1 Terramorphic Expanse · 1 Wooded Ridgeline
+1 Cinder Glade · 1 Command Tower · 1 Copperline Gorge · 1 Evolving Wilds · 1 Exotic Orchard · 11 Forest · 1 Forgotten Cave · 1 Game Trail · 1 Gruul Turf · 1 Inventors' Fair · 1 Karplusan Forest · 1 Kessig Wolf Run · 1 Mossfire Valley · 1 Mosswort Bridge · 5 Mountain · 1 Raging Ravine · 1 Reliquary Tower · 1 Rootbound Crag · 1 Sheltered Thicket · 1 Stomping Ground · 1 Wooded Ridgeline
 
 **Total: 100** (1 + 17 + 21 + 19 + 3 + 4 + 35)
 
@@ -156,7 +156,7 @@ Spine of Ish Sah (see above) · Greater Good (only sac outlet, but best targets 
 Aggravated Assault + Nature's Will (infinite combats — **Nature's Will is now IN the deck, so Aggravated Assault is permanently off the table**). Savage Ventmaw + Aggravated Assault (same). Obliteration / Jokulhaups (mass land denial — explicit Bracket 3 disqualifier).
 
 ## MANA — fixed Sept 16, 2026
-**Basics rebalanced from 9 Forest / 7 Mountain to 11 Forest / 5 Mountain** to better match the ~75% green / 25% red pip demand split. Red sources still supported by the Gruul dual-land suite (Cinder Glade, Rootbound Crag, Copperline Gorge, Game Trail, Karplusan Forest, Sheltered Thicket, Wooded Ridgeline, Command Tower, Exotic Orchard, Forgotten Cave, Mossfire Valley, Path of Ancestry, Raging Ravine, Gruul Turf) — this is why red basics could safely drop without starving Fiery Emancipation's {R}{R}{R} cost. Temple of Abandon was cut to make room (36 lands → 35).
+**Basics rebalanced from 9 Forest / 7 Mountain to 11 Forest / 5 Mountain** to better match the ~75% green / 25% red pip demand split. Red sources still supported by the Gruul dual-land suite (Cinder Glade, Rootbound Crag, Copperline Gorge, Game Trail, Karplusan Forest, Sheltered Thicket, Wooded Ridgeline, Command Tower, Exotic Orchard, Forgotten Cave, Mossfire Valley, Raging Ravine, Gruul Turf, Stomping Ground) — this is why red basics could safely drop without starving Fiery Emancipation's {R}{R}{R} cost. Temple of Abandon was cut to make room (36 lands → 35).
 
 ## Legality
 No banned cards (checked against Mana Crypt, Jeweled Lotus, Dockside Extortionist, Nadu). **No Game Changers in the final 100** — Vorinclex was delisted. Bracket depends on the game the deck produces, not just the list; target is 3 (Upgraded).
@@ -188,13 +188,32 @@ Name **Elemental**. Doubles **triggered** abilities only — static effects (Fie
 ### Cross-deck layers rule that applies here too
 +1/+1 counters (layer 7d) apply AFTER base-P/T-setting effects (layer 7b), so counters stack on top of Bello's animated 4/4. But two base-P/T-setting effects don't stack — later timestamp wins (this is why Sephiroth's 7/5 overwrites Aettir/Priwen's 40/40 in the Tifa deck, a related case).
 
-## Open item — three lands to add, not yet acquired (logged Sept 23, 2026)
-Do not apply to the decklist until the cards are in hand and the paper deck is updated.
-Three cards coming in, so three slots are needed. Only one cut is settled.
+## Three lands added — APPLIED 2026-10-05 (logged Sept 23, 2026)
+Cards arrived and the paper deck was updated by the owner, so this is now reflected in
+`raccoon_decklist.txt`. Deck stays 100 cards / 35 lands.
 
-  OUT Path of Ancestry   IN Stomping Ground   (settled)
-  IN Kessig Wolf Run     -- cut not chosen
-  IN Inventors' Fair     -- cut not chosen
+  OUT Path of Ancestry      IN Stomping Ground
+  OUT Savage Mansion        IN Kessig Wolf Run
+  OUT Terramorphic Expanse  IN Inventors' Fair
+
+**The mana cost of the swap, measured.** Kessig Wolf Run and Inventors' Fair both tap for
+{C} only, so the deck traded one red source and one green source for two colourless utility
+lands:
+
+| | Lands | R sources | G sources | Colourless-only |
+|---|---|---|---|---|
+| Before | 35 | 20 | 26 | 3 |
+| After | 35 | **19** | **25** | **4** |
+
+19 red sources in 35 lands is the tightest this deck has run, and the Sept 16 basics
+rebalance was tuned around Fiery Emancipation's {R}{R}{R}. Recheck this number first if red
+ever feels short — do not assume it is variance.
+
+**Why Terramorphic Expanse was the second cut.** Not because Evolving Wilds duplicates it:
+it is the only land in the 35 that produces **no mana on the turn it is played**, since it
+sacrifices for a *tapped* basic. That is two turns before the slot yields usable mana, in a
+deck whose plan is landing mv 4+ permanents on curve for Bello to animate. Evolving Wilds
+stays and keeps the fixing at one copy.
 
 **Kessig Wolf Run is the important one.** Bello grants indestructible, haste, and "whenever this
 creature deals combat damage TO A PLAYER, draw a card" -- but NOT trample. Indestructible makes
@@ -213,8 +232,9 @@ two-colour deck is just R or G. A tapland with no upside, sitting alongside eigh
 Stomping Ground replaces it as an untapped RG source, and being typed Mountain Forest it also turns
 on Rootbound Crag and can be revealed to Game Trail.
 
-**Leading candidate for one of the remaining cuts: Savage Mansion.** {4}, {T}: Surveil 1 is a poor
-rate, and it is otherwise just another tapped RG dual.
+**Savage Mansion was the first of the two remaining cuts** (applied Oct 5). {4}, {T}: Surveil 1
+is a poor rate, and it is otherwise just another tapped RG dual — the worst colored source in
+the deck.
 
 **Considered and rejected:**
 - Ancient Tomb -- strong fit on paper (31 permanents at mv 4+) but declined by the user on cost.

@@ -42,7 +42,9 @@
 1 Hedron Archive
 1 Herald of the Pantheon
 1 Heroic Intervention
+1 Inventors' Fair
 1 Karplusan Forest
+1 Kessig Wolf Run
 1 Kodama of the East Tree
 1 Lightning Greaves
 1 Lotus Cobra
@@ -52,7 +54,6 @@
 5 Mountain
 1 Nature's Will
 1 Obelisk of Urd
-1 Path of Ancestry
 1 Path of Discovery
 1 Primeval Bounty
 1 Pyreswipe Hawk
@@ -63,16 +64,15 @@
 1 Rootbound Crag
 1 Sanctum Weaver
 1 Sandwurm Convergence
-1 Savage Mansion
 1 Setessan Champion
 1 Sheltered Thicket
 1 Sight of the Scalelords
 1 Sol Ring
+1 Stomping Ground
 1 Street Riot
 1 Sunbird's Invocation
 1 Talisman of Impulse
 1 Tempt with Discovery
-1 Terramorphic Expanse
 1 The Regalia
 1 Thickest in the Thicket
 1 Thought Vessel
