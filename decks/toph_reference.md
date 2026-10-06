@@ -185,6 +185,48 @@ three, Ba Sing Se a fourth for `{2}{G}`.
 | Ornithopter | A flying attacker that costs no mana to swing with |
 | Urza's Saga | Restarts the Saga for another tutor and more Constructs |
 
+## THE AKROMA'S MEMORIAL TRAP — your own Memorial locks four earthbend sources out
+
+Found in play 2026-10-06. Forge threw *"Toph, the First Metalbender — Cannot target this card
+(Shroud? Protection? Restrictions)."*
+
+**Akroma's Memorial** gives creatures you control *"protection from black **and from red**."*
+**Toph, the First Metalbender is `{1}{R}{G}{W}` — a red source.** Protection from red means
+"can't be the target of an ability from a red source," so **Toph cannot earthbend anything that is
+already a creature.**
+
+The distinction is what is a creature *at the moment you target it*:
+
+| Target | Legal for red Tophs? |
+|---|---|
+| A land or artifact **not yet animated** | **Yes** — a non-creature gets nothing from the Memorial |
+| Anything **already earthbent** (already a 0/0 creature land) | **No** — it is a creature now, so it has pro-red |
+
+So the first earthbend on a given permanent always works. **Topping up an existing one does not.**
+The Memorial even protects itself from Toph once it has been animated.
+
+**Who is locked out, by colour of the source:**
+
+| Blocked while the Memorial is out | Still works (mono-green / colourless) |
+|---|---|
+| Toph, the First Metalbender `{1}{R}{G}{W}` | Rockalanche `{2}{G}` |
+| Toph, Greatest Earthbender `{2}{R}{G}` | Earthbending Student `{2}{G}` |
+| Toph, Hardheaded Teacher `{2}{R}{G}` | Toph, Earthbending Master `{3}{G}` |
+| Bumi, Unleashed `{3}{R}{G}` | Avatar Kyoshi, Earthbender `{5}{G}{G}{G}` |
+| | Badgermole Cub `{1}{G}`, Solid Ground `{3}{G}`, Ba Sing Se (land) |
+
+**The big Rockalanche turn is unaffected** — it is mono-green, so it can keep piling counters onto
+an already-animated Zuran Orb all game. Only the four red sources lose the ability to re-target.
+
+**Play rule:** grow the permanents you care about **before** the Memorial lands, and after it lands
+point the red Tophs at *fresh* targets only. Given the bottleneck above, that is a redirect rather
+than a loss — but it does mean the Memorial quietly turns off the "stack every trigger on one
+threat" plan, which is the deck's biggest single-turn line.
+
+**Anything that dies and returns clears the lock.** Earthbend's own delayed trigger returns the
+permanent *as a non-creature*, so a Zuran Orb that gets sacrificed or killed comes back targetable.
+That is why the 2026-10-06 game below never hit the wall despite the Memorial being out.
+
 ---
 
 # COUNTER MATH
@@ -358,6 +400,47 @@ modifiers the reference already gives the gap as **20 versus 5**. Before trustin
 total, check whether the client is prompting for replacement order or choosing on its own — and in
 paper, state the order out loud. This belongs with the existing "the AI cannot pilot this deck"
 finding: it is one more thing the engine gets wrong in the deck's favour-losing direction.
+
+## 2026-10-06 — second four-player win, 23 minutes, go-wide instead of one big threat
+
+Same pod. Won on turn 23 by the Forge count, in **22m46s against the previous game's 71**. The
+contrast with the 10-05 game is the useful part: that one killed with a single 69-power Zuran Orb,
+this one killed with **a board**.
+
+| | |
+|---|---|
+| Result | Win. Aldren −12, Luis −21. **Landon Pufflump died to Aldren's commander damage, not to us.** |
+| Kill turn | 12 attackers at Luis: Akroma's Memorial 15, five Beast tokens at 4 each, Toph 3, Strip Mine 2, Zuran Orb 2, Command Tower 2, Thran Dynamo 1, Strionic Resonator 1 |
+| Biggest hit | Akroma's Memorial for **15** — the Memorial itself was an attacker |
+| Rockalanche | **earthbend 9**, then **earthbend 13**. Game 1 hit 26 because Dryad of the Ilysian Grove was out; here only Yavimaya was. |
+| Commander | **Never died.** Gift of Immortality went on it turn 18 and was never needed. |
+| Low point | 36 → 11 over two turns from Sidar Jabari and Ethersworn Adjudicator |
+
+### What this game confirms
+
+- **Strionic Resonator was piloted correctly, five times.** Turns 23, 31, 39, 42 and 45 all show
+  `activated Strionic Resonator targeting [At the beginning of your end step, earthbend 2...]` —
+  the hold-priority line described under "Trigger multiplication." Two earthbends per end step
+  without Annie on the battlefield.
+- **Zuran Orb as a landfall engine, exactly as written up above.** Because Toph makes it a land, it
+  **sacrifices itself to its own ability**: gain 2 life, then earthbend's delayed trigger returns
+  it, which is a land entering, which is a Rampaging Baloths 4/4 Beast and a Garruk's Uprising
+  draw. The log shows the return trigger stacking up to **four times** on one Orb, one per
+  earthbend it had received.
+- **The Beast engine did the damage, not the counters.** Rampaging Baloths plus Garruk's Uprising
+  turned every land drop and every Zuran Orb recursion into a 4/4 and a card. Five of the twelve
+  final attackers were Beast tokens.
+- **The protection suite held twice.** Heroic Intervention (turn 40) and Flawless Maneuver
+  (turn 43) each made an Ethersworn Adjudicator activation fizzle. Flawless Maneuver was free, and
+  it had been returned to hand by Toph, Hardheaded Teacher's enters trigger.
+
+### Why the Akroma's Memorial trap never bit
+
+The Memorial resolved on turn 41 and Toph kept earthbending afterwards. That is not a
+contradiction of the section above — every target it hit was a **non-creature at the time**. The
+Memorial itself had just entered and had not been animated yet, and Zuran Orb had been destroyed by
+Swift End and returned fresh. **Things dying and coming back is what kept the targets legal.**
+
 
 ---
 
