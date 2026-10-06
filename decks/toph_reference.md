@@ -308,6 +308,59 @@ Intervention and Lightning Greaves stop those. Two cards in 99 — the deck's bi
 
 ---
 
+# LOGGED GAMES
+
+## 2026-10-05 — four-player win, all three opponents killed in one combat
+
+**Hand-piloted in Forge.** Four-pod against Bello (Gruul), a Sythis enchantress deck and a
+blue/red artifact deck. Won on the final alpha strike; the owner reported having had the game won
+well before taking it.
+
+| | |
+|---|---|
+| Result | Win. Landon Pufflump −20, Luis −88, Aldren −139 |
+| Kill | **13 attackers in one combat**, split 7 at Luis and 6 at Aldren |
+| Damage, Aldren | Zuran Orb **69**, The Stasis Coffin 23, Toph 20, Strip Mine 17, Dryad 17, Earthbending Student 14 = **160 into 21 life** |
+| Damage, Luis | Bear Token 25, The Earth King 21, Ohran Frostfang 19, Craterhoof 18, Kutzil 16, Great Divide Guide 15, Scute Swarm 14 = **128 into 40 life** |
+| Commander deaths | Two. Decimate, then a Wurm Token block. Recast both times. |
+
+**Everything above happened in the first strike damage step.** Toph, Greatest Earthbender was cast
+precombat that turn, giving land creatures double strike; the regular damage step never came.
+
+### What the game confirms
+
+- **Artifacts-as-lands is the whole deck, and it reads as absurd in a log.** The six attackers that
+  killed Aldren include a **Zuran Orb**, a **Strip Mine** and **The Stasis Coffin**. Earlier turns
+  had **Sol Ring** attacking and blocking with deathtouch off Ohran Frostfang.
+- **The Rockalanche ceiling documented under "The earthbend-target bottleneck" is real.** With
+  Dryad of the Ilysian Grove out making every land a Forest, and Toph making every artifact a land,
+  **Rockalanche resolved for earthbend 26** and went on Zuran Orb. Doubling Season took it to 52,
+  Craterhoof added +13/+13, and that is the 69.
+- **Annie Joins Up doubling is visible in the log.** On turn 25 The Earth King's attack trigger
+  fires **once**; Annie lands on turn 28; from turn 32 every Earth King and every Toph end-step
+  earthbend fires **twice**. Two basic-land searches per attack is what kept feeding Rockalanche's
+  Forest count.
+- **Earthbending Student's vigilance clause is load-bearing.** Attacking with 13 land creatures
+  without tapping them left enough mana to cast Craterhoof, Hardened Scales, Chaos Warp and a
+  second Toph in the same turn.
+
+### New finding — Forge orders the counter replacements wrong
+
+`COUNTER MATH` above says to apply the additive modifiers before the doublers (CR 616.1). **The
+Forge log applies them in the opposite order.** Every earthbend in this game lists Doubling Season
+first and Hardened Scales second:
+
+      what Forge did    earthbend 2 -> x2 -> 4 -> +1 -> 5
+      what is correct   earthbend 2 -> +1 -> 3 -> x2 -> 6
+
+With only those two out it is one counter per trigger, twice a turn under Annie. With all five
+modifiers the reference already gives the gap as **20 versus 5**. Before trusting any Forge counter
+total, check whether the client is prompting for replacement order or choosing on its own — and in
+paper, state the order out loud. This belongs with the existing "the AI cannot pilot this deck"
+finding: it is one more thing the engine gets wrong in the deck's favour-losing direction.
+
+---
+
 # COMPANION FILES
 
 - `decks/toph_play_guide.pdf` - 9-page play guide: earthbend rules, the three loops,
@@ -576,6 +629,11 @@ Forge AI failed to cast Toph in **18%, 32% and 40%** of games. The diagnostic pr
 earthbend target selection, stacking Annie Joins Up with Strionic Resonator, the Stasis Coffin loop,
 ordering the five counter-modifiers before the doublers. Forge does none of it. A deck that mostly
 attacks loses far less in translation, so head-to-head numbers understate Toph specifically.
+
+**Confirmed 2026-10-05:** the engine also applies the counter replacement effects in the wrong
+order — doublers before the additive ones — which is strictly worse every time. See the finding
+under `LOGGED GAMES`. The same game, hand-piloted, killed all three opponents in one combat, which
+is the contrast this section is about.
 
 ## Companion document
 
