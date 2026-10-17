@@ -53,7 +53,6 @@
 1 Sidisi, Undead Vizier
 1 Snuff Out
 1 Sol Ring
-29 Swamp
 1 Swiftfoot Boots
 1 The Darkness Crystal
 1 Thornbite Staff
@@ -70,3 +69,4 @@
 1 Vito, Thorn of the Dusk Rose
 1 White Widow, Yelena Belova
 1 Witch of the Moors
+29 Snow-Covered Swamp

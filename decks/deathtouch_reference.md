@@ -361,7 +361,10 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 **Rogue's Passage** — Land — Land
 "{T}: Add {C}. | {4}, {T}: Target creature can't be blocked this turn."
 
-29x Swamp.
+29x Snow-Covered Swamp (Basic Snow Land — Swamp). Snow basics so Extraplanar Lens/Caged Sun-style
+effects can be imprinted on a land type opponents do not share. They are still Swamps, so Cabal
+Coffers, Cabal Stronghold (basic Swamp), Crypt Ghast, Nirkana Revenant, Bubbling Muck, Snuff Out
+and Liliana all read them normally.
 **Urborg, Tomb of Yawgmoth** — Land — Legendary Land
 "Each land is a Swamp in addition to its other land types."
 
