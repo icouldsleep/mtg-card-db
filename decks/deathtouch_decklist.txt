@@ -5,6 +5,7 @@
 1 Basilisk Collar
 1 Black Market
 1 Black Widow, Deadly Hunter
+1 Blightwing Bandit
 1 Bloodthirsty Conqueror
 1 Bojuka Bog
 1 Bubbling Muck
@@ -13,7 +14,6 @@
 1 Cabal Ritual
 1 Cabal Stronghold
 1 Case of the Gorgon's Kiss
-1 Charcoal Diamond
 1 Commander's Plate
 1 Cover of Darkness
 1 Crypt Ghast
@@ -26,6 +26,7 @@
 1 Dire Fleet Poisoner
 1 Exquisite Blood
 1 Exsanguinate
+1 Extraplanar Lens
 1 Feed the Swarm
 1 Foulmire Knight
 1 Gifted Aetherborn
@@ -36,7 +37,6 @@
 1 Hired Poisoner
 1 Hooded Blightfang
 1 Kaya's Ghostform
-1 Liliana of the Dark Realms
 1 Marauding Blight-Priest
 1 Night's Whisper
 1 Nighthawk Scavenger

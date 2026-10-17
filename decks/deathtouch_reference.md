@@ -145,6 +145,12 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 **Blightwing Bandit** — {3}{B} — Creature — Faerie Rogue — **2/2**
 "Flying, deathtouch | Whenever you cast your first spell during each opponent's turn, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it."
 
+**Blightwing Bandit** — {3}{B} — Creature — Faerie Rogue — 2/2
+"Flying, deathtouch | Whenever you cast your first spell during each opponent's turn, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it."
+Back in after being cut on 09-30. The cut reasoning was that the rider rarely fires; in the 10-14
+game it fired off Snuff Out, stole Will of the Sultai, and that card won the game. It is also a
+SIXTH flying deathtoucher, which is the deck's scarcest blocker type.
+
 **Bloodthirsty Conqueror** — {3}{B}{B} — Creature — Vampire Knight — **5/5**
 "Flying, deathtouch | Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.)"
 
@@ -232,8 +238,11 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 **Basilisk Collar** — {1} — Artifact — Equipment
 "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.) | Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
 
-**Charcoal Diamond** — {2} — Artifact
-"This artifact enters tapped. | {T}: Add {B}."
+**Extraplanar Lens** — {3} — Artifact
+"Imprint — When this artifact enters, you may exile target land you control. | Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced."
+Imprint a SNOW-COVERED SWAMP. The 29 basics are snow specifically so this is one-sided -- imprint a
+plain Swamp and every opponent on Swamps gets doubled mana too. Cost: the imprinted land is exiled
+permanently and does not come back if the Lens is destroyed.
 
 **Commander's Plate** — {1} — Artifact — Equipment
 "Equipped creature gets +3/+3 and has protection from each color that's not in your commander's color identity. | Equip commander {3} | Equip {5}"
@@ -279,12 +288,6 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 
 **Phyrexian Arena** — {1}{B}{B} — Enchantment
 "At the beginning of your upkeep, you draw a card and you lose 1 life."
-
-
-## Planeswalker (1)
-
-**Liliana of the Dark Realms** — {2}{B}{B} — Legendary Planeswalker — Liliana
-"+1: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle. | −3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control. | −6: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B}.'""
 
 
 ## Sorcery (9)
