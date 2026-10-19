@@ -128,12 +128,34 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 
 | In | Out | Why |
 |---|---|---|
-| Liliana of the Dark Realms {2}{B} | Cover of Darkness {1}{B} | Owner wanted Blightwing Bandit AND Liliana both in the 100. Blightwing's cut was already paid (it took Liliana's slot in commit 72a8959), so re-adding Liliana cost exactly one more card. Cover of Darkness grants **fear**, which black creatures block — the weakest of the deck's four evasion effects, next to Commander's Plate (protection from W/U/R/G, unblockable at most tables), Rogue's Passage (unconditional) and Dauthi Embrace (shadow). It also cannot cover Virtus and the Vampires at once: Virtus is an **Azra Assassin**, so naming Vampire leaves the commander out and naming Assassin covers 5 creatures instead of 10. And it triggers none of the deathtouch payoffs — no Hooded Blightfang drain, no White Widow counter, no Black Widow draw, no lifegain for Exquisite Blood. |
+| Liliana of the Dark Realms {2}{B} | Cover of Darkness {1}{B} | Owner wanted Blightwing Bandit AND Liliana both in the 100. Blightwing's cut was already paid (it took Liliana's slot in commit 72a8959), so re-adding Liliana cost exactly one more card. Cover of Darkness grants **fear**, which black creatures block — the weakest of the deck's four evasion effects, next to Commander's Plate (protection from W/U/R/G, unblockable at most tables), Rogue's Passage (unconditional) and Dauthi Embrace (shadow). It also cannot cover Virtus and the Vampires at once: Virtus is an **Azra Assassin**, so naming Vampire leaves the commander out and naming Assassin covers 5 creatures instead of 10. And it feeds none of the connect-dependent payoffs it would need to justify a slot — no White Widow counter, no Black Widow draw, no lifelink connection for Vito or Marauding Blight-Priest. |
 
 **Process note, recorded deliberately.** Commit `72a8959` (Liliana out, Blightwing in; Charcoal
 Diamond out, Extraplanar Lens in) was **pushed without approval** — "Y lil" was read as "yes,
 Liliana" when it meant "why Liliana". The swaps survived on their merits after the owner reviewed
 them, but the push itself was a mistake. Confirm before editing.
+
+### Correction to the reasoning above, 2026-10-19
+An earlier version of this entry claimed Cover of Darkness "triggers none of the deathtouch payoffs —
+**no Hooded Blightfang drain**." That was wrong. Blightfang reads *"Whenever a creature you control
+with deathtouch **attacks**, each opponent loses 1 life and you gain 1 life"* — it fires on the
+declaration of attackers, not on connecting, so **evasion is irrelevant to it** and it was never an
+argument for or against Cover of Darkness. The White Widow, Black Widow, Quietus Spike, Tinybones and
+lifelink-into-Vito lines do all require combat damage to a player, so those parts stand.
+
+**Re-examined on the numbers and the cut still holds, but narrowly.** The deck has 10 Vampires, and
+**4 of them already fly** (Bloodthirsty Conqueror, Nighthawk Scavenger, Qarsi Revenant, Vampire
+Nighthawk). Naming Vampire therefore only added evasion to 6 ground bodies, of which only 2 have
+lifelink (Gifted Aetherborn, Vampire of the Dire Moon) — the part that converts a connection into a
+drain. Naming Assassin covers 5 and does include Virtus, but Commander's Plate already makes him
+unblockable against any non-black deck while giving +3/+3, and Rogue's Passage is unconditional.
+
+**The one condition that would reverse this:** against a pod light on black, fear is live and Cover
+of Darkness is a 2-mana permanent that switches on a whole tribe every combat for free, where Dauthi
+Embrace charges {B}{B} per creature per turn. If the owner's regular table is mostly non-black, put
+it back. The honest alternative cut in that case is **Hired Poisoner** ({B} 1/1 deathtouch, no text),
+the lowest-impact card in the 100 — kept because 26 of 31 creatures have deathtouch and the cheap
+bodies are the engine's fuel, so cutting the cheapest one costs real consistency.
 
 **Alternate cut considered and not taken:** Ravening Warg — its Ferocious lifegain needs a power-4
 creature and the deck has only about six.
