@@ -1,42 +1,24 @@
 # Cards Reference — Kodama of the East Tree // Kamahl, Heart of Krosa EDH Deck
 
-**STATUS: BUILT (100 cards).** Original build confirmed Sept 19, 2026; **4-card swap applied Sept 20, 2026** to fix the deck's artifact/enchantment removal gap and to pull out the +1/+1 counter spreader. Cut down from the 181-card Archidekt staging pool after a full database cross-check (existence, color identity, Commander legality, and full oracle text for every card) plus a synergy pass looking for interactions the category tags alone would've missed.
+**STATUS: BUILT (100 cards).** Original build confirmed Sept 19, 2026; **3-card swap applied 2026-10-19** (Hexhaven Invigorator, Yeva, Rhonas's Monument in; Ka-Zar, Sylvan Safekeeper, Nylea out — see "Seventh swap"); **4-card swap applied Sept 20, 2026** to fix the deck's artifact/enchantment removal gap and to pull out the +1/+1 counter spreader. Cut down from the 181-card Archidekt staging pool after a full database cross-check (existence, color identity, Commander legality, and full oracle text for every card) plus a synergy pass looking for interactions the category tags alone would've missed.
 
-**Archidekt (live, build in progress):** https://archidekt.com/decks/26590810/kodama_of_the_mono_tree
-— verified against this file on 2026-09-30 by diffing the Archidekt API against `kodama_decklist.txt`.
-100 cards each. **14 differences in each direction, and all 14 are the outstanding purchases** — the
-Archidekt list is an accurate picture of what is physically sleeved right now, and this file is the
-finished target. They converge when the last 14 cards arrive. Details under "Build status" below.
+**Archidekt (current):** https://archidekt.com/decks/27555560/mono_green
+— verified against this file on 2026-10-18 by diffing the Archidekt API against `kodama_decklist.txt`:
+100 cards each, **zero differences in either direction.** This link and this file are the same list.
+
+The previous link (`26590810/kodama_of_the_mono_tree`) is **stale — frozen at 2026-09-20** and still
+shows the precon shell in 15 slots. Do not use it.
 
 The old staging link (`26413180`, the original 181-card pool) is **dead — it now returns 404** and
 has been removed. The other Archidekt link in this folder, `26565889/tramplesaurus_rex_precon` in
 `kodama_buylist.md`, is the **precon source** and is correctly different from the 100.
 
 
-## Build status — 2026-09-30
+## Build status — COMPLETE (2026-10-18)
 
-**46 of the 60 cards on `kodama_purchase_list.txt` are in. Fourteen outstanding:**
-
-```
-Ancient Greenwarden      Growing Rites of Itlimoc
-Bala Ged Recovery        Natural Order
-Circle of Dreams Druid   Radagast of Rhosgobel
-Dancing from Dark to Dawn Sandwurm Convergence
-Genesis                  Terastodon
-The Great Henge          Tireless Provisioner
-Verdant Catacombs        Windswept Heath
-```
-
-**Nothing needed is missing from the buylist** — every one of the 14 appears on it, so the purchase
-list is complete and correct.
-
-**Precon leftovers still holding those 14 slots**, to come out as the cards arrive:
-
-```
-Blanchwood Armor · Cultivate · Evolving Wilds · Greater Good · Hickory Woodlot
-Managorger Hydra · Primal Might · Regrowth · Terramorphic Expanse · Tireless Tracker
-Warping Wail · Yorvo, Lord of Garenbrig · Zendikar's Roil · 1 extra Forest
-```
+All 60 cards from `kodama_purchase_list.txt` are in and the physical deck matches this file. The
+"14 outstanding" list and the precon-leftover list that used to live here are both resolved and have
+been removed. Verified by API diff against Archidekt `27555560`: zero differences.
 
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.
@@ -55,7 +37,7 @@ Started from **Tramplesaurus Rex**, the mono-green precon from the Foundations C
 "At the beginning of combat on your turn, creatures you control get +3/+3 and gain trample until end of turn. {1}{G}: Until end of turn, target land you control becomes a 1/1 Elemental creature with vigilance, indestructible, and haste. It's still a land." Partner.
 
 ## Game Plan / Key Rules Finding
-Kodama's trigger is **not landfall-specific — it fires off ANY permanent entering under your control**, including tokens (creature or artifact). This means token generators are the deck's real engine, not just landfall payoffs: every token made is a free Kodama trigger, which can drop another permanent from hand for free, which can chain into more triggers if that permanent is itself a token-maker or a land. Extra-land-drop enablers (Exploration, Azusa, Loot, Burgeoning) double-dip: every extra land drop is simultaneously a **landfall trigger for nine different payoffs** (Scute Swarm, Avenger of Zendikar, Lotus Cobra, Rampaging Baloths, Dancing from Dark to Dawn, Tireless Tracker, Courser of Kruphix, Primeval Bounty, and Ka-Zar's Zabu token) AND a Kodama trigger. Kamahl's combat-trigger pump + trample is the closing finisher once the board is wide.
+Kodama's trigger is **not landfall-specific — it fires off ANY permanent entering under your control**, including tokens (creature or artifact). This means token generators are the deck's real engine, not just landfall payoffs: every token made is a free Kodama trigger, which can drop another permanent from hand for free, which can chain into more triggers if that permanent is itself a token-maker or a land. Extra-land-drop enablers (Exploration, Azusa, Loot, Burgeoning) double-dip: every extra land drop is simultaneously a **landfall trigger for nine different payoffs** (Scute Swarm, Avenger of Zendikar, Lotus Cobra, Rampaging Baloths, Dancing from Dark to Dawn, Tireless Tracker, Courser of Kruphix, Primeval Bounty, and Hexhaven Invigorator's land-fetch) AND a Kodama trigger. Kamahl's combat-trigger pump + trample is the closing finisher once the board is wide.
 
 ## The 100
 
@@ -64,8 +46,8 @@ Bonders' Enclave, Castle Garenbrig, Demolition Field, Windswept Heath, Mosswort 
 NOTE: Windswept Heath and Verdant Catacombs replaced Evolving Wilds and Terramorphic Expanse on Sept 20, 2026. A fetchland is **two landfall triggers and two Kodama triggers off one card** — the fetchland enters, then the Forest it fetches enters. The real fetches beat Evolving Wilds because they enter untapped AND put the Forest in untapped ("put it onto the battlefield", no "tapped"), so both triggers happen the turn you play it with no tempo loss. All five green-capable fetches (Windswept Heath, Verdant Catacombs, Wooded Foothills, Misty Rainforest, Prismatic Vista) are **functionally identical in mono-green** — the second basic type they name is irrelevant. Buy on price alone.
 NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24), so land slots stay at 37. Front face is a {2}{G} sorcery returning any card from your graveyard to hand; back face is a land that enters tapped. Like the other MDFCs looked at for this deck, the back face is a plain `Land`, **not Forest-typed**, so Nature's Lore and Three Visits cannot fetch it.
 
-### Ramp (14)
-Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel, **Circle of Dreams Druid**, **The Great Henge**
+### Ramp / cost reduction (15)
+Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel, **Circle of Dreams Druid**, **The Great Henge**, **Rhonas's Monument**
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
 ### Draw (8)
@@ -73,21 +55,21 @@ Sylvan Library, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer 
 NOTE: Courser of Kruphix is a new add (found via full-database query) — plays lands off the top, gains life, wasn't in the original 181-card pool.
 
 ### Landfall payoffs / token engines (10)
-Scute Swarm, Avenger of Zendikar, Lotus Cobra, Ka-Zar of the Savage Land, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn, **Tireless Provisioner**, **Ancient Greenwarden**, **Sandwurm Convergence**
+Scute Swarm, Avenger of Zendikar, Lotus Cobra, **Hexhaven Invigorator**, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn, **Tireless Provisioner**, **Ancient Greenwarden**, **Sandwurm Convergence**
 NOTE: this category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
 
 ### Counters / Hydras (2)
 Kalonian Hydra, The Earth Crystal
 NOTE: all four only grow counters already on a creature, or carry them on themselves — none of them spread counters onto new creatures. That's deliberate, see the counters preference below.
 
-### Finishers / big bodies (4)
-Craterhoof Behemoth, Elder Gargaroth, Vorinclex Voice of Hunger, Unnatural Growth
+### Finishers / big bodies (5)
+Craterhoof Behemoth, Elder Gargaroth, Vorinclex Voice of Hunger, Unnatural Growth, **Hexhaven Invigorator**
 
-### Evasion (2)
-Nylea God of the Hunt, Rhonas the Indomitable
+### Evasion (1)
+Rhonas the Indomitable
 
-### Protection (9)
-Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Sylvan Safekeeper, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
+### Protection (8)
+Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
 
 ### Recursion / Tutors (6)
 Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis
@@ -98,6 +80,9 @@ Beast Within, Kenrith's Transformation, **Terastodon**, Ulamog the Ceaseless Hun
 
 ### Tokens (1)
 Primeval Bounty
+
+### Flash / instant-speed deployment (1)
+**Yeva, Nature's Herald**
 
 **Total: 2 commanders + 36 lands + 62 spells = 100**
 
@@ -175,6 +160,45 @@ NOTE: Radagast is **legendary**, so Woodland Bellower (nonlegendary only) cannot
 
 NOTE: **the deck now has zero counterspells.** Warping Wail was the only one. That is an accepted cost, not an oversight — mono-green barely has the option, and the card was frequently uncastable.
 
+## Seventh swap, 2026-10-19 (3 cards) — owner approved
+
+| In | Out | Why |
+|---|---|---|
+| Hexhaven Invigorator {G}{G}{G}{G} 6/6 vigilance | Ka-Zar of the Savage Land | "Whenever this creature is dealt damage, you may search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle." Every land fetched is a landfall trigger across all 10 payoffs **and** a Kodama trigger. Blocking a 5-power creature fetches five lands at once, which takes Scute Swarm 1 → 2 → 4 → 8 → 16 → 32 in one combat; Ancient Greenwarden doubles all of it. Four green pips is a large Nykthos devotion bump, and Green Sun's Zenith for X=4 finds it. Ka-Zar was a 3/2 for five whose land-off-the-top text Courser of Kruphix already provides for three. |
+| Yeva, Nature's Herald {2}{G}{G} 4/4 | Sylvan Safekeeper | Flash on every green creature spell. The real payoff is **Seedborn Muse**: hold mana, deploy on each opponent's end step, untap during their untap step — which means **Kodama triggers on other players' turns** while they are tapped out, and lets you rebuild at instant speed after a wrath. Sylvan Safekeeper grants **shroud, not hexproof**, so the protected creature cannot be targeted by *you* either (no Greaves/Boots equip, no Finale, no pump), and it costs a land off the board in a deck whose engine is lands entering. |
+| Rhonas's Monument {3} | Nylea, God of the Hunt | Discounts all 35 creatures and **stacks with Radagast of Rhosgobel and The Earth Crystal** — Craterhoof goes from {5}{G}{G}{G} to {2}{G}{G}{G} with Radagast and Monument both out. Also an artifact entering, so it is a Kodama trigger at MV 3, and its cast trigger grants +2/+2 and trample. Nylea is not a creature until devotion 5, and her main line (other creatures have trample) is something Kamahl does free from the command zone every combat — the slot was doing almost nothing on most boards. **Caveat: Monument is colorless, so it adds zero Nykthos devotion**, and the discount is green-only — no discount on Ulamog. |
+
+Net: still 100 cards, 35 creatures, **+3 green pips of devotion**.
+
+### Considered in the same pass and KEPT — do not re-suggest these cuts
+- **Sandwurm Convergence.** Proposed as a cut on the grounds that 8 mana buys a delayed 5/5 while Craterhoof costs the same and wins. **Owner overruled: the ramp is massive and the deck cheats permanents in.** Standing correction to that argument, worth keeping because it is a rules point rather than a preference: **Kodama cannot cheat in Sandwurm off a token or a land.** The trigger puts in a permanent of *equal or lesser mana value than the permanent that entered*, and lands and tokens are MV 0 — a free MV 8 drop needs an MV 8+ permanent to enter first (Craterhoof, Vorinclex, Ulamog). Also note **Castle Garenbrig and The Great Henge make creature-only mana**, so neither helps hard-cast Sandwurm.
+- **Multani, Yavimaya's Avatar.** Proposed as a cut for being a 0/0 with no protection that eats one removal spell. **Wrong — he recurs himself:** "{1}{G}, Return two lands you control to their owner's hand: Return this card from your graveyard to your hand." The two bounced lands are two more land drops, so the recursion re-fuels the landfall engine.
+- **Kalonian Hydra.** Proposed as a cut for doubling counters in a deck with few counter sources. **Wrong — it is half of a documented interaction with The Earth Crystal**, which is already written up under "Rules Notes Worked Out": Earth Crystal doubles ETB counters, so Kalonian Hydra **enters as an 8/8**, then doubles again on attack to 16/16.
+- **Beast Whisperer.** Proposed as the weakest of the three draw enchantments because it triggers only on creature spells you **cast** — it misses every token, everything Kodama drops free, and everything Woodland Bellower, Green Sun's Zenith, Natural Order and Finale put onto the battlefield. Owner kept it: 35 creature spells is a real draw engine. The cast-only limitation is still true and worth knowing, same caveat as Silverback Elder and Radagast.
+- **Sakura-Tribe Elder.** Raised as a possible cut alongside the mana dorks. **It is not a mana dork here** — sacrificing it puts a land onto the battlefield, which is a landfall trigger on all 10 payoffs plus a Kodama trigger, on top of being an instant-speed chump block and ramp. One of the better two-drops in the deck.
+- **Llanowar Elves / Elvish Mystic.** A dork was the alternate cut to Ka-Zar. Kept because the turn-1 dork is what casts a 6-mana commander on turn 5 instead of turn 6, in a deck full of 7s and 8s, and both are Woodland Bellower and Green Sun's Zenith targets.
+
+### Rejected from the same batch of seven cards
+- **Gardenize** {1}{G}{G} — banks a charge counter whenever a creature you control dies, then adds {G} per counter at your first main phase. No sacrifice outlet in the deck and this is not an aristocrats build; it is ramp that asks you to lose the board first.
+- **Roiling Canopy** — land, enters tapped, gives target creature +3/+3 when a Forest enters while you control five other Forests. Kamahl already gives the whole team +3/+3 with trample every combat for free, and a tapped land is a real cost in a deck casting eight-drops.
+- **World Shaper** {3}{G} 3/3 — its death trigger returns all land cards from your graveyard to the battlefield, but with Greater Good gone there is no sacrifice outlet and almost nothing puts lands in the yard (two fetches, Blighted Woodland). Previously listed under "Close calls"; **now rejected** on those grounds.
+- **Tamiyo's Safekeeping** {G} instant — one-mana hexproof + indestructible on a single permanent, gain 2 life. Cheaper than Heroic Intervention but single-target, and hexproof + indestructible stops none of exile, sacrifice, or -X/-X.
+- **Timeless Witness** — remains open, not added. See the note under the third swap.
+- **Krosan Grip** and **Thrashing Brontodon** — remain open, not added. Grip's split second is the cleanest answer to a combo piece and is worth revisiting if the meta demands it.
+
+### Database warning — Reality Fracture (FRA) legality is WRONG in scryfall.db
+Hexhaven Invigorator, Gardenize and Roiling Canopy are from **Reality Fracture, released 2026-10-02**.
+The `scryfall.db` snapshot predates the release-day legality flip, so all three read
+`commander: not_legal` — as do 268 of the 276 FRA cards in the database. **This is a snapshot
+artifact, not real.** FRA is an ordinary Standard-legal paper expansion, so its cards are
+Commander-legal. Do not trust the `legalities` column for this set until the database is rebuilt.
+
+### Database warning — bad `Asceticism` row
+`scryfall.db` contains a junk row named `Asceticism // Asceticism` typed `Card // Card` alongside the
+real card. Any query that falls back to `name LIKE 'Asceticism%'` will grab the junk row and return a
+meaningless type line. **Match on exact name first**, and only fall back to LIKE with
+`type_line NOT LIKE 'Card%'`.
+
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
 
@@ -183,7 +207,7 @@ NOTE: **the deck now has zero counterspells.** Warping Wail was the only one. Th
 - Note for future conversations: Bristly Bill, Primeval Bounty and The Earth Crystal's activated ability all say **target** creature, so they never *force* you to spread — you can always point them at one creature. Bristly Bill was still cut on preference.
 
 ## Close calls — next in line, database-verified and legal
-- **World Shaper** {3}{G} 3/3 — mills 3 on attack; when it dies, returns **all** land cards from your graveyard to the battlefield tapped. With Greater Good already in the deck as a sac outlet, that's a huge landfall/Kodama turn. No counters involved.
+- ~~**World Shaper**~~ — **REJECTED 2026-10-19.** The entry below was written while Greater Good was still in the deck as a sacrifice outlet. Greater Good was cut in the third swap, and almost nothing puts lands in the graveyard (two fetches, Blighted Woodland), so the death trigger is close to dead text. Original note: mills 3 on attack; when it dies, returns all land cards from your graveyard to the battlefield tapped.
 - **Thrashing Brontodon** {1}{G}{G} 3/4 — {1}, sacrifice: destroy target artifact or enchantment. A third body-plus-answer if the removal still feels thin.
 - **Krosan Grip** {2}{G} instant — destroy target artifact or enchantment, with split second, so while it's on the stack nobody can cast spells or activate non-mana abilities in response. The cleanest answer to a combo piece.
 - **Nykthos, Shrine to Nyx** — flagged by the owner as a possible future add. {2}, {T}: add mana of a chosen color equal to your devotion to it, which is high in mono-green. Caveat: it only makes {C} otherwise, and the deck already runs five colorless-only lands while casting Silverback Elder {2}{G}{G}{G}, Craterhoof {5}{G}{G}{G} and Unnatural Growth {1}{G}{G}{G}{G}. That's mitigated only while Yavimaya, Cradle of Growth is on the battlefield making every land a Forest — a one-card dependency.
@@ -191,7 +215,7 @@ NOTE: **the deck now has zero counterspells.** Warping Wail was the only one. Th
 
 **Mosswort Bridge stays — do not suggest cutting it again.** An earlier review called its hideaway payoff too demanding. It isn't: the condition is 10 total power across your creatures, Kodama alone is a 6/6, and **Kamahl gives the whole team +3/+3 at the beginning of combat**, so you can activate the Bridge mid-combat after that trigger resolves and two creatures clear the bar. The payoff is playing the hidden card **without paying its mana cost**, off a library full of 6-to-10 drops (Craterhoof, Ulamog, Vorinclex, Avenger of Zendikar). A free 8-drop is worth a land that enters tapped, and playing a creature that way also triggers Silverback Elder.
 - **More fetchlands** — Wooded Foothills, Misty Rainforest and Prismatic Vista all do exactly what Windswept Heath and Verdant Catacombs do here. Only buy on price.
-- **Rejected on purpose: Bane of Progress.** Its ETB destroys **all** artifacts and enchantments, which in this deck means your own Sol Ring, The Earth Crystal, Primeval Bounty, Zendikar's Roil, Sylvan Library, Exploration, Burgeoning, Asceticism, Bear Umbra, plus Courser of Kruphix and Nylea (both enchantment creatures) and any Clue tokens. Far too much collateral.
+- **Rejected on purpose: Bane of Progress.** Its ETB destroys **all** artifacts and enchantments, which in this deck means your own Sol Ring, The Earth Crystal, Primeval Bounty, Zendikar's Roil, Sylvan Library, Exploration, Burgeoning, Asceticism, Bear Umbra, plus Courser of Kruphix (an enchantment creature) and any Clue tokens. Far too much collateral.
 
 ## Cut from the original 181-card pool (redundant with something stronger staying in, not mistakes)
 Fyndhorn Elves, Druid of the Cowl, Ilysian Caryatid, Rampant Growth, Wood Elves, Farhaven Elf, Explosive Vegetation, Skyshroud Claim, Springbloom Druid, Shared Roots (explicitly filler), Case of the Locked Hothouse, Fanatic of Rhonas, Goreclaw Terror of Qal Sisma, Nissa Resurgent Animist, Rampant Rejuvenator, Seedship Agrarian, Stone-Seeder Hierophant, Tireless Provisioner, World Shaper, Yavimaya Elder, Adventure Awaits, Adventurous Impulse, Disciple of Freyalise, Genesis Hydra, Hunter's Insight, Inspiring Call, Momentous Fall, Pelakka Wurm, Regal Force, Rishkar's Expertise, Silverback Shaman, Soul's Majesty, Vizier of the Menagerie, Baloth Woodcrasher, Greensleeves Maro-Sorcerer, Glacier Godmaw, Khalni Heart Expedition, Territorial Scythecat, Sazh's Chocobo, Retreat to Kazandu, Grazing Gladehart, Embodiment of Insight, Undergrowth Champion, Tifa Lockhart, Scythecat Cub, Surrak and Goreclaw, Mossborn Hydra, Oran-Rief Hydra, Hooded Hydra, Darksteel Colossus, Overwhelming Stampede, Quakestrider Ceratops, Stonehoof Chieftain, Thrashing Brontodon, Archetype of Endurance, both Ulamog the Infinite Gyre, Commander's Plate, Mithril Coat, Darksteel Plate, Autumn's Veil, Spearbreaker Behemoth, Avoid Fate, Alpha Authority, Aspect of Mongoose, Sheltering Word, Ranger's Guile, Canopy Cover, Molting Skin, Broken Fall, Eldrazi Monument, Creeping Renaissance, Praetor's Counsel, Splendid Reclamation, Greenwarden of Murasa, Deadwood Treefolk, Khalni Ambush, Bridgeworks Battle, Ezuri's Predation.
@@ -201,6 +225,8 @@ Also cut, first Sept 20 swap: Bristly Bill Spine Sower, Overrun, Nissa Worldsoul
 Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic Expanse.
 
 Cut in the third through sixth Sept 20 swaps: Greater Good, 1x Forest, Regrowth, Zendikar's Roil, Warping Wail.
+
+Cut in the seventh swap, 2026-10-19: Ka-Zar of the Savage Land, Sylvan Safekeeper, Nylea God of the Hunt.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.
@@ -229,8 +255,8 @@ Consequences worth keeping:
 - **Kodama's trigger** fires off ANY permanent entering under your control (lands, tokens, creatures) — not landfall-specific. Confirmed against real oracle text Sept 19, 2026.
 - **Unnatural Growth triggers on EACH combat, not just yours.** "At the beginning of each combat, double the power and toughness of each creature you control until end of turn." That includes every opponent's combat, so your blockers are doubled when you're attacked. Easy to misplay as a my-turn-only effect.
 - **Unnatural Growth + Kamahl stack order matters.** Both trigger at the beginning of combat on your turn and you control both, so you choose the order they go on the stack — and the stack resolves last-on-first-off. Put **Unnatural Growth's trigger on the stack first and Kamahl's on top**, so Kamahl resolves first and the doubling counts the +3/+3. Kodama goes 6/6 → 9/9 → **18/18** that way, versus 12/12 → 15/15 if you get it backwards.
-- **Overrun was cut because Kamahl duplicates it exactly** — same +3/+3, same trample, same until-end-of-turn, but repeatable from the command zone for free. Trample is still covered by Kamahl, Nylea (other creatures you control have trample) and Craterhoof.
-- **Zabu is a legendary token.** Bouncing and recasting Ka-Zar while Zabu is alive does NOT net a second Cat — the legend rule makes you bin one, and you keep the original carrying its counters. You do still get the Kodama trigger off the token entering, plus a fresh Ka-Zar ETB.
+- **Overrun was cut because Kamahl duplicates it exactly** — same +3/+3, same trample, same until-end-of-turn, but repeatable from the command zone for free. Trample is still covered by Kamahl, Craterhoof, and Rhonas's Monument's cast trigger. (Nylea was cut 2026-10-19.)
+- **Zabu is a legendary token.** (Historical — Ka-Zar was cut 2026-10-19.) Bouncing and recasting Ka-Zar while Zabu is alive does NOT net a second Cat — the legend rule makes you bin one, and you keep the original carrying its counters. You do still get the Kodama trigger off the token entering, plus a fresh Ka-Zar ETB.
 - **Temur Sabertooth's indestructible is conditional.** "{1}{G}: You may return another creature you control to its owner's hand. **If you do**, this creature gains indestructible until end of turn." No bounce, no indestructible. Its real job is re-using ETBs (Reclamation Sage, Eternal Witness, Woodland Bellower, Avenger of Zendikar) and saving a creature from targeted removal by bouncing it.
 - **Silverback Elder only triggers on CAST creature spells.** It misses everything Kodama puts onto the battlefield for free, every token, and the creatures fetched by Woodland Bellower, Green Sun's Zenith and Finale of Devastation. Still worth it for repeatable artifact/enchantment destruction on a 5/7 body, but don't count the free permanents.
 - **Woodland Bellower puts its target onto the battlefield**, so it's two Kodama triggers off one card. Live targets in this build include Reclamation Sage, Eternal Witness, Tireless Tracker, Scute Swarm, Lotus Cobra, Managorger Hydra, Courser of Kruphix, Sakura-Tribe Elder and the mana dorks (nonlegendary, green, MV 3 or less).

@@ -28,7 +28,7 @@
 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 1 Guardian Project
 1 Heroic Intervention
-1 Ka-Zar of the Savage Land
+1 Hexhaven Invigorator
 1 Kalonian Hydra
 1 Kamahl, Heart of Krosa
 1 Kenrith's Transformation
@@ -42,7 +42,6 @@
 1 Natural Order
 1 Nature's Lore
 1 Nykthos, Shrine to Nyx
-1 Nylea, God of the Hunt
 1 Ohran Frostfang
 1 Primeval Bounty
 1 Radagast of Rhosgobel
@@ -50,6 +49,7 @@
 1 Reclamation Sage
 1 Return of the Wildspeaker
 1 Rhonas the Indomitable
+1 Rhonas's Monument
 1 Sakura-Tribe Elder
 1 Sandwurm Convergence
 1 Scute Swarm
@@ -58,7 +58,6 @@
 1 Sol Ring
 1 Swiftfoot Boots
 1 Sylvan Library
-1 Sylvan Safekeeper
 1 Temur Sabertooth
 1 Terastodon
 1 The Earth Crystal
@@ -75,3 +74,4 @@
 1 Windswept Heath
 1 Woodland Bellower
 1 Yavimaya, Cradle of Growth
+1 Yeva, Nature's Herald
