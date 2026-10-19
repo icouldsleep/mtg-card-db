@@ -124,6 +124,20 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
   locked into Assassins, Mercenaries and Rogues.
 - **Epicure of Blood, Tetzimoc Primal Death** — cut for curve reasons, see git history.
 
+## Swap 2026-10-19 — Liliana back in, owner approved
+
+| In | Out | Why |
+|---|---|---|
+| Liliana of the Dark Realms {2}{B} | Cover of Darkness {1}{B} | Owner wanted Blightwing Bandit AND Liliana both in the 100. Blightwing's cut was already paid (it took Liliana's slot in commit 72a8959), so re-adding Liliana cost exactly one more card. Cover of Darkness grants **fear**, which black creatures block — the weakest of the deck's four evasion effects, next to Commander's Plate (protection from W/U/R/G, unblockable at most tables), Rogue's Passage (unconditional) and Dauthi Embrace (shadow). It also cannot cover Virtus and the Vampires at once: Virtus is an **Azra Assassin**, so naming Vampire leaves the commander out and naming Assassin covers 5 creatures instead of 10. And it triggers none of the deathtouch payoffs — no Hooded Blightfang drain, no White Widow counter, no Black Widow draw, no lifegain for Exquisite Blood. |
+
+**Process note, recorded deliberately.** Commit `72a8959` (Liliana out, Blightwing in; Charcoal
+Diamond out, Extraplanar Lens in) was **pushed without approval** — "Y lil" was read as "yes,
+Liliana" when it meant "why Liliana". The swaps survived on their merits after the owner reviewed
+them, but the push itself was a mistake. Confirm before editing.
+
+**Alternate cut considered and not taken:** Ravening Warg — its Ferocious lifegain needs a power-4
+creature and the deck has only about six.
+
 ## Open items
 
 - Nothing acquired. This is a shopping list, not a deck.
@@ -143,9 +157,6 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
 "Deathtouch | Whenever a creature you control with deathtouch deals combat damage to a player, you draw a card and lose 1 life."
 
 **Blightwing Bandit** — {3}{B} — Creature — Faerie Rogue — **2/2**
-"Flying, deathtouch | Whenever you cast your first spell during each opponent's turn, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it."
-
-**Blightwing Bandit** — {3}{B} — Creature — Faerie Rogue — 2/2
 "Flying, deathtouch | Whenever you cast your first spell during each opponent's turn, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it."
 Back in after being cut on 09-30. The cut reasoning was that the rider rarely fires; in the 10-14
 game it fired off Snuff Out, stole Will of the Sultai, and that card won the game. It is also a
@@ -266,16 +277,13 @@ permanently and does not come back if the Lens is destroyed.
 "Equipped creature has "{T}: This creature deals 1 damage to any target." | Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
 
 
-## Enchantment (7)
+## Enchantment (6)
 
 **Black Market** — {3}{B}{B} — Enchantment
 "Whenever a creature dies, put a charge counter on this enchantment. | At the beginning of your first main phase, add {B} for each charge counter on this enchantment."
 
 **Case of the Gorgon's Kiss** — {B} — Enchantment — Case
 "When this Case enters, destroy up to one target creature that was dealt damage this turn. | To solve — Three or more creature cards were put into graveyards from anywhere this turn. (If unsolved, solve at the beginning of your end step.) | Solved — This Case is a 4/4 Gorgon creature with deathtouch and lifelink in addition to its other types."
-
-**Cover of Darkness** — {1}{B} — Enchantment
-"As this enchantment enters, choose a creature type. | Creatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"
 
 **Dauthi Embrace** — {2}{B} — Enchantment
 "{B}{B}: Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)"
@@ -289,6 +297,20 @@ permanently and does not come back if the Lens is destroyed.
 **Phyrexian Arena** — {1}{B}{B} — Enchantment
 "At the beginning of your upkeep, you draw a card and you lose 1 life."
 
+
+## Planeswalker (1)
+
+**Liliana of the Dark Realms** — {2}{B} — Legendary Planeswalker — Liliana — **starting loyalty 3**
+"+1: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle. | −3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control. | −6: You get an emblem with 'Swamps you control have {T}: Add {B}{B}{B}{B}.'"
+Back in 2026-10-19. **The +1 is not generic ramp here — it is a Swamp**, and Cabal Coffers, Cabal
+Stronghold, Nirkana Revenant and Crypt Ghast all scale off Swamp count, while Extraplanar Lens is
+imprinted on a Snow-Covered Swamp. The emblem is a kill, not value: 29 Snow-Covered Swamps plus
+Urborg making every other land a Swamp means ten lands tap for forty mana, which is Torment of
+Hailfire for X=38.
+**Known cost, decided and accepted:** she enters at 3, so the −3 kills her the turn it is used, and
+the ultimate needs three full turn cycles of +1 undefended at a four-player table. **Kaya's Ghostform
+enchants a creature OR a planeswalker you control** and is the only protection in the deck for her;
+she returns at base loyalty 3.
 
 ## Sorcery (9)
 

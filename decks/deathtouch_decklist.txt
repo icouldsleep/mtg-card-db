@@ -15,7 +15,6 @@
 1 Cabal Stronghold
 1 Case of the Gorgon's Kiss
 1 Commander's Plate
-1 Cover of Darkness
 1 Crypt Ghast
 1 Culling the Weak
 1 Dark Ritual
@@ -37,6 +36,7 @@
 1 Hired Poisoner
 1 Hooded Blightfang
 1 Kaya's Ghostform
+1 Liliana of the Dark Realms
 1 Marauding Blight-Priest
 1 Night's Whisper
 1 Nighthawk Scavenger
@@ -51,6 +51,7 @@
 1 Rogue's Passage
 1 Sheoldred, the Apocalypse
 1 Sidisi, Undead Vizier
+29 Snow-Covered Swamp
 1 Snuff Out
 1 Sol Ring
 1 Swiftfoot Boots
@@ -69,4 +70,3 @@
 1 Vito, Thorn of the Dusk Rose
 1 White Widow, Yelena Belova
 1 Witch of the Moors
-29 Snow-Covered Swamp
