@@ -165,6 +165,43 @@ what the Plate cannot.
 Swiftfoot Boots is not made redundant: Equipment stack, and haste is the one thing the Plate does
 not provide.
 
+## Swap 2026-10-19 (5 cards) — owner approved
+
+Found by diffing the owner's physical list against this one: five cards he already owns that the
+original design pass walked past.
+
+| In | Out | Why |
+|---|---|---|
+| **Sunblast Angel** {4}{W}{W} 4/5 | Seraph of the Sword | ETB **destroys all tapped creatures**. The deck runs **Always Watching** and **Brave the Sands**, both of which give the team vigilance, and **Rinoa** grants fliers vigilance at combat — so with any of those out this is a **one-sided board wipe on an Angel body**, aimed directly at the "interaction is thin" open item. Seraph of the Sword only prevented damage to itself: no life, no draw, no tokens, in a deck where life total is the win condition. |
+| **Emeria Shepherd** {5}{W}{W} 4/4 | Linvala, the Preserver | Landfall: return a nonland permanent from the graveyard to hand, **and to the battlefield instead if the land is a Plains**. The deck runs **32 Plains of 37 lands**, so that is battlefield recursion on roughly five of every six land drops. Linvala's two ETBs are both conditional on an opponent being *ahead* of you — on life, or on creature count — and this deck's whole plan is to be far ahead on life by the time a six-drop is castable. It is a catch-up card in a deck that wants to be in front. |
+| **Patchwork Banner** {3} | Commander's Sphere | Name Angel: Angels get +1/+1 **and it taps for mana**. Commander's Sphere in mono-white taps for exactly {W} at the same cost, and three mana is a full turn in a deck with eight cards at five-plus. Rock count is unchanged at 4; white sources unchanged at 33, so the mana model below still holds. |
+| **Metallic Mimic** {2} | Tome of Legends | Name Angel: every Angel enters with an extra +1/+1 counter, and Mimic becomes an Angel itself, so **Lyra pumps it and grants it lifelink**. Stacks on top of Giada's per-Angel counters. Tome of Legends needs Lyra on the battlefield to tick, and she is a five-drop lightning rod. |
+| **Austere Command** {4}{W}{W} | Exorcise | The only wipe that fits this deck, because it is modal: *"destroy all creatures with mana value 3 or less"* kills a go-wide opponent while Lyra, Sephara, Archangel of Thune and the rest survive. Day of Judgment and Cleansing Nova, both in the owner's paper list, are symmetrical and were rejected for that reason. Exorcise was sorcery-speed and is covered harder by Command. |
+
+**Righteous Valkyrie pays out on TOUGHNESS** — "you gain life equal to that creature's toughness" —
+which is why Sunblast Angel's 4/**5** matters beyond its ETB: five life in one trigger clears both
+**Resplendent Angel** (5+) and **Angelic Accord** (4+) in the same turn. Same logic makes
+**Merchant of Truth** (2/5) and **Reya Dawnbringer** (4/6) better than their stat lines suggest;
+both are in the owner's collection and remain **open, not added**.
+
+### Considered in the same pass and KEPT — do not re-suggest
+- **Rinoa, Angel Wing.** Proposed as a cut for being off-tribe (Human Rebel Warlock, so Lyra, Giada,
+  Righteous Valkyrie, Starnheim Aspirant and Vanquisher's Banner all miss her). **Overruled, and
+  correctly** — her second ability is recursion: "Whenever one or more attacking creatures you
+  control die, you may return one of them to the battlefield tapped with a flying counter on it.
+  Do this only once each turn." A free rebuy every turn you trade in combat, already documented
+  under "Rinoa, Angel Wing — two cards in one" above. She also grants fliers vigilance, which turns
+  **Sunblast Angel** one-sided.
+- **Commander's Plate** is and always was in this list. It is on the to-acquire list, not missing
+  from the design.
+
+### Rejected from the owner's collection in the same pass
+- **Day of Judgment, Cleansing Nova** — symmetrical wipes that kill your own Angel board.
+- **Cut a Deal, Secret Rendezvous** — both draw cards for opponents.
+- **Heraldic Banner** (+1/+0 only), **Marble Diamond** (enters tapped).
+- **Angelic Sleuth, Wojek Investigator, Firemane Commando, Vanguard Seraph, Segovian Angel,
+  Angel of Finality, Norn's Choirmaster** — playable, none better than what holds the slot.
+
 ## Bracket
 
 **Bracket 3, exactly at the cap. 3 Game Changers:** Enlightened Tutor, Smothering Tithe,
@@ -251,11 +288,20 @@ If mill becomes a recurring problem at the table, that is the gap to fix.
 
 ## Open items
 
-- Not built. Precon not yet in hand as of writing.
-- Never simulated.
-- **Interaction is thin** — 3 sorceries and 7 instants. Swords to Plowshares, Fateful Absence,
-  Exorcise, Invoke the Divine and Grasp of Fate are the answers. This is the first place to look if
-  the deck underperforms in a Bracket 3 pod.
+- **Build status, 2026-10-19.** The owner supplied the physical list. Both lists are 100 cards with
+  **24 differences in each direction** — the paper deck is still the precon shell plus partial
+  upgrades, and this file is the finished target. Still to acquire: Academy Rector, Aetherflux
+  Reservoir, Angel of Destiny, Angelic Accord, Archangel of Thune, Brave the Sands, Commander's
+  Plate, Cosmos Elixir, Dawn of Hope, Doctor Strange Surgeon, Enlightened Tutor, Felidar Sovereign,
+  Flawless Maneuver, Gift of Immortality, Idyllic Tutor, Inventors' Fair, Resplendent Angel, Rinoa
+  Angel Wing, Serra Ascendant, Sigarda's Splendor, Smothering Tithe, Teferi's Protection, Test of
+  Endurance, Well of Lost Dreams. (Counted before the 2026-10-19 swap below; five of the cards that
+  swap adds are already in the owner's possession.)
+- Never simulated in paper.
+- **Interaction, updated 2026-10-19.** Swords to Plowshares, Fateful Absence, Valorous Stance,
+  Invoke the Divine, Grasp of Fate, Angel of the Ruins, and now **Austere Command** and **Sunblast
+  Angel** are the answers. Exorcise was cut. This was the file's longest-standing open item and the
+  seventh swap below was aimed squarely at it.
 - Options considered and not included: **Serra's Blessing** {1}{W} (a third unconditional team
   vigilance grant, strictly worse than Brave the Sands at the same cost), **Aang, Air Nomad**
   {3}{W}{W} 5/4 (flying, vigilance, grants team vigilance — but a Human Avatar Ally, so Lyra does
