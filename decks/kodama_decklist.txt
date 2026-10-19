@@ -7,12 +7,10 @@
 1 Beast Whisperer
 1 Beast Within
 1 Blighted Woodland
-1 Bonders' Enclave
 1 Boseiju, Who Endures
 1 Burgeoning
 1 Castle Garenbrig
 1 Circle of Dreams Druid
-1 Courser of Kruphix
 1 Craterhoof Behemoth
 1 Dancing from Dark to Dawn
 1 Demolition Field
@@ -43,6 +41,7 @@
 1 Nature's Lore
 1 Nykthos, Shrine to Nyx
 1 Ohran Frostfang
+1 Pia, Aether Ascetic
 1 Primeval Bounty
 1 Radagast of Rhosgobel
 1 Rampaging Baloths
@@ -69,6 +68,7 @@
 1 Unnatural Growth
 1 Veil of Summer
 1 Verdant Catacombs
+1 Verdant Kraken
 1 Vorinclex, Voice of Hunger
 1 War Room
 1 Windswept Heath

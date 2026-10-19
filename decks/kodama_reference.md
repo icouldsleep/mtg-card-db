@@ -3,8 +3,10 @@
 **STATUS: BUILT (100 cards).** Original build confirmed Sept 19, 2026; **3-card swap applied 2026-10-19** (Hexhaven Invigorator, Yeva, Rhonas's Monument in; Ka-Zar, Sylvan Safekeeper, Nylea out — see "Seventh swap"); **4-card swap applied Sept 20, 2026** to fix the deck's artifact/enchantment removal gap and to pull out the +1/+1 counter spreader. Cut down from the 181-card Archidekt staging pool after a full database cross-check (existence, color identity, Commander legality, and full oracle text for every card) plus a synergy pass looking for interactions the category tags alone would've missed.
 
 **Archidekt (current):** https://archidekt.com/decks/27555560/mono_green
-— verified against this file on 2026-10-18 by diffing the Archidekt API against `kodama_decklist.txt`:
-100 cards each, **zero differences in either direction.** This link and this file are the same list.
+— **OUT OF DATE as of 2026-10-19.** It was verified identical on 2026-10-18, but the seventh and
+eighth swaps below have not been applied to it. Archidekt needs: **add** Hexhaven Invigorator,
+Rhonas's Monument, Yeva Nature's Herald, Verdant Kraken, Pia Aether Ascetic; **remove** Ka-Zar of the
+Savage Land, Sylvan Safekeeper, Nylea God of the Hunt, Courser of Kruphix, Bonders' Enclave.
 
 The previous link (`26590810/kodama_of_the_mono_tree`) is **stale — frozen at 2026-09-20** and still
 shows the precon shell in 15 slots. Do not use it.
@@ -50,12 +52,12 @@ NOTE: **Bala Ged Recovery // Bala Ged Sanctuary** took a Forest slot (25 -> 24),
 Sol Ring, Llanowar Elves, Elvish Mystic, Sakura-Tribe Elder, Nature's Lore, Three Visits, Exploration, Azusa Lost but Seeking, Loot Exuberant Explorer, Burgeoning, Growing Rites of Itlimoc, Radagast of Rhosgobel, **Circle of Dreams Druid**, **The Great Henge**, **Rhonas's Monument**
 NOTE: Exploration/Azusa/Loot/Burgeoning were moved here from cut candidates specifically because they feed Kodama and every landfall payoff simultaneously — higher priority than one-shot ramp spells for THIS deck.
 
-### Draw (8)
-Sylvan Library, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Return of the Wildspeaker, Courser of Kruphix
+### Draw (7)
+Sylvan Library, Beast Whisperer, Elemental Bond, Guardian Project, Toski Bearer of Secrets, Ohran Frostfang, Return of the Wildspeaker
 NOTE: Courser of Kruphix is a new add (found via full-database query) — plays lands off the top, gains life, wasn't in the original 181-card pool.
 
 ### Landfall payoffs / token engines (10)
-Scute Swarm, Avenger of Zendikar, Lotus Cobra, **Hexhaven Invigorator**, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn, **Tireless Provisioner**, **Ancient Greenwarden**, **Sandwurm Convergence**
+Scute Swarm, Avenger of Zendikar, Lotus Cobra, **Hexhaven Invigorator**, **Verdant Kraken**, Rampaging Baloths, Multani Yavimaya's Avatar, Dancing from Dark to Dawn, **Tireless Provisioner**, **Ancient Greenwarden**, **Sandwurm Convergence**
 NOTE: this category is the deck's actual best synergy with Kodama per the rules finding above — token/permanent generators, not just "more mana."
 
 ### Counters / Hydras (2)
@@ -71,8 +73,8 @@ Rhonas the Indomitable
 ### Protection (8)
 Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
 
-### Recursion / Tutors (6)
-Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis
+### Recursion / Tutors (7)
+Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis, **Pia Aether Ascetic**
 NOTE: **Genesis works from the graveyard, and a board wipe is its enabler.** "At the beginning of your upkeep, if this creature is in your graveyard, you may pay {2}{G}. If you do, return target creature card from your graveyard to your hand." A wrath puts Genesis in the yard alongside everything else it will rebuild, which is exactly what this deck needs, since a wide board of fat creatures is a wrath magnet. It returns to HAND, not the battlefield, so recovery is slow against a curve topping out at 10 mana - inevitable, not fast.
 
 ### Removal (6)
@@ -187,7 +189,7 @@ Net: still 100 cards, 35 creatures, **+3 green pips of devotion**.
 - **Krosan Grip** and **Thrashing Brontodon** — remain open, not added. Grip's split second is the cleanest answer to a combo piece and is worth revisiting if the meta demands it.
 
 ### Database warning — Reality Fracture (FRA) legality is WRONG in scryfall.db
-Hexhaven Invigorator, Gardenize and Roiling Canopy are from **Reality Fracture, released 2026-10-02**.
+Hexhaven Invigorator, **Verdant Kraken**, **Pia Aether Ascetic**, Gardenize and Roiling Canopy are all from **Reality Fracture, released 2026-10-02**.
 The `scryfall.db` snapshot predates the release-day legality flip, so all three read
 `commander: not_legal` — as do 268 of the 276 FRA cards in the database. **This is a snapshot
 artifact, not real.** FRA is an ordinary Standard-legal paper expansion, so its cards are
@@ -198,6 +200,28 @@ Commander-legal. Do not trust the `legalities` column for this set until the dat
 real card. Any query that falls back to `name LIKE 'Asceticism%'` will grab the junk row and return a
 meaningless type line. **Match on exact name first**, and only fall back to LIKE with
 `type_line NOT LIKE 'Card%'`.
+
+## Eighth swap, 2026-10-19 (2 cards) — owner approved
+
+| In | Out | Why |
+|---|---|---|
+| **Verdant Kraken** {4}{G}{G}{G} 6/6 | Courser of Kruphix | "At the beginning of **each player's** upkeep, you create a 3/3 green Forest Tentacle **land creature** token." The token is a **land entering**, so every one is a landfall trigger across all 10 payoffs *plus* a Kodama trigger — and it fires on each player's upkeep, so a four-player table gives **four land-enters per turn cycle, three of them on opponents' turns.** Scute Swarm at six-plus lands goes 1 → 2 → 4 → 8 → 16 in a single round off it; Ancient Greenwarden doubles every trigger again; Multani grows by one per token; the tokens tap for {G}. Courser's "play lands from the top" does **not** grant an extra land drop — it only lets you spend your existing drop from the top instead of from hand, which with 35 lands is worth roughly a third of a card a turn, plus 1 life on landfall. |
+| **Pia, Aether Ascetic** {2}{G} 2/2 | Bonders' Enclave | "When Pia enters, you may discard a card. If you do, search your library for an enchantment card, reveal it, put it into your hand, then shuffle." The deck runs **14 enchantments and had zero enchantment tutors** — Green Sun's Zenith, Finale, Natural Order and Woodland Bellower all find creatures only, so Pia is the only way to go get Sylvan Library, Exploration or Burgeoning. She is legendary, so Bellower cannot fetch her; GSZ for X=3 can. Bonders' Enclave was {3} per card gated on a power-4 creature — the worst draw rate in the deck — and it taps for {C} only, so cutting it **takes nothing off the green count** while dropping colourless-only lands from 5 to 4, which the Nykthos note below already flagged as the mana base's one soft spot. |
+
+Net: 100 cards, **34 lands** (35 counting Bala Ged Recovery's back face), 2 of 3 Game Changers unchanged.
+The 34th land matters less than usual because Verdant Kraken manufactures one every upkeep.
+
+### Considered in the same pass and KEPT — do not re-suggest these cuts
+- **Bear Umbra.** Proposed as the cut for Verdant Kraken on the grounds that an Aura does nothing on an empty board and can be answered in response. **Overruled by the owner, correctly: it is one of the few protection pieces for Kodama himself.** Umbra armor reads "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura" — it eats a destroy effect aimed at the commander. It is already listed under Protection above.
+- **Toski, Bearer of Secrets.** Proposed as a cut because "attacks each combat if able" is mandatory and a forced-attacking 1/1 at a four-player table often draws nothing. Kept. The counter-case, worth recording: he is **indestructible**, so the forced attack costs nothing when he is blocked; he **can't be countered**; and with **Ohran Frostfang** out all attackers have deathtouch, which makes blocking him a bad trade, so he connects more often than the stat line suggests.
+
+### Also offered as cuts in the same pass and not taken
+**Demolition Field** — note the inconsistency for a future pass: the "Considered and rejected" list below
+rejects Wasteland and Strip Mine with "land hate is a meta call, not a gap in this deck", while
+Demolition Field does that same job and is still in the 100. **Veil of Summer** — gives hexproof from
+blue and black only, so it is a blank card against mono-white, mono-red or mono-green opponents, and
+is the most meta-dependent slot in the deck. **Elder Gargaroth** — a strong card with no interaction
+with the land/token engine.
 
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
@@ -227,6 +251,8 @@ Cut in the second Sept 20 swap: Blanchwood Armor, Evolving Wilds, Terramorphic E
 Cut in the third through sixth Sept 20 swaps: Greater Good, 1x Forest, Regrowth, Zendikar's Roil, Warping Wail.
 
 Cut in the seventh swap, 2026-10-19: Ka-Zar of the Savage Land, Sylvan Safekeeper, Nylea God of the Hunt.
+
+Cut in the eighth swap, 2026-10-19: Courser of Kruphix, Bonders' Enclave.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.
