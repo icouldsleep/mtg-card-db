@@ -2,7 +2,13 @@
 
 # Cards Reference — Teval, the Balanced Scale EDH Deck (COMPLETE)
 
-Last updated: September 16, 2026 — re-pulled and verified against new Archidekt link. Source: https://archidekt.com/decks/26469249/mill4dayz. Bracket shown on Archidekt: Upgraded (3) — likely just the estimator recalculating; Demonic Tutor and Natural Order (both Game Changers) are still in the 100, unchanged from the prior Optimized (4) read. Salt sum: 46.57. Est cost: $793.43.
+Last updated: **2026-10-20.** Archidekt: https://archidekt.com/decks/26469249/mill4dayz —
+**OUT OF DATE, frozen at 2026-09-16.** It is missing the Sept 22 land swap, the Oct 5 Misty
+Rainforest swap and the 2026-10-20 swap below. To bring it current: **add** Field of the Dead,
+Misty Rainforest, Polluted Delta, Undercity Sewers, Underground Mortuary, Verdant Catacombs,
+Ferocity of the Hunt, Hunter's Axe; **remove** Cephalid Coliseum, Evolving Wilds, Memorial to Folly,
+Terramorphic Expanse, Commander's Sphere, Farseek, 1 Forest, 1 Swamp.
+Earlier note, September 16, 2026 — re-pulled and verified against the Archidekt link. Bracket shown on Archidekt: Upgraded (3) — likely just the estimator recalculating; Demonic Tutor and Natural Order (both Game Changers) are still in the 100, unchanged from the prior Optimized (4) read. Salt sum: 46.57. Est cost: $793.43.
 
 ## VERIFICATION HISTORY — for context
 This deck's full 100 cards, including all 38 lands, were individually verified via direct search in an earlier session. 11 real errors were found and corrected, with a clear pattern: 7 of the 11 were type-line subtype reversals (e.g. "Druid Merfolk" recorded instead of the correct "Merfolk Druid"). The corrected information below reflects that verification — it is being restored from memory, not re-verified from scratch in this rebuild.
@@ -124,7 +130,58 @@ Entomb — {B} — Instant — "Search for any card, put into graveyard."
 Natural Order — {2}{G}{G} — Sorcery — "Sac a green creature as additional cost. Search for a green creature card onto battlefield." (Game Changer.)
 
 ## Legality
-No banned cards. Demonic Tutor and Natural Order are confirmed Game Changers (2 total). **Correction (Sept 16, 2026): this is genuinely Bracket 3 (Upgraded), not Bracket 4.** The official bracket rules allow up to 3 Game Changers within Bracket 3 — having 2 doesn't force Bracket 4 on its own. Bracket 4 is about combo density and fast/tutored wins, and this deck's plan (grind value, mill/recur, close with Craterhoof or the Sidisi/Teval Zombie engines) doesn't fit that profile. The file's prior "Optimized (4)" label was an incorrect assumption, not a reflection of an actual deck change.
+No banned cards. **CORRECTED 2026-10-20: the deck runs THREE Game Changers, not two — Demonic Tutor,
+Natural Order, and FIELD OF THE DEAD.** Field of the Dead is on the official list (`game_changers.md`,
+Colourless section) and came in with the Sept 22 land swap, after the note below was written; nobody
+rechecked. The deck is still legal for Bracket 3, whose cap is 3, but it is now **exactly at the cap
+with no room for a fourth.** Re-verified card by card against `game_changers.md` on 2026-10-20. The
+original note read "Demonic Tutor and Natural Order are confirmed Game Changers (2 total)" and was
+accurate when written. **Correction (Sept 16, 2026): this is genuinely Bracket 3 (Upgraded), not Bracket 4.** The official bracket rules allow up to 3 Game Changers within Bracket 3 — having 2 doesn't force Bracket 4 on its own. Bracket 4 is about combo density and fast/tutored wins, and this deck's plan (grind value, mill/recur, close with Craterhoof or the Sidisi/Teval Zombie engines) doesn't fit that profile. The file's prior "Optimized (4)" label was an incorrect assumption, not a reflection of an actual deck change.
+
+## Swap 2026-10-20 (2 cards) — owner approved
+
+Both adds are for **Teval himself**: the goal is making a 4/4 flying commander a bad block, so he
+connects and keeps milling three and returning a land every turn.
+
+| In | Out | Why |
+|---|---|---|
+| **Ferocity of the Hunt** {1}{B/G} Aura, Flash | Commander's Sphere | Flash, enchanted creature gets +1/+0 and **deathtouch**, and "when enchanted creature dies, return that card to the battlefield tapped under its owner's control." On Teval that is a 5/4 flying deathtoucher nobody blocks profitably — **and it means a dead Teval returns to the battlefield instead of the command zone, with no commander tax.** Commander's Sphere was a {3} rock sitting behind Sol Ring, Arcane Signet and Thought Vessel in a deck that wants Buried Alive or Grisly Salvage on turn three. |
+| **Hunter's Axe** {G} Equipment, Equip {2} | Farseek | +2/+0 and "whenever this creature attacks, it gains your choice of trample or deathtouch." A second copy of the don't-block-my-commander effect that, unlike the Aura, **survives Teval dying and can move to Lumra, Multani or Lord of Extinction — where the trample mode is how a 20/20 actually converts.** Farseek was the deck's only single-land ramp spell that is also tapped and bodiless: Springbloom Druid and Harrow each give **two** landfall triggers, Three Visits gives one untapped. |
+
+### Ferocity of the Hunt — how to actually play it
+- **It is NOT Gift of Immortality.** Gift returns itself attached at the next end step and loops
+  forever. Ferocity is **one-shot** — the Aura goes to the graveyard with the creature and stays
+  there. In this deck that is softened by **Muldrotha** (replay an enchantment from the yard each
+  turn) and **Six** (your nonland graveyard cards have retrace).
+- **When Teval dies, DECLINE the command zone.** Commander replacement is a choice; if you take the
+  command-zone option the Aura trigger finds nothing. Let him hit the graveyard and Ferocity returns
+  him tapped.
+- **Teval's own Zombie trigger does NOT fire off his own return** — he is not on the battlefield when
+  the "leaves your graveyard" event happens. **Syr Konrad, Kishla Skimmer, River Kelpie and Kotis all
+  do**, so it is still 1 damage to each opponent plus draws.
+- **Hold it up.** Flash it on in response to removal: the creature dies, comes straight back, and you
+  cash every "leaves your graveyard" trigger off their removal spell.
+- It returns **tapped** (no block that turn), and **"under its owner's control"** — enchanting an
+  opponent's creature does not steal it.
+
+### LIGHTNING GREAVES ORDER OF OPERATIONS — easy misplay
+**Lightning Greaves grants SHROUD, which stops YOUR targeting too.** If Teval is already wearing
+Greaves you **cannot** enchant him with Ferocity and **cannot** equip Hunter's Axe to him. Put the
+Aura or the Axe on **first**, Greaves **last**. Swiftfoot Boots grants hexproof, which only stops
+opponents, so Boots has no such problem.
+
+### Considered in the same pass and KEPT — do not re-suggest
+- **Springbloom Druid.** Proposed as the cut for Hunter's Axe. **Overruled, correctly:** sacrificing a
+  land and fetching two basics is **two landfall triggers**, and the sacrificed land goes to the
+  graveyard where Life from the Loam, Lumra, Multani and Teval's attack trigger all want it. Judge it
+  on triggers, not on the tapped basics.
+- **Diviner of Mist** and **Wonder** were offered as alternate cuts and not taken.
+
+**Farseek was NOT the deck's Zagoth Triome access** — worth recording, since that was the concern
+raised. Zagoth Triome is `Land — Swamp Forest Island`, so **all three fetchlands already find it**:
+Polluted Delta (Island or Swamp), Misty Rainforest (Forest or Island), Verdant Catacombs (Swamp or
+Forest). What cutting Farseek actually costs is one piece of **ramp** — it put a land in play on top
+of your land drop, where a fetchland spends the drop.
 
 ## Strategic notes
 Self-mill into graveyard payoffs. Grows graveyard-scaling threats (Consuming Aberration, Barrowgoyf, Lord of Extinction) or mass-reanimates (Living Death, Victimize, Necromantic Selection, Reanimate), closes with Craterhoof off a reanimated board. Real landfall subpackage (Aesi, Tatyova, Multani, Avenger). Real deck-out risk if milling outpaces payoffs. Counterspells are the best answer to this deck from an opponent's perspective — it depends on a few big spells landing. Board wipes matter more than graveyard hate timed right.

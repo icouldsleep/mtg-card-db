@@ -9,7 +9,6 @@
 1 Buried Alive
 1 Colossal Grave-Reaver
 1 Command Tower
-1 Commander's Sphere
 1 Consuming Aberration
 1 Craterhoof Behemoth
 1 Crypt of Agadeem
@@ -20,7 +19,7 @@
 1 Eternal Witness
 1 Exotic Orchard
 1 Extract from Darkness
-1 Farseek
+1 Ferocity of the Hunt
 1 Field of the Dead
 1 Forbidden Alchemy
 1 Foreboding Landscape
@@ -30,6 +29,7 @@
 1 Hedge Shredder
 1 Hedron Crab
 1 Hinterland Harbor
+1 Hunter's Axe
 1 Icetill Explorer
 3 Island
 1 Jarad, Golgari Lich Lord
