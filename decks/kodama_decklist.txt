@@ -11,6 +11,7 @@
 1 Burgeoning
 1 Castle Garenbrig
 1 Circle of Dreams Druid
+1 Commander's Plate
 1 Craterhoof Behemoth
 1 Dancing from Dark to Dawn
 1 Demolition Field
@@ -55,7 +56,6 @@
 1 Seedborn Muse
 1 Silverback Elder
 1 Sol Ring
-1 Swiftfoot Boots
 1 Sylvan Library
 1 Temur Sabertooth
 1 Terastodon

@@ -5,8 +5,9 @@
 **Archidekt (current):** https://archidekt.com/decks/27555560/mono_green
 — **OUT OF DATE as of 2026-10-19.** It was verified identical on 2026-10-18, but the seventh and
 eighth swaps below have not been applied to it. Archidekt needs: **add** Hexhaven Invigorator,
-Rhonas's Monument, Yeva Nature's Herald, Verdant Kraken, Pia Aether Ascetic; **remove** Ka-Zar of the
-Savage Land, Sylvan Safekeeper, Nylea God of the Hunt, Courser of Kruphix, Bonders' Enclave.
+Rhonas's Monument, Yeva Nature's Herald, Verdant Kraken, Pia Aether Ascetic, Commander's Plate;
+**remove** Ka-Zar of the Savage Land, Sylvan Safekeeper, Nylea God of the Hunt, Courser of Kruphix,
+Bonders' Enclave, Swiftfoot Boots.
 
 The previous link (`26590810/kodama_of_the_mono_tree`) is **stale — frozen at 2026-09-20** and still
 shows the precon shell in 15 slots. Do not use it.
@@ -99,7 +100,7 @@ Craterhoof Behemoth, Elder Gargaroth, Vorinclex Voice of Hunger, Unnatural Growt
 Rhonas the Indomitable
 
 ### Protection (8)
-Heroic Intervention, Swiftfoot Boots, Lightning Greaves, Seedborn Muse, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
+Heroic Intervention, **Commander's Plate**, Lightning Greaves, Seedborn Muse, Veil of Summer, Asceticism, Bear Umbra, Temur Sabertooth
 
 ### Recursion / Tutors (7)
 Eternal Witness, Green Sun's Zenith, Finale of Devastation, Natural Order, Woodland Bellower, Genesis, **Pia Aether Ascetic**
@@ -251,6 +252,38 @@ blue and black only, so it is a blank card against mono-white, mono-red or mono-
 is the most meta-dependent slot in the deck. **Elder Gargaroth** — a strong card with no interaction
 with the land/token engine.
 
+## Ninth swap, 2026-10-21 (1 card) — owner approved
+
+| In | Out | Why |
+|---|---|---|
+| **Commander's Plate** {1}, Equip commander {3} | Swiftfoot Boots | "+3/+3 and protection from each colour that's not in your commander's colour identity." In **mono-green** that is protection from **white, blue, black and red** — every removal spell the table is likely to point at Kodama, plus unblockable by any non-green creature. Adding it made three protection Equipment for one commander, and Swiftfoot Boots was the one squeezed in the middle: its hexproof is strictly worse than protection from four colours, and its {1} equip is strictly worse than Lightning Greaves' {0}. What the pile-up costs is draws — in a 99 you regularly see two of the three with no commander on the battlefield, and Equipment do nothing alone. |
+
+**Commander's Plate was never cut from the 100 for a reason** — it was dropped in the bulk
+"cut from the original 181-card pool" list at the bottom of this file, which records no individual
+reasoning for any of its ~75 names. Re-examined 2026-10-21 and judged a mistake: protection is the
+thing this deck is thinnest on, and the Plate does that job harder than anything else available.
+
+### SEQUENCING RULE — Plate and Auras on FIRST, Greaves LAST
+**Lightning Greaves grants SHROUD, which stops the owner's own targeting.** With Greaves already
+attached you **cannot** equip Commander's Plate to Kodama, and **cannot** put Bear Umbra or
+Kenrith's Transformation on him either — equip and Aura casting both target. Attach the Plate and
+any Aura first, Greaves last. This is now a permanent play constraint of the deck, accepted
+knowingly: Greaves was kept over Boots for its {0} equip, which lets you reposition mid-combat and
+protect a second creature on the same turn.
+
+### Considered as the cut and KEPT — do not re-suggest
+- **Veil of Summer.** Offered as the cut on the grounds that every clause is gated on blue and black,
+  so it is a blank card against mono-white, mono-red or mono-green opponents. Owner declined.
+- **Elder Gargaroth.** Offered twice as "a strong card with no engine synergy." **That reasoning was
+  wrong and is withdrawn:** its 3/3 Beast mode is a permanent entering, so it is a **Kodama trigger**
+  (free permanent from hand) **and** a power-3 creature entering, so **Elemental Bond draws off it**.
+  Reach on a 6/6 vigilant body is also the deck's main answer to fliers. It stays.
+- **Bear Umbra.** Already protected in the eighth swap; re-confirmed here as commander protection.
+- **Rhonas the Indomitable.** Offered as the alternate cut — the one creature in the deck that
+  produces nothing (no token, land, card or mana) — and not taken.
+- **Demolition Field.** Not cut, because it would drop the deck to 33 lands immediately after
+  Bonders' Enclave came out. The Wasteland/Strip Mine inconsistency noted in the eighth swap stands.
+
 ## Counters preference (owner's call, Sept 20, 2026)
 **No cards that spread +1/+1 counters across many creatures.** In paper this means carrying a die for every creature that has counters, which is a hassle. Cards that only *grow* counters already on a creature, or that keep them on a single body, are fine.
 
@@ -281,6 +314,8 @@ Cut in the third through sixth Sept 20 swaps: Greater Good, 1x Forest, Regrowth,
 Cut in the seventh swap, 2026-10-19: Ka-Zar of the Savage Land, Sylvan Safekeeper, Nylea God of the Hunt.
 
 Cut in the eighth swap, 2026-10-19: Courser of Kruphix, Bonders' Enclave.
+
+Cut in the ninth swap, 2026-10-21: Swiftfoot Boots.
 
 ## Vanilla cuts (confirmed no abilities beyond a bare keyword — never made it into the 181-card pool)
 Colossal Dreadmaw, Gigantosaurus, Aggressive Mammoth, Steel Leaf Champion, Frenzied Baloth.
