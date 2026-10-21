@@ -426,6 +426,39 @@ Results to date, Forge AI piloting both sides:
   [27.2%, 49.5%]. Par is 33.3% and the interval contains it, so all three decks are statistically
   indistinguishable.
 
+### Logged win — 2026-10-21, four-player pod, won turn 25 (round 13), 4m44s
+
+sleepy 1 — Collin Goofgrumble 0, Douglas 0, Jezzine 0. Finished at **87 life**.
+
+**The combo fired off an opponent's attack on another opponent, not off anything this deck did.**
+Worth recording because it is the opposite of how the kill is usually described.
+
+- **Turn 24 (own turn), assembly:** land, **Marauding Blight-Priest** ({2}{B}), then **Culling the
+  Weak** sacrificing **Gonti, Lord of Luxury** for {B}{B}{B}{B} to deploy **Bloodthirsty Conqueror**
+  the same turn. Gonti had already cashed his ETB on turn 20, so the sacrifice cost an empty shell.
+  Culling the Weak is what made it a one-turn assembly instead of two.
+- **Turn 25 (Collin's turn), the spark:** Collin attacked **Douglas** with Avacyn, Angel of Hope for
+  10. An opponent lost life → Conqueror gained 10 (40 → 50) → Blight-Priest drained each opponent 1
+  → three more opponents losing life → Conqueror again → loop. It ran roughly 38 iterations until
+  Collin bottomed out from 38 to 0. Jezzine and Douglas died earlier in the same loop.
+- **No action required from this deck once both halves were down.** Any life-loss event at the table
+  starts it, including one between two other players.
+
+**Hired Poisoner earned its slot, and this is the evidence.** It attacked on turns 8 and 12; each
+attack triggered **Hooded Blightfang** for 1 life from each of three opponents plus 1 gained — six
+life of swing from a one-mana 1/1 that never dealt more than 1 combat damage. See the Cover of
+Darkness correction above, where Hired Poisoner was the alternate cut considered and kept.
+
+**The deck attacked exactly twice all game** (turns 8 and 12, same creature) and won anyway.
+**Mass Calcify** on turn 17 destroyed Hooded Blightfang and Hired Poisoner — all nonwhite creatures
+— and the deck simply rebuilt and comboed off seven turns later.
+
+**Caveat on this log: the simulated deck may be stale.** The log prints `Swamp`, not
+`Snow-Covered Swamp`, and none of Liliana, Blightwing Bandit, Extraplanar Lens or Ferocity of the
+Hunt appear. If Forge is not abbreviating the name, the list being simmed predates commit `580c045`
+and everything after it. Re-export `deathtouch_decklist.txt` into Forge before weighting these
+results.
+
 ## Swaps from collection, 2026-09-30
 
 Four one-for-one swaps, matched on mana value, all from cards the owner already had in hand — no
