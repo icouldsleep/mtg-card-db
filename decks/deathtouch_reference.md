@@ -1,8 +1,11 @@
 # Cards Reference — Virtus the Veiled mono-black deathtouch (NEW / UNBUILT)
 
-**Status: EXPERIMENTAL, NOT BUILT.** Designed Sept 28, 2026. No cards acquired, nothing sleeved.
-This is a paper design, not a record of a physical deck. Do not treat it like the other eight
-reference files, which describe decks the owner actually owns.
+**Status: PARTIALLY ACQUIRED, build state unconfirmed (updated 2026-10-21).** Designed Sept 28,
+2026. The original line here — "No cards acquired, nothing sleeved" — is **no longer true**:
+**Commander's Plate, Avacyn Angel of Horror and Blightwing Bandit arrived 2026-10-21**, the owner
+confirmed on 2026-10-17 that all his Swamps are snow-covered, and the deck has been played. How much
+of the rest is sleeved has **not** been confirmed — ask the owner before treating any card here as
+owned or as missing.
 
 **Archidekt:** https://archidekt.com/decks/26876893/deathtouch_mono_black — verified card-for-card
 against this list on 2026-09-28 (100 cards, zero differences, Virtus correctly set as commander).
@@ -162,9 +165,15 @@ creature and the deck has only about six.
 
 ## Open items
 
-- Nothing acquired. This is a shopping list, not a deck.
+- **Acquisitions logged 2026-10-21: Commander's Plate, Avacyn Angel of Horror, Blightwing Bandit.**
+  Blightwing was already in the 100 (commit `72a8959`); Avacyn and Commander's Plate were already in
+  the list as well, so these three close real gaps rather than changing the decklist.
+- **Full build state unknown.** The old "nothing acquired / shopping list" line was stale — the deck
+  has been played and at least these cards plus the snow-covered Swamps are in hand. A full
+  owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
+  the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Untested. The owner has flagged the whole thing as experimental.
+- Playtested, not formally tested. See the logged 2026-10-21 four-player win below.
 
 
 ## Creature (30)

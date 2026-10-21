@@ -16,11 +16,39 @@ has been removed. The other Archidekt link in this folder, `26565889/tramplesaur
 `kodama_buylist.md`, is the **precon source** and is correctly different from the 100.
 
 
-## Build status — COMPLETE (2026-10-18)
+## Build status — NOT COMPLETE (corrected 2026-10-21)
 
-All 60 cards from `kodama_purchase_list.txt` are in and the physical deck matches this file. The
-"14 outstanding" list and the precon-leftover list that used to live here are both resolved and have
-been removed. Verified by API diff against Archidekt `27555560`: zero differences.
+**The "COMPLETE" claim written here on 2026-10-18 was wrong and has been removed.** It was inferred
+from Archidekt `27555560` diffing to zero against `kodama_decklist.txt` — but the owner created that
+Archidekt deck the same afternoon as the **target** list, not as a record of what is sleeved. A zero
+diff against a target proves nothing about the paper deck. Two cards from the outstanding list
+(Tireless Provisioner, Windswept Heath) arrived on 2026-10-21, which settles it.
+
+**Arrived 2026-10-21 and now in the paper deck:**
+
+```
+Tireless Provisioner · Windswept Heath · Yavimaya, Cradle of Growth
+```
+
+**Still outstanding** — this is the 2026-09-30 list of 14 minus the two that just arrived. It is
+**not verified current**; the owner may have acquired some of these since 9/30, and it should be
+re-confirmed with him rather than trusted:
+
+```
+Ancient Greenwarden      Growing Rites of Itlimoc
+Bala Ged Recovery        Natural Order
+Circle of Dreams Druid   Radagast of Rhosgobel
+Dancing from Dark to Dawn Sandwurm Convergence
+Genesis                  Terastodon
+The Great Henge          Verdant Catacombs
+```
+
+Note **Yavimaya, Cradle of Growth** arrived in the same order although it was not on the 9/30
+outstanding list — so that list was either incomplete or this is a second copy. Another reason to
+treat the list above as approximate.
+
+The five cards added by the seventh and eighth swaps (Hexhaven Invigorator, Yeva Nature's Herald,
+Rhonas's Monument, Verdant Kraken, Pia Aether Ascetic) are all cards the owner already has in hand.
 
 ## Companion files in this folder
 - `kodama_decklist.txt` — the flat 100, one card per line, mass-entry format for ordering.

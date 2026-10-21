@@ -288,15 +288,17 @@ If mill becomes a recurring problem at the table, that is the gap to fix.
 
 ## Open items
 
-- **Build status, 2026-10-19.** The owner supplied the physical list. Both lists are 100 cards with
-  **24 differences in each direction** — the paper deck is still the precon shell plus partial
-  upgrades, and this file is the finished target. Still to acquire: Academy Rector, Aetherflux
-  Reservoir, Angel of Destiny, Angelic Accord, Archangel of Thune, Brave the Sands, Commander's
-  Plate, Cosmos Elixir, Dawn of Hope, Doctor Strange Surgeon, Enlightened Tutor, Felidar Sovereign,
-  Flawless Maneuver, Gift of Immortality, Idyllic Tutor, Inventors' Fair, Resplendent Angel, Rinoa
-  Angel Wing, Serra Ascendant, Sigarda's Splendor, Smothering Tithe, Teferi's Protection, Test of
-  Endurance, Well of Lost Dreams. (Counted before the 2026-10-19 swap below; five of the cards that
-  swap adds are already in the owner's possession.)
+- **Build status, updated 2026-10-21.** The owner supplied the physical list on 2026-10-19; both
+  lists were 100 cards with 24 differences in each direction — the paper deck is the precon shell
+  plus partial upgrades, and this file is the finished target. **Commander's Plate arrived
+  2026-10-21**, so **23 remain to acquire**: Academy Rector, Aetherflux Reservoir, Angel of Destiny,
+  Angelic Accord, Archangel of Thune, Brave the Sands, Cosmos Elixir, Dawn of Hope, Doctor Strange
+  Surgeon, Enlightened Tutor, Felidar Sovereign, Flawless Maneuver, Gift of Immortality, Idyllic
+  Tutor, Inventors' Fair, Resplendent Angel, Rinoa Angel Wing, Serra Ascendant, Sigarda's Splendor,
+  Smothering Tithe, Teferi's Protection, Test of Endurance, Well of Lost Dreams. (Counted before the
+  2026-10-19 swap below; the five cards that swap adds are already in the owner's possession.)
+  Only **3 of the 23 are Angels** — Angel of Destiny, Archangel of Thune, Resplendent Angel; the
+  rest is the lifegain and win-condition shell.
 - Never simulated in paper.
 - **Interaction, updated 2026-10-19.** Swords to Plowshares, Fateful Absence, Valorous Stance,
   Invoke the Divine, Grasp of Fate, Angel of the Ruins, and now **Austere Command** and **Sunblast
