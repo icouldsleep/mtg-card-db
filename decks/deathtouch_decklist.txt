@@ -1,19 +1,17 @@
-1 Arcane Signet
-1 Archetype of Finality
+1 Aetherflux Reservoir
 1 Arnyn, Deathbloom Botanist
 1 Avacyn, Angel of Horror
+1 Ayara, First of Locthwain
 1 Basilisk Collar
-1 Black Market
 1 Black Widow, Deadly Hunter
 1 Blightwing Bandit
+1 Blood Artist
 1 Bloodthirsty Conqueror
 1 Bojuka Bog
 1 Bubbling Muck
-1 Burrog Banemaker
 1 Cabal Coffers
 1 Cabal Ritual
 1 Cabal Stronghold
-1 Case of the Gorgon's Kiss
 1 Commander's Plate
 1 Crypt Ghast
 1 Culling the Weak
@@ -23,6 +21,8 @@
 1 Deserted Temple
 1 Diabolic Intent
 1 Dire Fleet Poisoner
+1 Enduring Tenacity
+1 Erebos, God of the Dead
 1 Exquisite Blood
 1 Exsanguinate
 1 Extraplanar Lens
@@ -30,7 +30,6 @@
 1 Foulmire Knight
 1 Gifted Aetherborn
 1 Go for the Throat
-1 Gonti, Lord of Luxury
 1 Gray Merchant of Asphodel
 1 Grim Tutor
 1 Hired Poisoner
@@ -46,18 +45,19 @@
 1 Qarsi Revenant
 1 Quietus Spike
 1 Rancid Rats
-1 Ravening Warg
 1 Read the Bones
 1 Rogue's Passage
 1 Sheoldred, the Apocalypse
 1 Sidisi, Undead Vizier
+1 Skullclamp
 29 Snow-Covered Swamp
 1 Snuff Out
 1 Sol Ring
+1 South Wind Avatar
+1 Stensian Sanguinist // Exsanguinate
 1 Swiftfoot Boots
+1 Tergrid, God of Fright // Tergrid's Lantern
 1 The Darkness Crystal
-1 Thornbite Staff
-1 Thrill-Kill Assassin
 1 Tinybones, the Pickpocket
 1 Torment of Hailfire
 1 Urborg, Tomb of Yawgmoth

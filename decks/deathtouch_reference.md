@@ -82,9 +82,18 @@ Exsanguinate and Torment of Hailfire are the sinks that convert that mana into a
 NOTE: Cabal Stronghold counts BASIC Swamps only, so Urborg does nothing for it. It is the weaker
 Coffers and is in the list as redundancy, not as an equal.
 
-## Game Changers — checked against game_changers.md on 2026-09-28
+## Game Changers — rechecked 2026-10-22
 
-**2 Game Changers: Demonic Tutor, Vampiric Tutor.**
+**3 Game Changers: Demonic Tutor, Vampiric Tutor, and TERGRID, GOD OF FRIGHT.**
+**The deck is now exactly at the Bracket 3 cap. There is no free slot. Do not add a fourth.**
+
+**Parser warning for future checks.** Tergrid's entry in `game_changers.md` reads
+``- Tergrid, God of Fright — in the database as `Tergrid, God of Fright // Tergrid's Lantern` ``.
+A naive parser that takes everything after `- ` as the card name **will miss it**, and a naive
+parser will also miss nothing else — Tergrid is the only list entry with an explanatory suffix.
+Split the line on the em dash before matching, and match the deck entry on both the full
+`A // B` name and the front face. All eight other decks were re-counted with the corrected parser
+on 2026-10-22 and none of their counts changed.
 
 Sol Ring is NOT a Game Changer -- game_changers.md says so explicitly. An earlier draft of this
 file wrongly listed it after a sloppy substring match hit that very sentence. Archidekt's bracket
@@ -127,6 +136,55 @@ turn-7 combo nobody was warned about is the actual problem, not the label.
   locked into Assassins, Mercenaries and Rogues.
 - **Epicure of Blood, Tetzimoc Primal Death** — cut for curve reasons, see git history.
 
+## Swap 2026-10-22 (9 cards) — owner approved
+
+The biggest change to the deck so far, aimed at two problems the owner named from play: **not
+enough card draw**, and **sitting on Cabal Coffers mana with nothing to spend it on.**
+
+| In | Out | Why |
+|---|---|---|
+| **Tergrid, God of Fright // Tergrid's Lantern** {3}{B}{B} 4/5 menace — **GAME CHANGER** | Archetype of Finality {4}{B}{B} | "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control." **Both enablers are already in the deck: Torment of Hailfire** (each opponent loses 3 *unless they sacrifice a nonland permanent or discard*) hands you everything they give up, and **Witch of the Moors** makes each opponent sacrifice a creature at your end step whenever you gained life. The back face, **Tergrid's Lantern**, is a repeatable mana sink — {T} to force sac-or-discard-or-lose-3, {3}{B} to untap — and that 3 life loss is itself a combo spark. Archetype was 6 mana to grant deathtouch where 22 creatures already have it printed. |
+| **Erebos, God of the Dead** {3}{B} | Black Market {3}{B}{B} | {1}{B}, pay 2 life: draw. **Sheoldred refunds the 2**, so it is a free repeatable draw engine and a mana sink. Indestructible, and **"your opponents can't gain life"** shuts off the lifegain decks that can outrun the drain plan. Black Market's mana exists **only in your precombat main phase** and it enters with zero counters — the least flexible mana in the deck, in a deck already flooding. |
+| **South Wind Avatar** {3}{B} 3/4 | Gonti, Lord of Luxury {2}{B}{B} | Deathtouch, "whenever another creature you control dies, you gain life equal to its toughness", "whenever you gain life, each opponent loses 1 life." A combo half, a deathtouch body, and **its own spark** on one card. Gonti's steal is one card once on ETB; Tinybones does it repeatedly and costs {B}, so Tinybones was kept instead (owner's call — he has used both). |
+| **Aetherflux Reservoir** {4} | Ravening Warg {1}{B} | Lifegain **on every spell cast**, scaling within a turn — the combo's one documented weakness is that it does not self-start, and this sparks it every turn forever. The pay-50 mode is a real one-card kill at this deck's life totals, but the top line is the reason it is here. |
+| **Enduring Tenacity** {2}{B}{B} 4/3 | Thrill-Kill Assassin {1}{B} | Vito's exact text on a body, **one mana cheaper than Sanguine Bond**, and when it dies it **returns as an enchantment** — wipe-resistant. Thrill-Kill's Unleash counter stops it blocking, and this deck blocks, so its only printed ability was one the owner would decline every game. |
+| **Ayara, First of Locthwain** {B}{B}{B} 2/3 | Arcane Signet {2} | Spark on **every black creature you cast** (all of them are black), **plus** "{T}, sacrifice another black creature: draw a card" — a spark and a draw outlet in one, and three black pips for devotion. Arcane Signet was a 2-mana rock behind 36 lands and eight mana engines. |
+| **Blood Artist** {1}{B} 0/1 | Thornbite Staff {2} | "Whenever this creature **or another creature** dies, target player loses 1 life and you gain 1 life." Any creature anywhere, including everything the deathtouchers kill and creatures that die between two opponents — and it is a **double-ended spark**, hitting both halves of the grid. The Longbow/Thornbite lock needed three cards and about ten mana to do what 22 deathtouch blockers and three removal spells already do. |
+| **Stensian Sanguinist // Exsanguinate** {1}{B} 2/2 | Burrog Banemaker {B} | On attack it grants **deathtouch to a target creature**, which is most of what Archetype did, for 2 mana instead of 6. Burrog's {1}{B} pump is near-worthless on a deathtoucher, which only ever needs 1 damage. |
+| **Skullclamp** {1} | Case of the Gorgon's Kiss {B} | Equip {1}, +1/-1, draw two when the creature dies. **Six 1-toughness bodies** die to it instantly, and each death triggers **Arnyn** (drain 2 / gain 2 = a spark) while **Avacyn returns nontoken creatures to the battlefield**. Gorgon's Kiss is weaker than it reads — see the ruling note below. |
+
+**Result: 100 cards · 36 lands · 33 creatures · 22 printed deathtouch · avg MV 2.77 ·
+curve 1:15 2:15 3:16 4:10 5:6 6:1 8:1 · 3 of 3 Game Changers.**
+Draw sources went from 6 to 9, and three of the new ones are repeatable rather than one-shot.
+
+### Cards the owner protected in this pass — DO NOT re-suggest as cuts
+- **Dauthi Embrace** — his only confirmed connect against a **black** deck, where Commander's Plate's protection does nothing.
+- **Quietus Spike + Rancid Rats** — Spike grants deathtouch but **no power boost**, so the Rats stays 1/1 and **skulk** keeps working. A near-unblockable "half their life, rounded up" on a one-drop; effectively a second Virtus.
+- **Dire Fleet Poisoner** — its Pirate ETB is dead text (only Pirate in the deck), but **flash** on a deathtoucher is unconditional value: ambush blocker, and it dodges sorcery-speed wipes from hand. Better than Ravening Warg, which was cut instead.
+- **Swiftfoot Boots** — **haste is the one thing Commander's Plate cannot grant.** Cast Virtus, equip for {1}, attack the same turn instead of giving the table a full turn cycle to answer him. No game log shows it unused; the two logs on file simply never drew it.
+- **Bubbling Muck, Nirkana Revenant, Cabal Ritual, Culling the Weak, Dark Ritual** — the owner wants the mana flood. Do not cut mana.
+- **Village Rites** — cutting it would cost a draw source.
+- **Kaya's Ghostform** — recursion, and the only protection for Liliana.
+- **Exsanguinate and Torment of Hailfire** — both have won games. Never propose cutting them.
+- **Blightwing Bandit** — offered by the owner and declined by him; 1 of only 6 fliers and a deathtoucher.
+- **Tinybones** — kept over Gonti. Repeatable steal on a one-drop, and Skullclamp fodder.
+- **Viridian Longbow** — kept, though it is the next cut if one is needed, since Thornbite's removal takes away the untap engine.
+- The three removal spells (Go for the Throat, Snuff Out, Feed the Swarm).
+
+### Benched, still live candidates
+**Starscape Cleric** {1}{B} — Blight-Priest's text one mana cheaper on a flier with Offspring, but
+**"this creature can't block"** fights a deck whose cheap creatures exist to block. Benched.
+Also still open: **Profane Command**, **Grim Haruspex**, **Black Market Connections**,
+**Dark Prophecy**, **Twilight Prophet**, **Thrull Parasite**, **Vraan**, **Zulaport Cutthroat**,
+**Bontu's Monument**.
+
+### Rejected with reasons
+- **Sanguine Bond** — identical text to Vito at two more mana with no body; **Enduring Tenacity is the same effect one mana cheaper on a 4/3 that comes back from wipes.**
+- **Necropotence** (Game Changer) — it exiles and puts into hand rather than drawing, so **Sheoldred never triggers**; cards arrive at your *next* end step so you cannot dig mid-turn; and with no hand-size fixer the cleanup discards get exiled.
+- **Ancient Tomb** (Game Changer) — **not Swamp-typed**, so Cabal Coffers, Cabal Stronghold and Extraplanar Lens cannot see it. Same flaw that makes Bojuka Bog the weakest land. **Mana Vault** (Game Changer) is the same problem as an artifact. **Imperial Seal** (Game Changer) is a sixth tutor that is sorcery-speed and puts the card on top of the library, costing a draw.
+- **Death Cloud** — symmetrical; it would wreck this deck's own board and 36 lands.
+- **Skullclamp objection, resolved.** The owner's first reaction was that clamping kills his own creatures. True, but deaths are not pure loss here: Arnyn drains on them, **Avacyn returns nontoken creatures to the battlefield**, and Witch of the Moors returns one to hand.
+
 ## Swap 2026-10-19 — Liliana back in, owner approved
 
 | In | Out | Why |
@@ -162,6 +220,34 @@ bodies are the engine's fuel, so cutting the cheapest one costs real consistency
 
 **Alternate cut considered and not taken:** Ravening Warg — its Ferocious lifegain needs a power-4
 creature and the deck has only about six.
+
+## Rules notes added 2026-10-22
+
+- **Stensian Sanguinist is a PREPARATION card, not a split card.** Ruling: *"Preparation cards can
+  only be cast with their base characteristics."* **You cannot cast Exsanguinate from hand off it.**
+  From hand it is only a {1}{B} 2/2. The Exsanguinate half is reached by: cast the creature, attack,
+  its trigger grants a creature deathtouch, **that creature must deal combat damage to a player**,
+  then Stensian becomes prepared and a copy of Exsanguinate is created in exile, which you may cast
+  for its full {X}{B}{B}. It is a repeatable Exsanguinate *engine*, **not a second copy in hand** —
+  which is exactly why plain Exsanguinate stays in the deck.
+- **Stensian's deathtouch grant comes too late for Hooded Blightfang.** Both trigger on declaring
+  attackers; Blightfang checks for deathtouch at that moment, and Stensian's grant resolves after.
+  Point the grant at a creature that does **not** already have deathtouch and that you expect to
+  connect.
+- **Case of the Gorgon's Kiss does NOT auto-solve at end of turn** — the reminder text misleads.
+  Ruling: *"To Solve — [condition]" means "At the beginning of your end step, **if [condition]** and
+  this Case is not solved, it becomes solved."* and *"If the condition isn't true at the beginning of
+  your end step, the ability won't trigger at all."* It needed **three creature cards** into
+  graveyards in one turn, and **tokens don't count**. Its ETB also only kills a creature *already
+  dealt damage this turn*, which your deathtouchers have already finished off. This is why it was cut.
+- **Tergrid + Torment of Hailfire is the deck's new haymaker.** Torment forces each opponent to lose
+  3 **unless they sacrifice a nonland permanent or discard a card** — with Tergrid out, every one of
+  those sacrifices and every discarded permanent card comes to you. X=5 into three opponents can hand
+  you a dozen permanents.
+- **Attack more.** The owner reported holding creatures back as blockers. **Hooded Blightfang
+  triggers on ATTACK, not on connecting** — declaring three deathtouchers drains each opponent for 3
+  and gains 3 before blockers are declared, and that lifegain is a combo spark. Blocking a deathtoucher
+  is a bad trade for the opponent, so cheap attackers usually get through or trade up.
 
 ## Open items
 

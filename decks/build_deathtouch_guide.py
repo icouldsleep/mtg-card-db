@@ -51,8 +51,8 @@ F = []
 
 # ---------------------------------------------------------------- page 1
 F += [Paragraph('Virtus the Veiled — Mono-Black Deathtouch Drain', TITLE),
-      Paragraph('Play guide · built 2026-10-21 · 100 cards, 36 lands · Bracket 3, '
-                '2 of 3 Game Changers (Demonic Tutor, Vampiric Tutor)', SUB)]
+      Paragraph('Play guide · rebuilt 2026-10-22 · 100 cards, 36 lands · Bracket 3, '
+                '<b>3 of 3 Game Changers</b> (Demonic Tutor, Vampiric Tutor, Tergrid) — at the cap', SUB)]
 
 F += [h2('The commander'), q(
     '<b>Virtus the Veiled</b> — {2}{B} — Legendary Creature — Azra Assassin — <b>1/1</b><br/>'
@@ -76,20 +76,23 @@ F += [h2('What the deck actually does'),
 F += [PageBreak()]
 
 # ---------------------------------------------------------------- page 2
-F += [h2('The kill — the 2×2 grid')]
-F += [p('Any card from the left column plus any card from the top row is an <b>infinite loop</b> '
-        'that drains every opponent to zero. Four two-card combinations, which is why it assembles '
-        'so often.')]
+F += [h2('The kill — the 2×4 grid')]
+F += [p('Any <b>Side A</b> card plus any <b>Side B</b> card is an <b>infinite loop</b> that drains '
+        'every opponent to zero. <b>Eight</b> two-card combinations, which is why it assembles so '
+        'often. Single-target versions still kill the whole table — you choose a new target each '
+        'iteration, so you kill one player, then the next.')]
 F += [table([
-    ['', '<b>Vito, Thorn of the Dusk Rose</b><br/>Whenever you gain life, target opponent loses '
-         'that much life', '<b>Marauding Blight-Priest</b><br/>Whenever you gain life, each '
-         'opponent loses 1 life'],
-    ['<b>Exquisite Blood</b><br/>Whenever an opponent loses life, you gain that much life',
-     'Infinite — kills one opponent at a time', 'Infinite — kills the whole table'],
-    ['<b>Bloodthirsty Conqueror</b><br/>Whenever an opponent loses life, you gain that much life '
-     '(5/5 flier, deathtouch)',
-     'Infinite — kills one opponent at a time', 'Infinite — kills the whole table'],
-], [1.9*inch, 2.55*inch, 2.55*inch])]
+    ['Side A — "whenever you GAIN life"', 'Side B — "whenever an opponent LOSES life, you gain that much"'],
+    ['<b>Vito, Thorn of the Dusk Rose</b> {2}{B} — target opponent loses that much<br/>'
+     '<b>Marauding Blight-Priest</b> {2}{B} — <b>each</b> opponent loses 1<br/>'
+     '<b>Enduring Tenacity</b> {2}{B}{B} — target opponent loses that much; returns as an '
+     'enchantment when it dies<br/>'
+     '<b>South Wind Avatar</b> {3}{B} — each opponent loses 1 (and gains you life when your '
+     'creatures die, so it sparks itself)',
+     '<b>Exquisite Blood</b> {4}{B}<br/><br/><b>Bloodthirsty Conqueror</b> {3}{B}{B} — 5/5 flier '
+     'with deathtouch<br/><br/>These are the only two in mono-black. There is no third; all future '
+     'redundancy has to come from Side A.'],
+], [3.5*inch, 3.5*inch])]
 F += [S(8)]
 F += [h3('The loop does NOT self-start'),
       p('Both halves on the battlefield do nothing by themselves. You need <b>one life-change '
@@ -99,6 +102,12 @@ F += [h3('The loop does NOT self-start'),
       b('Any lifelink creature connecting.'),
       b('A fetch-style life payment, Read the Bones, Night\'s Whisper, Grim Tutor, Vampiric Tutor.'),
       b('<b>The Darkness Crystal</b> — any nontoken creature an opponent controls dying gains you 2.'),
+      b('<b>Blood Artist</b> — <b>any</b> creature dying anywhere, including between two opponents. '
+        'Drains and gains in one trigger, so it starts the loop from either side.'),
+      b('<b>Ayara, First of Locthwain</b> — every black creature you cast, and all of yours are black.'),
+      b('<b>Aetherflux Reservoir</b> — every spell you cast, scaling within the turn.'),
+      b('<b>Erebos</b> or <b>Skullclamp</b> — any draw you pay life for, refunded by Sheoldred.'),
+      b('<b>Tergrid\'s Lantern</b> — {T} to make a player lose 3 (or sacrifice, or discard).'),
       b('<b>An opponent attacking another opponent.</b> Any life loss at the table counts.')]
 F += [S(6), q('<b>Logged 2026-10-21:</b> the loop fired on an <i>opponent\'s</i> turn, when Collin '
               'attacked Douglas with Avacyn for 10. Conqueror gained 10, Blight-Priest drained, and '
@@ -157,12 +166,17 @@ F += [h3('Why the one-mana bodies are in the deck'),
         'attacked twice and generated <b>six life of swing</b> through Blightfang while never '
         'dealing more than 1 damage. 26 of 31 creatures have deathtouch; the cheap ones are the '
         'engine\'s fuel, not padding.')]
-F += [h3('The pinger lock'),
-      p('<b>Viridian Longbow</b> + <b>Thornbite Staff</b> on one deathtouch creature is repeatable '
-        'removal: tap the Longbow ability to ping for 1, deathtouch destroys the target, the '
-        'creature dying untaps your creature via Thornbite, repeat. It keeps going for as long as '
-        'things keep dying. Add <b>Basilisk Collar</b> for lifelink and every kill is also a combo '
-        'spark.')]
+F += [h3('Viridian Longbow'),
+      p('Equip it to any deathtoucher and it pings for 1 — which, with deathtouch, destroys '
+        'anything. Thornbite Staff was cut on 2026-10-22, so the untap lock is gone; this is now '
+        'one removal activation per turn, not a loop. Add <b>Basilisk Collar</b> for lifelink and '
+        'each kill is also a combo spark.')]
+F += [h3('Skullclamp — your draw engine, added 2026-10-22'),
+      p('Equip {1}, the creature gets <b>+1/-1</b>, and when it dies you <b>draw two</b>. Six bodies '
+        'have 1 toughness and die on the spot: Hired Poisoner, Rancid Rats, Foulmire Knight, '
+        'Tinybones, Vampire of the Dire Moon — and Virtus, who you should <b>never</b> clamp. Each '
+        'death also triggers <b>Arnyn</b> (drain 2, gain 2 — a spark), and <b>Avacyn returns '
+        'nontoken creatures to the battlefield</b>, so with her out you draw two and keep the body.')]
 
 F += [PageBreak()]
 
@@ -216,7 +230,20 @@ F += [b('<b>Pumping Virtus.</b> He is a 1/1 and the trigger is half their life r
         'it or you have already given up on the emblem.'),
       b('<b>Blocking with a deathtoucher and then sacrificing it before damage.</b> Blocked stays '
         'blocked (CR 509.1h) — the attacker deals no damage, but you also deal none, so the '
-        'deathtouch is wasted unless you needed the body elsewhere.')]
+        'deathtouch is wasted unless you needed the body elsewhere.'),
+      b('<b>Trying to cast Exsanguinate off Stensian Sanguinist from your hand.</b> You cannot. It '
+        'is a <b>preparation card</b> — "preparation cards can only be cast with their base '
+        'characteristics." From hand it is only a {1}{B} 2/2. You get the Exsanguinate copy only '
+        'after it becomes prepared, which needs the creature it gave deathtouch to <b>connect</b>.'),
+      b('<b>Pointing Stensian\'s deathtouch grant at a creature that already has it.</b> Both it '
+        'and Hooded Blightfang trigger on declaring attackers, and the grant resolves after '
+        'Blightfang checks — so it never adds a Blightfang drain. Give it to Vito, Blight-Priest, '
+        'Gray Merchant, Crypt Ghast or Nirkana Revenant instead.'),
+      b('<b>Clamping Virtus.</b> He is 1/1. Skullclamp kills your commander.'),
+      b('<b>Sitting back and never attacking.</b> Hooded Blightfang fires on <b>declaring '
+        'attackers</b>. Three deathtouchers attacking drains each opponent 3 and gains you 3 before '
+        'blockers exist — and that is a combo spark. Blocking a deathtoucher is a bad trade for '
+        'them, so cheap attackers usually get through or trade up.')]
 F += [h2('Opening hand — what to keep'),
       p('Keep anything with <b>three lands and a one- or two-drop deathtoucher</b>. The deck is 36 '
         'lands with heavy ritual support (Dark Ritual, Cabal Ritual, Culling the Weak, Bubbling '
@@ -228,16 +255,33 @@ F += [h2('Opening hand — what to keep'),
 F += [PageBreak()]
 
 # ---------------------------------------------------------------- page 7
+F += [h2('Tergrid — the haymaker, added 2026-10-22')]
+F += [q('<b>Tergrid, God of Fright</b> — {3}{B}{B} — 4/5 Menace<br/>'
+        'Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may '
+        'put that card from a graveyard onto the battlefield under your control.<br/>'
+        '<b>Tergrid\'s Lantern</b> — {3}{B} — Legendary Artifact<br/>'
+        '{T}: Target player loses 3 life unless they sacrifice a nonland permanent or discard a '
+        'card. · {3}{B}: Untap Tergrid\'s Lantern.')]
+F += [b('<b>Torment of Hailfire</b> forces each opponent to lose 3 <i>unless they sacrifice a '
+        'nonland permanent or discard a card</i>. With Tergrid out, <b>everything they give up '
+        'comes to you.</b> X=5 into three opponents can hand you a dozen permanents.'),
+      b('<b>Witch of the Moors</b> makes each opponent sacrifice a creature at your end step '
+        'whenever you gained life. With Tergrid, you keep all three — every turn.'),
+      b('The <b>Lantern</b> side is a mana sink for flood turns, and the 3 life loss is a spark.')]
 F += [h2('Reference numbers')]
 F += [table([
     ['', ''],
     ['Deck size', '100 — 36 lands (29 Snow-Covered Swamp + 7 nonbasic), 64 spells'],
-    ['Creatures', '31, of which <b>26 have deathtouch</b>'],
+    ['Creatures', '33, of which <b>22 have deathtouch printed</b>'],
+    ['Curve', 'avg MV 2.77 — 1:15 · 2:15 · 3:16 · 4:10 · 5:6 · 6:1 · 8:1'],
     ['Black pips', '77 — relevant for Nykthos and Gray Merchant of Asphodel'],
-    ['Game Changers', '2 of 3 — Demonic Tutor, Vampiric Tutor. One slot free for Bracket 3.'],
+    ['Game Changers', '<b>3 of 3 — Demonic Tutor, Vampiric Tutor, Tergrid. AT THE CAP; do not add '
+                      'a fourth.</b>'],
+    ['Draw', '9 sources — Phyrexian Arena, Black Widow, Read the Bones, Night\'s Whisper, Village '
+             'Rites, Profane Insight, plus <b>Erebos, Ayara and Skullclamp</b> (all repeatable)'],
     ['Removal', '3 dedicated (Go for the Throat, Snuff Out, Feed the Swarm), plus Witch of the '
-                'Moors, The Darkness Crystal and the Longbow lock'],
-    ['Tutors', '5 — Demonic Tutor, Vampiric Tutor, Grim Tutor, Diabolic Intent, Sidisi'],
+                'Moors and The Darkness Crystal'],
+    ['Tutors', '4 — Demonic Tutor, Vampiric Tutor, Grim Tutor, Diabolic Intent, plus Sidisi'],
 ], [1.4*inch, 5.6*inch])]
 F += [S(10)]
 F += [h2('Cards whose text people get wrong'),
