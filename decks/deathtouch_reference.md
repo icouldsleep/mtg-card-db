@@ -1,11 +1,28 @@
 # Cards Reference — Virtus the Veiled mono-black deathtouch (NEW / UNBUILT)
 
-**Status: PARTIALLY ACQUIRED, build state unconfirmed (updated 2026-10-21).** Designed Sept 28,
-2026. The original line here — "No cards acquired, nothing sleeved" — is **no longer true**:
-**Commander's Plate, Avacyn Angel of Horror and Blightwing Bandit arrived 2026-10-21**, the owner
-confirmed on 2026-10-17 that all his Swamps are snow-covered, and the deck has been played. How much
-of the rest is sleeved has **not** been confirmed — ask the owner before treating any card here as
-owned or as missing.
+**Status: BUILT AND OWNED, with 9 cards outstanding (confirmed by the owner 2026-10-22).**
+Designed Sept 28, 2026. **The owner confirmed the deck was fully built and this list matched his
+physical deck right up until the 2026-10-22 nine-card swap.** Everything in the 100 is in hand
+except the nine cards that swap added.
+
+**TO ACQUIRE (9):**
+
+```
+Aetherflux Reservoir      Erebos, God of the Dead
+Ayara, First of Locthwain Skullclamp
+Blood Artist              South Wind Avatar
+Enduring Tenacity         Stensian Sanguinist // Exsanguinate
+                          Tergrid, God of Fright // Tergrid's Lantern
+```
+
+**Coming out, back to the collection (9):** Arcane Signet, Archetype of Finality, Black Market,
+Burrog Banemaker, Case of the Gorgon's Kiss, Gonti Lord of Luxury, Hired Poisoner, Ravening Warg,
+Thrill-Kill Assassin. Thornbite Staff is **not** on either list — it was cut and restored in the
+same session, so it never left the deck.
+
+Earlier status lines on this file were wrong and are superseded: "No cards acquired, nothing
+sleeved" and "this is a shopping list, not a deck" were stale from the September design pass, and
+the 2026-10-21 "build state unconfirmed" note has now been answered.
 
 **Archidekt:** https://archidekt.com/decks/26876893/deathtouch_mono_black — verified card-for-card
 against this list on 2026-09-28 (100 cards, zero differences, Virtus correctly set as commander).
