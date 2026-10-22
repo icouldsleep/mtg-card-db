@@ -32,7 +32,6 @@
 1 Go for the Throat
 1 Gray Merchant of Asphodel
 1 Grim Tutor
-1 Hired Poisoner
 1 Hooded Blightfang
 1 Kaya's Ghostform
 1 Liliana of the Dark Realms
@@ -58,6 +57,7 @@
 1 Swiftfoot Boots
 1 Tergrid, God of Fright // Tergrid's Lantern
 1 The Darkness Crystal
+1 Thornbite Staff
 1 Tinybones, the Pickpocket
 1 Torment of Hailfire
 1 Urborg, Tomb of Yawgmoth

@@ -149,13 +149,39 @@ enough card draw**, and **sitting on Cabal Coffers mana with nothing to spend it
 | **Aetherflux Reservoir** {4} | Ravening Warg {1}{B} | Lifegain **on every spell cast**, scaling within a turn — the combo's one documented weakness is that it does not self-start, and this sparks it every turn forever. The pay-50 mode is a real one-card kill at this deck's life totals, but the top line is the reason it is here. |
 | **Enduring Tenacity** {2}{B}{B} 4/3 | Thrill-Kill Assassin {1}{B} | Vito's exact text on a body, **one mana cheaper than Sanguine Bond**, and when it dies it **returns as an enchantment** — wipe-resistant. Thrill-Kill's Unleash counter stops it blocking, and this deck blocks, so its only printed ability was one the owner would decline every game. |
 | **Ayara, First of Locthwain** {B}{B}{B} 2/3 | Arcane Signet {2} | Spark on **every black creature you cast** (all of them are black), **plus** "{T}, sacrifice another black creature: draw a card" — a spark and a draw outlet in one, and three black pips for devotion. Arcane Signet was a 2-mana rock behind 36 lands and eight mana engines. |
-| **Blood Artist** {1}{B} 0/1 | Thornbite Staff {2} | "Whenever this creature **or another creature** dies, target player loses 1 life and you gain 1 life." Any creature anywhere, including everything the deathtouchers kill and creatures that die between two opponents — and it is a **double-ended spark**, hitting both halves of the grid. The Longbow/Thornbite lock needed three cards and about ten mana to do what 22 deathtouch blockers and three removal spells already do. |
+| **Blood Artist** {1}{B} 0/1 | Hired Poisoner {B} | "Whenever this creature **or another creature** dies, target player loses 1 life and you gain 1 life." Any creature anywhere, including everything the deathtouchers kill and creatures that die between two opponents — and it is a **double-ended spark**, hitting both halves of the grid. Hired Poisoner was the only creature in the deck with no text at all beyond deathtouch; the other three one-drops all have upside. (**Thornbite Staff was cut here first and put straight back — see the correction below.**) |
 | **Stensian Sanguinist // Exsanguinate** {1}{B} 2/2 | Burrog Banemaker {B} | On attack it grants **deathtouch to a target creature**, which is most of what Archetype did, for 2 mana instead of 6. Burrog's {1}{B} pump is near-worthless on a deathtoucher, which only ever needs 1 damage. |
 | **Skullclamp** {1} | Case of the Gorgon's Kiss {B} | Equip {1}, +1/-1, draw two when the creature dies. **Six 1-toughness bodies** die to it instantly, and each death triggers **Arnyn** (drain 2 / gain 2 = a spark) while **Avacyn returns nontoken creatures to the battlefield**. Gorgon's Kiss is weaker than it reads — see the ruling note below. |
 
-**Result: 100 cards · 36 lands · 33 creatures · 22 printed deathtouch · avg MV 2.77 ·
-curve 1:15 2:15 3:16 4:10 5:6 6:1 8:1 · 3 of 3 Game Changers.**
+**Result after the correction below: 100 cards · 36 lands · 32 creatures · 21 printed
+deathtouch · avg MV 2.78 · 3 of 3 Game Changers.**
 Draw sources went from 6 to 9, and three of the new ones are repeatable rather than one-shot.
+
+### CORRECTION, same day — Thornbite Staff put back, Hired Poisoner cut instead
+
+Thornbite Staff was cut in the swap above on the argument that the Longbow lock "needed three cards
+and about ten mana to do what the deathtouch blockers already do." **That was wrong on both counts
+and the cut was reversed within the hour.**
+
+**The lock, stated properly.** Put **Viridian Longbow** and **Thornbite Staff** on one deathtouch
+creature. Tap via **Longbow's** ability (free — Thornbite's own ping costs {2}, so never use it):
+1 damage, deathtouch makes it lethal, the creature dies, and Thornbite's *"whenever a creature dies,
+untap this creature"* untaps you. Repeat. **You destroy every creature your opponents control in one
+turn, at instant speed, for zero mana.** It is bounded by creatures dying, so it is unlimited kills,
+not infinite face damage.
+
+**Why it is cheap, which the cut argument missed:** Thornbite reads *"Whenever a Shaman creature
+enters, you may attach this Equipment to it."* **Vampire Nighthawk is a Vampire Shaman** with flying,
+deathtouch **and lifelink** already in the deck — so with Thornbite on the battlefield first, it
+attaches **free**, skipping the {4} equip. Each ping then also gains 1 life, which is a combo spark,
+so Nighthawk plus both Equipment plus an assembled grid wins on the spot.
+
+**Caveats:** the ability costs {T}, so the creature cannot be summoning-sick — **Swiftfoot Boots'
+haste fixes that**. Equipping is sorcery speed; the activations are not. Thornbite must be down
+*before* the Shaman enters for the free attach. Basilisk Collar substitutes for native deathtouch.
+
+**Do not propose cutting Thornbite Staff or Viridian Longbow again.** The owner had never tried this
+line; it is now a documented part of the deck.
 
 ### Cards the owner protected in this pass — DO NOT re-suggest as cuts
 - **Dauthi Embrace** — his only confirmed connect against a **black** deck, where Commander's Plate's protection does nothing.
@@ -168,7 +194,7 @@ Draw sources went from 6 to 9, and three of the new ones are repeatable rather t
 - **Exsanguinate and Torment of Hailfire** — both have won games. Never propose cutting them.
 - **Blightwing Bandit** — offered by the owner and declined by him; 1 of only 6 fliers and a deathtoucher.
 - **Tinybones** — kept over Gonti. Repeatable steal on a one-drop, and Skullclamp fodder.
-- **Viridian Longbow** — kept, though it is the next cut if one is needed, since Thornbite's removal takes away the untap engine.
+- **Viridian Longbow and Thornbite Staff** — both kept. They are the board-wipe lock; see the correction above.
 - The three removal spells (Go for the Throat, Snuff Out, Feed the Swarm).
 
 ### Benched, still live candidates

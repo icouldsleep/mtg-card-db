@@ -166,11 +166,23 @@ F += [h3('Why the one-mana bodies are in the deck'),
         'attacked twice and generated <b>six life of swing</b> through Blightfang while never '
         'dealing more than 1 damage. 26 of 31 creatures have deathtouch; the cheap ones are the '
         'engine\'s fuel, not padding.')]
-F += [h3('Viridian Longbow'),
-      p('Equip it to any deathtoucher and it pings for 1 — which, with deathtouch, destroys '
-        'anything. Thornbite Staff was cut on 2026-10-22, so the untap lock is gone; this is now '
-        'one removal activation per turn, not a loop. Add <b>Basilisk Collar</b> for lifelink and '
-        'each kill is also a combo spark.')]
+F += [h3('THE BOARD-WIPE LOCK — Viridian Longbow + Thornbite Staff'),
+      p('Put <b>both</b> on one deathtouch creature. Tap using <b>Longbow\'s</b> ability (free — '
+        'Thornbite\'s own ping costs {2}, never use it): 1 damage, deathtouch makes it lethal, the '
+        'creature dies, and Thornbite\'s <i>"whenever a creature dies, untap this creature"</i> '
+        'untaps you. Repeat. <b>You destroy every creature your opponents control in one turn, at '
+        'instant speed, for zero mana.</b> It is bounded by creatures dying — unlimited kills, not '
+        'infinite face damage.'),
+      p('<b>Put it on Vampire Nighthawk.</b> He is a Vampire <b>Shaman</b>, and Thornbite reads '
+        '"whenever a Shaman creature enters, you may attach this Equipment to it" — so with the '
+        'Staff already down it attaches <b>free</b>, skipping the {4} equip. He has flying, '
+        'deathtouch and <b>lifelink</b>, so every ping also gains 1 life, which is a combo spark.'),
+      b('The ability costs {T}, so the creature can\'t be summoning-sick — <b>Swiftfoot Boots\' '
+        'haste fixes that.</b>'),
+      b('Equipping is sorcery speed; the activations are instant speed, so you can wipe their '
+        'attackers or blockers on their turn.'),
+      b('Thornbite must be on the battlefield <b>before</b> the Shaman enters for the free attach.'),
+      b('<b>Basilisk Collar</b> substitutes for native deathtouch, and adds lifelink.')]
 F += [h3('Skullclamp — your draw engine, added 2026-10-22'),
       p('Equip {1}, the creature gets <b>+1/-1</b>, and when it dies you <b>draw two</b>. Six bodies '
         'have 1 toughness and die on the spot: Hired Poisoner, Rancid Rats, Foulmire Knight, '
