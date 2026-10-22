@@ -237,17 +237,50 @@ owner.
 
 ### Two other gaps found in the 2026-10-22 audit
 
-**Artifact removal: ZERO.** Not one card in the 100 can destroy an artifact — Feed the Swarm covers
-enchantments only. An opposing Sol Ring, Smothering Tithe, Darksteel Plate or graveyard-hate
-artifact is untouchable. Mono-black's options are all colorless and expensive: **Unstable Obelisk**
-{3} is the realistic pick (a mana rock first, then {7} to destroy any permanent); Meteor Golem,
-Spine of Ish Sah and Scour from Existence are all 7; Nevinyrral's Disk is cheap but symmetrical and
-would kill this deck's own 32 creatures.
+**Artifact removal: ZERO — and the owner has ruled this is fine, 2026-10-22.** Nothing in the 100
+destroys an artifact; Feed the Swarm covers enchantments only. Recorded as a known, accepted gap:
+the deck wins fast enough that answering artifacts is not worth a slot. **Do not re-propose it.**
+(If it ever does come up, Unstable Obelisk {3} is the best mono-black option — a mana rock first,
+{7} to destroy any permanent.)
 
-**Board wipe: none — and that is probably correct.** With 32 creatures, symmetrical wipes hurt this
-deck most. Only one-sided ones are worth considering: **In Garruk's Wake** or **Plague Wind** at 9
-(castable off Coffers), or **Massacre Wurm** at 6, which is a partial wipe *and* a combo spark since
-each opponent creature dying drains 2.
+**Board wipe — CORRECTED 2026-10-22: the deck HAS one. It is Torment of Hailfire.** An earlier note
+here said the deck ran no wipe; the owner pointed out that is wrong. For a large X, Torment forces
+each opponent to sacrifice a nonland permanent or discard on every iteration — it **strips boards and
+hands while never touching this deck's own 32 creatures.** It is a one-sided wipe, and **with Tergrid
+out every permanent they sacrifice comes to you.** Do not propose adding a board wipe; a symmetrical
+one would be strictly worse here. **Artifact removal is also a non-issue per the owner — the deck
+bursts quickly enough that it does not need to answer artifacts.**
+
+### Speed analysis of the 2026-10-22 swap — measured, not guessed
+
+**Slower to start, roughly 2.4x faster to assemble the kill.**
+
+- **Plays at MV 2 or less: 33 -> 30**, and Arcane Signet is gone, so there is no turn-two rock.
+  Turns 1-3 are emptier and there are fewer early Hooded Blightfang triggers.
+- **Life-change spark sources: 27 -> 32.** New ones: Blood Artist, Ayara, Aetherflux Reservoir,
+  Enduring Tenacity, South Wind Avatar, Stensian, Tergrid's Lantern. Lost: Case of the Gorgon's
+  Kiss, Ravening Warg.
+- **Combo grid 2x2 -> 2x4** and **draw 6 -> 9 sources**, three of them repeatable.
+
+Probability of holding **both** halves, hypergeometric over 99 with this deck's draw rate:
+
+| turn | before | after |
+|---|---|---|
+| 5 | 5.2% | 10.7% |
+| 8 | 7.9% | 18.5% |
+| 10 | 9.9% | 23.7% |
+| 12 | 12.2% | 29.0% |
+| 15 | 15.7% | 38.0% |
+
+**THE BOTTLENECK IS SIDE B.** Exquisite Blood and Bloodthirsty Conqueror are the **only two cards in
+mono-black** with "whenever an opponent loses life, you gain that much life" — the whole database was
+searched. Side A is now four cards and finds itself; Side B is still two. **Tutor for Side B.**
+Demonic Tutor, Vampiric Tutor, Grim Tutor, Diabolic Intent and Sidisi should all go get Exquisite
+Blood or Bloodthirsty Conqueror unless something is actively lethal. By 21 cards seen you are only
+38% to have found one on your own.
+
+Both logged wins were turn 25-26. Expect this build to land closer to **turn 18-22**, with a
+slightly higher chance of a clunky turn 3.
 
 ### Benched, still live candidates
 **Starscape Cleric** {1}{B} — Blight-Priest's text one mana cheaper on a flier with Offspring, but
