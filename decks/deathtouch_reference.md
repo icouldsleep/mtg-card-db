@@ -214,6 +214,41 @@ line; it is now a documented part of the deck.
 - **Viridian Longbow and Thornbite Staff** — both kept. They are the board-wipe lock; see the correction above.
 - The three removal spells (Go for the Throat, Snuff Out, Feed the Swarm).
 
+### NEXT ADD — Grave Pact. Approved in principle 2026-10-22, waiting on a cut.
+
+**Grave Pact** — {1}{B}{B}{B} — Enchantment — *"Whenever a creature you control dies, each other
+player sacrifices a creature of their choice."* **Not a Game Changer**, so it does not disturb the
+3-of-3 count.
+
+This is the highest-value open slot in the deck and the reason is **Tergrid**. The deck runs **21
+deathtouch creatures** whose job is trading in combat. With Grave Pact out, **every trade strips a
+creature from all three opponents — and Tergrid puts all three onto your battlefield.** One blocked
+one-drop can net three creatures. Skullclamp makes it worse for them: {1} to draw two cards *and*
+force the table to sacrifice.
+
+Alternatives in the same slot, all checked and none a Game Changer:
+- **Dictate of Erebos** {3}{B}{B} — identical text with **flash**, one mana more. Ambush it mid-combat.
+- **Butcher of Malakir** {5}{B}{B} — same effect on a 5/5 flier, 7 mana.
+- **Fleshbag Marauder** / **Plaguecrafter** {2}{B} — one-shot, each player sacrifices on ETB.
+  Plaguecrafter also hits planeswalkers.
+
+**No cut has been identified.** The pool is tight — see the protected list above. Revisit with the
+owner.
+
+### Two other gaps found in the 2026-10-22 audit
+
+**Artifact removal: ZERO.** Not one card in the 100 can destroy an artifact — Feed the Swarm covers
+enchantments only. An opposing Sol Ring, Smothering Tithe, Darksteel Plate or graveyard-hate
+artifact is untouchable. Mono-black's options are all colorless and expensive: **Unstable Obelisk**
+{3} is the realistic pick (a mana rock first, then {7} to destroy any permanent); Meteor Golem,
+Spine of Ish Sah and Scour from Existence are all 7; Nevinyrral's Disk is cheap but symmetrical and
+would kill this deck's own 32 creatures.
+
+**Board wipe: none — and that is probably correct.** With 32 creatures, symmetrical wipes hurt this
+deck most. Only one-sided ones are worth considering: **In Garruk's Wake** or **Plague Wind** at 9
+(castable off Coffers), or **Massacre Wurm** at 6, which is a partial wipe *and* a combo spark since
+each opponent creature dying drains 2.
+
 ### Benched, still live candidates
 **Starscape Cleric** {1}{B} — Blight-Priest's text one mana cheaper on a flier with Offspring, but
 **"this creature can't block"** fights a deck whose cheap creatures exist to block. Benched.
