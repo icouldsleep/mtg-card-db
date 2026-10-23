@@ -281,10 +281,29 @@ Felidar Sovereign and Aetherflux Reservoir are 1-ofs, so a mill deck removing th
 plan, not just cards. Against a mill opponent, **Idyllic Tutor and Academy Rector are not
 interchangeable** — Rector puts an enchantment onto the battlefield from the library and cannot
 retrieve Test of Endurance once it is in the graveyard, whereas Enlightened Tutor and Idyllic Tutor
-also only search the library. Nothing in this deck recurs a milled win condition except Defy Death
-(creatures only, so Felidar yes, Test of Endurance no).
+also only search the library.
 
-If mill becomes a recurring problem at the table, that is the gap to fix.
+### CORRECTED 2026-10-23 — this gap is largely closed, and the sim never saw the fix
+
+The original note here read *"nothing in this deck recurs a milled win condition except Defy Death
+(creatures only, so Felidar yes, Test of Endurance no)."* **That is no longer true. Emeria Shepherd
+was added in the 2026-10-19 swap, after these games were run.**
+
+> **Emeria Shepherd** — Landfall — Whenever a land you control enters, you may return target nonland
+> permanent card from your graveyard to your hand. **If that land is a Plains, you may return that
+> nonland permanent card to the battlefield instead.**
+
+The deck runs **32 Plains out of 37 lands**, so roughly six of every seven land drops returns a
+milled **Felidar Sovereign** *or* **Test of Endurance** — an enchantment, which Defy Death cannot
+touch — **directly to the battlefield**, along with any other nonland permanent. The deck should
+therefore test **better** than the 55.9% below, not worse.
+
+**If mill ever needs a complete answer:** **Elixir of Immortality** {1} — "{2}, {T}: You gain 5 life.
+Shuffle this artifact and your graveyard into their owner's library." One mana, colorless, not a
+Game Changer, it puts everything milled back in the deck, and the 5 life is itself a live trigger
+for Archangel of Thune, Resplendent Angel, Angelic Accord, Dawn of Hope and Well of Lost Dreams.
+Offered 2026-10-23 and declined — the owner judged the deck already strong enough. **Sun Titan is
+not the answer**: it caps at mana value 3 and misses Felidar Sovereign entirely.
 
 ## Open items
 
@@ -299,7 +318,14 @@ If mill becomes a recurring problem at the table, that is the gap to fix.
   2026-10-19 swap below; the five cards that swap adds are already in the owner's possession.)
   Only **3 of the 23 are Angels** — Angel of Destiny, Archangel of Thune, Resplendent Angel; the
   rest is the lifegain and win-condition shell.
-- Never simulated in paper.
+- **Never simulated IN PAPER — but extensively simulated in Forge, and it dominates.** Do not read
+  this line as "untested." See "Simulation results" above: **33 wins in 59 decided four-player
+  games, 55.9% against a 25% par, z = +5.49, winning all three seeds.** It is the strongest deck in
+  this repo by measured results. **Do not propose curve or ramp changes on general principle** — the
+  data shows longer games favour this deck, so a high average mana value is a feature here, not a
+  flaw. (A 2026-10-23 suggestion to add Land Tax and the mono-white catch-up ramp package was
+  withdrawn for exactly this reason, and because all of those cards require an opponent to control
+  more lands than you — which rarely holds at 37 lands.)
 - **Interaction, updated 2026-10-19.** Swords to Plowshares, Fateful Absence, Valorous Stance,
   Invoke the Divine, Grasp of Fate, Angel of the Ruins, and now **Austere Command** and **Sunblast
   Angel** are the answers. Exorcise was cut. This was the file's longest-standing open item and the
