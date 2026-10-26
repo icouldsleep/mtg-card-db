@@ -77,6 +77,38 @@ Exsanguinate and Gray Merchant both start the loop and are fine on their own as 
 pair does NOT self-start -- once both halves are down you still need one life-change event (a
 lifelink attack, Crypt Ghast extort) to kick it off.
 
+**UPDATE 2026-10-22 — the grid is now 2 x 4 = EIGHT assemblies.** The nine-card swap added two more
+Side A cards. Current grid:
+
+- **Side B** ("an opponent loses life -> you gain that much"): **Exquisite Blood**,
+  **Bloodthirsty Conqueror**. These two are the ONLY cards in all of mono-black that do this, so
+  Side B is the bottleneck — **tutors should fetch Side B, not Side A.**
+- **Side A** ("you gain life -> an opponent loses life"): **Vito, Thorn of the Dusk Rose**,
+  **Marauding Blight-Priest**, **Enduring Tenacity**, **South Wind Avatar**.
+
+### SECOND KILL LINE — Aetherflux Reservoir + Exquisite Blood. Confirmed in play 2026-10-26.
+
+**Aetherflux Reservoir** ({4}, Artifact) — *"Pay 50 life: This artifact deals 50 damage to any
+target."* **Exquisite Blood** — *"Whenever an opponent loses life, you gain that much life."*
+
+**This is a separate hard combo and it does not use Side A at all.** Damage dealt to a player IS
+life loss (CR 120.3c), and life totals go below zero, so the loss is NOT capped at the target's
+remaining life. Shoot a player at 3 life for 50 and they lose **50**, which Exquisite Blood refunds
+in full. **Each activation pays for itself.** At 50+ life with both out, one Reservoir kills the
+entire table in a single turn at instant speed, for zero net life.
+
+Observed in the 2026-10-26 win below: three activations, 150 life paid, and the life total ended
+exactly where it started (93 -> 43 -> 93 -> 43 -> 93 -> 43).
+
+**Three ways it fizzles, all of which break the refund and can kill you on the next activation:**
+damage prevention or protection on the target, a hexproof opponent, or pointing it at a creature or
+planeswalker instead of a player. (Amy's **Hidden Retreat** in that game prevents damage only from
+instants and sorceries — the Reservoir is an activated ability of an artifact, so it was never a
+threat to the line.)
+
+This makes Aetherflux Reservoir a **third combo half, not just a mana sink**, and raises the value
+of finding Exquisite Blood specifically over Bloodthirsty Conqueror.
+
 ## Why the deck needs tutors
 
 Only THREE cards in all of mono-black care about having deathtouch creatures: Hooded Blightfang,
@@ -401,7 +433,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. See the logged 2026-10-21 four-player win below.
+- Playtested, not formally tested. See the logged four-player wins below (2026-10-21 and
+  2026-10-26).
 
 
 ## Creature (32)
@@ -689,6 +722,41 @@ Darkness correction above, where Hired Poisoner was the alternate cut considered
 Hunt appear. If Forge is not abbreviating the name, the list being simmed predates commit `580c045`
 and everything after it. Re-export `deathtouch_decklist.txt` into Forge before weighting these
 results.
+
+### Logged win — 2026-10-26, four-player pod, won on own turn 13 (log turn 49), 19m08s
+
+sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Finished at **43 life**, having peaked at **100**.
+
+**Won with Aetherflux Reservoir + Exquisite Blood, not with the Side A / Side B grid.** This is the
+first recorded use of the Reservoir line and it is the reason the section above was added.
+
+- **The kill turn:** topdecked and cast **Aetherflux Reservoir** off a Snow-Covered Swamp and Sol
+  Ring in the postcombat main, then activated it three times in the same turn. Amy (14 -> -36),
+  Zyneste (2 -> -48), Ochala (3 -> -47). Exquisite Blood refunded all 50 each time.
+- Exquisite Blood had been out since turn 41; the Reservoir was the last piece.
+
+**What got him there:**
+- **The Widows are doing their job.** On the final alpha strike, **Black Widow, Deadly Hunter**
+  (draw a card per deathtouch connect) and **White Widow, Yelena Belova** (+1/+1 counter per
+  connect) each triggered **eight times** off one attack. Eight cards from a single combat step.
+- **Virtus + Viridian Longbow is the removal suite.** Used four separate times at instant speed for
+  free, killing **Sheoldred**, **Raphael Fiendish Savior**, **Angelic Sell-Sword** and **Bronze
+  Bombshell** — all without Thornbite Staff to untap it.
+- **Erebos** was cast turn 13 and the `{1}{B}, pay 2 life: draw a card` ability was activated five
+  times across the game. The nine-card swap's draw package is working.
+- **Witch of the Moors** fired its end-step edict three times, stripping a creature from each
+  opponent each time.
+- **Avacyn, Angel of Horror** recurred Black Widow and Dhund Operative after they died.
+
+**Disruption he played through and still won:**
+- **Strip Mine destroyed Cabal Coffers** on turn 36.
+- **Grindstone** milled seven relevant cards: Commander's Plate, Vampiric Tutor, Basilisk Collar,
+  Phyrexian Arena, Sheoldred the Apocalypse, The Darkness Crystal, Gray Merchant of Asphodel.
+- **Public Execution** killed Sidisi; **Inferno Fist** killed Virtus on turn 19 (Kaya's Ghostform
+  brought him back later).
+
+**Deck version:** this game was run on the post-9-swap list — Erebos, Aetherflux Reservoir,
+Enduring Tenacity and Snow-Covered Swamps all appear in the log. Grave Pact had not been added yet.
 
 ## Swaps from collection, 2026-09-30
 
