@@ -58,56 +58,125 @@ Three axes that feed each other:
 3. **Lifegain converts to damage.** Many deathtouch creatures also have lifelink. Vito turns all of
    it into drain, and Exquisite Blood / Bloodthirsty Conqueror close the loop.
 
-## The kill
+## The kill — complete combo grid, rebuilt 2026-10-26
 
-  Exquisite Blood OR Bloodthirsty Conqueror    ("opponent loses life -> you gain that much")
-                    x
-  Vito, Thorn of the Dusk Rose OR
-  Marauding Blight-Priest                      ("you gain life -> opponent(s) lose life")
+**Three independent kill engines, 10 two-card assemblies between them.** Rebuilt from a full scan of
+the 100 after the 2026-10-22 nine-card swap and the 2026-10-26 Grave Pact swap.
 
-**FOUR assemblies, all infinite.** Marauding Blight-Priest IS a combo piece, not a lesser backup:
-opponent loses 1 -> Exquisite Blood gains you 1 -> Blight-Priest drains each opponent -> loop.
-An earlier draft of this file wrongly called it "non-infinite backup"; Archidekt's bracket checker
-flagged it correctly and the claim was withdrawn.
+### ENGINE 1 — the life loop. Side A x Side B = 8 assemblies.
 
-**Sanguine Bond stays in the MAYBEBOARD.** With four assemblies already, it is redundancy the deck
-does not need, and adding it pushes the bracket assessment toward 4.
+**Side B** — *"whenever an opponent loses life, you gain that much life"*:
 
-Exsanguinate and Gray Merchant both start the loop and are fine on their own as big drain. Note the
-pair does NOT self-start -- once both halves are down you still need one life-change event (a
-lifelink attack, Crypt Ghast extort) to kick it off.
+| Card | Cost | Notes |
+|---|---|---|
+| **Exquisite Blood** | {4}{B} | Also half of Engine 2 — see below |
+| **Bloodthirsty Conqueror** | {3}{B}{B} | 4/4 flying deathtouch body |
 
-**UPDATE 2026-10-22 — the grid is now 2 x 4 = EIGHT assemblies.** The nine-card swap added two more
-Side A cards. Current grid:
+**Side A** — *"whenever you gain life, an opponent loses life"*:
 
-- **Side B** ("an opponent loses life -> you gain that much"): **Exquisite Blood**,
-  **Bloodthirsty Conqueror**. These two are the ONLY cards in all of mono-black that do this, so
-  Side B is the bottleneck — **tutors should fetch Side B, not Side A.**
-- **Side A** ("you gain life -> an opponent loses life"): **Vito, Thorn of the Dusk Rose**,
-  **Marauding Blight-Priest**, **Enduring Tenacity**, **South Wind Avatar**.
+| Card | Cost | Notes |
+|---|---|---|
+| **Vito, Thorn of the Dusk Rose** | {2}{B} | Targeted, loses *that much*. Also `{3}{B}{B}`: mass lifelink — its own spark |
+| **Enduring Tenacity** | {2}{B}{B} | Targeted, loses *that much*. Recurs itself as an enchantment when it dies |
+| **Marauding Blight-Priest** | {2}{B} | Each opponent loses **1**, not that much — still infinite, just slower per iteration |
+| **South Wind Avatar** | {3}{B} | Each opponent loses 1. Deathtouch body, **and its own spark** (gain life when another creature dies) |
 
-### SECOND KILL LINE — Aetherflux Reservoir + Exquisite Blood. Confirmed in play 2026-10-26.
+Any Side A + any Side B = **8 infinite assemblies**. Vito and Enduring Tenacity scale with the
+amount; Blight-Priest and South Wind Avatar tick 1 at a time but still loop forever, and ticking
+one opponent to 0 just moves the loop to the next.
+
+**Side B is the bottleneck.** Exquisite Blood and Bloodthirsty Conqueror are the ONLY two cards in
+all of mono-black with that text. There are four Side A cards and only two Side B cards, so **the
+five tutors should fetch Side B.**
+
+**The loop does NOT self-start.** Both halves on the battlefield still do nothing until one
+life-change event happens. **22 cards in the deck can be that spark:**
+
+- *You gain life:* Aetherflux Reservoir (every spell cast), Arnyn Deathbloom Botanist, Ayara First
+  of Locthwain, Basilisk Collar (grants lifelink), Blood Artist, Crypt Ghast (extort), Exsanguinate,
+  Gifted Aetherborn, Gray Merchant of Asphodel, Hooded Blightfang (on ATTACK, not on damage),
+  Nighthawk Scavenger, Qarsi Revenant, Sheoldred the Apocalypse (every card you draw), South Wind
+  Avatar, The Darkness Crystal, Vampire Nighthawk, Vampire of the Dire Moon, Vito (mass lifelink).
+- *An opponent loses life:* Virtus the Veiled (half their life), Quietus Spike (half their life),
+  Torment of Hailfire, Tergrid's Lantern.
+
+That is 22 **distinct cards**. An earlier line in this file counts "32" — that figure counts
+trigger instances, since several of these cards provide more than one. Both are correct; this one
+is the card count.
+
+An event between two *other* players also starts it — see the 2026-10-21 win below, where the loop
+fired off one opponent attacking another.
+
+**Stensian Sanguinist // Exsanguinate is NOT a spark from hand.** It is a preparation card; the
+Exsanguinate half can only be cast off the prepared creature, not from hand.
+
+### ENGINE 2 — Aetherflux Reservoir x Side B = 2 assemblies. Confirmed in play 2026-10-26.
 
 **Aetherflux Reservoir** ({4}, Artifact) — *"Pay 50 life: This artifact deals 50 damage to any
-target."* **Exquisite Blood** — *"Whenever an opponent loses life, you gain that much life."*
+target."*
 
-**This is a separate hard combo and it does not use Side A at all.** Damage dealt to a player IS
-life loss (CR 120.3c), and life totals go below zero, so the loss is NOT capped at the target's
-remaining life. Shoot a player at 3 life for 50 and they lose **50**, which Exquisite Blood refunds
-in full. **Each activation pays for itself.** At 50+ life with both out, one Reservoir kills the
-entire table in a single turn at instant speed, for zero net life.
+Pairs with **either** Side B card — Exquisite Blood **or** Bloodthirsty Conqueror. Same wording,
+same result.
 
-Observed in the 2026-10-26 win below: three activations, 150 life paid, and the life total ended
-exactly where it started (93 -> 43 -> 93 -> 43 -> 93 -> 43).
+**This engine does not use Side A at all.** Damage dealt to a player IS life loss (CR 120.3c), and
+life totals go below zero, so the loss is NOT capped at the target's remaining life. Shoot a player
+at 3 life for 50 and they lose **50**, which Side B refunds in full. **Each activation pays for
+itself.** At 50+ life with Reservoir and either Side B card out, one Reservoir kills the entire
+table in a single turn at instant speed, for zero net life.
 
-**Three ways it fizzles, all of which break the refund and can kill you on the next activation:**
+Observed 2026-10-26: three activations, 150 life paid, life total ended exactly where it started
+(93 -> 43 -> 93 -> 43 -> 93 -> 43).
+
+**Three ways it fizzles, each of which breaks the refund and can kill you on the next activation:**
 damage prevention or protection on the target, a hexproof opponent, or pointing it at a creature or
-planeswalker instead of a player. (Amy's **Hidden Retreat** in that game prevents damage only from
-instants and sorceries — the Reservoir is an activated ability of an artifact, so it was never a
-threat to the line.)
+planeswalker instead of a player.
 
-This makes Aetherflux Reservoir a **third combo half, not just a mana sink**, and raises the value
-of finding Exquisite Blood specifically over Bloodthirsty Conqueror.
+If Side A is *also* out, the first shot just starts Engine 1 and you never need the second
+activation.
+
+### ENGINE 3 — Viridian Longbow + Thornbite Staff. Not a drain loop — a board wipe.
+
+Both Equipment on **one** creature. Longbow grants `{T}: deal 1 damage to any target` (free).
+Thornbite grants *"whenever a creature dies, untap this creature."* With deathtouch, every ping
+kills. Ping a creature -> it dies -> Thornbite untaps -> ping the next. **Destroys every opposing
+creature in one turn, at instant speed, for zero mana.**
+
+**Thornbite attaches FREE to a Shaman as it enters** — **Vampire Nighthawk is a Vampire Shaman**
+with flying, deathtouch and lifelink — skipping the {4} equip.
+
+This does NOT loop at a player's face: a creature must die to untap, and pinging a player kills
+nothing. It is removal, not a kill. But each ping that kills gains 2 off **The Darkness Crystal**
+and triggers **Blood Artist**, both of which are Engine 1 sparks.
+
+### Engines 1 and 2 overlap on purpose
+
+Exquisite Blood is now in **both** engines; Bloodthirsty Conqueror is in both as well. That is 10
+assemblies off 7 cards. **Sanguine Bond stays in the MAYBEBOARD** — not because it is redundant
+(redundancy is the point), but because adding a ninth Side A x Side B assembly pushes the bracket
+assessment from 3 to 4.
+
+### Not infinite, but these are the value engines that win the long games
+
+- **Grave Pact + Tergrid** — your creature dies, each opponent sacrifices, Tergrid puts every
+  nontoken one they sacrifice onto **your** battlefield. One blocked one-drop can net three
+  creatures.
+- **Grave Pact + Ayara** — `{T}, sacrifice another black creature: draw a card` is a free
+  repeatable sac outlet. Tap, sac, draw, whole table sacrifices. Every turn.
+- **Grave Pact + Skullclamp** — {1} to kill a 1-toughness body, draw two, force three sacrifices.
+- **Skullclamp + Arnyn** — the clamped creature has toughness 1 or less when it dies, so Arnyn
+  drains 2 and gains 2 on top of the two cards. The gain is an Engine 1 spark.
+- **Skullclamp + Avacyn, Angel of Horror** — Avacyn returns the clamped nontoken creature at the
+  next end step, so the same body can be clamped again.
+- **Sheoldred + any draw** — *"whenever you draw a card, you gain 2 life."* With Side A out, every
+  single card you draw drains the table. The deck has 9 draw sources.
+- **Tergrid + Torment of Hailfire** — Hailfire is sacrifice-or-discard-or-lose-3; Tergrid takes
+  everything they give up.
+- **Erebos, God of the Dead** — *"your opponents can't gain life."* Does not combo, but it locks
+  lifegain decks out of racing the loop and makes the Reservoir math certain.
+- **Witch of the Moors** — at your end step, if you gained life this turn, each opponent sacrifices
+  a creature and you return a creature from the graveyard to hand. Any Engine 1 spark turns it on.
+
+Exsanguinate and Gray Merchant are fine on their own as big drain, and both start the loop.
 
 ## Why the deck needs tutors
 
