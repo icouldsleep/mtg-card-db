@@ -1,23 +1,23 @@
 # Cards Reference — Virtus the Veiled mono-black deathtouch (NEW / UNBUILT)
 
-**Status: BUILT AND OWNED, with 9 cards outstanding (confirmed by the owner 2026-10-22).**
+**Status: BUILT AND OWNED, with 10 cards outstanding (9 confirmed by the owner 2026-10-22, plus Grave Pact added 2026-10-26).**
 Designed Sept 28, 2026. **The owner confirmed the deck was fully built and this list matched his
 physical deck right up until the 2026-10-22 nine-card swap.** Everything in the 100 is in hand
-except the nine cards that swap added.
+except the nine cards that swap added, plus Grave Pact.
 
-**TO ACQUIRE (9):**
+**TO ACQUIRE (10):**
 
 ```
-Aetherflux Reservoir      Erebos, God of the Dead
+Aetherflux Reservoir      Grave Pact
 Ayara, First of Locthwain Skullclamp
 Blood Artist              South Wind Avatar
 Enduring Tenacity         Stensian Sanguinist // Exsanguinate
-                          Tergrid, God of Fright // Tergrid's Lantern
+Erebos, God of the Dead   Tergrid, God of Fright // Tergrid's Lantern
 ```
 
-**Coming out, back to the collection (9):** Arcane Signet, Archetype of Finality, Black Market,
-Burrog Banemaker, Case of the Gorgon's Kiss, Gonti Lord of Luxury, Hired Poisoner, Ravening Warg,
-Thrill-Kill Assassin. Thornbite Staff is **not** on either list — it was cut and restored in the
+**Coming out, back to the collection (10):** Arcane Signet, Archetype of Finality, Black Market,
+Bojuka Bog, Burrog Banemaker, Case of the Gorgon's Kiss, Gonti Lord of Luxury, Hired Poisoner,
+Ravening Warg, Thrill-Kill Assassin. Thornbite Staff is **not** on either list — it was cut and restored in the
 same session, so it never left the deck.
 
 Earlier status lines on this file were wrong and are superseded: "No cards acquired, nothing
@@ -171,7 +171,8 @@ enough card draw**, and **sitting on Cabal Coffers mana with nothing to spend it
 | **Skullclamp** {1} | Case of the Gorgon's Kiss {B} | Equip {1}, +1/-1, draw two when the creature dies. **Six 1-toughness bodies** die to it instantly, and each death triggers **Arnyn** (drain 2 / gain 2 = a spark) while **Avacyn returns nontoken creatures to the battlefield**. Gorgon's Kiss is weaker than it reads — see the ruling note below. |
 
 **Result after the correction below: 100 cards · 36 lands · 32 creatures · 21 printed
-deathtouch · avg MV 2.78 · 3 of 3 Game Changers.**
+deathtouch · avg MV 2.78 · 3 of 3 Game Changers.** (The 2026-10-26 Grave Pact swap later moved this
+to 35 lands; everything else is unchanged.)
 Draw sources went from 6 to 9, and three of the new ones are repeatable rather than one-shot.
 
 ### CORRECTION, same day — Thornbite Staff put back, Hired Poisoner cut instead
@@ -214,26 +215,56 @@ line; it is now a documented part of the deck.
 - **Viridian Longbow and Thornbite Staff** — both kept. They are the board-wipe lock; see the correction above.
 - The three removal spells (Go for the Throat, Snuff Out, Feed the Swarm).
 
-### NEXT ADD — Grave Pact. Approved in principle 2026-10-22, waiting on a cut.
+### Grave Pact — ADDED 2026-10-26. Cut: Bojuka Bog.
 
 **Grave Pact** — {1}{B}{B}{B} — Enchantment — *"Whenever a creature you control dies, each other
-player sacrifices a creature of their choice."* **Not a Game Changer**, so it does not disturb the
-3-of-3 count.
+player sacrifices a creature of their choice."* **Not a Game Changer**, so the 3-of-3 count is
+unchanged.
 
-This is the highest-value open slot in the deck and the reason is **Tergrid**. The deck runs **21
-deathtouch creatures** whose job is trading in combat. With Grave Pact out, **every trade strips a
-creature from all three opponents — and Tergrid puts all three onto your battlefield.** One blocked
-one-drop can net three creatures. Skullclamp makes it worse for them: {1} to draw two cards *and*
-force the table to sacrifice.
+Approved in principle 2026-10-22, cut found and swap approved 2026-10-26.
 
-Alternatives in the same slot, all checked and none a Game Changer:
-- **Dictate of Erebos** {3}{B}{B} — identical text with **flash**, one mana more. Ambush it mid-combat.
+**Why it is the highest-value slot in the deck — it is not the Pact alone, it is what it plugs into:**
+- **+ Tergrid** — every opponent sacrifice is a nontoken permanent Tergrid puts onto **your**
+  battlefield. One blocked one-drop can net three creatures.
+- **+ Ayara** — `{T}, Sacrifice another black creature: Draw a card` is a free, repeatable sac
+  outlet. Tap, sac, draw, and the whole table sacrifices. Every turn.
+- **+ Skullclamp** — {1} to kill a 1-toughness body, draw two, and force three sacrifices.
+- **+ Blood Artist** — every death is also a drain, which is a combo spark.
+
+It also matches how the owner actually plays the deck: *"a lot of the time I just leave the
+creatures up and don't do much damage, only for blocks."* With 21 printed deathtouchers, every one
+of those blocks becomes a four-for-one.
+
+**Grave Pact does not need recursion to work.** It is not a sacrifice engine you have to feed — it
+is a tax on trading. The deathtouchers were already dying in combat; the Pact just makes each of
+those deaths cost the table a creature apiece. Raised by the owner 2026-10-26 and checked: the deck
+also has more recursion than it looks. **Avacyn, Angel of Horror** is a blanket — *"Whenever Avacyn
+or another nontoken creature you control dies, return that card to the battlefield under your
+control at the beginning of the next end step"* — so with her out, your side of a Grave Pact trade
+is free. Behind her: **Witch of the Moors** (which already forces each opponent to sacrifice *and*
+returns a creature to hand), **Qarsi Revenant** renew, **Kaya's Ghostform**, **Tergrid**.
+
+**The cut — Bojuka Bog.** Audited all eight nonbasic lands. The Bog was the only one without a job:
+- **Not Swamp-typed** (`Land`, no subtype), so **Cabal Coffers, Cabal Stronghold and Extraplanar
+  Lens cannot see it** — unless Urborg is already out, which makes every land a Swamp anyway.
+- **Enters tapped.**
+- Its only payoff is a one-shot ETB exiling one player's graveyard.
+- Every other nonbasic has a job: Coffers (engine), Stronghold (second Coffers), Urborg (makes all
+  lands Swamps), Deserted Temple (untaps Coffers), Nykthos (devotion), Rogue's Passage (the one
+  piece of evasion that beats other black decks).
+
+Land count 36 → 35. Swamp-typed count is **unchanged at 29**, so the Coffers/Stronghold/Lens engine
+is untouched. Simulation delta is negligible: 36 lands gave 5.76 lands in play by turn 10, 35 gives
+5.58.
+
+**Known cost of the cut, flagged to the owner and accepted:** Bojuka Bog was the deck's **only
+graveyard hate**. A Meren / Muldrotha / Karador deck at the table now recurs unchecked. Revisit if
+graveyard decks become common in the owner's pod.
+
+Alternatives considered for the slot, all checked and none a Game Changer:
+- **Dictate of Erebos** {3}{B}{B} — identical text with **flash**, one mana more.
 - **Butcher of Malakir** {5}{B}{B} — same effect on a 5/5 flier, 7 mana.
 - **Fleshbag Marauder** / **Plaguecrafter** {2}{B} — one-shot, each player sacrifices on ETB.
-  Plaguecrafter also hits planeswalkers.
-
-**No cut has been identified.** The pool is tight — see the protected list above. Revisit with the
-owner.
 
 ### Two other gaps found in the 2026-10-22 audit
 
@@ -292,7 +323,7 @@ Also still open: **Profane Command**, **Grim Haruspex**, **Black Market Connecti
 ### Rejected with reasons
 - **Sanguine Bond** — identical text to Vito at two more mana with no body; **Enduring Tenacity is the same effect one mana cheaper on a 4/3 that comes back from wipes.**
 - **Necropotence** (Game Changer) — it exiles and puts into hand rather than drawing, so **Sheoldred never triggers**; cards arrive at your *next* end step so you cannot dig mid-turn; and with no hand-size fixer the cleanup discards get exiled.
-- **Ancient Tomb** (Game Changer) — **not Swamp-typed**, so Cabal Coffers, Cabal Stronghold and Extraplanar Lens cannot see it. Same flaw that makes Bojuka Bog the weakest land. **Mana Vault** (Game Changer) is the same problem as an artifact. **Imperial Seal** (Game Changer) is a sixth tutor that is sorcery-speed and puts the card on top of the library, costing a draw.
+- **Ancient Tomb** (Game Changer) — **not Swamp-typed**, so Cabal Coffers, Cabal Stronghold and Extraplanar Lens cannot see it. Same flaw that made Bojuka Bog the weakest land, and the reason it was the cut for Grave Pact on 2026-10-26. **Mana Vault** (Game Changer) is the same problem as an artifact. **Imperial Seal** (Game Changer) is a sixth tutor that is sorcery-speed and puts the card on top of the library, costing a draw.
 - **Death Cloud** — symmetrical; it would wreck this deck's own board and 36 lands.
 - **Skullclamp objection, resolved.** The owner's first reaction was that clamping kills his own creatures. True, but deaths are not pure loss here: Arnyn drains on them, **Avacyn returns nontoken creatures to the battlefield**, and Witch of the Moors returns one to hand.
 
@@ -373,7 +404,7 @@ creature and the deck has only about six.
 - Playtested, not formally tested. See the logged 2026-10-21 four-player win below.
 
 
-## Creature (30)
+## Creature (32)
 
 **Archetype of Finality** — {4}{B}{B} — Enchantment Creature — Gorgon — **2/3**
 "Creatures you control have deathtouch. | Creatures your opponents control lose deathtouch and can't have or gain deathtouch."
@@ -469,7 +500,7 @@ SIXTH flying deathtoucher, which is the deck's scarcest blocker type.
 "Deathtouch | Whenever a creature you control with deathtouch deals combat damage to a player, put a +1/+1 counter on it."
 
 
-## Artifact (10)
+## Artifact (11)
 
 **Arcane Signet** — {2} — Artifact
 "{T}: Add one mana of any color in your commander's color identity."
@@ -505,19 +536,16 @@ permanently and does not come back if the Lens is destroyed.
 "Equipped creature has "{T}: This creature deals 1 damage to any target." | Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
 
 
-## Enchantment (6)
-
-**Black Market** — {3}{B}{B} — Enchantment
-"Whenever a creature dies, put a charge counter on this enchantment. | At the beginning of your first main phase, add {B} for each charge counter on this enchantment."
-
-**Case of the Gorgon's Kiss** — {B} — Enchantment — Case
-"When this Case enters, destroy up to one target creature that was dealt damage this turn. | To solve — Three or more creature cards were put into graveyards from anywhere this turn. (If unsolved, solve at the beginning of your end step.) | Solved — This Case is a 4/4 Gorgon creature with deathtouch and lifelink in addition to its other types."
+## Enchantment (5)
 
 **Dauthi Embrace** — {2}{B} — Enchantment
 "{B}{B}: Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)"
 
 **Exquisite Blood** — {4}{B} — Enchantment
 "Whenever an opponent loses life, you gain that much life."
+
+**Grave Pact** — {1}{B}{B}{B} — Enchantment
+"Whenever a creature you control dies, each other player sacrifices a creature of their choice."
 
 **Kaya's Ghostform** — {B} — Enchantment — Aura
 "Enchant creature or planeswalker you control | When enchanted permanent dies or is put into exile, return that card to the battlefield under your control."
@@ -594,10 +622,7 @@ she returns at base loyalty 3.
 "As an additional cost to cast this spell, sacrifice a creature. | Draw two cards."
 
 
-## Land (36)
-
-**Bojuka Bog** — Land — Land
-"This land enters tapped. | When this land enters, exile target player's graveyard. | {T}: Add {B}."
+## Land (35)
 
 **Cabal Coffers** — Land — Land
 "{2}, {T}: Add {B} for each Swamp you control."

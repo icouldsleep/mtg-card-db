@@ -7,7 +7,6 @@
 1 Blightwing Bandit
 1 Blood Artist
 1 Bloodthirsty Conqueror
-1 Bojuka Bog
 1 Bubbling Muck
 1 Cabal Coffers
 1 Cabal Ritual
@@ -30,6 +29,7 @@
 1 Foulmire Knight
 1 Gifted Aetherborn
 1 Go for the Throat
+1 Grave Pact
 1 Gray Merchant of Asphodel
 1 Grim Tutor
 1 Hooded Blightfang
