@@ -104,8 +104,21 @@ That is 22 **distinct cards**. An earlier line in this file counts "32" — that
 trigger instances, since several of these cards provide more than one. Both are correct; this one
 is the card count.
 
-An event between two *other* players also starts it — see the 2026-10-21 win below, where the loop
-fired off one opponent attacking another.
+**In practice, opponents spark it for you — this is the deck's most underrated property.** In
+**two of the three logged wins below the spark came from outside this deck entirely**:
+
+- **2026-10-21** — one opponent attacked another opponent with Avacyn, Angel of Hope for 10.
+- **2026-10-26 (turn-4 win)** — an opponent's own **Wretched Anurid** (*"whenever another creature
+  enters, you lose 1 life"*) triggered off Bloodthirsty Conqueror entering. Their punisher card
+  killed their whole table.
+
+**ANY** life-change event anywhere at the table starts the loop: an opponent's lifelink attack, a
+shockland, a Phyrexian Arena, a fetchland crack, a Wretched Anurid, two other players fighting.
+Four-player pods generate these constantly without you doing anything.
+
+So treat "the loop does not self-start" as a note about the two cards **in isolation**, not as a
+real liability in a pod. Once both halves are down, the game is usually over on the next life-change
+event at the table, whoever causes it.
 
 **Stensian Sanguinist // Exsanguinate is NOT a spark from hand.** It is a preparation card; the
 Exsanguinate half can only be cast off the prepared creature, not from hand.
@@ -502,8 +515,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. See the logged four-player wins below (2026-10-21 and
-  2026-10-26).
+- Playtested, not formally tested. See the three logged four-player wins below (2026-10-21,
+  and two on 2026-10-26). Fastest is own turn 4.
 
 
 ## Creature (32)
@@ -792,7 +805,7 @@ Hunt appear. If Forge is not abbreviating the name, the list being simmed predat
 and everything after it. Re-export `deathtouch_decklist.txt` into Forge before weighting these
 results.
 
-### Logged win — 2026-10-26, four-player pod, won on own turn 13 (log turn 49), 19m08s
+### Logged win — 2026-10-26 (1st game), four-player pod, won on own turn 13 (log turn 49), 19m08s
 
 sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Finished at **43 life**, having peaked at **100**.
 
@@ -826,6 +839,36 @@ first recorded use of the Reservoir line and it is the reason the section above 
 
 **Deck version:** this game was run on the post-9-swap list — Erebos, Aetherflux Reservoir,
 Enduring Tenacity and Snow-Covered Swamps all appear in the log. Grave Pact had not been added yet.
+
+### Logged win — 2026-10-26 (2nd game), four-player pod, won on own turn 4 (log turn 16), 7m38s
+
+sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Finished at **78 life**, from 38.
+
+**Fastest recorded win by a wide margin, and the deck cast four relevant spells all game.** Engine 1,
+Marauding Blight-Priest x Bloodthirsty Conqueror.
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 2 | 8 | Sol Ring, **Marauding Blight-Priest** (Side A) |
+| — | 7 (Ochala's end step) | **Vampiric Tutor** |
+| 3 | 12 | **Demonic Tutor**, Quietus Spike |
+| 4 | 16 | **Bloodthirsty Conqueror** off Sol Ring + 3 Snow-Covered Swamps |
+
+**The spark was an opponent's own card.** Zyneste controlled **Wretched Anurid** — *"whenever
+another creature enters, you lose 1 life."* Bloodthirsty Conqueror entering triggered **their**
+Anurid, Zyneste lost 1, Conqueror gained sleepy 1, Blight-Priest drained each opponent 1, Conqueror
+again, loop. Roughly 40 iterations. sleepy 38 -> 78 while the table went to 0. Zyneste died first,
+having spent the whole game chipping themself with the Anurid; Ochala and Amy hit 0 on the same
+iteration.
+
+**sleepy never attacked, never used removal, and activated nothing.** He cast a creature and won.
+
+**This validates the Side B tutoring rule.** Side A arrived on its own by turn 2 — there are four of
+them. Both tutors were then spent finding Side B, which is only two cards deep. That is the grid
+working exactly as written above.
+
+**Quietus Spike was cast on turn 3 and never mattered.** Noted only so the log is not read as
+evidence for it.
 
 ## Swaps from collection, 2026-09-30
 
