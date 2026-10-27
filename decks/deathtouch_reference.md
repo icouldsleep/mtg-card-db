@@ -73,8 +73,9 @@ Three axes that feed each other:
 
 ## The kill — complete combo grid, rebuilt 2026-10-26
 
-**Three independent kill engines, 10 two-card assemblies between them.** Rebuilt from a full scan of
-the 100 after the 2026-10-22 nine-card swap and the 2026-10-26 Grave Pact swap.
+**Four independent kill engines, 11 two-card assemblies between them.** Rebuilt from a full scan of
+the 100 after the 2026-10-22 nine-card swap and the 2026-10-26 Grave Pact swap. **Engine 4 was
+added 2026-10-27** after it won a game outright and turned out not to be in this file at all.
 
 ### ENGINE 1 — the life loop. Side A x Side B = 8 assemblies.
 
@@ -174,10 +175,35 @@ This does NOT loop at a player's face: a creature must die to untap, and pinging
 nothing. It is removal, not a kill. But each ping that kills gains 2 off **The Darkness Crystal**
 and triggers **Blood Artist**, both of which are Engine 1 sparks.
 
+### ENGINE 4 — Virtus the Veiled + Commander's Plate. Added 2026-10-27 after it won a game.
+
+**Commander's Plate** {1} — *"Equipped creature gets +3/+3 and has protection from each color
+that's not in your commander's color identity."* Equip commander {3}.
+
+The commander is **mono-black**, so the Plate grants **protection from white, blue, red and green**.
+Against a table with no black creatures, **Virtus is simply unblockable** — and Virtus reads
+*"whenever Virtus deals combat damage to a player, that player loses half their life, rounded up."*
+
+A 1/1 becomes a 4/4 that connects every turn and halves. The halving scales off **their** life
+total, so the first swing is always the biggest: 40 -> 36 on combat damage -> **18** on the trigger.
+Four or five connects kill anyone from 40, and nothing has to be drawn, tutored or assembled beyond
+two cards.
+
+**Total cost is {1} to cast plus {3} to equip the commander — the cheapest kill in the deck.**
+
+**The caveat, stated plainly: this only reads "unblockable" against opponents with no black
+creatures.** A black deck blocks Virtus all day, and protection does nothing about it. Against a
+black opponent, fall back to **Rogue's Passage** ({4}, {T}: target creature can't be blocked) or
+**Dauthi Embrace** ({B}{B}: target creature gains shadow).
+
+**Quietus Spike** ({3}, equip {3}) has the same halving text and grants deathtouch, so it is the
+same engine on a non-commander body — but it does not grant evasion, which is the half that
+matters. Plate on Virtus is strictly the better version when the table is not black.
+
 ### Engines 1 and 2 overlap on purpose
 
 Exquisite Blood is now in **both** engines; Bloodthirsty Conqueror is in both as well. That is 10
-assemblies off 7 cards. **Sanguine Bond stays in the MAYBEBOARD** — not because it is redundant
+assemblies off 7 cards, plus Engine 4's one off two more. **Sanguine Bond stays in the MAYBEBOARD** — not because it is redundant
 (redundancy is the point), but because adding a ninth Side A x Side B assembly pushes the bracket
 assessment from 3 to 4.
 
@@ -528,8 +554,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Six logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, one on 2026-10-27). Fastest is own turn 4; slowest is own turn 13.
+- Playtested, not formally tested. **Seven logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, two on 2026-10-27). Fastest is own turn 4; slowest is own turn 13.
 
 
 ## Creature (32)
@@ -941,7 +967,7 @@ preparation was wasted — but the card did what it says.
 
 Grave Pact was not drawn.
 
-### Logged win — 2026-10-27, four-player pod, won on own turn 10 (log turn 39), 8m18s
+### Logged win — 2026-10-27 (1st game), four-player pod, won on own turn 10 (log turn 39), 8m18s
 
 sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Engine 1, and a **new pairing: South Wind Avatar
 x Exquisite Blood.**
@@ -969,6 +995,43 @@ bounce.
 - **Black Widow attacked five times** for 3, drawing a card each time.
 - **Witch of the Moors** got two end-step edicts.
 
+### Logged win — 2026-10-27 (2nd game), four-player pod, won on own turn 10 (log turn 35), 11m13s
+
+sleepy 1 — Omarn 0, Daisy 0, Randy 0. Finished at **31 life**. A new pod (Omarn, Daisy, Randy
+rather than the usual three).
+
+**Won with Virtus + Commander's Plate, which was not in this file until this game.** See ENGINE 4
+above, added because of this log. None of the three opponents controlled a black creature — the
+pod was W/G, W/U/R and mono-G — so the Plate's protection from white, blue, red and green made
+Virtus unblockable for the entire game.
+
+| Own turn | Log turn | Target | Combat | After the halving |
+|---|---|---|---|---|
+| 15 | 15 | Omarn | 40 -> 36 | **18** |
+| 19 | 19 | Randy | 41 -> 37 | **18** |
+| 23 | 23 | Omarn | 18 -> 14 | **7** |
+| 27 | 27 | Daisy | 22 -> 18 | **9** |
+| 33 | 33 | Omarn | 6 -> 0 | dead (Virtus 4 + Crypt Ghast 2) |
+| 35 | 35 | Daisy | 7 -> 1 | **0** |
+
+**Six connects, blocked zero times.** Commander's Plate was cast turn 3 and sat waiting; Virtus
+landed turn 11 and was equipped turn 15.
+
+**Rogue's Passage was in play all game and never needed.** The Plate's protection already provided
+the evasion, for free, every turn.
+
+**Torment of Hailfire was only X=9** this game (turn 33) — against X=20 and X=22 in the two games
+before it. No Cabal Coffers and no doublers; six lands and extort. It stripped Omarn's and Daisy's
+boards rather than killing, which was enough.
+
+- **Exquisite Blood landed on the last turn** and gained 6 off the final halving, but no Side A was
+  out, so Engine 1 never came online. It was not needed.
+- **Daisy killed Randy, not sleepy** — her five-creature board took Randy 3 -> -4 on turn 29. The
+  deck only had to kill two opponents.
+- **The deck took real damage:** Daisy's turn-32 alpha strike put sleepy 36 -> 24, and **Aberrant**
+  destroyed **Phyrexian Arena** with its Heavy Power Hammer trigger.
+- Grave Pact was not drawn.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -979,8 +1042,9 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-26 (3rd) | Cast turn 19 | **1** (turn 29) | Dire Fleet Poisoner died blocking; all three opponents sacrificed a **token**. Tergrid was not out, so nothing was stolen. |
 | 2026-10-26 (4th) | Not drawn | — | |
 | 2026-10-27 | Cast turn 39 | **1** (turn 39) | Fired the same turn, on the Black Widow trade that sparked the kill — an edict on all three at the moment the loop went off. |
+| 2026-10-27 (2nd) | Not drawn | — | |
 
-**Two triggers in two games where it was drawn.** Both were real, but this is below what was argued
+**Two triggers across four games, drawn in two of them.** Both were real, but this is below what was argued
 for when it was added. Not a verdict on three games; revisit after a few more. The honest read so
 far is that it is a fine card that has not yet been the reason a game was won, where Viridian
 Longbow and Torment of Hailfire both have.
