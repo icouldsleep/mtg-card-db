@@ -147,15 +147,36 @@ same result.
 
 **This engine does not use Side A at all.** Damage dealt to a player IS life loss (CR 120.3c), and
 life totals go below zero, so the loss is NOT capped at the target's remaining life. Shoot a player
-at 3 life for 50 and they lose **50**, which Side B refunds in full. **Each activation pays for
-itself.** At 50+ life with Reservoir and either Side B card out, one Reservoir kills the entire
-table in a single turn at instant speed, for zero net life.
+at 3 life for 50 and they lose **50**, which Side B refunds in full. **Every activation after the
+first pays for itself**, so one Reservoir kills the entire table in a single turn at instant speed,
+for zero net life.
+
+**THE FLOOR IS 51 LIFE, NOT 50. Corrected 2026-10-27 — an earlier version of this section said
+"50+", which is wrong in the direction that loses the game.** Paying life happens during
+*activation*, not resolution. The order is: pay 50 -> ability goes on the stack -> **state-based
+actions are checked** -> ability resolves -> opponent loses 50 -> Side B refunds. Side B cannot pay
+you back at the payment step because nothing has dealt damage yet.
+
+- CR 119.4 — a player may pay an amount of life only if their life total is **greater than or equal
+  to** the payment. So at exactly 50 you *can* pay, and you go to 0.
+- CR 704.5a — a player at 0 or less life loses the game, checked before anyone gets priority.
+- **At exactly 50, you pay, hit 0, and lose before the Reservoir ability ever resolves.**
+
+At 51: pay 50 -> 1 life -> survive the check -> resolve -> opponent loses 50 -> Side B returns you
+to 51. Repeat as many times as there are legal targets. Note you cannot hold two activations on the
+stack from a low total — at 51 you only have the life for one, so let each resolve and take the
+refund before firing again.
 
 Observed 2026-10-26: three activations, 150 life paid, life total ended exactly where it started
 (93 -> 43 -> 93 -> 43 -> 93 -> 43).
 
-**Three ways it fizzles, each of which breaks the refund and can kill you on the next activation:**
-damage prevention or protection on the target, a hexproof opponent, or pointing it at a creature or
+**Owner's own report, 2026-10-27: this engine fires reliably in play whenever Aetherflux Reservoir
+and Exquisite Blood are both out, and he rates it highly.** The games logged in this file
+under-represent it — in most of them he was racing and never near 51. Do not read the logs as a
+measure of how often this engine works.
+
+**Three ways it fizzles, each of which breaks the refund and strands you at 1 life:** damage
+prevention or protection on the target, a hexproof opponent, or pointing it at a creature or
 planeswalker instead of a player.
 
 If Side A is *also* out, the first shot just starts Engine 1 and you never need the second
@@ -170,6 +191,12 @@ creature in one turn, at instant speed, for zero mana.**
 
 **Thornbite attaches FREE to a Shaman as it enters** — **Vampire Nighthawk is a Vampire Shaman**
 with flying, deathtouch and lifelink — skipping the {4} equip.
+
+**With Crypt Ghast out, Thornbite is a ONE-CARD lock — found 2026-10-27.** Thornbite's own granted
+ability is `{2}, {T}: deal 1 damage to any target`, and **Crypt Ghast makes every Swamp tap for
+{B}{B}**, so a single Swamp pays for each ping. The Longbow is what makes the pings free; it is not
+what makes the lock work. In the 2026-10-27 game below, four creatures died to Thornbite alone on
+turn 21, four turns before the Longbow was cast.
 
 This does NOT loop at a player's face: a creature must die to untap, and pinging a player kills
 nothing. It is removal, not a kill. But each ping that kills gains 2 off **The Darkness Crystal**
@@ -554,8 +581,9 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Seven logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, two on 2026-10-27). Fastest is own turn 4; slowest is own turn 13.
+- Playtested, not formally tested. **Eight logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, three on 2026-10-27) — but see the caveat heading the logged-wins section:
+  these are pasted games, not the full record. Fastest is own turn 4; slowest is own turn 13.
 
 
 ## Creature (32)
@@ -811,6 +839,20 @@ Results to date, Forge AI piloting both sides:
   [27.2%, 49.5%]. Par is 33.3% and the interval contains it, so all three decks are statistically
   indistinguishable.
 
+### READ THIS BEFORE DRAWING CONCLUSIONS FROM THE LOGS BELOW
+
+**These are games the owner pasted into a chat session. They are NOT a complete play record.** He
+plays far more games than he pastes, and which ones get pasted is arbitrary.
+
+**Do not infer that a card is underperforming because it does not appear here, or appears rarely.**
+That mistake was made on 2026-10-27 about both Grave Pact and Aetherflux Reservoir and had to be
+withdrawn in both cases. Absence from this section is evidence of nothing. The owner's own report
+of how a card plays outranks anything counted off these logs.
+
+What this section IS good for: concrete sequences, rules interactions, exact mana counts, and
+things that actually happened. What it is NOT good for: frequency, win rate, or whether a card is
+pulling its weight.
+
 ### Logged win — 2026-10-21, four-player pod, won turn 25 (round 13), 4m44s
 
 sleepy 1 — Collin Goofgrumble 0, Douglas 0, Jezzine 0. Finished at **87 life**.
@@ -1032,6 +1074,43 @@ boards rather than killing, which was enough.
   destroyed **Phyrexian Arena** with its Heavy Power Hammer trigger.
 - Grave Pact was not drawn.
 
+### Logged win — 2026-10-27 (3rd game), four-player pod, won on own turn 11 (log turn 40), 13m33s
+
+sleepy 1 — Nadeer 0, Dominic 0, Zessfar 0. Lowest life all game was 36 — never seriously threatened.
+
+**The first logged game where ENGINE 3 actually fired, and it locked the table out for twenty
+turns.** Viridian Longbow + Thornbite Staff, both on **Virtus**, killed roughly **21 creatures**,
+most of them on their controller's own turn as they resolved:
+
+Elephant Token, Barbara Wright, Tireless Provisioner, The Odd Acorn Gang (x2), Nut Collector,
+The Twelfth Doctor (x2), Breeches Eager Pillager, Impulsive Pilferer, Lightning-Rig Crew,
+Steamcore Scholar, Moon-Blessed Cleric, Gilded Goose, Windreader Sphinx, **Jin-Gitaxias**,
+Inquisitive Glimmer, Defiler of Dreams, Warden of Evos Isle, Storm Fleet Aerialist, Spectral Sailor.
+
+**Jin-Gitaxias had Ward {2} and the ward was simply paid.**
+
+**Thornbite worked four turns before the Longbow arrived, because Crypt Ghast was out.** Thornbite
+grants `{2}, {T}: deal 1 damage`, Crypt Ghast makes each Swamp tap for {B}{B}, so one Swamp paid
+for one ping. Four kills on turn 21 that way; Longbow landed turn 25 and made the pings free. See
+the ENGINE 3 note above, which was updated because of this game.
+
+**Avacyn blanked a board wipe.** Dominic cast **The Night of the Doctor** on turn 39 — *"Destroy
+all creatures"* — killing Witch of the Moors, Avacyn, Vampire of the Dire Moon, Virtus and Crypt
+Ghast. Avacyn triggers on *"Avacyn or another nontoken creature you control"* dying, **including
+herself**, so all five triggers went on the stack and **all five creatures returned at the next end
+step.** The wipe cost nothing. sleepy untapped and cast Torment of Hailfire for X=14 to finish
+Dominic and Nadeer.
+
+**Engine 4 ran alongside it.** Commander's Plate equipped turn 17; Virtus halvings on turns 21, 25,
+29 and 37 — Zessfar 40 -> 18, Dominic 37 -> 16, Nadeer 39 -> 17, then Zessfar 16 -> 0.
+
+**The Engine 4 caveat was live this game.** Zessfar was B/G and could legally have blocked Virtus;
+the Plate's protection only covered Dominic (W/U/R) and Nadeer (U/R). Forge chose not to block, but
+a black opponent at the table is exactly the case the Engine 4 entry warns about.
+
+- **Rishadan Brigand made sleepy sacrifice Skullclamp** on turn 19, before it ever equipped anything.
+- Grave Pact was not drawn. (See the caveat at the top of this section.)
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1043,11 +1122,17 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-26 (4th) | Not drawn | — | |
 | 2026-10-27 | Cast turn 39 | **1** (turn 39) | Fired the same turn, on the Black Widow trade that sparked the kill — an edict on all three at the moment the loop went off. |
 | 2026-10-27 (2nd) | Not drawn | — | |
+| 2026-10-27 (3rd) | Not drawn | — | |
 
-**Two triggers across four games, drawn in two of them.** Both were real, but this is below what was argued
-for when it was added. Not a verdict on three games; revisit after a few more. The honest read so
-far is that it is a fine card that has not yet been the reason a game was won, where Viridian
-Longbow and Torment of Hailfire both have.
+**This table covers LOGGED games only, which are a subset of the games actually played.** The owner
+pastes some match logs into these sessions and not others, so a blank row means "not in a log I
+saw", not "did not happen".
+
+**Owner's correction, 2026-10-27: Grave Pact has been used and has performed in games not captured
+here.** An earlier version of this section read the logged sample as evidence the card was
+underperforming and said it "has not yet been the reason a game was won." That conclusion was drawn
+from a biased sample and is withdrawn. The per-game rows below are still accurate as far as they
+go; they just do not support a verdict either way.
 
 ## Swaps from collection, 2026-09-30
 
