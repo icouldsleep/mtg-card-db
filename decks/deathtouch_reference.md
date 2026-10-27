@@ -90,7 +90,7 @@ added 2026-10-27** after it won a game outright and turned out not to be in this
 
 | Card | Cost | Notes |
 |---|---|---|
-| **Vito, Thorn of the Dusk Rose** | {2}{B} | Targeted, loses *that much*. Also `{3}{B}{B}`: mass lifelink — its own spark |
+| **Vito, Thorn of the Dusk Rose** | {2}{B} | Targeted, loses *that much*. Also `{3}{B}{B}`: mass lifelink — **the best spark in the deck**, see below |
 | **Enduring Tenacity** | {2}{B}{B} | Targeted, loses *that much*. Recurs itself as an enchantment when it dies |
 | **Marauding Blight-Priest** | {2}{B} | Each opponent loses **1**, not that much — still infinite, just slower per iteration |
 | **South Wind Avatar** | {3}{B} | Each opponent loses 1. Deathtouch body, **and its own spark** (gain life when another creature dies) |
@@ -98,6 +98,16 @@ added 2026-10-27** after it won a game outright and turned out not to be in this
 Any Side A + any Side B = **8 infinite assemblies**. Vito and Enduring Tenacity scale with the
 amount; Blight-Priest and South Wind Avatar tick 1 at a time but still loop forever, and ticking
 one opponent to 0 just moves the loop to the next.
+
+**Vito does three jobs on one card — confirmed in play 2026-10-27.** It is Side A, it is a spark
+source, and its `{3}{B}{B}` mass-lifelink ability turns **any** creature into a spark on demand.
+That last part is the one to remember: with Vito and a Side B card already down, five mana and a
+single point of combat damage from anything you control starts the loop. You do not need to draw a
+spark — Vito *is* the spark button.
+
+**More than one Side A out at once makes the loop faster, not redundant.** Each Side B lifegain
+triggers every Side A card you control. With Vito and Marauding Blight-Priest both out
+(2026-10-27), the targeted opponent took 2 per iteration while the other two took 1.
 
 **Side B is the bottleneck.** Exquisite Blood and Bloodthirsty Conqueror are the ONLY two cards in
 all of mono-black with that text. There are four Side A cards and only two Side B cards, so **the
@@ -581,8 +591,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Eight logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, three on 2026-10-27) — but see the caveat heading the logged-wins section:
+- Playtested, not formally tested. **Nine logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27) — but see the caveat heading the logged-wins section:
   these are pasted games, not the full record. Fastest is own turn 4; slowest is own turn 13.
 
 
@@ -1111,6 +1121,40 @@ a black opponent at the table is exactly the case the Engine 4 entry warns about
 - **Rishadan Brigand made sleepy sacrifice Skullclamp** on turn 19, before it ever equipped anything.
 - Grave Pact was not drawn. (See the caveat at the top of this section.)
 
+### Logged win — 2026-10-27 (4th game), four-player pod, won on own turn 9 (log turn 33), 26m31s
+
+sleepy 1 — Nadeer 0, Dominic 0, Zessfar 0. **Comboed off at 8 life** — the closest the deck has come
+to losing in any logged game. Finished at **47**.
+
+**What nearly killed him:** Dominic ran **Cleon, Merry Champion** (double strike) with **Kediss,
+Emberclaw Familiar** — *"Whenever a commander you control deals combat damage to an opponent, it
+deals that much damage to each other opponent."* On turn 24 Cleon was pumped with Invigorated
+Rampage and connected for 6 twice through double strike; sleepy went 24 -> 18 -> 8 in one combat,
+and Kediss dealt 24 of collateral to each of Nadeer and Zessfar at the same time.
+
+**The spark was Vito's activated ability, bought on purpose.** Exquisite Blood, Vito and Marauding
+Blight-Priest were all on the battlefield with no life-change event to start the loop. sleepy paid
+`{3}{B}{B}` for **Vito's mass lifelink**, used **Rogue's Passage** to make Virtus unblockable, and
+attacked for **1 damage**. Lifelink gained 1 life, and that was the whole spark.
+
+**Two Side A cards doubled the rate.** Each Exquisite Blood lifegain triggered both Vito (targeted,
+loses that much) and Blight-Priest (each opponent loses 1), so Dominic took 2 per iteration and the
+others 1. Roughly 40 iterations — Nadeer died first at 9, then Zessfar, then Dominic from 40.
+
+This game is why the Engine 1 section above now calls Vito the spark button rather than just a
+Side A card.
+
+- **Viridian Longbow went on Dire Fleet Poisoner**, not Virtus, on turn 17 — no Thornbite this game,
+  so one ping per turn, which still killed Wick the Whorled Mind, Urabrask and Cleon twice.
+- **Kaya's Ghostform returned Virtus** after it traded with an Elemental Token on turn 25, which is
+  the only reason Virtus was available to spark the kill four turns later.
+- **Siege Smash destroyed Extraplanar Lens** on turn 23. It has **split second**, so there was no
+  responding to it.
+- Grave Pact was not in this log. (See the caveat at the top of this section.)
+
+**The takeaway: Engine 1 does not care about the board.** sleepy was at 8 life facing a board
+producing 12+ damage a turn, and the kill cost five mana and one point of lifelink damage.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1123,6 +1167,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-27 | Cast turn 39 | **1** (turn 39) | Fired the same turn, on the Black Widow trade that sparked the kill — an edict on all three at the moment the loop went off. |
 | 2026-10-27 (2nd) | Not drawn | — | |
 | 2026-10-27 (3rd) | Not drawn | — | |
+| 2026-10-27 (4th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
