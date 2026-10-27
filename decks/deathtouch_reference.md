@@ -1,11 +1,11 @@
-# Cards Reference — Virtus the Veiled mono-black deathtouch (NEW / UNBUILT)
+# Cards Reference — Virtus the Veiled mono-black deathtouch
 
-**Status: BUILT AND OWNED, with 10 cards outstanding (9 confirmed by the owner 2026-10-22, plus Grave Pact added 2026-10-26).**
+**Status: BUILT AND OWNED. All 10 outstanding cards acquired — owner confirmed 2026-10-27.**
 Designed Sept 28, 2026. **The owner confirmed the deck was fully built and this list matched his
-physical deck right up until the 2026-10-22 nine-card swap.** Everything in the 100 is in hand
-except the nine cards that swap added, plus Grave Pact.
+physical deck right up until the 2026-10-22 nine-card swap.** As of 2026-10-27 the owner has every
+card in the 100 in hand, including all ten from the 10-22 and 10-26 swaps.
 
-**TO ACQUIRE (10):**
+**ACQUIRED 2026-10-27 (10) — these are the cards going INTO the paper deck:**
 
 ```
 Aetherflux Reservoir      Grave Pact
@@ -15,10 +15,23 @@ Enduring Tenacity         Stensian Sanguinist // Exsanguinate
 Erebos, God of the Dead   Tergrid, God of Fright // Tergrid's Lantern
 ```
 
-**Coming out, back to the collection (10):** Arcane Signet, Archetype of Finality, Black Market,
-Bojuka Bog, Burrog Banemaker, Case of the Gorgon's Kiss, Gonti Lord of Luxury, Hired Poisoner,
-Ravening Warg, Thrill-Kill Assassin. Thornbite Staff is **not** on either list — it was cut and restored in the
-same session, so it never left the deck.
+**Coming out, back to the collection (10) — pair each with its replacement:**
+
+| Out | In |
+|---|---|
+| Archetype of Finality | Tergrid, God of Fright // Tergrid's Lantern |
+| Black Market | Erebos, God of the Dead |
+| Gonti, Lord of Luxury | South Wind Avatar |
+| Ravening Warg | Aetherflux Reservoir |
+| Thrill-Kill Assassin | Enduring Tenacity |
+| Arcane Signet | Ayara, First of Locthwain |
+| Hired Poisoner | Blood Artist |
+| Burrog Banemaker | Stensian Sanguinist // Exsanguinate |
+| Case of the Gorgon's Kiss | Skullclamp |
+| Bojuka Bog | Grave Pact |
+
+**Thornbite Staff is on neither list — do NOT pull it.** It was cut and restored in the same
+session on 2026-10-22, so it never actually left the deck.
 
 Earlier status lines on this file were wrong and are superseded: "No cards acquired, nothing
 sleeved" and "this is a shopping list, not a deck" were stale from the September design pass, and
@@ -515,8 +528,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. See the three logged four-player wins below (2026-10-21,
-  and two on 2026-10-26). Fastest is own turn 4.
+- Playtested, not formally tested. **Six logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, one on 2026-10-27). Fastest is own turn 4; slowest is own turn 13.
 
 
 ## Creature (32)
@@ -869,6 +882,108 @@ working exactly as written above.
 
 **Quietus Spike was cast on turn 3 and never mattered.** Noted only so the log is not read as
 evidence for it.
+
+### Logged win — 2026-10-26 (3rd game), four-player pod, won on own turn 9 (log turn 33), 9m37s
+
+sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Finished at **11 life** — the lowest of any
+logged win, and the first one won from behind.
+
+**Won with Torment of Hailfire X=20**, cast turn 31 off Sol Ring + 5 Snow-Covered Swamps + Cabal
+Coffers + Cabal Stronghold, with **Crypt Ghast and Extraplanar Lens both doubling**. Ochala, out of
+permanents and cards, went 12 -> **-48**. This is the "sitting on Coffers mana with nothing to
+spend it on" complaint finally converted into a win condition.
+
+**Viridian Longbow broke a "can't lose the game" lock — the deck has no other answer.** Ochala had
+**Cloudsteel Kirin** attached to Micromancer: *"Equipped creature has flying and 'You can't lose
+the game and your opponents can't win the game.'"* That is why the log is a wall of
+`Replacement Effect: You can't lose the game` — Ochala sat at -48 and would not die. A free
+instant-speed **South Wind Avatar** deathtouch ping off the Longbow killed Micromancer, the Kirin
+came off, and Ochala and Zyneste died on the spot. **Without the Longbow this game is not won.**
+Second log in a row it has carried; see the 2026-10-22 correction above where it was nearly cut.
+
+**Crypt Ghast extort + South Wind Avatar is a 6-point swing per spell cast** — extort drains 1 from
+each opponent and gains 3, and South Wind Avatar sees that gain and drains 1 more from each.
+
+- **Aetherflux Reservoir** was cast turn 23 and never reached the pay-50 mode; sleepy hovered at
+  11-25 life all game. The Engine 2 kill needs 50 life and this game never got there.
+- **Ochala cast Quietus Spike**, equipped Micromancer, and halved sleepy 22 -> 11.
+
+### Logged win — 2026-10-26 (4th game), four-player pod, won on own turn 11 (log turn 44), 19m04s
+
+sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. **The first game closed by a single card.**
+
+**Torment of Hailfire X=22 killed all three at once**, off **eight Snow-Covered Swamps and nothing
+else**. Extraplanar Lens and Nirkana Revenant each add a {B} per Swamp tapped, so 8 lands produced
+**24 mana** — exactly {22}{B}{B}. The table went from 34 / 30 / 23 to **-17 / -18 / -22**.
+
+**There was no Cabal Coffers this game.** Nykthos, Cabal Ritual and Bubbling Muck were all milled
+out. Eight basics and two doublers paid for it alone.
+
+**Witch of the Moors was the MVP: five end-step triggers, roughly 13 creatures destroyed** across
+the table (Boneyard Aberration, Wicked Wolf, Ohabi Caleria twice, Living Conundrum, Bloodroot
+Apothecary, Selhoff Occultist, three Reassembling Skeletons and more).
+
+**Witch also recurred a card the deck had been milled.** Nirkana Revenant was milled turn 17,
+returned to hand by Witch turn 32, cast turn 36, and became one of the two doublers that paid for
+the Hailfire. Ochala milled sleepy 11 cards and handed one back.
+
+**Stensian Sanguinist's first appearance, and it worked.** Turn 28 it triggered on attack, gave
+Witch of the Moors deathtouch, Witch connected with Ochala for 4, and Stensian **became prepared**.
+It died to Wicked Wolf's fight trigger turn 34 before the free Exsanguinate copy was cast, so the
+preparation was wasted — but the card did what it says.
+
+**Two costs worth recording:**
+- **Feed the Swarm cost 12 life.** Ochala had mutated Mindleecher onto Emblazoned Golem; Feed the
+  Swarm charges the permanent's mana value, and a mutate pile's is the whole stack. 31 -> 19 to
+  kill one creature.
+- **3 poison counters** from Zyneste's Inkmoth Nexus across three attacks. Not close to 10, but
+  poison is a clock this deck cannot interact with or undo.
+
+Grave Pact was not drawn.
+
+### Logged win — 2026-10-27, four-player pod, won on own turn 10 (log turn 39), 8m18s
+
+sleepy 1 — Amy Loafknock 0, Zyneste 0, Ochala 0. Engine 1, and a **new pairing: South Wind Avatar
+x Exquisite Blood.**
+
+**South Wind Avatar sparked its own combo — exactly as the grid predicts.** Black Widow (3/3)
+attacked Zyneste, Sigiled Sentinel blocked, both died. South Wind Avatar's first ability (*"whenever
+another creature you control dies, you gain life equal to its toughness"*) gained 3, which
+triggered its **second** ability (*"whenever you gain life, each opponent loses 1 life"*), which
+Exquisite Blood refunded, which triggered it again. About 36 iterations. Zyneste died first at 20,
+then Amy at 28, then Ochala at 36 — confirming that ticking one opponent to 0 just moves the loop
+to the next.
+
+**The spark was a deathtoucher trading in combat.** With 21 printed deathtouchers whose job is
+exactly that, this is the most repeatable spark the deck has.
+
+**The deck won through a Sunder.** Ochala cast **Sunder** turn 22 — *"Return all lands to their
+owners' hands"*, at instant speed, every land on the table including a freshly played Cabal
+Coffers. sleepy was over hand size at cleanup and discarded **Cabal Stronghold, three Snow-Covered
+Swamps, Exsanguinate and Gray Merchant**. Coffers was never replayed. From turn 23 the deck
+rebuilt one land a turn off basics and still assembled and killed the table by turn 39. **This is
+the 35-land count earning its keep** — a deck that is almost all Swamps refuels from a mass land
+bounce.
+
+- **Phyrexian Arena** ticked every upkeep from turn 15 — nine cards.
+- **Black Widow attacked five times** for 3, drawing a card each time.
+- **Witch of the Moors** got two end-step edicts.
+
+### Grave Pact — running record (added 2026-10-27)
+
+Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
+Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
+
+| Game | Drawn? | Triggers | Notes |
+|---|---|---|---|
+| 2026-10-26 (3rd) | Cast turn 19 | **1** (turn 29) | Dire Fleet Poisoner died blocking; all three opponents sacrificed a **token**. Tergrid was not out, so nothing was stolen. |
+| 2026-10-26 (4th) | Not drawn | — | |
+| 2026-10-27 | Cast turn 39 | **1** (turn 39) | Fired the same turn, on the Black Widow trade that sparked the kill — an edict on all three at the moment the loop went off. |
+
+**Two triggers in two games where it was drawn.** Both were real, but this is below what was argued
+for when it was added. Not a verdict on three games; revisit after a few more. The honest read so
+far is that it is a fine card that has not yet been the reason a game was won, where Viridian
+Longbow and Torment of Hailfire both have.
 
 ## Swaps from collection, 2026-09-30
 
