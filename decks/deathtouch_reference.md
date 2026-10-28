@@ -624,8 +624,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Thirteen logged four-player wins and two logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, four wins and both losses on 2026-10-28) — but see the caveat
+- Playtested, not formally tested. **Fourteen logged four-player wins and two logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, five wins and both losses on 2026-10-28) — but see the caveat
   heading the logged-games section: these are pasted games, not the full record. Fastest win is own
   turn 4; slowest is own turn 13. **Both losses are written up in full below — read them before assuming
   the deck has no weaknesses.**
@@ -1388,13 +1388,15 @@ Viridian Longbow, Foulmire Knight and Rancid Rats**.
 **Commander's Plate was destroyed by Witch Enchanter** on turn 19, one turn after it was equipped,
 and **Enduring Tenacity by Loran of the Third Path** on turn 41.
 
-### Observation: Stensian Sanguinist's prepared copy is never being cast
+### Observation: Forge does not cast Stensian Sanguinist's prepared copy — THE OWNER DOES
 
 Stensian Sanguinist's attack trigger made a creature prepared **four separate times** in this game
-(turns 10, 14, 18 and 22) and **the free Exsanguinate copy was never cast**. Combined with the
-2026-10-26 game where it became prepared and died before cashing it, **the preparation half of this
-card has produced zero value across every logged game**. This may be a Forge AI limitation rather
-than a card problem — flagged as an observation, not a cut proposal.
+(turns 10, 14, 18 and 22) and the free Exsanguinate copy was never cast. Same in the 2026-10-26
+game.
+
+**Owner's correction, 2026-10-28: "I use it when I can."** This is a **Forge AI limitation, not a
+card problem.** The preparation half works fine in his hands. Do not read the sim logs as evidence
+about this card, and do not propose it as a cut on that basis.
 
 ### What the two losses have in common
 
@@ -1402,6 +1404,41 @@ Both were lost to **mass exile / mass removal that the deck cannot rebuild throu
 permanent the removal suite could not answer. Loss #1 was protection (Radiant); loss #2 was a
 static -2/-2 (Elesh Norn) and an exile wipe. The recurring theme is that **the deck recovers from
 spot removal easily and from exile-based sweepers not at all.**
+
+### Logged win — 2026-10-28 (5th game), four-player pod, won on own turn 10 (log turn 33), 7m40s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. **Tergrid's best game by far, and the first log
+showing the Witch of the Moors + Tergrid engine actually running.** Record 14-2.
+
+**WITCH OF THE MOORS + TERGRID STOLE EIGHT CREATURES.** Witch forces each opponent to sacrifice a
+creature at sleepy's end step whenever he gained life that turn; Tergrid puts every nontoken
+permanent they sacrifice onto **his** battlefield. It fired four end steps running:
+
+| Turn | Sacrificed, and taken by Tergrid |
+|---|---|
+| 18 | Mondrak Glory Dominus, Norin Swift Survivalist |
+| 22 | Akiri Line-Slinger, Alora Merry Thief, Kellan the Kid |
+| 26 | Queen of Ice |
+| 29 | Professional Face-Breaker, Picklock Prankster |
+
+By the final turn sleepy was attacking with **ten creatures, five of them stolen** — Mondrak,
+Professional Face-Breaker, Norin, Kellan and Queen of Ice all swung for him. Gabrielle went
+**1 -> -27**.
+
+**AYARA IS WHAT TURNS WITCH OF THE MOORS ON, EVERY TURN.** Witch needs "if you gained life this
+turn." Ayara reads *"whenever Ayara or another black creature you control enters, each opponent
+loses 1 life and you gain 1 life"* — and **every creature in this deck is black**. Casting any
+creature guarantees the Witch trigger. That pairing is more reliable than any lifelink attack and
+should be treated as the default way to switch Witch on.
+
+**Ayara -> Vito was the second engine.** Ayara's 1 life per black creature became a targeted drain
+off Vito (*"whenever you gain life, target opponent loses that much life"*), on top of the 1 each
+Ayara already took. Several creatures cost the table 2-3 life just by arriving.
+
+**Virtus was Path to Exile'd on turn 5** and recast later; the deck did not need him this game.
+
+**Grave Pact was cast turn 21 and never triggered** — no creature of sleepy's died after it
+resolved.
 
 ### Grave Pact — running record (added 2026-10-27)
 
@@ -1422,6 +1459,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (loss) | Not drawn | — | |
 | 2026-10-28 (4th) | Cast turn 22 | **1** (turn 33) | Virtus died blocking; all three opponents sacrificed a creature, at the moment the drain engine came online. |
 | 2026-10-28 (loss 2) | Not drawn | — | |
+| 2026-10-28 (5th) | Cast turn 21 | **0** | Nothing of sleepy's died after it resolved. |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
