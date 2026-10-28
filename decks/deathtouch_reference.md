@@ -228,10 +228,28 @@ two cards.
 
 **Total cost is {1} to cast plus {3} to equip the commander — the cheapest kill in the deck.**
 
-**The caveat, stated plainly: this only reads "unblockable" against opponents with no black
-creatures.** A black deck blocks Virtus all day, and protection does nothing about it. Against a
-black opponent, fall back to **Rogue's Passage** ({4}, {T}: target creature can't be blocked) or
-**Dauthi Embrace** ({B}{B}: target creature gains shadow).
+**The +3/+3 is almost irrelevant — the protection is the whole card.** Virtus's halving does not
+scale with power at all. In the 2026-10-28 game below, Virtus was a **1/1 the entire game** with
+only Basilisk Collar on it, dealt exactly **1 combat damage** per connect, and still took three
+opponents from 40 -> 19, 36 -> 17 and 31 -> 15. One point of damage connecting is the entire
+requirement.
+
+**THE CAVEAT — CORRECTED 2026-10-28. An earlier version of this entry said the hole was black
+creatures. That was wrong and too narrow.**
+
+Commander's Plate grants protection from each colour **not in your commander's colour identity** —
+for mono-black that is white, blue, red and green. **Colourless is not a colour.** So two kinds of
+blocker get through:
+
+- **Black creatures**, as originally noted.
+- **Colourless creatures** — artifact creature tokens (Thopters, Germs, Constructs, Phyrexian
+  Mites), Eldrazi, manlands. In the 2026-10-28 game below, Gai had 1/1 **colourless Thopter tokens**
+  on the board that could legally have blocked Virtus all game; he simply chose not to.
+
+Colourless artifact tokens are far more common than a black deck at most tables, so treat this as a
+real limitation rather than an edge case. Against either, fall back to **Dauthi Embrace**
+({B}{B}: target creature gains shadow — shadow ignores colour entirely) or **Rogue's Passage**
+({4}, {T}: target creature can't be blocked).
 
 **Quietus Spike** ({3}, equip {3}) has the same halving text and grants deathtouch, so it is the
 same engine on a non-commander body — but it does not grant evasion, which is the half that
@@ -591,8 +609,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Nine logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27) — but see the caveat heading the logged-wins section:
+- Playtested, not formally tested. **Eleven logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, two on 2026-10-28) — but see the caveat heading the logged-wins section:
   these are pasted games, not the full record. Fastest is own turn 4; slowest is own turn 13.
 
 
@@ -1155,6 +1173,63 @@ Side A card.
 **The takeaway: Engine 1 does not care about the board.** sleepy was at 8 life facing a board
 producing 12+ damage a turn, and the kill cost five mana and one point of lifelink damage.
 
+### Logged win — 2026-10-28 (1st game), four-player pod, won on own turn 9 (log turn 34), 4m40s
+
+sleepy 1 — Nathaniel 0, Gai 0, Katelyn 0. Fastest game on the clock so far.
+
+**Sheoldred killed two of the three opponents on their own draw steps**, not in combat. *"Whenever
+an opponent draws a card, they lose 2 life."* She landed turn 12 and ticked every opponent for 2
+every turn for ten turns, while gaining sleepy 2 on each of his own draws.
+
+- **Gai died turn 30** — draw step, 2 -> 0.
+- **Katelyn died turn 31** — draw step, 1 -> -1.
+
+sleepy went *up* from 40 to 47 despite taking 11 from Tezzeret. Gai's own **Tezzeret, Master of the
+Bridge** hit the table for 11 each, dropping Katelyn to 3 — he set up Sheoldred to finish both
+himself and his neighbour.
+
+**Engine 4 ran alongside it.** Commander's Plate on Virtus turn 16; halvings on turns 21, 25, 29
+and 33 (Gai 34 -> 15, Katelyn 32 -> 14, Gai 11 -> 2, Nathaniel 18 -> 7).
+
+**This is the game that exposed the colourless hole in Engine 4.** Gai controlled 1/1 **colourless**
+Thopter tokens, which the Plate's protection from W/U/R/G does nothing about. They could have
+blocked Virtus at any point. See the corrected caveat in ENGINE 4 above.
+
+**Rogue's Passage was never drawn or played.**
+
+### Logged win — 2026-10-28 (2nd game), four-player pod, won on own turn 9 (log turn 29), 6m52s
+
+sleepy 1 — Nathaniel 0, Gai 0, Katelyn 0. **A Dauthi Embrace showcase, and the game that settled
+the Minas Morgul question.**
+
+**Dauthi Embrace was cast turn 14 and used every turn after.** Virtus connected turns 18, 22, 26,
+27 and 29 and was never blocked once:
+
+| Turn | Target | After the halving |
+|---|---|---|
+| 18 | Katelyn | 40 -> **19** |
+| 22 | Gai | 36 -> **17** |
+| 26 | Nathaniel | 31 -> **15** |
+| 27 | Nathaniel | 15 -> **6** |
+
+**On the kill turn sleepy paid {B}{B} three times** — shadow on Virtus, Sheoldred *and* Gray
+Merchant — and alpha-struck. **Minas Morgul could not have done that**: one shadow counter at a
+time at {3}{B} each. The winning turn required three creatures unblockable simultaneously.
+
+**Virtus was a 1/1 all game.** No Commander's Plate; Basilisk Collar went on turn 18, which grants
+deathtouch and lifelink but no power. One combat damage per connect, and the halving did all the
+work. This is the evidence behind the "+3/+3 is almost irrelevant" note in ENGINE 4 above.
+
+**Nathaniel killed two opponents for sleepy.** Katelyn died turn 23 and Gai turn 26 to Nathaniel's
+Phyrexian board (Phyrexian Vindicator, Elesh Norn, Essence of Orthodoxy, Incubator tokens). sleepy
+only had to kill one player.
+
+**Elesh Norn** taxed every point of damage sleepy dealt — *"whenever a source an opponent controls
+deals damage to you or a permanent you control, that source's controller loses 2 life unless they
+pay {1}"* — and sleepy paid the {1} rather than take it.
+
+Sheoldred carried the draw-step drain again. Grave Pact was not drawn in either game.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1168,6 +1243,8 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-27 (2nd) | Not drawn | — | |
 | 2026-10-27 (3rd) | Not drawn | — | |
 | 2026-10-27 (4th) | Not drawn | — | |
+| 2026-10-28 (1st) | Not drawn | — | |
+| 2026-10-28 (2nd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
