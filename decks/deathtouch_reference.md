@@ -1890,6 +1890,78 @@ board was intact at death. The deck lost because **a 24-point evasive clock arri
 five turns of a deck that curves out at three mana**, and the single instant that could have
 slowed it was answered by a one-mana counterspell.
 
+### Logged win — 2026-10-28 (12th game), four-player pod, won on log turn 32 (own turn 8), 14m06s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 21-3. **This is the rematch against the
+deck that won LOSS #3 — Gabrielle's Ishai / Bruse Tarl / Kediss. All three of her commanders got
+exiled in one spell.** Also the first game in which **Aetherflux Reservoir fired twice**.
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 3 | 11 | Nykthos, **Vampire Nighthawk** |
+| 4 | 15 | Swamp, **Sheoldred, the Apocalypse** |
+| 5 | 19 | Swamp, **Nirkana Revenant** |
+| 6 | 23 | Night's Whisper, **The Darkness Crystal**, **Virtus**, **Kaya's Ghostform**, **Aetherflux Reservoir** |
+| 7 | 27 | Swamp, **Black Widow**, swing (Virtus halves Ethan 24 -> 12), **White Widow** |
+| 8 | 31 | **The storm turn** — seven spells, Hailfire X=8, Reservoir for 50 |
+
+**THE STORM TURN, SPELL BY SPELL.** Sheoldred (recast after a Cyclonic Rift), Village Rites, Grim
+Tutor, Bubbling Muck, Dark Ritual, Torment of Hailfire, Erebos — seven spells. Aetherflux
+Reservoir's *"whenever you cast a spell, you gain 1 life for each spell you've cast this turn"*
+paid **1+2+3+4+5+6+7 = 28 life**, taking sleepy from 47 to **98**. Then **pay 50: Brady Nitnumb
+30 -> −20**.
+
+**THE MANA — Nirkana Revenant + Bubbling Muck means each Swamp taps for THREE black.** Nirkana
+reads *"whenever you tap a Swamp for mana, add an additional {B}"* and Bubbling Muck adds another
+{B} on top until end of turn. Two Swamps therefore produced **6**, Dark Ritual added **3**, for 9
+available. Torment of Hailfire at X=8 costs {8}{B}{B} = 10 — and **The Darkness Crystal's "black
+spells you cast cost {1} less"** brought it to exactly **9**. Three cards lining up to make the X
+spell castable to the mana, with nothing spare.
+
+**TORMENT OF HAILFIRE X=8 + THE DARKNESS CRYSTAL IS A ONE-SIDED EXILE WIPE. New interaction, not
+previously in this file.** The Crystal reads *"if a nontoken creature an opponent controls would
+die, instead exile it and you gain 2 life."* Every creature the table sacrificed to Hailfire was
+therefore **exiled instead of dying, and each one gained sleepy 2 life**. Eleven creatures went:
+
+**Ishai, Ojutai Dragonspeaker · Bruse Tarl, Boorish Herder · Kediss, Emberclaw Familiar** ·
+Flaming Tyrannosaurus · Leela, Sevateem Warrior · The War Doctor · Kutzil, Malamet Exemplar ·
+Araña, Heart of the Spider · The Eleventh Doctor · Drix Fatemaker · Jace, Vryn's Prodigy
+
+That is **22 life gained** on top of the storm count, plus Whirlwind of Thought, Ghostly Prison,
+Blackblade Reforged, Swiftfoot Boots, two Signets, Stone of Erech and a Vibranium token to
+graveyards, plus five discards. **The deck's answer to the Ishai problem turned out to be the
+Hailfire it already runs.**
+
+**Rules caveat on those three commanders:** CR 903.9a lets a commander's owner move it to the
+command zone instead of being exiled. Forge left Ishai, Bruse Tarl and Kediss in exile; **in paper
+Gabrielle could have put all three back in the command zone and recast them.** The sacrifice to
+Hailfire still happens either way, but do not count on exile being permanent against a commander.
+
+**SHEOLDRED WAS THE CLOCK NOBODY BLOCKED.** *"Whenever you draw a card, you gain 2 life. Whenever
+an opponent draws a card, they lose 2 life."* With three opponents drawing every turn — and Ethan
+looting with Jace, Vryn's Prodigy and The Great Mound on top of that — Sheoldred alone took Ethan
+from 39 to 29 and Gabrielle from 36 to 22 **before a single attack**, while paying sleepy 2 life
+per draw in the other direction. Black Widow's deathtouch draws each gained 2 as well.
+
+**Cyclonic Rift bounced Sheoldred and it simply came back.** Gabrielle cast it **unoverloaded** on
+log turn 30 for a single target. sleepy recast Sheoldred on turn 31 as the first spell of the storm
+turn, which also made it storm spell #1. **Bounce is the removal this deck shrugs off** — worth
+setting next to the exile problem in the losses section: the same card overloaded, or an exile
+effect, is the version that actually costs the deck a game.
+
+**Two Aetherflux activations in one game, which is new.** 98 -> 48 killing Brady on turn 31, then
+sleepy climbed back to 53 on Sheoldred draw triggers and deathtouch connects and fired again on
+**Gabrielle's turn 32 during her draw step**: 53 -> 3, Gabrielle 5 -> −45. The deck's life total
+regenerated 5 points in one round cycle, which was all it needed.
+
+**Kaya's Ghostform went on Virtus on turn 23 and never had to fire** — nobody killed the commander
+this game. Virtus connected twice, halving Ethan 24 -> 12 on turn 27 and Gabrielle 11 -> 5 on
+turn 31, the second one setting up the lethal Reservoir.
+
+**Brady's Stone of Erech exiled sleepy's White Widow** when she was sacrificed to Village Rites —
+*"if a creature an opponent controls would die, exile it instead"* cuts both ways, and it meant no
+Blood Artist-style death value and nothing for The Darkness Crystal to reanimate later.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1917,6 +1989,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (10th) | Not drawn | — | |
 | 2026-10-28 (11th) | Not drawn | — | |
 | 2026-10-28 (loss 3) | Not drawn | — | |
+| 2026-10-28 (12th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
