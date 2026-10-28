@@ -1962,6 +1962,72 @@ turn 31, the second one setting up the lethal Reservoir.
 *"if a creature an opponent controls would die, exile it instead"* cuts both ways, and it meant no
 Blood Artist-style death value and nothing for The Darkness Crystal to reanimate later.
 
+### Logged win — 2026-10-28 (13th game), four-player pod, won on own turn 10 (log turn 38), 10m02s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 22-3. **THORNBITE STAFF FINALLY WENT OFF,
+on Virtus, and Extraplanar Lens is what paid for it. Also the biggest single Virtus halving on
+record: Gabrielle 76 -> 38.**
+
+**THORNBITE STAFF + VIRTUS + EXTRAPLANAR LENS — the machine gun, with the mana worked out.**
+
+Thornbite Staff grants *"{2}, {T}: this creature deals 1 damage to any target"* **and** *"whenever
+a creature dies, untap this creature."* Put it on a deathtouch body and every ping kills, every
+kill untaps, so **{T} is never the limit — mana is.** The Lens, imprinted on a Snow-Covered Swamp
+on turn 11, makes every Swamp tap for {B}{B}, so:
+
+- **Cast the Staff, {2}** — one Swamp.
+- **Equip {4}** — two Swamps. (Virtus is an **Azra Assassin**, not a Shaman, so the free
+  attach-on-Shaman-ETB clause did not apply and the full equip was paid.)
+- **Each ping, {2}** — **one Swamp, one dead creature.**
+
+It fired on three separate turns and killed **eight creatures** without Virtus ever being blocked
+or leaving the board:
+
+| Own turn | Log turn | Pinged to death |
+|---|---|---|
+| 7 | 27 | Robot Token, Spider-Bot |
+| 8 | 31 | Vision Spectral Synthezoid, **Lyra Dawnbringer**, Robot Token |
+| 9 | 35 | **Lyra Dawnbringer** (second copy), Diversion Unit, Ellyn Harbreeze |
+
+**Lyra Dawnbringer, a 5/5 flying lifelink first-striker, died twice to one black mana.** This is
+the same lock the file already records for Crypt Ghast — *each Swamp taps for {B}{B}, exactly
+paying Thornbite's {2}* — and **Extraplanar Lens is now confirmed as the second enabler of it.**
+
+**VIRTUS HALVED 76 TO 38 ON TURN 23 — the largest single halving logged.** Gabrielle was on an
+Angel lifegain build (Bishop of Wings, Seraph Sanctuary, Angelic Field Marshal, Lyra, Battle
+Angels of Tyr) and had climbed to **80**. One unblocked point of damage from a 1/1 took half of it.
+**Virtus gets better against lifegain, not worse** — the halving scales off their total, so every
+point they gain is a point he takes back on the next connect. He halved four times this game:
+76 -> 38, 34 -> 17, 10 -> 5, and Ethan 9 -> 4.
+
+**WHITE WIDOW TURNED THE WHOLE TEAM INTO A CLOCK.** *"Whenever a creature you control with
+deathtouch deals combat damage to a player, put a +1/+1 counter on it"* — permanent growth on
+every connect, across every deathtoucher at once. Hooded Blightfang went **1 -> 2 -> 3 -> 4**
+damage over four swings and Virtus **1 -> 2 -> 3 -> 4**. The final alpha strike was 4+4+3+5 = **16**
+from creatures that cost nine mana in total.
+
+**Hooded Blightfang's attack trigger ran every combat from turn 20 on** — four swings, each
+draining all three opponents 1 and gaining 1. That is where most of Brady's life went while sleepy
+was busy with the other two.
+
+**Torment of Hailfire X=8 on turn 23** — the second X=8 in two games. It took Chronicle of Victory,
+Memory Guardian, Ellyn Harbreeze, Henchbots, Mechanized Production, Angelic Field Marshal, Big
+Mother Mouser, Stridehangar Automaton, **Lyra Dawnbringer**, Automated Artificer, Clan Crafter,
+Battle Angels of Tyr, Falcon's Wing Harness, Swiftfoot Boots, Bishop of Wings, Clockwork Droid and
+**Sol Ring**, plus six discards. **The Darkness Crystal was not out this time**, so these went to
+graveyards rather than exile — the difference between this Hailfire and the previous game's.
+
+**GRAY MERCHANT FOR 9 KILLED ETHAN AND GAINED 18.** Devotion to black was **9** on turn 38. Each
+opponent lost 9 (Ethan 3 -> −6, Brady 16 -> 7) and sleepy gained **the total life lost, not X** —
+two living opponents, so **+18** (38 -> 56). Worth stating plainly: Gary's lifegain multiplies by
+the number of opponents still alive, so casting it *before* the table thins out is worth more.
+
+**Phyrexian Arena ran from turn 15 to the end** — an extra card every upkeep for 1 life, six
+draws across the game, in a deck that wants to hit land drops and keeps gaining the life back.
+
+Deaths in order: **Gabrielle** on turn 35 (Erebos, 2 -> −3), **Ethan** on turn 38 (Gray Merchant,
+3 -> −6), **Brady** on turn 38 (alpha strike, 4 -> −12).
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1990,6 +2056,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (11th) | Not drawn | — | |
 | 2026-10-28 (loss 3) | Not drawn | — | |
 | 2026-10-28 (12th) | Not drawn | — | |
+| 2026-10-28 (13th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
