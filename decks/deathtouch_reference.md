@@ -898,6 +898,29 @@ What this section IS good for: concrete sequences, rules interactions, exact man
 things that actually happened. What it is NOT good for: frequency, win rate, or whether a card is
 pulling its weight.
 
+### THE OWNER'S RULE, 2026-10-28: "Every card has a purpose for when the time arrives."
+
+**This is the single most-repeated mistake made against this deck, and it has been made five times.
+Do not make it a sixth.** A card is not graded on how often it appears in a sample of logs. It is
+graded on what it does in the game where it is the answer.
+
+| Card | What was claimed | What actually happened |
+|---|---|---|
+| **Viridian Longbow + Thornbite Staff** | Argued as a cut, 2026-10-22 | Became ENGINE 3; broke a Cloudsteel Kirin "you can't lose the game" lock that nothing else in the 100 answers |
+| **Grave Pact** | "Has not yet been the reason a game was won" | Withdrawn — drawn from a biased sample |
+| **Aetherflux Reservoir** | "The pay-50 kill rarely fires" | Owner: it fires reliably whenever it and Exquisite Blood are both out |
+| **Stensian Sanguinist** | "The preparation half has produced zero value" | Owner: "I use it when I can" — a Forge AI limitation, not a card problem |
+| **Rogue's Passage** | "The slot is low-impact, not worth chasing an upgrade" | Activated three turns running to push Virtus and then Sidisi through for the kill, 2026-10-28 |
+
+**The rule that follows:** absence from a log is not evidence. A card that does nothing in nine
+games and wins the tenth has done its job. Before describing any card in this deck as
+underperforming, check whether the claim rests on anything other than how often it showed up in
+logs the owner happened to paste — and if it does not, do not make the claim.
+
+This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency, not waste**. Both
+exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
+in there when it is needed."
+
 ### Logged win — 2026-10-21, four-player pod, won turn 25 (round 13), 4m44s
 
 sleepy 1 — Collin Goofgrumble 0, Douglas 0, Jezzine 0. Finished at **87 life**.
