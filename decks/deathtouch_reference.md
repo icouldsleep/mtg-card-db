@@ -200,7 +200,22 @@ kills. Ping a creature -> it dies -> Thornbite untaps -> ping the next. **Destro
 creature in one turn, at instant speed, for zero mana.**
 
 **Thornbite attaches FREE to a Shaman as it enters** — **Vampire Nighthawk is a Vampire Shaman**
-with flying, deathtouch and lifelink — skipping the {4} equip.
+with flying, deathtouch and lifelink — skipping the {4} equip. **Confirmed in play 2026-10-28:**
+Nighthawk was cast turn 33 and Thornbite attached itself on the enters trigger.
+
+**ENGINE 3 + double Side A is a drain engine, not just removal — found 2026-10-28.** With
+**Vampire Nighthawk** carrying Thornbite and **Enduring Tenacity** plus **South Wind Avatar** on
+the battlefield, each iteration is:
+
+1. Pay {2}, tap Nighthawk, ping a creature.
+2. **Deathtouch** kills it.
+3. **Lifelink** gains 1 life.
+4. That gain triggers **Enduring Tenacity** (target opponent loses 1) **and South Wind Avatar**
+   (each opponent loses 1).
+5. The creature dying **untaps Nighthawk** via Thornbite. Repeat.
+
+Not infinite — it costs {2} per ping and needs a legal creature to kill — but it is removal and a
+clock at instant speed on the same activation. Ran five times across two turns in the game below.
 
 **With Crypt Ghast out, Thornbite is a ONE-CARD lock — found 2026-10-27.** Thornbite's own granted
 ability is `{2}, {T}: deal 1 damage to any target`, and **Crypt Ghast makes every Swamp tap for
@@ -609,8 +624,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Twelve logged four-player wins and one logged loss** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, three wins and the loss on 2026-10-28) — but see the caveat
+- Playtested, not formally tested. **Thirteen logged four-player wins and one logged loss** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, four wins and the loss on 2026-10-28) — but see the caveat
   heading the logged-games section: these are pasted games, not the full record. Fastest win is own
   turn 4; slowest is own turn 13. **The loss is written up in full below — read it before assuming
   the deck has no weaknesses.**
@@ -1256,6 +1271,37 @@ Vito's lifelink, and now an unblocked 2/2. **The loop does not care what the boa
 Rogue's Passage was in play from turn 15 and, for the third game running, was never used for
 evasion.
 
+### Logged win — 2026-10-28 (4th game), four-player pod, won on own turn 11 (log turn 38), 28m08s
+
+sleepy 1 — Kylie 0, Amadeus 0, Marcus 0. **Rematch against the exact pod that handed the deck its
+only logged loss, and the longest game on record.** Record 13-1.
+
+**Thornbite Staff auto-attached for the first time in any log.** Vampire Nighthawk cast turn 33,
+Thornbite attached free off the Shaman trigger. See the ENGINE 3 note above, which was expanded
+because of this game — with Enduring Tenacity and South Wind Avatar already out, each {2} ping
+killed a creature, gained 1 off lifelink, drained the table twice, and untapped Nighthawk. Ran five
+times across turns 35-38, eating Tomik Izzet Sparkmage, Sawblade Scamp, an Elemental token, a
+Goblin token and **Hellrider**.
+
+**Grave Pact earned its slot here.** Cast turn 22. On turn 33 Virtus died blocking Generous
+Plunderer and Grave Pact made **all three opponents sacrifice a creature**, while South Wind Avatar
+turned Virtus's own death into life that then drained. This is the card doing what was argued for
+when it was added.
+
+**Virtus halved three times before dying** — Amadeus 34 -> 16, Marcus 40 -> 19, Marcus 8 -> 4 — and
+was a **1/1 the whole time**. No Commander's Plate this game.
+
+**Three permanents were answered in the first nine turns and it did not matter:**
+- **Vandalblast** destroyed Skullclamp (turn 7).
+- **Swords to Plowshares** exiled Tinybones (turn 9).
+- **Aang, Swift Savior** airbended Vampire of the Dire Moon into exile (turn 9).
+
+**Two opponents died to each other.** Marcus died turn 31 to Kylie's attack; Amadeus died turn 37
+to Kylie's **Hellrider** and **Raid Bombardment** attack triggers. sleepy killed only Kylie, on
+turn 38. **Third consecutive game where the deck only had to kill one player** — a recurring
+pattern worth noting: in a four-player pod this deck often wins the last fight rather than all
+three.
+
 ### LOGGED LOSS — 2026-10-28, four-player pod. Marcus won; sleepy died turn 41 at -8.
 
 **The first recorded loss, and the only data this file has on how the deck actually loses.** Worth
@@ -1323,6 +1369,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (2nd) | Not drawn | — | |
 | 2026-10-28 (3rd) | Not drawn | — | |
 | 2026-10-28 (loss) | Not drawn | — | |
+| 2026-10-28 (4th) | Cast turn 22 | **1** (turn 33) | Virtus died blocking; all three opponents sacrificed a creature, at the moment the drain engine came online. |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
