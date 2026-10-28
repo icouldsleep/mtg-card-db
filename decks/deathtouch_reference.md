@@ -624,10 +624,10 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Thirteen logged four-player wins and one logged loss** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, four wins and the loss on 2026-10-28) — but see the caveat
+- Playtested, not formally tested. **Thirteen logged four-player wins and two logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, four wins and both losses on 2026-10-28) — but see the caveat
   heading the logged-games section: these are pasted games, not the full record. Fastest win is own
-  turn 4; slowest is own turn 13. **The loss is written up in full below — read it before assuming
+  turn 4; slowest is own turn 13. **Both losses are written up in full below — read them before assuming
   the deck has no weaknesses.**
 
 
@@ -1352,6 +1352,57 @@ demand, the deck has no answer at all.
 **No changes are being proposed off one loss.** The record is 12-1 and Marcus drew extremely well.
 This entry exists so the failure modes are written down rather than inferred from a wall of wins.
 
+### LOGGED LOSS #2 — 2026-10-28, four-player pod. Marcus won; sleepy died turn 43 at -3.
+
+**Second loss, same opponent as the first (Marcus), different deck — mono-white legends/Praetors.**
+Record 13-2. This one is a different failure mode from loss #1 and worth reading alongside it.
+
+**ELESH NORN, GRAND CENOBITE IS THE SINGLE WORST CARD THIS DECK CAN FACE.**
+*"Other creatures you control get +2/+2. Creatures your opponents control get -2/-2."* Cast turn 36.
+With avg MV 2.78 and a deck full of 1/1s and 2/2s, **-2/-2 kills most of the list on arrival**:
+- It immediately killed Virtus (1/1) and three of Kylie's creatures on resolution.
+- **Marauding Blight-Priest** (3/2) was cast turn 37 and **died instantly**.
+- **Virtus was recast on turns 40 AND 42 and died instantly both times.** Three casts, three deaths,
+  no damage dealt.
+
+There is no answer to it in the 100 — Go for the Throat and Snuff Out can target it, but it was
+never removed, and the deck's own creatures cannot survive to block.
+
+**FAREWELL wiped everything to EXILE.** Turn 24, Marcus chose all four modes: exile all artifacts,
+creatures, enchantments and graveyards. sleepy lost **Virtus, Nighthawk Scavenger, Stensian
+Sanguinist, Sol Ring and Swiftfoot Boots** in one card. Because it is **exile**, neither Avacyn nor
+Kaya's Ghostform could recover any of it — the same hole loss #1 exposed, hit far harder.
+
+**Thalia, Heretic Cathar** (turn 31) — *"Creatures and nonbasic lands your opponents control enter
+tapped"* — meant every creature sleepy cast from turn 31 on **arrived tapped and could not block**,
+while Marcus built a lethal board.
+
+**Torment of Hailfire was countered by Spell Pierce** on turn 31. sleepy had tapped six Swamps for
+X and could not pay the {2}. **The deck's biggest mana sink is a noncreature spell with no
+protection.**
+
+**Amadeus's Ruin Crab milled roughly 18 cards** off the top across the game, including **Cabal
+Coffers, Nykthos, Erebos, Exsanguinate, Read the Bones, Thornbite Staff, South Wind Avatar,
+Viridian Longbow, Foulmire Knight and Rancid Rats**.
+
+**Commander's Plate was destroyed by Witch Enchanter** on turn 19, one turn after it was equipped,
+and **Enduring Tenacity by Loran of the Third Path** on turn 41.
+
+### Observation: Stensian Sanguinist's prepared copy is never being cast
+
+Stensian Sanguinist's attack trigger made a creature prepared **four separate times** in this game
+(turns 10, 14, 18 and 22) and **the free Exsanguinate copy was never cast**. Combined with the
+2026-10-26 game where it became prepared and died before cashing it, **the preparation half of this
+card has produced zero value across every logged game**. This may be a Forge AI limitation rather
+than a card problem — flagged as an observation, not a cut proposal.
+
+### What the two losses have in common
+
+Both were lost to **mass exile / mass removal that the deck cannot rebuild through**, plus a
+permanent the removal suite could not answer. Loss #1 was protection (Radiant); loss #2 was a
+static -2/-2 (Elesh Norn) and an exile wipe. The recurring theme is that **the deck recovers from
+spot removal easily and from exile-based sweepers not at all.**
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1370,6 +1421,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (3rd) | Not drawn | — | |
 | 2026-10-28 (loss) | Not drawn | — | |
 | 2026-10-28 (4th) | Cast turn 22 | **1** (turn 33) | Virtus died blocking; all three opponents sacrificed a creature, at the moment the drain engine came online. |
+| 2026-10-28 (loss 2) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
