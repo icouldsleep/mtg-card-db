@@ -122,7 +122,14 @@ life-change event happens. **22 cards in the deck can be that spark:**
   Nighthawk Scavenger, Qarsi Revenant, Sheoldred the Apocalypse (every card you draw), South Wind
   Avatar, The Darkness Crystal, Vampire Nighthawk, Vampire of the Dire Moon, Vito (mass lifelink).
 - *An opponent loses life:* Virtus the Veiled (half their life), Quietus Spike (half their life),
-  Torment of Hailfire, Tergrid's Lantern.
+  Torment of Hailfire, Tergrid's Lantern, **Hooded Blightfang** (each opponent loses 1 on attack).
+
+**Hooded Blightfang appears in both lists on purpose — amended 2026-10-28 after the 11th game.**
+Its single attack trigger is simultaneously a lifegain event and a life-loss event on every
+opponent, so it sparks Side A *and* Side B. **It is the only card in the deck that starts the loop
+from either direction, which means it does not matter which half of the engine you drew.** It also
+triggers on declaring the attack, not on damage, so blockers and post-blocker removal cannot
+stop it.
 
 That is 22 **distinct cards**. An earlier line in this file counts "32" — that figure counts
 trigger instances, since several of these cards provide more than one. Both are correct; this one
@@ -1750,6 +1757,63 @@ Aetherborn to Diabolic Intent; turn 11, **Brady cast Reanimate on it** and took 
 graveyard. Recording the interaction, not arguing the card — Intent tutored what it was cast for
 and a reanimator opponent happened to be sitting downstream of the graveyard.
 
+### Logged win — 2026-10-28 (11th game), four-player pod, won on own turn 13 (log turn 25), 10m00s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 20-2. **ENGINE 1 off Exquisite Blood +
+Marauding Blight-Priest, and the spark was Hooded Blightfang's attack trigger. That trigger fires
+BOTH halves of the engine by itself — see the correction below.**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 1 | Swamp |
+| 3 | 5 | Swamp, **Thornbite Staff** |
+| 5 | 9 | Rogue's Passage, **Hooded Blightfang** |
+| 7 | 13 | Urborg, **Liliana of the Dark Realms**, +1 for a Swamp |
+| 9 | 17 | Swamp, **Tergrid**, Blightfang swings at Gabrielle |
+| 11 | 21 | Swamp, **Exquisite Blood** (Side B), Blightfang swings again |
+| 13 | 25 | Swamp, **Diabolic Intent**, **Marauding Blight-Priest** (Side A), swing — **loop** |
+
+**The kill.** Both halves were down for the first time on turn 25. Hooded Blightfang attacked Brady
+alone, and its trigger — *"whenever a creature you control with deathtouch attacks, each opponent
+loses 1 life and you gain 1 life"* — did everything at once: the **1 life gained** triggered
+Blight-Priest, and the **1 lost by each of three opponents** triggered Exquisite Blood three times.
+From there it never stopped. Deaths in order: **Ethan, Gabrielle, Brady.** sleepy finished at
+**76 life** from 36.
+
+**CORRECTION TO THE SPARK LIST ABOVE — Hooded Blightfang belongs in BOTH halves of it, not just
+"you gain life."** Its one trigger is simultaneously a lifegain event (fires Side A: Vito, Enduring
+Tenacity, Blight-Priest, South Wind Avatar) and a life-loss event on every opponent (fires Side B:
+Exquisite Blood, Bloodthirsty Conqueror). **It is the only card in the deck that sparks the engine
+from either direction, so it does not care which half you drew.** It also triggers on **declaring
+the attack**, not on damage, so no blocker, removal-at-instant-speed-after-blockers or fog stops
+it once attackers are declared. The spark list has been amended.
+
+**Three more things this game establishes about Blightfang:** it has now been the finisher
+(2026-10-28 9th game, killed Ethan for 1 combat damage), the grind engine (6th game), and the
+combo spark (this one). One {2}{B} 1/4.
+
+**Exquisite Blood sat alone for one full turn cycle and did nothing but gain life.** Cast turn 21,
+it turned the Blightfang trigger into +3 and the combat damage into +1 — the engine is genuinely
+inert without a Side A, exactly as the grid says.
+
+**Tergrid was Chaos Warped one turn after landing.** Cast turn 17, shuffled into the library by
+Brady on turn 18. She has now been removed in three consecutive logged games — Elspeth, arriving
+after the Hailfire, and now Chaos Warp — without a trigger. Recording what happened; nothing here
+argues about the card.
+
+**Thornbite Staff was cast turn 5 and never attached** — no Shaman was cast all game, and the
+{2}-to-attach only happens on a Shaman's ETB. Noted for the record.
+
+**Liliana of the Dark Realms got +1 once (fetching a Swamp) and died on turn 16** to Mausoleum
+Wanderer and Siren Stormtamer, two 1/1 fliers, from 4 loyalty.
+
+**Diabolic Intent's sacrifice paid for itself this time.** Turn 25, sacrificing **Blood Artist** to
+cast it triggered Blood Artist's own death ability (Gabrielle −1, sleepy +1), which Exquisite Blood
+then turned into another +1. The tutor cost one card and drained the table on the way out.
+
+**Gabrielle mulliganed to five** on a mono-blue fliers deck and still hit sleepy for 9 on turn 24
+with Siren Stormtamer, Ray Fillet and Vulture — the only real damage sleepy took all game.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1775,6 +1839,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (8th) | Not drawn | — | |
 | 2026-10-28 (9th) | Not drawn | — | |
 | 2026-10-28 (10th) | Not drawn | — | |
+| 2026-10-28 (11th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
