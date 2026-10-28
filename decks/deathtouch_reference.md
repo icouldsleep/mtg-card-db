@@ -261,6 +261,10 @@ blocker get through:
   Mites), Eldrazi, manlands. In the 2026-10-28 game below, Gai had 1/1 **colourless Thopter tokens**
   on the board that could legally have blocked Virtus all game; he simply chose not to.
 
+**CONFIRMED IN PLAY, 2026-10-28 (9th game).** Ethan blocked Plate-equipped Virtus with **Blight
+Herder**, a {5} colourless Eldrazi Processor 4/5. Protection from W/U/R/G did nothing; the block
+was legal and the 1/1 commander died to it. An opponent has now actually taken this block.
+
 Colourless artifact tokens are far more common than a black deck at most tables, so treat this as a
 real limitation rather than an edge case. Against either, fall back to **Dauthi Embrace**
 ({B}{B}: target creature gains shadow — shadow ignores colour entirely) or **Rogue's Passage**
@@ -1607,6 +1611,74 @@ it at sleepy. Gabrielle spent the game hitting Ethan. **Dauntless Scrapbot exile
 graveyard on turn 12**, which would have mattered against the Tergrid/Ghostform lines and did not
 here.
 
+### Logged win — 2026-10-28 (9th game), four-player pod, won on own turn 19 (log turn 38), 20m10s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 18-2. **The Engine 4 colourless-blocker
+caveat was confirmed live in this game — see below. It is no longer theoretical.**
+
+No Engine 1 and no Engine 2 piece was ever drawn. This was **Virtus + Commander's Plate, Vito's
+lifelink turn, and a Hooded Blightfang grind**, and all three mattered.
+
+**Build-up:**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 2 | 3 | Swamp, **Commander's Plate** ({1}) |
+| 6 | 11 | Swamp, **Grim Tutor** (−3 life) |
+| 8 | 15 | Swamp, **Extraplanar Lens**, imprinting a Snow-Covered Swamp |
+| 10 | 19 | Swamp, **Qarsi Revenant**, **Ayara, First of Locthwain** |
+| 12 | 23 | Swamp, **Virtus the Veiled**, **Plate equipped** (equip commander {3}), **Vito** |
+| 14 | 27 | Swamp, Vito's **{3}{B}{B} mass lifelink**, swing |
+| 16 | 31 | **Black Widow, Deadly Hunter**, alpha strike — **Brady dies** |
+| 17 | 34 | Swamp, swing at Gabrielle, **Nighthawk Scavenger** / Nykthos the turn before |
+| 18 | 36 | **Sol Ring**, **Hooded Blightfang**, swing — Virtus dies to a colourless blocker |
+| 19 | 38 | Swing — **Hooded Blightfang kills Ethan with 1 combat damage** |
+
+**THE COLOURLESS HOLE IN COMMANDER'S PLATE JUST HAPPENED. Turn 36: Ethan blocked Plate-equipped
+Virtus with BLIGHT HERDER — a {5} Eldrazi Processor, 4/5, colours `[]`.** Protection from white,
+blue, red and green did nothing. Virtus dealt 4 deathtouch damage and killed it; Blight Herder
+dealt 4 back and killed the 1/1 commander. This is the exact failure mode written into the
+corrected Engine 4 caveat on 2026-10-28, and this is the first log in which an opponent actually
+took the block. **Colourless blockers are not an edge case.**
+
+Before that, the Plate did its job for four turns and three halvings:
+
+- **Turn 27** — Virtus unblocked on Gabrielle for 4, halving **27 -> 13**.
+- **Turn 31** — Virtus unblocked on Brady; Vito's drain took him 4 -> 1, then the halving took
+  **1 -> 0**. **Virtus killed Brady.**
+- **Turn 34** — Virtus unblocked on Gabrielle for 8, halving **4 -> 2**.
+
+**Ethan's own two cards aimed sleepy's commander at Gabrielle and doubled him doing it.**
+**Baeloth Barrityl, Entertainer** (2/5) goads every opposing creature with power under 2 — that
+is Virtus, Vito and Hooded Blightfang — forcing them to attack and to attack *someone other than
+Ethan*. **Death Kiss** then reads *"whenever a creature an opponent controls attacks one of your
+opponents, double its power until end of turn."* So on turn 34 Virtus was goaded onto Gabrielle
+and swung as an **8/8**. Ethan set up the hit that put her to 2, then killed her himself with
+**Fireball X=2** on turn 35. sleepy killed one player directly; the pod did the second.
+
+**Vito's mass-lifelink turn is the play to remember.** Turn 27, {3}{B}{B}: Qarsi Revenant hit Brady
+for 3 and Virtus hit Gabrielle for 4, and because Vito reads *"whenever you gain life, target
+opponent loses that much life,"* the 7 life gained became **7 more life off Ethan** (33 -> 26) on
+top of Virtus halving Gabrielle. One activation, three opponents hit, one combat.
+
+**Hooded Blightfang finished the game by itself.** It attacks alongside deathtouchers and reads
+*"whenever a creature you control with deathtouch attacks, each opponent loses 1 life and you gain
+1 life"* — note **attacks**, not connects, so blocking does not stop it. Turn 38, four deathtouch
+attackers = four triggers, Ethan **5 -> 1** before blockers. Ethan blocked Qarsi, Black Widow and
+Nighthawk and left the 1/4 Snake unblocked. **1 combat damage, Ethan 1 -> 0.**
+
+**Snow-Covered Swamps paid for themselves.** Extraplanar Lens imprinted one on turn 15 and no
+opponent ran a single snow land — Ethan on Mountains/Forests, Gabrielle on Plains, Brady on
+Forest/Mountain/Breeding Pool. The whole table's basics were live for a normal Lens and dead
+against this one.
+
+**Natural lifelink carried the life total, not a single drain engine.** Qarsi Revenant, Nighthawk
+Scavenger and Gifted Aetherborn all have lifelink printed. sleepy went 40 -> 77 without Exquisite
+Blood, Bloodthirsty Conqueror or Aetherflux Reservoir ever appearing.
+
+Tutors used: **Grim Tutor** turn 11, **Diabolic Intent** turn 36 (sacrificing the Gifted Aetherborn
+cast the same turn). **Night's Whisper** turn 36 for two more.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1630,6 +1702,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (6th) | Not drawn | — | |
 | 2026-10-28 (7th) | Not drawn | — | |
 | 2026-10-28 (8th) | Not drawn | — | |
+| 2026-10-28 (9th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
