@@ -609,9 +609,11 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Twelve logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, three on 2026-10-28) — but see the caveat heading the logged-wins section:
-  these are pasted games, not the full record. Fastest is own turn 4; slowest is own turn 13.
+- Playtested, not formally tested. **Twelve logged four-player wins and one logged loss** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, three wins and the loss on 2026-10-28) — but see the caveat
+  heading the logged-games section: these are pasted games, not the full record. Fastest win is own
+  turn 4; slowest is own turn 13. **The loss is written up in full below — read it before assuming
+  the deck has no weaknesses.**
 
 
 ## Creature (32)
@@ -867,7 +869,7 @@ Results to date, Forge AI piloting both sides:
   [27.2%, 49.5%]. Par is 33.3% and the interval contains it, so all three decks are statistically
   indistinguishable.
 
-### READ THIS BEFORE DRAWING CONCLUSIONS FROM THE LOGS BELOW
+### READ THIS BEFORE DRAWING CONCLUSIONS FROM THE GAMES BELOW
 
 **These are games the owner pasted into a chat session. They are NOT a complete play record.** He
 plays far more games than he pastes, and which ones get pasted is arbitrary.
@@ -1254,6 +1256,56 @@ Vito's lifelink, and now an unblocked 2/2. **The loop does not care what the boa
 Rogue's Passage was in play from turn 15 and, for the third game running, was never used for
 evasion.
 
+### LOGGED LOSS — 2026-10-28, four-player pod. Marcus won; sleepy died turn 41 at -8.
+
+**The first recorded loss, and the only data this file has on how the deck actually loses.** Worth
+more attention than any single win. Marcus was W/G Angels; Kylie was B/R pirates/sacrifice; Amadeus
+was W/B lifegain.
+
+**Order of events:**
+
+1. **Virtus was exiled on turn 10** by Kylie's **Epic Downfall** (*"Exile target creature with mana
+   value 3 or greater"*). Exile, so **Kaya's Ghostform did nothing**. Virtus was not recast until
+   turn 33 — **six of sleepy's own turns with no commander**, and Engine 4 offline for most of the
+   game.
+2. **Vito died to a Lightning Strike** on turn 22. Side A gone.
+3. **Blasphemous Act** on turn 26 dealt 13 to every creature and wiped sleepy's board.
+4. **Both instant-speed removal spells fizzled on the same creature.**
+5. **Side B was never drawn.** No Exquisite Blood, no Bloodthirsty Conqueror anywhere in the log.
+   Engine 1 was never live.
+
+### The removal problem — the most important thing in this log
+
+**Radiant, Serra Archangel** — *"Tap another untapped creature you control with flying: Radiant
+gains protection from the color of your choice until end of turn."* Marcus had a board full of
+Angels, so the ability was **free and repeatable**.
+
+- **Snuff Out** ("destroy target **nonblack** creature") — he made Radiant black. Fizzled, and the
+  4 life was already paid.
+- **Go for the Throat** ("destroy target **nonartifact** creature") — fizzled the same way.
+
+**Every removal spell in this deck says "destroy target," and all three die to protection:** Snuff
+Out, Go for the Throat, **Feed the Swarm**. Against a creature that can grant itself protection on
+demand, the deck has no answer at all.
+
+### Structural weaknesses this loss exposes
+
+- **No fliers to block with, and no board wipe that hit his side.** Marcus ended on **119 life**
+  off Lyra Dawnbringer (gives all other Angels lifelink), Archangel of Thune, Victory's Herald and
+  Ajani. Torment of Hailfire was never drawn.
+- **Deathtouch blocking does not stop first strike.** Lyra Dawnbringer is a 5/5 flying **first
+  strike** lifelinker — it kills a deathtouch blocker before the blocker deals any damage. The
+  deck's main defensive plan is simply off against first strike.
+- **Exiling Virtus answers two of the four engines at once** (Engine 4 and the Virtus halving), and
+  the deck has **no way to return a creature from exile**. Kaya's Ghostform covers dies-or-exiled
+  for the enchanted creature only, and it was not attached at the time.
+- **Engine 1 needs Side B, and Side B is two cards.** Every logged win that used Engine 1 had one
+  of them. This game did not, and the file already flags Side B as the bottleneck — this is what
+  that bottleneck looks like when it bites.
+
+**No changes are being proposed off one loss.** The record is 12-1 and Marcus drew extremely well.
+This entry exists so the failure modes are written down rather than inferred from a wall of wins.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1270,6 +1322,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (1st) | Not drawn | — | |
 | 2026-10-28 (2nd) | Not drawn | — | |
 | 2026-10-28 (3rd) | Not drawn | — | |
+| 2026-10-28 (loss) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
