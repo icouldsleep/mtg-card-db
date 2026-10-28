@@ -624,8 +624,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Fifteen logged four-player wins and two logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, six wins and both losses on 2026-10-28) — but see the caveat
+- Playtested, not formally tested. **Sixteen logged four-player wins and two logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, seven wins and both losses on 2026-10-28) — but see the caveat
   heading the logged-games section: these are pasted games, not the full record. Fastest win is own
   turn 4; slowest is own turn 13. **Both losses are written up in full below — read them before assuming
   the deck has no weaknesses.**
@@ -1421,6 +1421,11 @@ game.
 card problem.** The preparation half works fine in his hands. Do not read the sim logs as evidence
 about this card, and do not propose it as a cut on that basis.
 
+**SETTLED, 2026-10-28 (7th game): Forge did cast it, and it killed a player.** Two Exsanguinates
+resolved in a deck that holds one standalone copy plus Stensian's half — X=8 killed Gabrielle, X=9
+killed Ethan. In the same game Stensian grew itself from 2/2 to 8/8 with White Widow and dealt the
+killing blow. The card is not a liability; the earlier write-ups were wrong.
+
 ### What the two losses have in common
 
 Both were lost to **mass exile / mass removal that the deck cannot rebuild through**, plus a
@@ -1499,6 +1504,47 @@ them.
 **Viridian Longbow moved twice** — onto Blightwing Bandit, then Hooded Blightfang — and sniped
 Akiri Line-Slinger off the board on two separate turns.
 
+### Logged win — 2026-10-28 (7th game), four-player pod, won on own turn 13 (log turn 45), 44m37s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 16-2. **This game is the direct answer to
+the owner's rule above: it was won by Stensian Sanguinist, the card this file twice described as
+producing nothing.**
+
+**STENSIAN SANGUINIST + WHITE WIDOW = A SELF-GROWING CREATURE. New finding, not previously in this
+file.** Stensian's attack trigger can **target itself**, giving itself deathtouch — which then
+qualifies it for White Widow, Yelena Belova's *"whenever a creature you control with deathtouch
+deals combat damage to a player, put a +1/+1 counter on it."*
+
+It attacked on seven separate turns, targeting itself every time, and grew:
+
+**2/2 -> 3/3 -> 4/4 -> 5/5 -> 6/6 -> 7/7 -> 8/8** — and dealt the killing blow, 8 damage to Brady
+Nitnumb.
+
+No equipment, no auras, no tutoring. Two cards that were both already in the deck.
+
+**BOTH EXSANGUINATES WERE CAST. The preparation half finally paid off.** The deck contains exactly
+one standalone **Exsanguinate** and one **Stensian Sanguinist // Exsanguinate**. Two Exsanguinates
+resolved this game:
+
+- **X=8** on turn 35 — killed **Gabrielle, 5 -> -3**.
+- **X=9** on turn 41 — killed **Ethan, 2 -> -7**.
+
+Two resolutions from a deck holding one standalone copy means Stensian's half was cast. Stensian
+became prepared on nearly every attack from turn 12 onward. **The preparation mechanic produced a
+second Exsanguinate and it killed a player.**
+
+**The Darkness Crystal reanimated two opponents' creatures — first time shown in a log.** Its
+replacement exiles opposing nontoken creatures as they die; its {4}{B}{B} ability then puts them
+onto sleepy's battlefield with two +1/+1 counters. **Lurrus of the Dream-Den** (turn 28) and
+**Bastion Protector** (turn 32) both came back on sleepy's side and attacked for him.
+
+**Disruption played through:** Path to Exile took Tinybones (turn 13) and Virtus (turn 35);
+Swords to Plowshares exiled Bloodthirsty Conqueror (turn 30); Merciless Executioner and Accursed
+Marauder each forced a sacrifice that took Virtus and Lurrus.
+
+Bloodthirsty Conqueror was on the battlefield for a stretch but no Side A was ever drawn, so
+Engine 1 never came online. This was all combat and Exsanguinate.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1520,6 +1566,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (loss 2) | Not drawn | — | |
 | 2026-10-28 (5th) | Cast turn 21 | **0** | Nothing of sleepy's died after it resolved. |
 | 2026-10-28 (6th) | Not drawn | — | |
+| 2026-10-28 (7th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
