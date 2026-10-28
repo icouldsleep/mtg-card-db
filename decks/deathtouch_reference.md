@@ -609,8 +609,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Eleven logged four-player wins, zero logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, two on 2026-10-28) — but see the caveat heading the logged-wins section:
+- Playtested, not formally tested. **Twelve logged four-player wins, zero logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, three on 2026-10-28) — but see the caveat heading the logged-wins section:
   these are pasted games, not the full record. Fastest is own turn 4; slowest is own turn 13.
 
 
@@ -1230,6 +1230,30 @@ pay {1}"* — and sleepy paid the {1} rather than take it.
 
 Sheoldred carried the draw-step drain again. Grave Pact was not drawn in either game.
 
+### Logged win — 2026-10-28 (3rd game), four-player pod, won on own turn 6 (log turn 23), 18m43s
+
+sleepy 1 — Nathaniel 0, Gai 0, Katelyn 0. **Second-fastest win on record** (the turn-4 game is still
+the fastest), and the leanest Engine 1 kill yet.
+
+**Everything sleepy cast all game:** Black Widow (turn 11), Nighthawk Scavenger (turn 15),
+Marauding Blight-Priest and Dire Fleet Poisoner (turn 19), Exquisite Blood (turn 23).
+
+**Both earlier threats had already been answered.** Nathaniel's **Rise of the Witch-king** forced
+everyone to sacrifice a creature on turn 12 and took Black Widow; Gai's **Assassin's Trophy** killed
+Nighthawk Scavenger on turn 17. None of it mattered.
+
+**The kill turn:** cast Exquisite Blood, attack Nathaniel with a **2/2 Dire Fleet Poisoner** for 2.
+Exquisite Blood saw an opponent lose 2 -> gained 2 -> Blight-Priest drained each opponent 1 ->
+Exquisite Blood again. Roughly 40 iterations. sleepy went **40 -> 81**; Nathaniel died first, then
+Katelyn and Gai together from 40 each.
+
+**sleepy had two creatures on the board and was behind.** This is the third consecutive Engine 1
+win where the spark was just a small creature connecting — Black Widow trading, Virtus for 1 off
+Vito's lifelink, and now an unblocked 2/2. **The loop does not care what the board looks like.**
+
+Rogue's Passage was in play from turn 15 and, for the third game running, was never used for
+evasion.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1245,6 +1269,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-27 (4th) | Not drawn | — | |
 | 2026-10-28 (1st) | Not drawn | — | |
 | 2026-10-28 (2nd) | Not drawn | — | |
+| 2026-10-28 (3rd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
