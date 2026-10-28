@@ -1679,6 +1679,77 @@ Blood, Bloodthirsty Conqueror or Aetherflux Reservoir ever appearing.
 Tutors used: **Grim Tutor** turn 11, **Diabolic Intent** turn 36 (sacrificing the Gifted Aetherborn
 cast the same turn). **Night's Whisper** turn 36 for two more.
 
+### Logged win — 2026-10-28 (10th game), four-player pod, won on own turn 24 (log turn 47), 1h21m09s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 19-2. **Longest game on record**, beating
+the 1h08m42s grind. **Three opponents, three completely different kills, in three consecutive own
+turns** — and the commander was never cast for the second game running.
+
+| Player | Killed by | Own turn |
+|---|---|---|
+| **Ethan** | **Exsanguinate X=9** (5 -> −4) | 19 |
+| **Gabrielle** | **Aetherflux Reservoir, pay 50** (3 -> −47) | 24 |
+| **Brady Nitnumb** | **Seven-creature alpha strike**, 12 damage (2 -> −10) | 24 |
+
+**EREBOS, GOD OF THE DEAD WAS THE WHOLE GAME.** Cast turn 18 and it attacked or drew cards almost
+every turn after. Three separate parts of the card mattered:
+
+- **Indestructible.** Gabrielle's **Elspeth, Sun's Champion −3** (destroy all creatures with power
+  4 or greater) on turn 43 killed Kodama of the East Tree, Craterhoof Behemoth, Michelangelo and
+  **sleepy's own Tergrid** — and did nothing to a 5/7 Erebos. The deck's answer to a wrath was
+  already on the battlefield.
+- **"Your opponents can't gain life."** Brady tapped **The Great Henge** (*"{T}: Add {G}{G}. You
+  gain 2 life"*) on turns 43 and 45 and gained nothing both times.
+- **{1}{B}, pay 2 life: draw a card.** Used at least five times, including **three activations in
+  a row on the final turn** (81 -> 75) to dig for the Reservoir.
+
+Erebos wore **Basilisk Collar** (deathtouch + lifelink, turn 26) and later **Quietus Spike**
+(halving, turn 41). Collar is what turned every connect into 5 life, which is how the life total
+got high enough for the Reservoir at all. Spike halved Gabrielle **25 -> 12** on turn 41 through
+**Rogue's Passage**, which made the god unblockable for {4}.
+
+**AETHERFLUX RESERVOIR KILLED SOMEONE WITH NO SIDE B ON THE BATTLEFIELD.** No Exquisite Blood, no
+Bloodthirsty Conqueror. sleepy was simply at **75 life** from Collar lifelink, Ayara, Blight-Priest
+and a 27-point Exsanguinate, cast the Reservoir for {4} and immediately **paid 50 (75 -> 25)** to
+kill Gabrielle. The engine-2 combo is the self-refunding version; **this game is the reminder that
+the raw mode is live on its own the moment the deck is past 51**, which this deck gets to on
+lifelink alone.
+
+**TORMENT OF HAILFIRE X=6, TURN 30 — the biggest single spell in any logged game.** Six iterations
+against three opponents. The table paid it off almost entirely in permanents and cards:
+
+- **Gabrielle** lost Felisa, Fang of Silverquill, Aron Benalia's Ruin, Hagra Constrictor and
+  Phyrexian Arena, and discarded Evolving Wilds.
+- **Ethan** lost Talisman of Hierarchy, a Phyrexian Golem token and **five Treasure tokens**.
+- **Brady** lost The Gitrog Ravenous Ride, Bloated Contaminator and Falthis, and discarded Honest
+  Rutstein, Beast Whisperer and Nyxbloom Ancient.
+
+**TERGRID MISSED IT BY TWO OWN TURNS.** Hailfire resolved on **turn 30**; Tergrid, God of Fright
+was cast on **turn 34**. Every one of those sacrifices and discards above would have been put onto
+sleepy's battlefield under Tergrid's trigger. Tergrid then died to Elspeth on turn 43 without ever
+triggering. Nothing to fix in the list — this is a **sequencing note**: when both are in hand, the
+god comes down first and the Hailfire waits a turn.
+
+**AYARA + MARAUDING BLIGHT-PRIEST IS 2 PER OPPONENT PER BLACK CREATURE.** On the turn-44 rebuild,
+four black creatures entered — Nighthawk Scavenger, Marauding Blight-Priest, Dire Fleet Poisoner,
+Blood Artist. Each ETB triggers Ayara (*each opponent loses 1, you gain 1*), and that lifegain then
+triggers Blight-Priest (*each opponent loses 1*). **Brady went 13 -> 7 and Gabrielle 12 -> 7 in one
+main phase**, off creatures that cost five mana in total. Worth remembering as a value line
+independent of any combo.
+
+**What the opponents took off sleepy:**
+
+- **Rite of Oblivion** exiled **Vampire Nighthawk** (turn 17) and, on flashback, **Gifted
+  Aetherborn** (turn 21). Exile again — the recurring hole.
+- **Heritage Reclamation** destroyed **Quietus Spike** (turn 45), after it had already halved
+  Gabrielle once.
+- **Elspeth** took Tergrid.
+
+**Diabolic Intent's sacrifice handed an opponent a creature.** Turn 10, sleepy sacrificed Gifted
+Aetherborn to Diabolic Intent; turn 11, **Brady cast Reanimate on it** and took it off sleepy's
+graveyard. Recording the interaction, not arguing the card — Intent tutored what it was cast for
+and a reanimator opponent happened to be sitting downstream of the graveyard.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1703,6 +1774,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (7th) | Not drawn | — | |
 | 2026-10-28 (8th) | Not drawn | — | |
 | 2026-10-28 (9th) | Not drawn | — | |
+| 2026-10-28 (10th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
