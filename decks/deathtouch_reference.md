@@ -1437,12 +1437,21 @@ resolved in a deck that holds one standalone copy plus Stensian's half — X=8 k
 killed Ethan. In the same game Stensian grew itself from 2/2 to 8/8 with White Widow and dealt the
 killing blow. The card is not a liability; the earlier write-ups were wrong.
 
-### What the two losses have in common
+### What the losses have in common
 
-Both were lost to **mass exile / mass removal that the deck cannot rebuild through**, plus a
-permanent the removal suite could not answer. Loss #1 was protection (Radiant); loss #2 was a
-static -2/-2 (Elesh Norn) and an exile wipe. The recurring theme is that **the deck recovers from
-spot removal easily and from exile-based sweepers not at all.**
+**Losses #1 and #2** were both lost to **mass exile / mass removal that the deck cannot rebuild
+through**, plus a permanent the removal suite could not answer. Loss #1 was protection (Radiant);
+loss #2 was a static -2/-2 (Elesh Norn) and an exile wipe. The recurring theme there is that **the
+deck recovers from spot removal easily and from exile-based sweepers not at all.**
+
+**Loss #3 is a different axis entirely and does not fit that pattern** — nothing of sleepy's was
+removed all game. It was an evasive commander (Ishai, flying, growing off every opponent's spell)
+with a free double-strike grant, killing sleepy with 24 commander damage on his fifth turn. See
+LOGGED LOSS #3 below. Two distinct ways the deck loses, not one:
+
+1. **Exile-based sweepers**, which it cannot rebuild through.
+2. **A fast evasive clock**, which its deathtouch blockers do not deter and its three-mana curve
+   does not race.
 
 ### Logged win — 2026-10-28 (5th game), four-player pod, won on own turn 10 (log turn 33), 7m40s
 
@@ -1814,6 +1823,73 @@ then turned into another +1. The tutor cost one card and drained the table on th
 **Gabrielle mulliganed to five** on a mono-blue fliers deck and still hit sleepy for 9 on turn 24
 with Siren Stormtamer, Ray Fillet and Vulture — the only real damage sleepy took all game.
 
+### LOGGED LOSS #3 — 2026-10-28, four-player pod. Gabrielle won; sleepy died to COMMANDER DAMAGE.
+
+Record 20-3. **A new failure mode. The first two losses were life totals going to zero against mass
+exile. This one was 24 commander damage in two swings from a flier, and sleepy got five turns.**
+
+Match ran 2m41s. Gabrielle **mulliganed to five** and still won. sleepy was eliminated on log turn
+20 — Gabrielle's fifth turn — at 11 life, with the game-loss flag reading *"accumulation of 21
+damage from generals."* Brady Nitnumb went the same way; Ethan was the only player who died to a
+life total.
+
+**ISHAI, OJUTAI DRAGONSPEAKER IS THE CARD.** {2}{W}{U}, 1/1, **flying**, *"whenever an opponent
+casts a spell, put a +1/+1 counter on Ishai."* In a four-player pod that is three opponents feeding
+it. Cast on log turn 12 as a 1/1:
+
+| Log turn | Ishai's power | Event |
+|---|---|---|
+| 16 | 3 | Attacks sleepy with **double strike** (Bruse Tarl) — **3 + 3 = 6** |
+| 20 | 9 | Attacks sleepy with double strike — **9 + 9 = 18**, total **24**, sleepy dead |
+| 23 | 11 | Attacks Brady — 11 |
+| 26 | 13 | Attacks Brady — 13, total 24, Brady dead |
+| 28 | 14 | Attacks Ethan with double strike — 14 + 14, Ethan 27 -> −7 |
+
+**Bruse Tarl, Boorish Herder is the multiplier.** *"Whenever Bruse Tarl enters or attacks, target
+creature you control gains double strike and lifelink until end of turn."* It doubled Ishai every
+single combat and gained Gabrielle the damage back — she finished on **114 life**. Ishai alone is a
+slow clock; Ishai plus a free double-strike grant is a two-turn commander kill.
+
+**sleepy's own spells fed it.** Rancid Rats, Exquisite Blood and Snuff Out each put a counter on
+Ishai. There is no way to play around this short of not casting spells.
+
+**RULES NOTE — Kediss's redirect is NOT commander damage.** Kediss, Emberclaw Familiar reads
+*"whenever a commander you control deals combat damage to an opponent, it deals that much damage
+to each other opponent."* The log labels that as **non-combat damage**, and the 21-damage rule
+counts **combat damage only** (CR 903.10a). So Kediss's 13 to Ethan on turn 26 hit his life total
+but added nothing to any commander-damage tally. Everything that killed sleepy and Brady was real
+combat damage from Ishai.
+
+**WHAT ACTUALLY WENT WRONG — the deck had no answer to a flier, and its one answer got countered.**
+
+sleepy's entire game, five turns:
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 1 | Swamp |
+| 2 | 5 | Swamp, **Demonic Tutor** |
+| 3 | 9 | Swamp, **Swiftfoot Boots**, **Tinybones, the Pickpocket** |
+| 4 | 13 | Swamp, **Rancid Rats**, Boots onto Rancid Rats |
+| 5 | 17 | **Cabal Coffers**, **Exquisite Blood**, attack Gabrielle for 2 |
+
+- **Snuff Out was the correct answer and it was countered.** On log turn 20, with Ishai already at
+  18 commander damage, sleepy cast Snuff Out on **Bruse Tarl** — paying the alternative cost of 4
+  life, which is exactly right, since killing the double-strike granter halves the clock.
+  Gabrielle's **An Offer You Can't Refuse** countered it for {U}. That was the game.
+- **Nothing on sleepy's board could block a flier.** The board was Tinybones (1/1) and Rancid Rats
+  (1/1 with skulk), both ground creatures. The deck's fliers — Nighthawk Scavenger, Qarsi Revenant,
+  Vampire Nighthawk, Hooded Blightfang's deathtouch wall — simply were not drawn in five turns.
+  **Deathtouch is a blocking deterrent and a flying commander ignores it entirely.** A 1/1 flier
+  that grows every time anyone casts anything is the clean counter to a deck whose defence is
+  "attacking into me is a bad trade."
+- **Exquisite Blood landed with no Side A again** (own turn 5) and gained 2 life before sleepy
+  died.
+
+**This loss is not the exile problem.** Nothing of sleepy's was destroyed or exiled all game. The
+board was intact at death. The deck lost because **a 24-point evasive clock arrived faster than
+five turns of a deck that curves out at three mana**, and the single instant that could have
+slowed it was answered by a one-mana counterspell.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1840,6 +1916,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (9th) | Not drawn | — | |
 | 2026-10-28 (10th) | Not drawn | — | |
 | 2026-10-28 (11th) | Not drawn | — | |
+| 2026-10-28 (loss 3) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
