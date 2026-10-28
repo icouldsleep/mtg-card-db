@@ -624,8 +624,8 @@ creature and the deck has only about six.
   owned-versus-needed pass has never been done for this deck; it is the obvious next thing to ask
   the owner for, the way it was done for Kodama and White Angel.
 - Sanguine Bond maybeboard decision.
-- Playtested, not formally tested. **Fourteen logged four-player wins and two logged losses** (2026-10-21,
-  four on 2026-10-26, four on 2026-10-27, five wins and both losses on 2026-10-28) — but see the caveat
+- Playtested, not formally tested. **Fifteen logged four-player wins and two logged losses** (2026-10-21,
+  four on 2026-10-26, four on 2026-10-27, six wins and both losses on 2026-10-28) — but see the caveat
   heading the logged-games section: these are pasted games, not the full record. Fastest win is own
   turn 4; slowest is own turn 13. **Both losses are written up in full below — read them before assuming
   the deck has no weaknesses.**
@@ -1440,6 +1440,42 @@ Ayara already took. Several creatures cost the table 2-3 life just by arriving.
 **Grave Pact was cast turn 21 and never triggered** — no creature of sleepy's died after it
 resolved.
 
+### Logged win — 2026-10-28 (6th game), four-player pod, won on own turn 16 (log turn 44), 1h08m42s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. **By far the longest game on record** and a
+grind, not a combo. Record 15-2.
+
+**Hooded Blightfang was the engine.** *"Whenever a creature you control with deathtouch attacks,
+each opponent loses 1 life and you gain 1 life."* It triggers **on attack, not on damage**, so it
+paid out every single combat regardless of blocks, and with **Exquisite Blood** out each of those
+three separate life losses fed another gain. No Side A was ever drawn, so this was pure incremental
+value rather than Engine 1 — and it was enough.
+
+**ROGUE'S PASSAGE EARNED ITS KEEP HERE — a correction to the running assumption.** Across the
+previous several logs it was never used for evasion, and the Minas Morgul discussion concluded the
+slot was low-impact. **In this game it was activated on three consecutive turns (42, 43, 44)** to
+push Virtus and then Sidisi through a board sleepy could not get past otherwise. The final kill was
+an unblockable Sidisi. Do not treat the slot as dead weight on the strength of the earlier logs.
+
+**sleepy killed two of the three.** Gray Merchant of Asphodel's ETB on turn 30 took **Brady Nitnumb
+3 -> -1**; the final unblockable Sidisi swing took **Gabrielle 1 -> -3**. **Ethan died to
+Gabrielle's commander**, Akiri Line-Slinger, on accumulated commander damage (3 + 16 off a Boros
+Charm double strike + 8 = 27).
+
+**Torment of Hailfire for X=8** on turn 27 stripped Brady and Gabrielle of six permanents between
+them.
+
+**Disruption played through:**
+- **An Offer You Can't Refuse countered Aetherflux Reservoir** (turn 25).
+- **Chandra's Ignition** had Akiri deal 8 to each opponent and each other creature, killing Gifted
+  Aetherborn and taking sleepy 38 -> 30.
+- **Swords to Plowshares exiled Blightwing Bandit** (turn 29).
+- **Gabrielle's own Bojuka Bog exiled sleepy's graveyard** on turn 35 — the same card that was cut
+  from this deck for Grave Pact.
+
+**Viridian Longbow moved twice** — onto Blightwing Bandit, then Hooded Blightfang — and sniped
+Akiri Line-Slinger off the board on two separate turns.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1460,6 +1496,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (4th) | Cast turn 22 | **1** (turn 33) | Virtus died blocking; all three opponents sacrificed a creature, at the moment the drain engine came online. |
 | 2026-10-28 (loss 2) | Not drawn | — | |
 | 2026-10-28 (5th) | Cast turn 21 | **0** | Nothing of sleepy's died after it resolved. |
+| 2026-10-28 (6th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
