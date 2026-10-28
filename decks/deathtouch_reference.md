@@ -1545,6 +1545,68 @@ Marauder each forced a sacrifice that took Virtus and Lurrus.
 Bloodthirsty Conqueror was on the battlefield for a stretch but no Side A was ever drawn, so
 Engine 1 never came online. This was all combat and Exsanguinate.
 
+### Logged win — 2026-10-28 (8th game), four-player pod, won on own turn 11 (log turn 22), 7m18s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 17-2. **Engine 1 killed all three
+opponents in a single trigger chain, from a six-land board, with the commander never cast.**
+
+**Virtus the Veiled was never played.** The name does not appear anywhere in this log. The deck
+won without its commander.
+
+**Six lands, all game.** Snow-Covered Swamp (t2), Snow-Covered Swamp (t6), Snow-Covered Swamp
+(t10), Rogue's Passage (t14), Snow-Covered Swamp (t18), Snow-Covered Swamp (t22) — one per turn
+cycle, no Coffers, no Lens, no Crypt Ghast, no Sol Ring. Every spell cast was paid at exactly the
+mana available that turn. The curve did the work the ramp usually does.
+
+**The kill — ENGINE 1, Marauding Blight-Priest x Bloodthirsty Conqueror:**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 2 | Swamp, **Commander's Plate** (it costs **{1}** — the cheap cast, expensive equip) |
+| 3 | 6 | Swamp, **Dire Fleet Poisoner** |
+| 5 | 10 | Swamp, **Black Widow, Deadly Hunter** |
+| 7 | 14 | Rogue's Passage, **Liliana of the Dark Realms**, +1 for a Swamp |
+| 9 | 18 | Swamp, **Bloodthirsty Conqueror** (Side B) |
+| 11 | 22 | Swamp, **Marauding Blight-Priest** (Side A), **Torment of Hailfire X=1**, alpha strike |
+
+On turn 22 both halves were finally down. Torment X=1 stripped one permanent from each opponent
+(Brady's Power Boost, Ethan's **Sol Ring**, Gabrielle's Clue — all three chose to sacrifice rather
+than take 3). Then Conqueror (5/5), Black Widow (3/3) and Dire Fleet Poisoner (2/2) all attacked
+Brady unblocked for **10**, 33 -> 23.
+
+That 10-point loss was the spark. Conqueror saw it and gained sleepy 10 (43 -> 53), Blight-Priest
+saw the lifegain and drained each opponent 1, Conqueror saw each of those three separate losses and
+gained again — and the loop never stopped. Deaths in order: **Brady, then Ethan, then Gabrielle.**
+sleepy finished at **87 life**.
+
+**Why three opponents makes this loop faster, not just longer:** Blight-Priest drains *each*
+opponent, so one iteration produces **three separate life-loss events**, each of which is its own
+Conqueror trigger, each of which is its own lifegain, each of which triggers Blight-Priest again.
+The chain branches per opponent instead of ticking once. Against a single opponent it is 1 per
+iteration; here it was 3, which is why the whole table died inside one combat step.
+
+**Black Widow, Deadly Hunter is why the combo was in hand.** It drew **5 cards** across turns 10,
+14 and 18 (one per deathtouch connection, 1 life each), for a total self-inflicted cost of 5 life
+that was refunded 50x over. The Conqueror came off the top of a deck being dug through by the
+Black Widow triggers.
+
+**Commander's Plate was never equipped** — no commander to equip it to, and {5} for a non-commander
+equip was never worth a turn. It cost one mana on turn 1 and sat there. Noting what happened, not a
+verdict on the card: the game it is the answer to is the one where Virtus shows up into a board of
+white and blue blockers.
+
+**Log-reading note so this doesn't confuse anyone later:** Gabrielle's **"Liliana of the Dark
+Realms (342)"** that attacked Ethan is **Sarah Jane Smith wearing Psychic Paper**, which lets its
+controller choose a creature card name. sleepy's actual Liliana is card (83) and was killed on
+turn 16 by Dauntless Scrapbot + Viconia after going to 4 loyalty.
+
+**sleepy took 1 point of damage from an opponent all game** (Emry, Lurker of the Loch, turn 16).
+Brady did essentially nothing — Jessica Jones on turn 15 and a Power Boost. Ethan built a UB
+artifact engine (Emry, Etherium Sculptor, Ashnod's Altar, Talisman, Junk Diver) and never pointed
+it at sleepy. Gabrielle spent the game hitting Ethan. **Dauntless Scrapbot exiled every opponent's
+graveyard on turn 12**, which would have mattered against the Tergrid/Ghostform lines and did not
+here.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -1567,6 +1629,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (5th) | Cast turn 21 | **0** | Nothing of sleepy's died after it resolved. |
 | 2026-10-28 (6th) | Not drawn | — | |
 | 2026-10-28 (7th) | Not drawn | — | |
+| 2026-10-28 (8th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
