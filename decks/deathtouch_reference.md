@@ -939,6 +939,58 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
+### INDEX OF ALL LOGGED GAMES — 27 games, 24-3, last updated 2026-10-29
+
+Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
+log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
+
+| # | Date | Result | Own turn | Clock | Won / lost by |
+|---|---|---|---|---|---|
+| 1 | 10-21 | **W** | 13 | 4m44s | Engine 1 — sparked by an **opponent's** Avacyn attack |
+| 2 | 10-26 | **W** | 13 | 19m08s | **Aetherflux Reservoir + Exquisite Blood** — first recorded |
+| 3 | 10-26 | **W** | 4 | 7m38s | Engine 1 — Blight-Priest × Conqueror. **Fastest by turns** |
+| 4 | 10-26 | **W** | 9 | 9m37s | **Torment of Hailfire X=20**. Won from behind at 11 life |
+| 5 | 10-26 | **W** | 11 | 19m04s | **Torment of Hailfire X=22** off eight Swamps |
+| 6 | 10-27 | **W** | 10 | 8m18s | Engine 1 — **South Wind Avatar sparked its own combo** |
+| 7 | 10-27 | **W** | 10 | 11m13s | **Virtus + Commander's Plate** — Engine 4 discovered here |
+| 8 | 10-27 | **W** | 11 | 13m33s | **Engine 3** — Viridian Longbow + Thornbite, 20-turn lock |
+| 9 | 10-27 | **W** | 9 | 26m31s | Engine 1 — comboed off at **8 life**, closest call in a win |
+| 10 | 10-28 | **W** | 9 | 4m40s | **Sheoldred** killed two opponents on their own draw steps |
+| 11 | 10-28 | **W** | 9 | 6m52s | **Dauthi Embrace** + Virtus halvings |
+| 12 | 10-28 | **W** | 6 | 18m43s | Engine 1 — leanest kill yet |
+| 13 | 10-28 | **W** | 11 | 28m08s | Thornbite auto-attach. Rematch vs. the loss-1 pod |
+| — | 10-28 | **L** | died t41 | — | **Mass exile + protection** (Marcus, W/G Angels) |
+| — | 10-28 | **L** | died t43 | — | **Elesh Norn −2/−2 + Farewell** (Marcus, mono-white) |
+| 14 | 10-28 | **W** | 10 | 7m40s | **Witch of the Moors + Tergrid** stole eight creatures |
+| 15 | 10-28 | **W** | 16 | 1h08m42s | **Hooded Blightfang** grind |
+| 16 | 10-28 | **W** | 13 | 44m37s | **Stensian Sanguinist + White Widow**, grew 2/2 → 8/8 |
+| 17 | 10-28 | **W** | 11 | 7m18s | Engine 1 — six lands, **commander never cast** |
+| 18 | 10-28 | **W** | 19 | 20m10s | Virtus/Plate + **Hooded Blightfang for exactly 1** |
+| 19 | 10-28 | **W** | 24 | **1h21m09s** | Three different kills: Exsanguinate, Aetherflux, combat |
+| 20 | 10-28 | **W** | 13 | 10m00s | Engine 1 — **Blightfang sparked both halves** |
+| — | 10-28 | **L** | died t5 | 2m41s | **21 commander damage** — Ishai + Bruse Tarl double strike |
+| 21 | 10-28 | **W** | 8 | 14m06s | **Hailfire X=8 + Darkness Crystal**; two Aetherflux fires |
+| 22 | 10-28 | **W** | 10 | 10m02s | **Thornbite on Virtus** (Lens-paid) + Gray Merchant for 9 |
+| 23 | 10-29 | **W** | 7 | **3m29s** | Engine 1 — sparked by an **opponent's Scrawling Crawler** |
+| 24 | 10-29 | **W** | 7 | 5m14s | Engine 1 — Vito × Exquisite Blood, **finished on 143 life** |
+
+**Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
+(game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
+(game 9). Highest life: **143** (game 24). Shortest loss: eliminated on **turn 5** (loss 3).
+
+**Individual entries below carry superlatives that were true when written** — several say "fastest
+on record" or "longest on record" and have since been beaten. This table is the authority on
+which game holds what.
+
+**How the wins break down:** Engine 1 (Side A × Side B) closed **11**; Torment of Hailfire **3**;
+Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
+punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
+grind. **Three of the Engine 1 wins were sparked by a card an opponent controlled.**
+
+**How the losses break down:** two to **exile-based sweepers the deck cannot rebuild through**,
+one to **a fast evasive commander** the deck could neither block nor race. See "What the losses
+have in common" above.
+
 ### Logged win — 2026-10-21, four-player pod, won turn 25 (round 13), 4m44s
 
 sleepy 1 — Collin Goofgrumble 0, Douglas 0, Jezzine 0. Finished at **87 life**.
