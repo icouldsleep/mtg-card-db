@@ -946,7 +946,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 28 games, 25-3, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 29 games, 26-3, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -981,6 +981,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 23 | 10-29 | **W** | 7 | **3m29s** | Engine 1 — sparked by an **opponent's Scrawling Crawler** |
 | 24 | 10-29 | **W** | 7 | 5m14s | Engine 1 — Vito × Exquisite Blood, **finished on 143 life** |
 | 25 | 10-29 | **W** | 11 | 13m36s | Engine 1 — sparked by **Crypt Ghast extort** |
+| 26 | 10-29 | **W** | 7 | 14m28s | Engine 1 — Vito × Exquisite Blood **ticking at 2** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -990,7 +991,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **12**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **13**; Torment of Hailfire **3**;
 Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Three of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2246,6 +2247,66 @@ where an opponent removed an opponent for us.**
 gains life every combat it never mattered, but it is the kind of card that would matter against
 the Aetherflux plan, where every point below 51 is a turn of delay.
 
+### Logged win — 2026-10-29 (4th game), four-player pod, won on own turn 7 (log turn 27), 14m28s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 26-3. Same three names as the previous game but
+**three different decks** — Alicia on **W/B infect/toxic**, Eli on W/G Sidar Kondo + Keleth horses,
+Picumar on Bant legends. Engine 1 off **Vito × Exquisite Blood**, sparked by a lifelink connection.
+sleepy peaked at **120**.
+
+**THE VITO LOOP TICKS AT WHATEVER SIZE THE SPARK WAS. New mechanical note.** Gifted Aetherborn
+connected for **2** with lifelink. Vito reads *"whenever you gain life, target opponent loses
+**that much** life"* and Exquisite Blood reads *"whenever an opponent loses life, you gain **that
+much** life"* — both preserve the amount, so the loop ran at **2 per iteration**, not 1. Alicia
+26 → 0, Eli 24 → 0, Picumar 32 → 0, all in twos.
+
+That is twice the speed of the Marauding Blight-Priest version, which is locked to 1 per iteration
+by its own text. **Spark the Vito loop with the biggest lifegain event available** — a lifelink
+hit from a 2- or 3-power creature, an Exsanguinate, a Gray Merchant — and it resolves in half the
+iterations. It does not grow, but it never shrinks below the spark either.
+
+**ALICIA WAS ON INFECT, AND THE DECK'S ENTIRE DEFENCE DOES NOTHING ABOUT POISON.** sleepy finished
+the game on **three poison counters** while at 120 life:
+
+- **Infectious Inquiry** (turn 17) — each opponent gets a poison counter.
+- **Blightbelly Rat** dying (turn 22) — proliferate, a second counter.
+- **Norn's Decree** (turn 27) — *"whenever one or more creatures an opponent controls deal combat
+  damage to you, that opponent gets a poison counter."* **Attacking Alicia is what gave sleepy
+  the third one.**
+
+Three is a long way from ten and this game was never in danger. Recording it because it is a
+threat axis nothing in the deck touches: **no amount of lifegain, no Exquisite Blood, no
+Aetherflux buffer interacts with poison at all**, and Norn's Decree specifically punishes the one
+thing this deck does every turn. A faster toxic draw is worth watching for.
+
+**DUSK KILLED WHITE WIDOW — and the deck's small bodies are normally the reason it survives
+sweepers.** Eli cast **Dusk** (*destroy all creatures with power 3 or greater*) on turn 13. It hit
+exactly one of sleepy's creatures, and only because she had been **pumped to 4/5**: a symmetric
+"each player may put two +1/+1 counters on a creature they control" trigger from Picumar's board
+had let sleepy grow her, then her own connect added a third counter.
+
+**Power-based and toughness-based sweepers cut in opposite directions for this deck.** Dusk,
+Elspeth's −3 and Mass Calcify-style effects mostly miss a board of 1/1s and 2/3s. Elesh Norn,
+Grand Cenobite's **−2/−2** (LOSS #2) kills nearly all of it on sight. The deck's low curve is
+simultaneously its best sweeper protection and its worst.
+
+**ELESH NORN, MOTHER OF MACHINES LANDED ONE TURN BEFORE THE KILL.** Picumar cast her on turn 26:
+*"Permanents entering don't cause abilities of permanents your opponents control to trigger."*
+That **switches off Ayara, Gray Merchant of Asphodel, Blood Artist's ETB value and every
+enters-the-battlefield drain in the deck.** It did not matter here because the spark was combat
+damage, not an ETB — but **the Ayara and Gary lines would have been dead on the spot.** Worth
+knowing by name: this is the one white Praetor that beats the deck's ETB engines without removing
+a single permanent.
+
+**Picumar was running Quietus Spike** (turn 15) — the deck's own Virtus-halving equipment, pointed
+the other way. It never connected.
+
+**Log-reading note:** the trigger the log attributes to Picumar's "The Eleventh Doctor (504)" —
+*"each player may put two +1/+1 counters on a creature they control"* — is not the text on the
+card of that name in `scryfall.db`, which is the {1}{W}{U} Time Lord with "I. AM. TALKING!" The
+same text appears on Picumar's **Leela, Sevateem Warrior** in the same log, so Forge appears to be
+rendering one ability under two names. The counters themselves certainly happened.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2278,6 +2339,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 | Not drawn | — | |
 | 2026-10-29 (2nd) | Not drawn | — | |
 | 2026-10-29 (3rd) | Not drawn | — | |
+| 2026-10-29 (4th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
