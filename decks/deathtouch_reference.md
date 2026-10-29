@@ -120,7 +120,9 @@ life-change event happens. **22 cards in the deck can be that spark:**
   of Locthwain, Basilisk Collar (grants lifelink), Blood Artist, Crypt Ghast (extort), Exsanguinate,
   Gifted Aetherborn, Gray Merchant of Asphodel, Hooded Blightfang (on ATTACK, not on damage),
   Nighthawk Scavenger, Qarsi Revenant, Sheoldred the Apocalypse (every card you draw), South Wind
-  Avatar, The Darkness Crystal, Vampire Nighthawk, Vampire of the Dire Moon, Vito (mass lifelink).
+  Avatar, **The Darkness Crystal** (2 life every time *any* opponent's nontoken creature dies —
+  including in combat between two other players, confirmed 2026-10-29), Vampire Nighthawk,
+  Vampire of the Dire Moon, Vito (mass lifelink).
 - *An opponent loses life:* Virtus the Veiled (half their life), Quietus Spike (half their life),
   Torment of Hailfire, Tergrid's Lantern, **Hooded Blightfang** (each opponent loses 1 on attack),
   **Crypt Ghast** (extort — each opponent loses 1 per spell cast).
@@ -946,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 29 games, 26-3, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 30 games, 27-3, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -982,6 +984,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 24 | 10-29 | **W** | 7 | 5m14s | Engine 1 — Vito × Exquisite Blood, **finished on 143 life** |
 | 25 | 10-29 | **W** | 11 | 13m36s | Engine 1 — sparked by **Crypt Ghast extort** |
 | 26 | 10-29 | **W** | 7 | 14m28s | Engine 1 — Vito × Exquisite Blood **ticking at 2** |
+| 27 | 10-29 | **W** | 8 | 10m57s | Engine 1 — sparked by an opponent's **Vandalblast** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -991,10 +994,10 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **13**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **14**; Torment of Hailfire **3**;
 Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
-grind. **Three of the Engine 1 wins were sparked by a card an opponent controlled.**
+grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
 
 **How the losses break down:** two to **exile-based sweepers the deck cannot rebuild through**,
 one to **a fast evasive commander** the deck could neither block nor race. See "What the losses
@@ -2307,6 +2310,62 @@ card of that name in `scryfall.db`, which is the {1}{W}{U} Time Lord with "I. AM
 same text appears on Picumar's **Leela, Sevateem Warrior** in the same log, so Forge appears to be
 rendering one ability under two names. The counters themselves certainly happened.
 
+### Logged win — 2026-10-29 (5th game), four-player pod, won on own turn 8 (log turn 33), 10m57s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 27-3. Alicia/Eli/Picumar again on a **third set of
+decks** — Alicia on R/W Bloomburrow mice, Eli on R/W tokens, Picumar on white legends. Engine 1
+with **two Side A cards and Bloodthirsty Conqueror**, and **the spark was an opponent's
+Vandalblast — the same spell that destroyed the card doing the sparking.**
+
+**THE KILL, EXACTLY.** On log turn 33 Eli cast **Vandalblast overloaded** — *destroy each artifact
+you don't control*. That simultaneously destroyed sleepy's **The Darkness Crystal** and **Sol
+Ring**, and Picumar's **Adaptive Automaton**, which is an **artifact creature**. The Crystal's
+replacement effect — *"if a nontoken creature an opponent controls would die, instead exile it and
+you gain 2 life"* — still applied to the Automaton, because a replacement effect is locked in as
+the event happens and the Crystal was still on the battlefield at that moment. **It exiled the
+Automaton and gained sleepy 2 life on its own way to the graveyard**, and that lifegain was the
+spark:
+
+**+2 life → Marauding Blight-Priest** (each opponent loses 1) **and Vito** (target opponent loses
+2) **→ Bloodthirsty Conqueror** (gain that much) **→ round again.** Eli died first, then Alicia,
+then Picumar. sleepy finished at **84**.
+
+**THE DARKNESS CRYSTAL IS A PASSIVE SPARK GENERATOR, AND IT FIRES ON OTHER PEOPLE'S COMBAT.** This
+is the part worth keeping. The Crystal turns **every opponent's nontoken creature death** into a
+2-life gain for sleepy — not just creatures sleepy kills. It fired three times this game:
+
+| Log turn | What died | How |
+|---|---|---|
+| 23 | **Valley Questcaller** | Blocked sleepy's Dire Fleet Poisoner |
+| 30 | **Aurora Champion** | Died in **Picumar's attack on Eli** — nothing to do with sleepy |
+| 33 | **Adaptive Automaton** | Killed by **Eli's own Vandalblast** |
+
+Two of those three were events sleepy had no part in. With a Side A and a Side B down, **the
+Crystal means any creature dying anywhere at the table starts the loop.** It belongs in the spark
+list not as a card that gains life but as one that converts the whole table's combat into sparks.
+
+**TWO SIDE A CARDS AT ONCE — second logged instance.** Marauding Blight-Priest (turn 19) and Vito
+(turn 27) were both out when Bloodthirsty Conqueror finally landed on turn 31, so every iteration
+took **1 off each opponent plus 1 more off whoever Vito targeted**. The grid's note that stacked
+Side A makes the loop faster rather than redundant now has a second game behind it.
+
+**Side A was down twelve log turns before Side B.** Blight-Priest on turn 19, Conqueror on turn
+31. For six of sleepy's own turns the deck was holding half an engine and doing almost nothing
+with it — two Dire Fleet Poisoner attacks is the entire combat record of the game. **That is the
+normal shape of these wins and it is why the deck does not need to race.**
+
+**Deserted Temple untapped Cabal Coffers for a double activation on turn 31** — *"{1}, {T}: untap
+target land"* on *"{2}, {T}: add {B} for each Swamp you control."* That one land is what paid for
+Bloodthirsty Conqueror (5) and Virtus (3) in the same turn, and it is the turn the game was won on.
+
+**What the table took off sleepy:** **Stroke of Midnight** killed Blightwing Bandit (turn 30);
+**Vandalblast** took The Darkness Crystal and Sol Ring (turn 33) — and cost Eli the game doing it.
+Nobody touched Marauding Blight-Priest, Vito or the Conqueror.
+
+**Swords to Plowshares and Path to Exile were both cast this game and neither was aimed at sleepy**
+— Eli and Alicia each spent one on Picumar's Suki, Kyoshi Captain. The deck's creatures are
+individually unthreatening enough that premium white removal went elsewhere.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2340,6 +2399,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (2nd) | Not drawn | — | |
 | 2026-10-29 (3rd) | Not drawn | — | |
 | 2026-10-29 (4th) | Not drawn | — | |
+| 2026-10-29 (5th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
