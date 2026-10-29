@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 33 games, 29-4, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 34 games, 30-4, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -988,6 +988,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | — | 10-29 | **L** | died t11 | 1h04m32s | **Six answers + a 92-damage flying strike** (Picumar) |
 | 28 | 10-29 | **W** | 7 | 6m50s | Engine 1 — **Enduring Tenacity × Conqueror, ticking at 5** |
 | 29 | 10-29 | **W** | 10 | 7m23s | **Virtus + Swiftfoot Boots — five halvings, never removed** |
+| 30 | 10-29 | **W** | 8 | 17m44s | Engine 1 — **Darkness Crystal turned a Blasphemous Act into +20 life** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -997,7 +998,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **15**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **16**; Torment of Hailfire **3**;
 Virtus combat/halving **4**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2557,6 +2558,56 @@ damage itself finishes.
 **Ayara contributed two ETB drains** (herself on turn 15, Virtus on turn 19) and then **dealt the
 killing blow to Eli** with 2 combat damage on turn 34.
 
+### Logged win — 2026-10-29 (8th game), four-player pod, won on own turn 8 (log turn 31), 17m44s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 30-4. Engine 1 off **Marauding Blight-Priest ×
+Exquisite Blood**, sparked by a 1/1 Rancid Rats connecting for 1. sleepy peaked at **89**.
+**The game turned on an opponent's board wipe, which The Darkness Crystal converted into +20 life
+and ten exiles.**
+
+**BLASPHEMOUS ACT + THE DARKNESS CRYSTAL — the best single instance of the Crystal on record.**
+On log turn 26 Picumar cast **Blasphemous Act** (*13 damage to each creature*, and it costs {1}
+less per creature on the battlefield, so with twelve out it cost **{R}**). Twelve creatures died.
+The Crystal's replacement — *"if a nontoken creature an opponent controls would die, instead exile
+it and you gain 2 life"* — applied to **ten of them**:
+
+Sovereigns of Lost Alara · Entity Tracker · Nomad Mythmaker · **Kasimir the Lone Wolf** · Usher of
+the Fallen · Adaptive Automaton · **Suki, Kyoshi Captain** · Casey Jones · Michelangelo, Weirdness
+to 11 · Michelangelo, the Heart
+
+**sleepy went 34 → 54 on a symmetric wipe and lost two creatures** (Black Widow and White Widow,
+which went to the graveyard normally — the Crystal only touches opponents' creatures). Ten
+opponent creatures were **exiled rather than killed**, so none of them were recursion targets
+afterwards, and all ten are now reanimation targets for the Crystal's own {4}{B}{B} ability.
+
+**The generalisation worth keeping: the wider the board when a symmetric wipe lands, the better
+the Crystal gets.** It is the one card in the deck that makes an opposing Wrath *good* for sleepy.
+Three consecutive games have now confirmed it as a table-wide engine, and this is the ceiling of
+what that looks like.
+
+**The kill itself was small.** Two turns after the wipe, Marauding Blight-Priest (turn 27) and
+Exquisite Blood (turn 31) came down, and **Rancid Rats — a 1/1 with skulk — attacked Alicia for 1
+unblocked**. Exquisite Blood saw the 1 life lost, Blight-Priest saw the 1 gained, and that was the
+game. Alicia died first, then Eli, then Picumar.
+
+**GO FOR THE THROAT ON GRAND ARBITER AUGUSTIN IV, TURN 15.** The Arbiter reads *"spells your
+opponents cast cost {1} more"* — a hard tax on a deck that wants to cast three and four spells in
+a turn to assemble. Removing it on sight was correct and it stayed gone. Worth noting as a
+priority target: tax effects hurt this deck more than removal does, because the engine needs
+multiple spells to resolve in one window.
+
+**Thornbite Staff was cast on turn 7 and never attached** — no Shaman entered all game, and no
+spare {4} for the hard equip was ever worth the turn. Recorded, not a verdict.
+
+**White Widow grew and then died to the wipe.** She connected on turns 15 and 19, taking two +1/+1
+counters, and was a 3/4 when Blasphemous Act killed her. Nothing to read into it — 13 damage kills
+everything this deck plays regardless of counters.
+
+**Both of sleepy's creature deaths came from the symmetric wipe, not from targeted removal.** The
+only targeted answer aimed at sleepy all game was nothing at all — the table spent Path to Exile
+on Alicia's Aurora Champion and fought among itself. Eli and Alicia traded hits for the first
+twenty turns while sleepy built.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2594,6 +2645,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (loss 4) | Not drawn | — | |
 | 2026-10-29 (6th) | Not drawn | — | |
 | 2026-10-29 (7th) | Not drawn | — | |
+| 2026-10-29 (8th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
