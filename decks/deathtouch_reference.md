@@ -2086,6 +2086,57 @@ Offer You Can't Refuse. Same card, same read, different result.
 
 **3m29s is the fastest match clock logged.** The previous shortest was 4m40s.
 
+### Logged win — 2026-10-29 (2nd game), four-player pod, won on own turn 7 (log turn 25), 5m14s
+
+sleepy 1 — Lacspor 0, Iona 0, Feturn 0. Record 24-3. **A new pod — Lacspor on mono-red Goblins,
+Iona on mono-blue, Feturn on white weenies.** Engine 1 off **Exquisite Blood + Vito, Thorn of the
+Dusk Rose**, sparked by **Ayara** off Sidisi entering. **sleepy declared no attackers all game, for
+the second game running, and finished on 143 life — the highest total in any log.**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 1 | Swamp, **Foulmire Knight** — Swords to Plowshares'd on turn 4 |
+| 2 | 5 | Swamp |
+| 3 | 9 | Swamp, **Ayara, First of Locthwain** — Cyclonic Rifted on turn 11 |
+| 4 | 13 | Swamp, **Liliana of the Dark Realms**, +1 for a Swamp — killed on turn 14 |
+| 5 | 17 | Swamp, **Ayara recast** |
+| 6 | 21 | Swamp, **Hooded Blightfang**, **Vito** (Side A) |
+| 7 | 25 | Cabal Coffers, **Exquisite Blood** (Side B), **Sidisi, Undead Vizier** — **loop** |
+
+**The spark was Ayara off a creature ETB.** Sidisi entered, Ayara fired (*each opponent loses 1,
+you gain 1*), Vito saw the lifegain and drained a target opponent, Exquisite Blood saw the loss and
+gained it back, and round it went. **Ayara is a one-card spark in this deck specifically because
+every creature in the 99 is black** — any creature you cast is the ignition.
+
+**VITO'S LOOP KILLS SEQUENTIALLY; BLIGHT-PRIEST'S KILLS IN PARALLEL. Worth knowing which Side A
+you have.** Vito reads *"whenever you gain life, **target** opponent loses that much life"* — one
+player per iteration — so the loop emptied **Iona** first (35 -> 0), then **Feturn** (29 -> 0),
+then **Lacspor** (35 -> 0), in that order. Marauding Blight-Priest hits *each* opponent per
+iteration and takes the whole table down together. Both are lethal and neither can be responded to
+once it starts, but against a pod the Blight-Priest version is faster in real time, and Vito's
+version walks the table one seat at a time.
+
+**sleepy ended on 143 life.** Previous high in this file was 98. Nothing was spent on it — no
+Aetherflux, no Exsanguinate, just the loop running past lethal.
+
+**Three answers were used on sleepy and only one stuck:**
+
+- **Swords to Plowshares** (Feturn, turn 4) exiled **Foulmire Knight**. Exile again — the only
+  permanent answer anyone found, and it was spent on a one-drop.
+- **Cyclonic Rift** (Iona, turn 11) bounced **Ayara**, **unoverloaded**, for a single target. She
+  was recast on turn 17 and went on to spark the kill. **That is the third logged game where an
+  unoverloaded Rift cost the deck nothing** (Sheoldred in the 12th game, Ayara here) — bounce is
+  the removal this deck shrugs off, and the overloaded version is a different card entirely.
+- **Lacspor's Goblins** killed **Liliana of the Dark Realms** on turn 14 after one +1 activation.
+
+**Mystic Remora taxed sleepy all game and changed nothing.** Iona cast it turn 8 and paid
+cumulative upkeep for six turns; it triggered on Liliana, Exquisite Blood and every opponent's
+noncreature spell. The deck's threats are creatures, so the Remora largely taxed the rest of the
+table on sleepy's behalf.
+
+**Sidisi's exploit was not used** — she entered, nothing was sacrificed, and the search never
+happened. She was cast as a five-mana black creature to trigger Ayara, and that was enough.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2116,6 +2167,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (12th) | Not drawn | — | |
 | 2026-10-28 (13th) | Not drawn | — | |
 | 2026-10-29 | Not drawn | — | |
+| 2026-10-29 (2nd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
