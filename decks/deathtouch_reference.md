@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 30 games, 27-3, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 31 games, 27-4, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -985,6 +985,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 25 | 10-29 | **W** | 11 | 13m36s | Engine 1 — sparked by **Crypt Ghast extort** |
 | 26 | 10-29 | **W** | 7 | 14m28s | Engine 1 — Vito × Exquisite Blood **ticking at 2** |
 | 27 | 10-29 | **W** | 8 | 10m57s | Engine 1 — sparked by an opponent's **Vandalblast** |
+| — | 10-29 | **L** | died t11 | 1h04m32s | **Six answers + a 92-damage flying strike** (Picumar) |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -1515,14 +1516,19 @@ through**, plus a permanent the removal suite could not answer. Loss #1 was prot
 loss #2 was a static -2/-2 (Elesh Norn) and an exile wipe. The recurring theme there is that **the
 deck recovers from spot removal easily and from exile-based sweepers not at all.**
 
-**Loss #3 is a different axis entirely and does not fit that pattern** — nothing of sleepy's was
+**Losses #3 and #4 are a different axis and do not fit that pattern** — nothing of sleepy's was
 removed all game. It was an evasive commander (Ishai, flying, growing off every opponent's spell)
 with a free double-strike grant, killing sleepy with 24 commander damage on his fifth turn. See
 LOGGED LOSS #3 below. Two distinct ways the deck loses, not one:
 
 1. **Exile-based sweepers**, which it cannot rebuild through.
 2. **A fast evasive clock**, which its deathtouch blockers do not deter and its three-mana curve
-   does not race.
+   does not race. **LOSS #4 is this again at scale** — six fliers under True Conviction and
+   Akroma for 92 damage in one combat.
+3. **Being answered piece by piece** (LOSS #4). Six removal spells and two counterspells meant
+   Side A and Side B were never on the battlefield at the same time. **The engines are
+   unprotected two-card assemblies** — no counter backup, no hexproof — so one opponent holding
+   up blue mana is enough to stop the Conqueror resolving.
 
 ### Logged win — 2026-10-28 (5th game), four-player pod, won on own turn 10 (log turn 33), 7m40s
 
@@ -2366,6 +2372,71 @@ Nobody touched Marauding Blight-Priest, Vito or the Conqueror.
 — Eli and Alicia each spent one on Picumar's Suki, Kyoshi Captain. The deck's creatures are
 individually unthreatening enough that premium white removal went elsewhere.
 
+### LOGGED LOSS #4 — 2026-10-29, four-player pod. Picumar won; sleepy died at −45 to a flying alpha strike.
+
+Record 27-4. 1h04m32s. **The first loss in which the deck's engine was taken apart piece by piece
+rather than simply outpaced — six separate answers, including two counterspells — and the first
+loss with a kill of its own on the board (Exsanguinate took Eli out).**
+
+**SIX ANSWERS, AND THEY HIT EVERY RELEVANT CARD:**
+
+| Own turn | Log turn | Answer | What it took |
+|---|---|---|---|
+| 2 | 7 | **Wear** (Alicia) | **Viridian Longbow** — Engine 3, gone the turn after it landed |
+| 3 | 10 | **Path to Exile** (Eli) | **Marauding Blight-Priest** — **Side A, exiled on the turn it was cast** |
+| 4 | 15 | **Vandalblast** (Alicia) | **Extraplanar Lens** |
+| 5 | 19 | **Chaos Warp** (Alicia) | **Nighthawk Scavenger** |
+| 6 | 22 | **Counterspell** (Picumar) | **Bloodthirsty Conqueror — Side B, countered on the stack** |
+| 9 | 33 | **Negate** (Picumar) | **Snuff Out**, aimed at Windreader Sphinx |
+
+**Engine 1 never had both halves on the battlefield at any point in the game.** Side A was exiled
+on turn 10; Side B was countered on turn 22. That is the whole story of the loss in two lines.
+
+**SNUFF OUT HAS NOW BEEN COUNTERED IN TWO OF THE FOUR LOSSES** — An Offer You Can't Refuse in
+LOSS #3, Negate here. It is the deck's only instant-speed removal and it is a **noncreature
+spell**, which is precisely what cheap blue counterspells are held for. Both times it was pointed
+at the card that went on to kill sleepy.
+
+**HOW PICUMAR ACTUALLY KILLED HIM — 92 damage in one combat.** Mono-W/U fliers, stacked three
+deep:
+
+- **True Conviction** — *creatures you control have double strike and lifelink.*
+- **Akroma, Vision of Ixidor** — *at the beginning of each combat, each other creature you control
+  gets +1/+1 for each of flying, first strike, double strike, lifelink, vigilance…* On a board
+  where everything flies and everything has double strike and lifelink from True Conviction, that
+  is **+3/+3 or more to the whole team, every combat**.
+- **Kangee, Sky Warden** — *whenever Kangee attacks, attacking creatures with flying get +2/+0.*
+
+Six fliers attacked on log turn 42. First-strike damage was **13 + 9 + 8 + 8 + 8 = 46**, taking
+sleepy 47 → 1. Then the same creatures dealt it **again** in the regular damage step: 1 → **−45**.
+Picumar gained all of it twice over and finished on **218 life**, from 40.
+
+**This is LOSS #3's failure mode with more copies of it.** Loss #3 was one evasive flier
+(Ishai) killing sleepy with commander damage. This is six, with double strike. **The deck has no
+answer to a wide flying board**: deathtouch deters blocks, not attacks; the only fliers in the 99
+are Nighthawk Scavenger, Qarsi Revenant, Vampire Nighthawk and Hooded Blightfang's reach-less
+wall, and two of those were answered.
+
+**BAELOTH BARRITYL GOADED THE DECK'S UTILITY CREATURES INTO DYING.** Alicia's Baeloth goads every
+opposing creature with power under 2 — which in this deck is most of the board. **Vito (1/3) was
+goaded into attacking Eli on turn 30 and died to a Kasla block. Blood Artist (0/1) was goaded on
+turn 34 and died to a Thopter block.** Goad is a hard counter to a deck built out of small
+creatures that want to sit still and drain: it does not kill them, it makes sleepy kill them.
+Add **Ghostly Prison** (turn 16) taxing the attacks sleepy actually wanted to make, and the deck
+was being pushed into bad combat from both directions at once.
+
+**What did work:** **Exsanguinate X=6** on turn 38 killed Eli (6 → 0) and took sleepy 29 → 47,
+which is the only reason he survived turn 40 at all. **Blood Artist** drained Eli for 1 six
+separate times off other players' creatures dying — a reminder that it works off the whole
+table's combat, not just sleepy's.
+
+**What this loss adds to the pattern.** The three earlier losses were about effects the deck
+cannot rebuild through (exile sweepers) or cannot race (an evasive clock). This one is about
+**being answered on the stack and at sorcery speed, repeatedly, by three players at once**. The
+deck's engines are two- and three-card assemblies with no protection — no counterspell backup, no
+hexproof, nothing that makes Side A or Side B resilient. Against one opponent holding up blue
+mana, the Conqueror simply does not resolve.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2400,6 +2471,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (3rd) | Not drawn | — | |
 | 2026-10-29 (4th) | Not drawn | — | |
 | 2026-10-29 (5th) | Not drawn | — | |
+| 2026-10-29 (loss 4) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
