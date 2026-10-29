@@ -122,12 +122,19 @@ life-change event happens. **22 cards in the deck can be that spark:**
   Nighthawk Scavenger, Qarsi Revenant, Sheoldred the Apocalypse (every card you draw), South Wind
   Avatar, The Darkness Crystal, Vampire Nighthawk, Vampire of the Dire Moon, Vito (mass lifelink).
 - *An opponent loses life:* Virtus the Veiled (half their life), Quietus Spike (half their life),
-  Torment of Hailfire, Tergrid's Lantern, **Hooded Blightfang** (each opponent loses 1 on attack).
+  Torment of Hailfire, Tergrid's Lantern, **Hooded Blightfang** (each opponent loses 1 on attack),
+  **Crypt Ghast** (extort — each opponent loses 1 per spell cast).
+
+**Two cards appear in both lists on purpose — Hooded Blightfang (amended 2026-10-28) and Crypt
+Ghast (amended 2026-10-29).** Extort reads *"each opponent loses 1 life and you gain that much
+life"* — one trigger, both events — so the Ghast sparks Side A and Side B alike, **on every spell
+you cast**, which makes it the most reliably available spark in the deck once it is down.
 
 **Hooded Blightfang appears in both lists on purpose — amended 2026-10-28 after the 11th game.**
 Its single attack trigger is simultaneously a lifegain event and a life-loss event on every
-opponent, so it sparks Side A *and* Side B. **It is the only card in the deck that starts the loop
-from either direction, which means it does not matter which half of the engine you drew.** It also
+opponent, so it sparks Side A *and* Side B — **it does not matter which half of the engine you
+drew** (Crypt Ghast above is the other card with this property; an earlier version of this line
+called Blightfang the only one, which was true until 2026-10-29). It also
 triggers on declaring the attack, not on damage, so blockers and post-blocker removal cannot
 stop it.
 
@@ -939,7 +946,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 27 games, 24-3, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 28 games, 25-3, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -973,6 +980,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 22 | 10-28 | **W** | 10 | 10m02s | **Thornbite on Virtus** (Lens-paid) + Gray Merchant for 9 |
 | 23 | 10-29 | **W** | 7 | **3m29s** | Engine 1 — sparked by an **opponent's Scrawling Crawler** |
 | 24 | 10-29 | **W** | 7 | 5m14s | Engine 1 — Vito × Exquisite Blood, **finished on 143 life** |
+| 25 | 10-29 | **W** | 11 | 13m36s | Engine 1 — sparked by **Crypt Ghast extort** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -982,7 +990,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **11**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **12**; Torment of Hailfire **3**;
 Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Three of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2189,6 +2197,55 @@ table on sleepy's behalf.
 **Sidisi's exploit was not used** — she entered, nothing was sacrificed, and the search never
 happened. She was cast as a five-mana black creature to trigger Ayara, and that was enough.
 
+### Logged win — 2026-10-29 (3rd game), four-player pod, won on own turn 11 (log turn 40), 13m36s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 25-3. Another new pod — **Alicia** on R/G Impact
+Tremors stompy, **Eli** on U/R artifacts, **Picumar** on W/B equipment. Engine 1 off **South Wind
+Avatar × Exquisite Blood**, and **the spark was Crypt Ghast's extort.**
+
+**CRYPT GHAST'S EXTORT IS A DOUBLE-SIDED SPARK, like Hooded Blightfang.** *"Whenever you cast a
+spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life."* One
+trigger, two events: the **gain** fires Side A, the **loss on every opponent** fires Side B. It
+also triggers on **every spell**, not just creatures, so with the Ghast out the deck is holding
+the ignition in hand at all times. The spark list has been amended to carry it in both halves.
+
+On the final turn sleepy cast five spells — Erebos, Demonic Tutor, Culling the Weak, Exquisite
+Blood, and the extort payments on each — and once Exquisite Blood resolved, the next extort was
+the loop: extort gained 2 → South Wind Avatar drained each opponent 1 → Exquisite Blood gained it
+back → South Wind Avatar again. **Picumar died first, then Eli.** sleepy finished at **67**.
+
+**COMMANDER'S PLATE WAS DESTROYED — the first time anyone has answered it.** Equipped to Virtus on
+turn 15; **Untimely Malfunction** (Alicia, {1}{R} instant, "destroy target artifact") killed it on
+turn 16. One turn of protection. Engine 4 has now been beaten two different ways in the logs: a
+colourless blocker (9th game, 2026-10-28) and plain artifact removal.
+
+**Virtus still did the work without it.** He connected on turn 19 and halved **Alicia 38 → 19**,
+then again on turn 27 for **14 → 6**. He died twice to chump blocks — **Darkstar** (turn 31) and
+**Chrome Dome** (turn 37) — because a 1/1 with no Plate trades with anything. Recast once in
+between. Two halvings off two connects is the whole card; the body is irrelevant.
+
+**South Wind Avatar did both of its jobs.** It is Side A (*whenever you gain life, each opponent
+loses 1*) **and** a lifegain source (*whenever another creature you control dies, you gain life
+equal to its toughness*), so every chump-blocked Virtus and every lifelink connection off Vampire
+Nighthawk and Vampire of the Dire Moon fed it. Before the loop even started it was draining the
+table 1–2 per combat.
+
+**Three permanents taken off sleepy, all by different answers:**
+
+- **Untimely Malfunction** → Commander's Plate (turn 16).
+- **Henchbots** → **Tinybones** exiled on ETB, "until this creature leaves the battlefield"
+  (turn 25). Not permanent, but it never came back.
+- **Chaos Warp** → **Qarsi Revenant** shuffled away (turn 28). **That is Chaos Warp taking a
+  permanent in three consecutive logged games** — Tergrid, then South Wind Avatar, now Qarsi.
+
+**Picumar killed Alicia**, not sleepy — Kingpin, Cloud and Hardened Tactician swung her out at
+4 → −1 on turn 31, right after she had landed a 10/10 Primeval Protector. **Fourth logged game
+where an opponent removed an opponent for us.**
+
+**Alicia's Impact Tremors pinged sleepy twice** for 1 each as she built her board. In a deck that
+gains life every combat it never mattered, but it is the kind of card that would matter against
+the Aetherflux plan, where every point below 51 is a turn of delay.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2220,6 +2277,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (13th) | Not drawn | — | |
 | 2026-10-29 | Not drawn | — | |
 | 2026-10-29 (2nd) | Not drawn | — | |
+| 2026-10-29 (3rd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
