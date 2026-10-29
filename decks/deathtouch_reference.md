@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 31 games, 27-4, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 32 games, 28-4, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -986,6 +986,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 26 | 10-29 | **W** | 7 | 14m28s | Engine 1 — Vito × Exquisite Blood **ticking at 2** |
 | 27 | 10-29 | **W** | 8 | 10m57s | Engine 1 — sparked by an opponent's **Vandalblast** |
 | — | 10-29 | **L** | died t11 | 1h04m32s | **Six answers + a 92-damage flying strike** (Picumar) |
+| 28 | 10-29 | **W** | 7 | 6m50s | Engine 1 — **Enduring Tenacity × Conqueror, ticking at 5** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -995,7 +996,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **14**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **15**; Torment of Hailfire **3**;
 Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2437,6 +2438,69 @@ deck's engines are two- and three-card assemblies with no protection — no coun
 hexproof, nothing that makes Side A or Side B resilient. Against one opponent holding up blue
 mana, the Conqueror simply does not resolve.
 
+### Logged win — 2026-10-29 (6th game), four-player pod, won on own turn 7 (log turn 27), 6m50s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 28-4. **Immediate rematch after LOSS #4, same three
+opponents, and the answer was the fastest loop the deck has produced.** Engine 1 off **Enduring
+Tenacity × Bloodthirsty Conqueror**, **ticking at 5 per iteration**.
+
+**FIRST LOGGED GAME WHERE ENDURING TENACITY IS THE CARD THAT CLOSES.** It has been on the
+battlefield in earlier games (and was destroyed by Loran in the 16th) but had never been the Side
+A that ended one. Both halves were cast on the **same turn** — Bloodthirsty Conqueror for 4, then
+Enduring Tenacity for 3, seven mana off seven Swamps — and then Erebos attacked.
+
+**WITH BLOODTHIRSTY CONQUEROR AS SIDE B, ANY DAMAGE YOU DEAL SETS THE LOOP'S TICK RATE.** This is
+the sharp version of the note from the 26th game. The chain was:
+
+1. **Erebos connects for 5.** Picumar 20 → 15.
+2. **Conqueror** — *whenever an opponent loses life, you gain that much life* — gains sleepy **5**.
+3. **Enduring Tenacity** — *whenever you gain life, target opponent loses **that much** life* —
+   takes **5** off Picumar.
+4. Conqueror sees it, gains **5**. Back to step 3.
+
+Both halves preserve the amount, so **the loop runs at whatever the first hit was**. Five is the
+highest tick rate logged; the Vito version in the 26th game ran at 2 off a Gifted Aetherborn
+connection, and Marauding Blight-Priest is permanently locked to 1. **Pair Vito or Tenacity with
+the Conqueror and the correct spark is the biggest single hit available** — Erebos at 5/7 is the
+best body in the deck for it. Picumar fell from 15 in three iterations, Alicia from 30 in six.
+sleepy finished on **85**.
+
+**sleepy attacked exactly once all game** — the Erebos swing that started the loop.
+
+**THE DARKNESS CRYSTAL GAINED 6 LIFE OFF THREE DEATHS, TWO OF WHICH WERE OTHER PLAYERS' REMOVAL.**
+Second game running that confirms it as a table-wide passive engine:
+
+| Log turn | Creature exiled | Killed by |
+|---|---|---|
+| 20 | **Yoshimaru, Ever Faithful** | sleepy's own Snuff Out |
+| 23 | **Cid, Freeflier Pilot** | **Eli's** Hell to Pay, aimed at Picumar |
+| 25 | **Esper Sentinel** | **Alicia's** V.A.T.S., aimed at Picumar |
+
+**PICUMAR KILLED ELI WITH 21 COMMANDER DAMAGE** — Ardenn, Intrepid Archaeologist loaded with
+Wrecking Ball Arm, Mithril Coat and Bitterthorn, connecting for 7 on three consecutive turns
+(log 16, 20, 24). **Fifth logged game where an opponent removed an opponent**, and the second time
+commander damage has decided a seat — the first was against sleepy in LOSS #3.
+
+**V.A.T.S. killed Virtus, and it is a card to know.** {2}{B}{B} instant, **split second**, *choose
+any number of target creatures with equal toughness, destroy them.* Split second means no response
+is possible at all — not Snuff Out, not anything. It took Virtus (1/1) alongside Picumar's Esper
+Sentinel on turn 25. A 1/1 commander shares toughness with half of every board in the format, so
+this is a clean one-card answer to Virtus that cannot be interacted with.
+
+**Esper Sentinel taxed sleepy all game** — *whenever an opponent casts their first noncreature
+spell each turn, draw a card unless that player pays {X}*. It triggered on The Darkness Crystal,
+Liliana and Snuff Out, and Picumar drew off each. The deck casts a noncreature spell most turns,
+so the Sentinel was effectively a Phyrexian Arena pointed at sleepy specifically. It died to
+Alicia's V.A.T.S., not to anything sleepy did.
+
+**Snuff Out resolved this time**, paying 4 life to kill Yoshimaru on turn 20 — set against the two
+losses where it was countered (An Offer You Can't Refuse, Negate). Three of the four most recent
+castings have now resolved; the two that did not both cost the deck a game.
+
+**Liliana of the Dark Realms got one +1 activation and died on turn 21** to Caesar and Paladin
+Elizabeth Taggerdy. That is now three consecutive games in which Liliana has fetched exactly one
+Swamp and then been attacked off the board.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2472,6 +2536,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (4th) | Not drawn | — | |
 | 2026-10-29 (5th) | Not drawn | — | |
 | 2026-10-29 (loss 4) | Not drawn | — | |
+| 2026-10-29 (6th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
