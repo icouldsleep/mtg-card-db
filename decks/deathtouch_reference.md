@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 32 games, 28-4, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 33 games, 29-4, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -987,6 +987,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 27 | 10-29 | **W** | 8 | 10m57s | Engine 1 — sparked by an opponent's **Vandalblast** |
 | — | 10-29 | **L** | died t11 | 1h04m32s | **Six answers + a 92-damage flying strike** (Picumar) |
 | 28 | 10-29 | **W** | 7 | 6m50s | Engine 1 — **Enduring Tenacity × Conqueror, ticking at 5** |
+| 29 | 10-29 | **W** | 10 | 7m23s | **Virtus + Swiftfoot Boots — five halvings, never removed** |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -997,7 +998,7 @@ on record" or "longest on record" and have since been beaten. This table is the 
 which game holds what.
 
 **How the wins break down:** Engine 1 (Side A × Side B) closed **15**; Torment of Hailfire **3**;
-Virtus combat/halving **3**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
+Virtus combat/halving **4**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
 
@@ -2501,6 +2502,61 @@ castings have now resolved; the two that did not both cost the deck a game.
 Elizabeth Taggerdy. That is now three consecutive games in which Liliana has fetched exactly one
 Swamp and then been attacked off the board.
 
+### Logged win — 2026-10-29 (7th game), four-player pod, won on own turn 10 (log turn 36), 7m23s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 29-4. **No Engine 1, no Engine 2 — this was Virtus
+alone, five halvings, and he was never removed because he was wearing Swiftfoot Boots.**
+
+**SWIFTFOOT BOOTS ON VIRTUS IS THE PROTECTION THE DECK ALREADY OWNS.** Equipped on turn 27,
+hexproof, and from that point no opponent could target him at all. He connected **five times** and
+halved every time — the most in any logged game:
+
+| Own turn | Log turn | Victim | Halving |
+|---|---|---|---|
+| 6 | 23 | Eli | **37 -> 18** |
+| 7 | 27 | Picumar | **39 -> 19** |
+| 8 | 31 | Picumar | **18 -> 9** |
+| 9 | 34 | Alicia | **22 -> 11** |
+| 10 | 36 | Alicia | **1 -> 0** (lethal) |
+
+Set that against the last five games, where Virtus died to a Siege-Gang ping, two chump blocks,
+**V.A.T.S.** and **Stroke of Midnight**. **Every one of those was a targeted effect, and hexproof
+stops all of them.** It does not stop blocks or board wipes, and this game he simply was not
+blocked — but the pattern is clear enough to write down: *the Boots are already in the 99, and on
+a 1/1 commander whose entire job is connecting once per turn, they are the difference between
+five halvings and dying on turn 2.*
+
+**This also answers the counterspell question from earlier today directly.** Black has no
+counterspells worth playing, but **hexproof is protection black can have**, and the deck is
+already running a copy of it. The Boots do nothing against a Counterspell aimed at a spell on the
+stack — Picumar countered **Gray Merchant of Asphodel** on turn 27, the same player who countered
+the Conqueror in LOSS #4 — but they shut off every targeted answer once a permanent has resolved.
+
+**FEED THE SWARM TOOK FIVE CREATURES FOR ONE CARD.** Turn 31, {1}{B}, destroy **Mysterio, Master
+of Illusion** for 4 life. Mysterio reads *"create a 3/3 blue Illusion Villain token for each
+nontoken Villain you control. **Exile those tokens when Mysterio leaves the battlefield.**"* Four
+3/3s went with him. **Killing the token-maker undid the tokens** — worth remembering against any
+"exile when this leaves" generator.
+
+**Torment of Hailfire X=7 on turn 34** stripped Siani, The Eleventh Doctor, Siren Stormtamer, Rose
+Noble, two Bird tokens, Peri Brown and a Talisman off the board, plus six discards across Alicia
+and Eli. **Third X≥7 Hailfire in the last six games.**
+
+**Aetherflux Reservoir was on the battlefield and never fired.** It gained 1, 1 and 1 on the three
+spells cast after it landed and sleepy peaked at **48** — three short of the 51 floor. The
+Reservoir was pure incidental lifegain this game; Virtus and Exsanguinate did the work.
+
+**Exsanguinate X=9 on the last turn** took Alicia 11 → 2 and sleepy 39 → 48, setting up the 1-point
+Virtus connect that halved her out. Note the sequencing: **Exsanguinate first to get her into
+halving range, then Virtus** — at 11 life a halving leaves 6, at 2 it leaves 1 and the combat
+damage itself finishes.
+
+**Eli killed Picumar**, not sleepy — three 1/1 Bird tokens for the last 3 points on turn 33.
+**Sixth logged game where an opponent removed an opponent.**
+
+**Ayara contributed two ETB drains** (herself on turn 15, Virtus on turn 19) and then **dealt the
+killing blow to Eli** with 2 combat damage on turn 34.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2537,6 +2593,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (5th) | Not drawn | — | |
 | 2026-10-29 (loss 4) | Not drawn | — | |
 | 2026-10-29 (6th) | Not drawn | — | |
+| 2026-10-29 (7th) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
