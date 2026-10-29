@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 34 games, 30-4, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 35 games, 31-4, last updated 2026-10-29
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -989,6 +989,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 28 | 10-29 | **W** | 7 | 6m50s | Engine 1 — **Enduring Tenacity × Conqueror, ticking at 5** |
 | 29 | 10-29 | **W** | 10 | 7m23s | **Virtus + Swiftfoot Boots — five halvings, never removed** |
 | 30 | 10-29 | **W** | 8 | 17m44s | Engine 1 — **Darkness Crystal turned a Blasphemous Act into +20 life** |
+| 31 | 10-29 | **W** | 9 | 6m44s | **Pure combat** — four Virtus halvings, Gray Merchant, Tergrid |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
 (game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
@@ -999,7 +1000,7 @@ on record" or "longest on record" and have since been beaten. This table is the 
 which game holds what.
 
 **How the wins break down:** Engine 1 (Side A × Side B) closed **16**; Torment of Hailfire **3**;
-Virtus combat/halving **4**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
+Virtus combat/halving **5**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
 
@@ -2608,6 +2609,66 @@ only targeted answer aimed at sleepy all game was nothing at all — the table s
 on Alicia's Aurora Champion and fought among itself. Eli and Alicia traded hits for the first
 twenty turns while sleepy built.
 
+### Logged win — 2026-10-29 (9th game), four-player pod, won on own turn 9 (log turn 30), 6m44s
+
+sleepy 1 — Alicia 0, Eli 0, Picumar 0. Record 31-4. **Picumar answered both halves of Engine 1
+again — Negate on Grave Pact, Excise the Imperfect exiling Bloodthirsty Conqueror — and it did
+not matter, because the deck won on combat damage.** Four Virtus halvings across three different
+players, then Tergrid and Gray Merchant finished it.
+
+**THE REMOVAL SPELL THAT EXILED THE CONQUEROR HANDED SLEEPY ITS BEST BODY.** On log turn 19
+Picumar cast **Excise the Imperfect** — *"exile target nonland permanent. **Its controller
+incubates X, where X is its mana value.**"* Bloodthirsty Conqueror is mana value 5, so sleepy got
+an Incubator token with **five +1/+1 counters**, transformed it for {2} on turn 23, and the
+resulting **5/5 Phyrexian artifact creature** went on to:
+
+- carry **Quietus Spike** (deathtouch + halving) from turn 26,
+- deathtouch-kill **Murasa Sproutling** and **Elfhame Druid** in two separate combats,
+- carry **Skullclamp** and **draw two cards** when it finally died on the last turn.
+
+**Compensating removal is the wrong answer against this deck.** Anything that gives the victim a
+body, a Treasure or a card back is feeding a deck whose creatures are all cheap and whose payoffs
+care about bodies existing at all. Exile it with Path to Exile or Swords to Plowshares and the
+deck gets nothing; exile it with Excise and it gets a 5/5.
+
+**Four Virtus halvings, three different players:**
+
+| Own turn | Log turn | Victim | Halving |
+|---|---|---|---|
+| 4 | 15 | Alicia | **38 -> 19** |
+| 5 | 19 | Picumar | **34 -> 17** |
+| 6 | 23 | Eli | **39 -> 19** |
+| 7 | 26 | Alicia | **4 -> 2** |
+
+He died on turn 28 to a Goblin Ruinblaster chump block, having already done 51 points of work.
+**No Swiftfoot Boots this game** — contrast with the previous game, where the Boots kept him alive
+for five.
+
+**GRAY MERCHANT FOR 5 KILLED ELI** (4 → −1) and gained sleepy **10** — devotion 5, two living
+opponents. Consistent with the note from the 22nd game: Gary's gain scales with how many
+opponents are still alive, so earlier is bigger.
+
+**Alicia killed Picumar, and nearly killed everyone.** **Hallar, the Firefletcher** with
+**Hydra's Growth** doubling its counters every upkeep, plus *"whenever you cast a kicked spell,
+put a +1/+1 counter on Hallar, then Hallar deals that much damage to **each opponent**."* The
+kicked Murasa Sproutling on turn 24 dealt **5 to all three opponents at once** and took Picumar
+from 5 to 0. Hallar reached **13 power** before **Snuff Out** killed it on the final turn, taking
+Hydra's Growth with it.
+
+**That is a card worth recognising from the other side of the table**: a growing creature that
+damages all opponents on a trigger, not in combat, so deathtouch blockers never interact with it.
+Same shape as the Ishai problem in LOSS #3 — **the deck's defence is blocking, and nothing that
+damages you without attacking cares.**
+
+**Picumar's answers, third consecutive game from this seat:** Negate on **Grave Pact** (turn 15),
+Excise the Imperfect on **Bloodthirsty Conqueror** (turn 19). He has now countered or exiled a key
+piece in LOSS #4, the 7th game and this one. **Side B has not resolved against him once.**
+
+**The win came without any engine.** No Exquisite Blood, no Side A ever paired, no Aetherflux, no
+Thornbite. Virtus halved three players down, Gray Merchant took Eli, and the last swing was
+**Tergrid (4) + Gray Merchant (2)** into an Alicia on 2. **Thirty-one wins and this is one of the
+few closed purely on creature damage.**
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2646,6 +2707,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (6th) | Not drawn | — | |
 | 2026-10-29 (7th) | Not drawn | — | |
 | 2026-10-29 (8th) | Not drawn | — | |
+| 2026-10-29 (9th) | Cast turn 15 | **0** | **Countered by Negate** before it resolved. |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
