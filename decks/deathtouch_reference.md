@@ -135,13 +135,20 @@ That is 22 **distinct cards**. An earlier line in this file counts "32" — that
 trigger instances, since several of these cards provide more than one. Both are correct; this one
 is the card count.
 
-**In practice, opponents spark it for you — this is the deck's most underrated property.** In
-**two of the three logged wins below the spark came from outside this deck entirely**:
+**In practice, opponents spark it for you — this is the deck's most underrated property.** Three
+logged wins so far were sparked from outside this deck entirely:
 
 - **2026-10-21** — one opponent attacked another opponent with Avacyn, Angel of Hope for 10.
 - **2026-10-26 (turn-4 win)** — an opponent's own **Wretched Anurid** (*"whenever another creature
   enters, you lose 1 life"*) triggered off Bloodthirsty Conqueror entering. Their punisher card
   killed their whole table.
+- **2026-10-29** — Brady's **Scrawling Crawler** (*"at the beginning of your upkeep, each player
+  draws a card; whenever an opponent draws a card, that player loses 1 life"*) made Gabrielle draw
+  and lose 1 on Brady's own upkeep. Exquisite Blood saw it, Blight-Priest saw the lifegain, and
+  the loop killed both of them.
+
+**Any symmetrical drain, punisher or forced-draw on the table is a live spark**, and it fires on
+their turn, when nobody is holding up an answer.
 
 **ANY** life-change event anywhere at the table starts the loop: an opponent's lifelink attack, a
 shockland, a Phyrexian Arena, a fetchland crack, a Wretched Anurid, two other players fighting.
@@ -2028,6 +2035,57 @@ draws across the game, in a deck that wants to hit land drops and keeps gaining 
 Deaths in order: **Gabrielle** on turn 35 (Erebos, 2 -> −3), **Ethan** on turn 38 (Gray Merchant,
 3 -> −6), **Brady** on turn 38 (alpha strike, 4 -> −12).
 
+### Logged win — 2026-10-29, four-player pod, won on log turn 24 (sleepy's 7th turn), 3m29s
+
+sleepy 1 — Brady Nitnumb 0, Ethan 0, Gabrielle 0. Record 23-3. **sleepy never attacked once. Zero
+combat damage dealt all game.** Engine 1 off **Exquisite Blood + Marauding Blight-Priest**, and
+**the spark was an opponent's own card, on an opponent's turn, pointed at a third opponent.**
+
+sleepy's entire game, seven turns, seven spells:
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1–3 | 1, 5, 9 | Swamp, Swamp, Swamp |
+| 4 | 13 | Swamp, **South Wind Avatar** — Chaos Warped away the next turn |
+| 5 | 17 | Swamp, **Night's Whisper**, **Demonic Tutor** |
+| 6 | 20 | Swamp, **Marauding Blight-Priest** (Side A), **Snuff Out** on Wingnut, **Virtus** |
+| 7 | 23 | Swamp, **Exquisite Blood** (Side B) |
+
+**BRADY BUILT THE IGNITION INTO HIS OWN BOARD.** On log turn 24, Brady's upkeep, his **Scrawling
+Crawler** triggered: *"At the beginning of your upkeep, each player draws a card. Whenever an
+opponent draws a card, that player loses 1 life."* Gabrielle drew, Gabrielle lost 1 — and that is
+an opponent of sleepy's losing life, so **Exquisite Blood** gained sleepy 1, which **Marauding
+Blight-Priest** turned into 1 off each opponent, which Exquisite Blood saw again. The loop never
+stopped. Brady 30 -> 0, Gabrielle 31 -> 0, sleepy 22 -> 52.
+
+**Brady then accelerated it.** Mid-loop he sacrificed two Goblins to **Siege-Gang Lieutenant**,
+pinging Gabrielle for 1 each time — two more life-loss events, two more Exquisite Blood triggers,
+two more Blight-Priest rounds. He was feeding the engine that was killing him.
+
+**This is the third logged win where the spark came from outside the deck**, and the cleanest
+example yet: a symmetrical draw-and-drain artifact, firing on its controller's own upkeep, aimed
+at someone else entirely. The spark list above is what the deck brings; **the table usually brings
+one too.**
+
+**Brady killed Ethan, not sleepy.** A Goblin swarm with **Legion Warboss**, **Wingnut, Bat on the
+Belfry** (+1/+0 to every other attacker) and **Combat Celebrant** (untap all other creatures,
+extra combat phase) hit Ethan for 21 across two combats on log turn 18: **28 -> 7 -> −14**. The
+pod did a third of the work again.
+
+**Two one-mana answers cost sleepy two permanents:**
+
+- **Chaos Warp** (Gabrielle, log turn 14) shuffled away **South Wind Avatar** the turn after it
+  landed. That is a Side A card — the loop would have been live four turns earlier with it.
+  Chaos Warp has now taken a key permanent in two consecutive games (Tergrid, then this).
+- **Siege-Gang Lieutenant's {2}, sacrifice a Goblin: 1 damage** killed **Virtus** on log turn 21.
+  A 1/1 commander dies to any ping at all, and a Goblin deck has an unlimited supply of them.
+
+**Snuff Out resolved this time**, paying 4 life (28 -> 24) to destroy Wingnut, Bat on the Belfry —
+worth setting against LOSS #3, where the same card on the same kind of target was countered by An
+Offer You Can't Refuse. Same card, same read, different result.
+
+**3m29s is the fastest match clock logged.** The previous shortest was 4m40s.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2057,6 +2115,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-28 (loss 3) | Not drawn | — | |
 | 2026-10-28 (12th) | Not drawn | — | |
 | 2026-10-28 (13th) | Not drawn | — | |
+| 2026-10-29 | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
