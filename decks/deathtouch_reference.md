@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 36 games, 32-4, last updated 2026-10-30
+### INDEX OF ALL LOGGED GAMES — 37 games, 33-4, last updated 2026-10-30
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -991,6 +991,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 30 | 10-29 | **W** | 8 | 17m44s | Engine 1 — **Darkness Crystal turned a Blasphemous Act into +20 life** |
 | 31 | 10-29 | **W** | 9 | 6m44s | **Pure combat** — four Virtus halvings, Gray Merchant, Tergrid |
 | 32 | 10-30 | **W** | 5 | **2m51s** | Engine 1 — **fastest win on the clock**, no interaction at all |
+| 33 | 10-30 | **W** | 8 | 5m32s | **Engine 2** — three 50-point Aetherflux blasts in one turn |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest win by clock: **2m51s**
 (game 32) — the 2m41s of LOSS #3 is a shorter match but not a win. Longest: **1h21m09s** / own
@@ -1002,7 +1003,7 @@ on record" or "longest on record" and have since been beaten. This table is the 
 which game holds what.
 
 **How the wins break down:** Engine 1 (Side A × Side B) closed **17**; Torment of Hailfire **3**;
-Virtus combat/halving **5**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
+Virtus combat/halving **5**; Aetherflux Reservoir **3**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
 
@@ -2716,6 +2717,58 @@ one thing the deck's goldfish speed reliably does.
 on Plains and Islands, Gabriel on Mountains. That is now five logged games where the Lens has been
 a pure one-sided doubler.
 
+### Logged win — 2026-10-30 (2nd game), four-player pod, won on own turn 8 (log turn 30), 5m32s
+
+sleepy 1 — Mesah 0, Beson 0, Gabriel 0. Record 33-4. **ENGINE 2 at full value: one Aetherflux
+Reservoir, three 50-point blasts, the entire table dead in a single turn.** This is the cleanest
+logged demonstration of the self-refunding kill the combo grid describes.
+
+**THE KILL — THREE ACTIVATIONS, ONE WINDOW.** sleepy cast Aetherflux Reservoir for {4} off four
+Swamps at 75 life, with **Exquisite Blood** already on the battlefield since turn 22:
+
+| Activation | sleepy pays | Target | Exquisite Blood refunds |
+|---|---|---|---|
+| 1 | 75 → **25** | **Gabriel 10 → −40** | Gabriel lost 50 → sleepy **25 → 75** |
+| 2 | 75 → **25** | **Mesah 40 → −10** | Mesah lost 50 → sleepy **25 → 75** |
+| 3 | 75 → **25** | **Beson 13 → −37** | game over |
+
+**Each activation pays for itself exactly.** Pay 50, deal 50, the opponent loses 50, Exquisite
+Blood gains you 50. The only real cost is the first 50 and the 51-life floor noted in ENGINE 2 —
+sleepy was at 75, comfortably clear. **With both pieces down and 51+ life, the deck kills a
+four-player table from a single untapped Reservoir in one main phase, no combat, no stack
+interaction window the opponents can use between activations.**
+
+**WHAT PAID FOR IT: EXQUISITE BLOOD FARMING THE TABLE'S OWN COMBAT.** Exquisite Blood landed on
+turn 22 with **no Side A ever drawn**. It did not loop once. What it did was gain sleepy life
+every time anyone lost any:
+
+- Mesah's Estinien, Zenos and Scavenger Regent hit **Beson for 13**, twice → **+26 to sleepy**
+- The same team hit **Gabriel for 8** → **+8**
+- Mesah's own Phyrexian Arena, Night's Whisper and Estinien upkeep losses → **+4**
+
+sleepy went **38 → 75 without casting a relevant spell**, purely off three opponents fighting each
+other. **That is the same property already recorded for The Darkness Crystal, on a different
+card: Exquisite Blood is a passive lifegain engine off the whole table, not just a combo half.**
+And here the life it banked is exactly what bought the Aetherflux kill.
+
+**Two Virtus halvings before he died:** Mesah **36 → 18** (turn 14) and Gabriel **38 → 19**
+(turn 18). **Kaya's Ghostform** was on him from turn 14 and triggered when he died, which is the
+first logged time the Ghostform insurance has actually fired.
+
+**ZENOS YAE GALVUS KILLED VIRTUS — another −X/−X effect.** *"When Zenos enters, choose a creature
+an opponent controls. Until end of turn, creatures other than Zenos and the chosen creature get
+−2/−2."* It killed Virtus (1/1) and Beson's Ainok Bond-Kin on the way in. **Add it to the column
+with Elesh Norn, Grand Cenobite: toughness-reduction wipes the deck's board on sight, where
+power-based sweepers like Dusk mostly miss it.** Worth knowing the back face too — Zenos
+transforms into **Shinryu, Transcendent Rival**, which reads *"when the chosen player loses the
+game, you win the game."* It transformed on the final turn when Gabriel's Professional
+Face-Breaker left; the Reservoir killed everyone before it mattered.
+
+**Nobody aimed removal at sleepy again.** Mesah's **Anguished Unmaking** took Gabriel's Boros
+Signet and her **Vindicate** took Beson's land; Gabriel's **Disenchant** took Mesah's Arcane
+Signet. Three premium removal spells, none of them pointed at the deck that was about to kill
+everyone. **Second game running with zero interaction aimed at sleepy.**
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2756,6 +2809,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (8th) | Not drawn | — | |
 | 2026-10-29 (9th) | Cast turn 15 | **0** | **Countered by Negate** before it resolved. |
 | 2026-10-30 | Not drawn | — | |
+| 2026-10-30 (2nd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
