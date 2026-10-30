@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 37 games, 33-4, last updated 2026-10-30
+### INDEX OF ALL LOGGED GAMES — 38 games, 34-4, last updated 2026-10-30
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -992,6 +992,7 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 31 | 10-29 | **W** | 9 | 6m44s | **Pure combat** — four Virtus halvings, Gray Merchant, Tergrid |
 | 32 | 10-30 | **W** | 5 | **2m51s** | Engine 1 — **fastest win on the clock**, no interaction at all |
 | 33 | 10-30 | **W** | 8 | 5m32s | **Engine 2** — three 50-point Aetherflux blasts in one turn |
+| 34 | 10-30 | **W** | 11 | 8m38s | **Pure combat, no engine** — Virtus survived Urza's Ruinous Blast; Avacyn recurred him twice |
 
 **Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest win by clock: **2m51s**
 (game 32) — the 2m41s of LOSS #3 is a shorter match but not a win. Longest: **1h21m09s** / own
@@ -1003,7 +1004,7 @@ on record" or "longest on record" and have since been beaten. This table is the 
 which game holds what.
 
 **How the wins break down:** Engine 1 (Side A × Side B) closed **17**; Torment of Hailfire **3**;
-Virtus combat/halving **5**; Aetherflux Reservoir **3**; and one each for Sheoldred's draw
+Virtus combat/halving **6**; Aetherflux Reservoir **3**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
 
@@ -1528,7 +1529,11 @@ removed all game. It was an evasive commander (Ishai, flying, growing off every 
 with a free double-strike grant, killing sleepy with 24 commander damage on his fifth turn. See
 LOGGED LOSS #3 below. Two distinct ways the deck loses, not one:
 
-1. **Exile-based sweepers**, which it cannot rebuild through.
+1. **Exile-based sweepers**, which it cannot rebuild through. **Amended 2026-10-30:** this is
+   true of the board but **not of the commander**. Beson resolved **Urza's Ruinous Blast** —
+   *"exile all nonland permanents that aren't legendary"* — and **Virtus survived it and went on
+   to win the game.** The clause to read is "nonlegendary" versus "all"; the first one leaves the
+   deck its only real win condition.
 2. **A fast evasive clock**, which its deathtouch blockers do not deter and its three-mana curve
    does not race. **LOSS #4 is this again at scale** — six fliers under True Conviction and
    Akroma for 92 damage in one combat.
@@ -2769,6 +2774,150 @@ Signet and her **Vindicate** took Beson's land; Gabriel's **Disenchant** took Me
 Signet. Three premium removal spells, none of them pointed at the deck that was about to kill
 everyone. **Second game running with zero interaction aimed at sleepy.**
 
+### Logged win — 2026-10-30 (3rd game), four-player pod, won on own turn 11 (log turn 33), 8m38s
+
+sleepy 1 — Mesah 0, Beson 0, Gabriel 0. **Won on combat with no engine assembled at any point** —
+no Side B was ever drawn, Aetherflux never appeared, and the Viridian Longbow was countered. The
+deck won on bodies. Record 34-4.
+
+**Forge's summary line reads "Game Outcome: Turn 17" while the log itself runs to turn 33.** The
+log turns are authoritative — the four-player rotation is visible turn by turn. Own turns are
+derived from that rotation as always (sleepy took turns 1, 5, 9, 13, 17, 21, 24, 27, 29, 31, 33 —
+the gaps after turn 21 are Mesah and Beson being eliminated), which makes this **own turn 11**.
+Noting the mismatch so nobody later trusts the header over the body.
+
+**VIRTUS SURVIVED AN EXILE SWEEPER. This is new, and it matters.** On turn 15 Beson cast **Urza's
+Ruinous Blast** — *"Exile all nonland permanents that aren't legendary."* Seven permanents were
+exiled across the table. **Virtus the Veiled is legendary, so he stayed on the battlefield.**
+
+| Exiled | Owner |
+|---|---|
+| Kaya's Ghostform, Basilisk Collar | **sleepy** |
+| Typhoid Rats, Black Market Connections, Talisman of Creativity | Mesah |
+| Hot Pursuit | Gabriel |
+| Sol Ring | Beson (his own) |
+
+"Exile-based sweepers the deck cannot rebuild through" is loss axis #1 in this file, and it is
+still right about the *board* — the deck lost its Collar and its Ghostform and had nothing on the
+battlefield but the commander afterwards. But **the commander itself is immune to the legendary-
+matters subset of that effect**, and because every win condition in this deck routes through
+Virtus connecting, surviving the Blast with Virtus intact is most of what was needed. Cards in
+The distinction to carry forward is **"nonlegendary" clauses versus "all" clauses** — Urza's
+Ruinous Blast spares Virtus; a sweeper that says *all nonland permanents* does not. **This is the
+first logged case of the deck walking through a resolved mass-exile effect.**
+
+**THE COUNTERSPELL PAID FOR THE BLIGHT-PRIEST.** Turn 17, sleepy cast **Viridian Longbow** off one
+Swamp. Beson countered it with **An Offer You Can't Refuse** — *"Counter target noncreature spell.
+Its controller creates two Treasure tokens."* sleepy immediately sacrificed both Treasures, added
+the second Swamp, and cast **Marauding Blight-Priest** the same turn.
+
+Trading a {1} Equipment for a 3/2 drain body, on curve, a turn earlier than the lands allowed, is
+a profitable exchange. **An Offer You Can't Refuse is the one counterspell in the format that
+makes this deck faster by resolving.** Worth remembering when deciding what to walk into blue
+mana: cast the cheap artifact first and let them have it.
+
+**FIVE VIRTUS HALVINGS, THREE DIFFERENT PLAYERS.**
+
+| Own turn | Log turn | Target | Combat damage | Halved |
+|---|---|---|---|---|
+| 3 | 9 | Beson | 39 → 38 | **38 → 19** |
+| 4 | 13 | Mesah | 40 → 39 | **39 → 19** |
+| 5 | 17 | Gabriel | 40 → 39 | **39 → 19** |
+| 6 | 21 | Beson | 17 → 16 | **16 → 8** |
+| 7 | 24 | Beson | 8 → 7 | **7 → 3** |
+
+**Every opponent in the pod was cut in half by their own fifth turn**,
+and that is why Beson and Mesah were killable by each other rather than by sleepy. Kaya's
+Ghostform went onto Virtus on turn 9 and Basilisk Collar on turn 13 — the Collar's lifelink is
+why the turn-13 hit also read `sleepy 34 > 35`, one point of life off one point of commander
+damage.
+
+**sleepy KILLED ONE PLAYER. THE TABLE KILLED THE OTHER TWO.**
+
+| Dead | Turn | Killed by |
+|---|---|---|
+| Mesah 8 → −6 | 19 | **Beson** — Yoshimaru, Esior and Isamaru under Flowering of the White Tree |
+| Beson 5 → −1 | 26 | **Gabriel** — Orzhov Advokist + a 3/3 Elephant |
+| Gabriel 5 → −7 | 33 | sleepy |
+
+**Beson supplied the Elephant that helped kill him.** On turn 25 he cast **Generous Gift** to
+destroy Gabriel's Vengeful Ancestor; Generous Gift hands the controller a 3/3 green Elephant
+token. One turn later that Elephant attacked Beson for 3 of the 6 damage that finished him. Both
+opponents arrived at a killable life total because Virtus had already halved them.
+
+**AVACYN, ANGEL OF HORROR IS THE RECURSION THE DECK ACTUALLY WANTED.** Cast turn 31 for {5}{B}{B}{B}
+— two Snow-Covered Swamps plus **Nykthos, Shrine to Nyx** paying for devotion, which in a mono-black
+deck with Sheoldred and Blight-Priest down is a real ritual. An 8/8 flying deathtouch body, and:
+
+- Turn 31 — Virtus (traded with the Elephant) and Marauding Blight-Priest (blocked by an 11-power
+  Advokist) both died in the same combat. **Avacyn returned both at the end step.**
+- Turn 32 — Brash Taunter fought Virtus and killed him. **Avacyn returned him again.**
+
+**Virtus died twice in two turns and attacked on the third.** Against a deck built to answer the
+commander, that is the difference between a stalled board and the lethal swing. This is the
+Skullclamp note in this file (line ~317) confirmed in a real game without the Skullclamp.
+
+**QARSI REVENANT + MARAUDING BLIGHT-PRIEST IS A SMALL LOOP.** Qarsi Revenant is a 3/3 **flying,
+deathtouch, lifelink** Vampire for {1}{B}{B}. Every unblocked hit is three events:
+
+> 3 damage to the opponent → 3 life to sleepy (lifelink) → Blight-Priest: **each** opponent loses 1
+
+Turn 29 that read Gabriel 19 → 16 → 15 and sleepy 28 → 31. Turn 31 the same. **It is a 4-point
+swing per connection against one opponent, and a point off everyone else at the same time**, with
+a body no ground creature wants to block. Nothing about it needs a second card.
+
+**SHEOLDRED TAXED GABRIEL'S DRAW STEP FOR THE LAST THIRD OF THE GAME.** Cast turn 29. From then on:
+
+| Event | Effect |
+|---|---|
+| Gabriel's draw, turn 30 | 15 → 13 |
+| Gabriel's draw, turn 32 | 8 → 6 |
+| sleepy's draw, turn 31 | sleepy +2 → **Blight-Priest: Gabriel 13 → 12** |
+| sleepy's draw, turn 33 | sleepy +2 → **Blight-Priest: Gabriel 6 → 5** |
+
+**Sheoldred with a Blight-Priest out is a half-loop of its own** — your own draw step becomes a
+drain trigger. Four of the 12 points that killed Gabriel came off draw steps, two of them his own.
+
+**ORZHOV ADVOKIST'S COUNTERS WENT ON VIRTUS.** Gabriel's Advokist reads *"At the beginning of your
+upkeep, each player may put two +1/+1 counters on a creature they control. If a player does,
+creatures that player controls can't attack you... until your next turn."* sleepy took the deal at
+least once — **Virtus was a 3/3 on turn 31**, which is the only reason he traded with the 3/3
+Elephant instead of bouncing off it, and declined on the turns he wanted to attack Gabriel. The
+same Advokist under Sunforger was an 11/10 by the end and ate the Blight-Priest twice.
+
+**BRASH TAUNTER WAS THE ONLY THING THAT DAMAGED sleepy ALL GAME, AND DEATHTOUCH CANNOT ANSWER IT.**
+It is **indestructible**, so Sheoldred's 4 deathtouch damage did nothing to it — and *being dealt
+that damage is its trigger*: it redirected all 4 to sleepy. Then it fought Virtus for 1 more.
+
+| Turn | How | sleepy |
+|---|---|---|
+| 31 | Blocked Sheoldred, took 4 deathtouch damage | 36 → 32 |
+| 32 | Fought Virtus, took 1 | 32 → 31 |
+
+**This is the clean counter-case to the deck's whole plan.** An indestructible creature that
+*profits* from being dealt damage inverts deathtouch completely: every blocker in this deck feeds
+it. The answers are the ones that don't deal damage — Tergrid's Lantern style edicts, sacrifice
+effects, −X/−X, exile. Worth noting against the handful of red decks in the pod rotation.
+
+**THE KILL, turn 33.** Gabriel at 5. sleepy attacked with all five: Qarsi Revenant, Sheoldred,
+Avacyn, Marauding Blight-Priest, Virtus. Gabriel blocked Sheoldred with Nelly Borca and the
+Blight-Priest with the Advokist, and took the rest.
+
+| Unblocked | Damage |
+|---|---|
+| Avacyn, Angel of Horror | **8** |
+| Qarsi Revenant | 3 |
+| Virtus the Veiled | 1 |
+| | **12 → Gabriel 5 → −7** |
+
+**Virtus's halving trigger never resolved** — the combat damage was already lethal. The one game
+where the commander's ability was the whole mid-game and contributed nothing to the kill.
+
+**What this game is evidence of:** the deck has a credible *fair* plan. No Side B, no Reservoir,
+no Hailfire, one Equipment exiled and another countered, and it still beat a 40-life pod by
+halving everybody early and then attacking with four evasive deathtouch bodies behind an 8/8
+recursion engine.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2810,6 +2959,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (9th) | Cast turn 15 | **0** | **Countered by Negate** before it resolved. |
 | 2026-10-30 | Not drawn | — | |
 | 2026-10-30 (2nd) | Not drawn | — | |
+| 2026-10-30 (3rd) | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
