@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 35 games, 31-4, last updated 2026-10-29
+### INDEX OF ALL LOGGED GAMES — 36 games, 32-4, last updated 2026-10-30
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -990,16 +990,18 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 29 | 10-29 | **W** | 10 | 7m23s | **Virtus + Swiftfoot Boots — five halvings, never removed** |
 | 30 | 10-29 | **W** | 8 | 17m44s | Engine 1 — **Darkness Crystal turned a Blasphemous Act into +20 life** |
 | 31 | 10-29 | **W** | 9 | 6m44s | **Pure combat** — four Virtus halvings, Gray Merchant, Tergrid |
+| 32 | 10-30 | **W** | 5 | **2m51s** | Engine 1 — **fastest win on the clock**, no interaction at all |
 
-**Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest by clock: **3m29s**
-(game 23). Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win: **8**
-(game 9). Highest life: **143** (game 24). Shortest loss: eliminated on **turn 5** (loss 3).
+**Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest win by clock: **2m51s**
+(game 32) — the 2m41s of LOSS #3 is a shorter match but not a win. Longest: **1h21m09s** / own
+turn 24 (game 19). Lowest life in a win: **8** (game 9). Highest life: **143** (game 24).
+Shortest loss: eliminated on **turn 5** (loss 3).
 
 **Individual entries below carry superlatives that were true when written** — several say "fastest
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **16**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **17**; Torment of Hailfire **3**;
 Virtus combat/halving **5**; Aetherflux Reservoir **2**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2669,6 +2671,51 @@ Thornbite. Virtus halved three players down, Gray Merchant took Eli, and the las
 **Tergrid (4) + Gray Merchant (2)** into an Alicia on 2. **Thirty-one wins and this is one of the
 few closed purely on creature damage.**
 
+### Logged win — 2026-10-30, four-player pod, won on own turn 5 (log turn 20), 2m51s
+
+sleepy 1 — Mesah 0, Beson 0, Gabriel 0. Record 32-4. **Fastest win on the clock ever logged**,
+beating 3m29s. A brand-new pod — Mesah on W/U Keleth + **Ishai**, Beson on W/U fliers, Gabriel on
+mono-red Runaways. Engine 1 off **Marauding Blight-Priest × Exquisite Blood**.
+
+**FIVE OWN TURNS. SIX SPELLS. NOBODY INTERACTED WITH SLEEPY ONCE.**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 4 | Swamp |
+| 2 | 8 | Swamp, **Demonic Tutor** |
+| 3 | 12 | Swamp, **Extraplanar Lens** (imprint a Snow-Covered Swamp) |
+| 4 | 16 | Swamp, **Marauding Blight-Priest** (Side A), **Black Widow, Deadly Hunter** |
+| 5 | 20 | Swamp, **Exquisite Blood** (Side B), **Virtus**, swing — **loop** |
+
+The only removal cast by anyone all game was Mesah's **Swords to Plowshares**, and it went on
+**Beson's** Artificer's Assistant. Not one spell was aimed at sleepy. Second-fastest win by turns
+behind the turn-4 game; **fastest by the clock** — note the 2m41s of LOSS #3 was a shorter match
+overall, but this is the quickest the deck has ever actually won one.
+
+**The spark was Black Widow connecting for 3.** Exquisite Blood gained 3, Blight-Priest drained
+each opponent 1, and the three separate losses fed Exquisite Blood three times over. From there
+it settled into the standard 1-per-tick chain. sleepy finished on **81**.
+
+**BOTH REMAINING OPPONENTS DIED IN THE SAME TRIGGER.** Gabriel fell first, then **Beson and Mesah
+hit 0 simultaneously** on one Marauding Blight-Priest resolution — *each opponent loses 1 life*
+does not pick a target, so once the surviving players are level the loop finishes them together.
+**This is the clean contrast with the Vito version** (24th and 26th games), which targets one
+opponent and walks the table one seat at a time. Same engine, two different shapes:
+
+- **Blight-Priest / South Wind Avatar** — parallel. Everyone drops together, and players on equal
+  life die in the same trigger.
+- **Vito / Enduring Tenacity** — sequential, but ticks at the size of the spark rather than 1.
+
+**ISHAI, OJUTAI DRAGONSPEAKER WAS ON THE BATTLEFIELD AND NEVER MATTERED.** Mesah cast it on log
+turn 17 — the exact card that killed sleepy in LOSS #3 with 24 commander damage. It accumulated a
+counter from every opponent's spell as designed, and the game ended three turns later before it
+ever attacked. **The answer to a creature that needs time is to not give it any**, which is the
+one thing the deck's goldfish speed reliably does.
+
+**Extraplanar Lens on turn 12 again, and again no opponent was on snow lands** — Mesah and Beson
+on Plains and Islands, Gabriel on Mountains. That is now five logged games where the Lens has been
+a pure one-sided doubler.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2708,6 +2755,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-29 (7th) | Not drawn | — | |
 | 2026-10-29 (8th) | Not drawn | — | |
 | 2026-10-29 (9th) | Cast turn 15 | **0** | **Countered by Negate** before it resolved. |
+| 2026-10-30 | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
