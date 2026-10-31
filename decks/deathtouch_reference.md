@@ -948,7 +948,7 @@ This sits alongside the repo rule in CLAUDE.md that **redundancy is consistency,
 exist because the deck is a 99-card singleton: the question is never "how often" but "is the answer
 in there when it is needed."
 
-### INDEX OF ALL LOGGED GAMES — 38 games, 34-4, last updated 2026-10-30
+### INDEX OF ALL LOGGED GAMES — 39 games, 35-4, last updated 2026-10-31
 
 Every game the owner has pasted, in order. Turn numbers are **sleepy's own turns**, not Forge's
 log turns. "Won by" is the thing that actually ended the game, not everything that mattered in it.
@@ -993,17 +993,18 @@ log turns. "Won by" is the thing that actually ended the game, not everything th
 | 32 | 10-30 | **W** | 5 | **2m51s** | Engine 1 — **fastest win on the clock**, no interaction at all |
 | 33 | 10-30 | **W** | 8 | 5m32s | **Engine 2** — three 50-point Aetherflux blasts in one turn |
 | 34 | 10-30 | **W** | 11 | 8m38s | **Pure combat, no engine** — Virtus survived Urza's Ruinous Blast; Avacyn recurred him twice |
+| 35 | 10-31 | **W** | **4** | **1m50s** | Engine 1 — Blight-Priest × Exquisite Blood, **40 iterations**. **Fastest win on both clocks**; Mesah's Path to Exile supplied the fifth mana |
 
-**Current extremes.** Fastest by turns: **own turn 4** (game 3). Fastest win by clock: **2m51s**
-(game 32) — the 2m41s of LOSS #3 is a shorter match but not a win. Longest: **1h21m09s** / own
-turn 24 (game 19). Lowest life in a win: **8** (game 9). Highest life: **143** (game 24).
-Shortest loss: eliminated on **turn 5** (loss 3).
+**Current extremes.** Fastest by turns: **own turn 4** (games 3 and 35, tied). Fastest win by
+clock: **1m50s** (game 35), which is also **the shortest match in this file of any kind** — it
+beats the 2m41s of LOSS #3. Longest: **1h21m09s** / own turn 24 (game 19). Lowest life in a win:
+**8** (game 9). Highest life: **143** (game 24). Shortest loss: eliminated on **turn 5** (loss 3).
 
 **Individual entries below carry superlatives that were true when written** — several say "fastest
 on record" or "longest on record" and have since been beaten. This table is the authority on
 which game holds what.
 
-**How the wins break down:** Engine 1 (Side A × Side B) closed **17**; Torment of Hailfire **3**;
+**How the wins break down:** Engine 1 (Side A × Side B) closed **18**; Torment of Hailfire **3**;
 Virtus combat/halving **6**; Aetherflux Reservoir **3**; and one each for Sheoldred's draw
 punishment, Engine 3's Longbow lock, Witch + Tergrid, Stensian + White Widow, and Blightfang's
 grind. **Four of the Engine 1 wins were sparked by a card an opponent controlled.**
@@ -2918,6 +2919,115 @@ no Hailfire, one Equipment exiled and another countered, and it still beat a 40-
 halving everybody early and then attacking with four evasive deathtouch bodies behind an 8/8
 recursion engine.
 
+### Logged win — 2026-10-31, four-player pod, won on own turn 4 (log turn 13), 1m50s
+
+sleepy 1 — Mesah 0, Beson 0, Gabriel 0. **Fastest win on the clock on record, and tied for fastest
+by turns.** Engine 1, Marauding Blight-Priest × Exquisite Blood, **40 loop iterations in a single
+turn with four lands on the battlefield.** Record 35-4.
+
+**This is now the shortest match in the file of any kind** — it beats the 2m41s of LOSS #3, which
+until today was the shortest match but not the shortest win.
+
+**THE WHOLE GAME IN FIVE PLAYS.**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1 | 1 | Snow-Covered Swamp → **Tinybones, the Pickpocket** |
+| 2 | 5 | Swamp. Tinybones attacks Mesah for 1 (40 → 39) |
+| 3 | 9 | Swamp → **Marauding Blight-Priest**. Tinybones attacks; **Mesah Paths it** |
+| 4 | 13 | **Bubbling Muck → Exquisite Blood.** Blight-Priest attacks Mesah for 3. Table dies |
+
+Virtus the Veiled was never cast. **The commander had nothing to do with this win.**
+
+**MESAH'S PATH TO EXILE IS THE REASON THE ENGINE WAS CASTABLE.** This is the arithmetic, and it is
+exact.
+
+sleepy played exactly three lands all game — Snow-Covered Swamps on own turns 1, 2 and 3. On own
+turn 3, Mesah cast **Path to Exile** on Tinybones during the declare-blockers step: *"Exile target
+creature. Its controller may search their library for a basic land card, put that card onto the
+battlefield tapped."* **sleepy took the land.** Snow-Covered Swamp (32) appears nowhere in the log
+as a land play and is one of the four Swamps tapped on turn 13.
+
+Now count the mana on turn 13 with **Bubbling Muck** — *"until end of turn, whenever a player taps
+a Swamp for mana, that player adds an additional {B}."* The Swamp that pays for the Muck taps
+before the Muck resolves, so it gets no bonus:
+
+| Lands | Pay for Bubbling Muck | Swamps left | Mana available | Exquisite Blood ({4}{B} = 5) |
+|---|---|---|---|---|
+| 3 (what sleepy played) | 1 Swamp → {B} | 2 | 2 × 2 = **4** | **Short by one. No engine.** |
+| 4 (with Mesah's Path land) | 1 Swamp → {B} | 3 | 3 × 2 = **6** | **Castable, one floating** |
+
+**Mesah's removal spell handed sleepy the fifth mana that killed the table.** Path to Exile on a
+1/1 for one basic land is an ordinary, correct-looking play in most games. Against a mono-black
+deck holding a ritual, it is a Dark Ritual with extra steps.
+
+And **the Path was spent on Tinybones rather than on the Blight-Priest** — the Blight-Priest had
+resolved the same turn and was the half that mattered. Tinybones is a {B} 1/1 deathtouch Skeleton
+Rogue that lets you cast a nonland permanent out of the graveyard of any player it connects with;
+here it connected once into an empty-enough graveyard and then absorbed the only piece of
+interaction anybody aimed at sleepy all game.
+
+**BUBBLING MUCK IS A FOUR-LAND ENABLER, NOT A BIG-TURN CARD.** The file has always framed the
+rituals as ways to deploy early. This game is the clean demonstration: *3 untapped Swamps become 6
+mana*, which turns a five-drop enchantment from a turn-6 play into a turn-4 play. Both halves of
+Engine 1 were on the battlefield with **four lands** in play.
+
+**FORTY LOOP ITERATIONS, AND THE TICK RATE NEVER CHANGED.**
+
+The combat set it off. Blight-Priest (3/2) attacked Mesah unblocked for 3:
+
+> Mesah 39 → 36 → **Exquisite Blood: sleepy 40 → 43** → **Blight-Priest (gained 3): each opponent
+> loses 1** → Gabriel 40 → 39, Beson 40 → 39, Mesah 36 → 35
+
+From there every iteration was identical and worth exactly 1:
+
+> Exquisite Blood gains sleepy **1** → Blight-Priest makes **each** opponent lose **1** → three more
+> Exquisite Blood triggers → repeat
+
+| | Start of loop | End |
+|---|---|---|
+| sleepy | 43 | **82** |
+| Gabriel | 39 | **0** |
+| Beson | 39 | **0** |
+| Mesah | 35 | **0** |
+
+**Blight-Priest resolved 40 times in one turn.** This is the file's own note confirmed under load:
+**the loop tick rate is the size of the spark, and Marauding Blight-Priest is locked at 1.** Vito or
+Enduring Tenacity in the same slot would have read "that much" and ended it in three or four
+iterations. Blight-Priest needed forty.
+
+**It did not matter.** Every trigger in the chain is mandatory, nobody gets priority inside it, and
+it all happened in one turn. **A 1-per-tick loop and a 20-per-tick loop are the same kill; the slow
+one is just more log lines.** Worth keeping in mind the next time the tick rate looks like a
+weakness — speed inside an uninterruptible loop buys nothing.
+
+**GABRIEL AND BESON DIED IN THE SAME TRIGGER.** Both were on 40 and took the identical 40 points,
+so they hit 0 on the same Blight-Priest resolution — `Gabriel 1 > 0` and `Beson 1 > 0`, one
+resolution, two eliminations. Mesah died 4 iterations earlier because Tinybones and the Blight-
+Priest had already taken him to 35.
+
+This is the **parallel** half of the parallel-vs-sequential distinction in the combo grid, shown
+cleanly: **Blight-Priest and South Wind Avatar hit each opponent, so a level table dies at once;
+Vito and Enduring Tenacity target one player and walk the table seat by seat.** On a pod that has
+not damaged each other yet, the parallel sparks are strictly better.
+
+**After Mesah died the loop dropped from three Exquisite Blood triggers per iteration to two, and
+the tick rate stayed at 1.** The gain is 1 per trigger and the Blight-Priest drain is 1 per
+opponent regardless, so losing a player does not slow the loop or speed it up. Noted because it
+reads like it should matter in the log and does not.
+
+**NOBODY INTERACTED WITH THE ENGINE.** One removal spell was cast at sleepy all game and it hit the
+1/1. Gabriel spent the game ramping — Three Visits on turn 8, Finale of Devastation for X=2 on turn
+12. Beson plainscycled an Angel of the Ruins away on turn 7 and cast an Aerial Responder on turn
+11. **Angel of the Ruins exiles up to two target artifacts and/or enchantments on entry** and would
+have answered Exquisite Blood — it was pitched to find a land four turns before it was needed.
+
+**Forge's header says "Game Outcome: Turn 7"; the log body runs to turn 13.** Second consecutive
+game with this mismatch, and the two data points fit the same shape: game 34 read 17 against a log
+turn 33, this one reads 7 against 13 — **both are the log turn halved and rounded up.** Two games
+is not a proof, so this is an observation and not a rule. **The log body stays authoritative** —
+the four-player rotation is visible turn by turn, and sleepy's turns here were 1, 5, 9 and 13.
+
 ### Grave Pact — running record (added 2026-10-27)
 
 Added 2026-10-26, cutting Bojuka Bog, on the argument that 21 deathtouchers trading constantly plus
@@ -2960,6 +3070,7 @@ Tergrid / Ayara / Skullclamp would make it fire often. Tracking it honestly:
 | 2026-10-30 | Not drawn | — | |
 | 2026-10-30 (2nd) | Not drawn | — | |
 | 2026-10-30 (3rd) | Not drawn | — | |
+| 2026-10-31 | Not drawn | — | |
 
 **This table covers LOGGED games only, which are a subset of the games actually played.** The owner
 pastes some match logs into these sessions and not others, so a blank row means "not in a log I
