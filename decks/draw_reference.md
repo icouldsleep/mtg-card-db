@@ -334,3 +334,123 @@ Eight cards were suggested and each turned out to be load-bearing:
 - **Felidar Sovereign** — six counterspells plus Gift of Immortality protect it to upkeep.
 - **Triskaidekaphile** — already on the do-not-cut list above; half a win-con with Necropotence.
 - **Well of Lost Dreams** — see above, different resource and different requirements.
+
+## LOGGED GAMES
+
+First Queza game logged in this repo. Turn numbers are **sleepy's own turns**, derived from the
+seating rotation, not Forge's log turns.
+
+| # | Date | Result | Own turn | Clock | Won / lost by |
+|---|---|---|---|---|---|
+| 1 | 2026-11-01 | **W** | 7 | 4m26s | **Felidar Sovereign at 42 life** — never attacked, never interacted |
+
+### Logged win — 2026-11-01, four-player pod, won on own turn 7 (log turn 27), 4m26s
+
+sleepy 1 — Tristan 0, Jim 0, Xenil Sunsforge 0. First game back on the deck. **Won on Felidar
+Sovereign's upkeep check at 42 life, having cast five spells, taken zero damage, and never
+attacked or interacted with anybody.**
+
+Seating was Jim → Xenil Sunsforge → **sleepy** → Tristan, so sleepy's turns were log turns 3, 7,
+11, 15, 19, 23 and 27 — **own turn 7**.
+
+**THE ENTIRE GAME FROM sleepy'S SIDE — FIVE SPELLS, SEVEN LANDS.**
+
+| Own turn | Log turn | Land | Spell |
+|---|---|---|---|
+| 1 | 3 | Arcane Sanctum (tapped) | — |
+| 2 | 7 | Exotic Orchard | **Demonic Tutor** |
+| 3 | 11 | Sea of Clouds | **The Mind Stone** |
+| 4 | 15 | Plains | **Queza, Augur of Agonies** |
+| 5 | 19 | Godless Shrine (tapped) | **Phyrexian Arena** |
+| 6 | 23 | Vault of Champions | **Felidar Sovereign** |
+| 7 | 27 | — | **Felidar wins at 42 life** |
+
+**Both three-opponent lands entered untapped.** Sea of Clouds and Vault of Champions each read
+*"enters tapped unless you have two or more opponents"*, so in a four-player pod they are untapped
+duals, and both were tapped for mana the same turn they were played. Vault of Champions is one of
+the six sources that cast Felidar Sovereign on the turn it came down. Worth remembering that these
+two are strictly better in a pod than in 1v1 — the opposite of Godless Shrine, which cost a turn
+here because the 2 life wasn't worth paying.
+
+**QUEZA TRIGGERED EXACTLY THREE TIMES ALL GAME AND THAT WAS ENOUGH.**
+
+| Own turn | Draw from | Queza target | sleepy |
+|---|---|---|---|
+| 5 | Draw step | Xenil 40 → 39 | 40 → 41 |
+| 6 | **Phyrexian Arena** | Xenil 31 → 30 | 40 → 41 |
+| 6 | Draw step | Jim 34 → 33 | 41 → 42 |
+
+Three points of drain across two opponents. **The drain did not win this game — the three points of
+life gain did.** sleepy's only life loss all game was the single point Phyrexian Arena costs, and
+Queza paid it back twice over.
+
+**THIS IS WHAT FELIDAR SOVEREIGN ACTUALLY ASKS FOR, AND IT IS ALMOST NOTHING.** The check is *"at
+the beginning of your upkeep, if you have **40 or more** life, you win the game."* Starting life in
+Commander is 40. **The requirement is not "gain life" — it is "don't lose any."** In a pod where
+the other three players are attacking each other, this deck's natural posture of holding up
+counterspells and drawing cards is already the condition for the win.
+
+Compare the other threshold card in the list: **Test of Endurance** needs **50**. Felidar needs you
+to stand still. That is a much lower bar than the file has been treating it as.
+
+**THE TRIGGER-ORDERING RULING, AND IT IS NOT ACADEMIC.** Felidar Sovereign and Phyrexian Arena both
+trigger *at the beginning of your upkeep*. They are both yours, so **you choose the order they go on
+the stack, and the last one on resolves first.**
+
+| Order | At 42 life (this game) | **At exactly 40 life** |
+|---|---|---|
+| Felidar resolves first | **Win** | **Win** |
+| Arena resolves first | 42 → 41, then win | 40 → **39**, Felidar checks, **no win** |
+
+**Put Felidar Sovereign on the stack last so it resolves before Phyrexian Arena.** At exactly 40
+life — which is the default state of this deck in a pod where nobody has attacked you — getting
+this backwards is the entire game. Forge happened to stack it correctly here (`Add To Stack: sleepy
+triggered Phyrexian Arena` then `Add To Stack: sleepy triggered Felidar Sovereign`, so Felidar was
+on top and resolved at 42). **This needs adding to "Rulings established".**
+
+**FELIDAR SURVIVED A FULL TURN CYCLE WITH NO PROTECTION SPENT.** It resolved on own turn 6 and had
+to live through Tristan, Jim and Xenil before the upkeep check. Nobody touched it. This is direct
+evidence for the Sept 23 note defending it from the cut list (*"six counterspells plus Gift of
+Immortality protect it to upkeep"*) — **it did not need any of them.** Both players holding
+removal had already spent it on each other:
+
+- **Jim's Rapid Hybridization** → Xenil's Captain America, Team Leader (log turn 13)
+- **Xenil's Path to Exile** → Jim's Padeem, Consul of Innovation (log turn 14)
+
+**THE TABLE SPENT THE GAME HITTING EACH OTHER AND NOBODY SWUNG AT sleepy ONCE.**
+
+| Log turn | Attack | Result |
+|---|---|---|
+| 14 | Xenil's Frog Lizard token → Tristan | 40 → 37 |
+| 20 | Tristan's Germ token, **double strike** → Xenil | 39 → 31 |
+| 22 | Xenil's Professor Hulk → Jim | 40 → 34 |
+| 24 | Tristan's Germ token, **double strike** → Xenil | 30 → 20 |
+| 25 | Jim's Enthusiastic Mechanaut → Xenil | 20 → 18 |
+
+Final: **sleepy 42**, Tristan 37, Jim 33, Xenil 18. **sleepy took zero damage from any source.**
+
+Tristan's clock is the one worth noting — **Nettlecyst** (living weapon, equipped creature gets
++1/+1 per artifact and/or enchantment you control) on a Germ token, **Temmet, Vizier of Naktamun**
+making it unblockable every combat, and **Duelist's Heritage** granting it double strike. That is
+18 damage to one player across two attacks from a 0/0 token. The Germ was never going to be
+pointed at a player sitting behind counterspells at 40 life, and it wasn't.
+
+**WHY THIS GAME IS WORTH KEEPING DESPITE BEING A QUIET ONE.** None of the engines in this file ran.
+No Drogskol Reaver loop, no Notion Thief, no Sheoldred, no Approach, no Triskaidekaphile, no
+Windfall. The deck's third-best draw engine (Phyrexian Arena, one card per turn) plus the commander
+plus a 4/6 body was the whole plan, and it beat a token deck, an artifact-token deck and a Hero
+deck in under five minutes of clock. **The passive plan is real and it is cheap.**
+
+**TWO FILE-LEVEL GAPS THIS GAME EXPOSED** (flagged, not yet changed — say the word):
+
+1. **Felidar Sovereign is not in "Alternate win conditions, fastest to slowest".** That list has six
+   entries and Felidar is not one of them, despite being in the deck and being the card that won
+   this game on own turn 7. On the evidence here it belongs high up — it is the only win condition
+   that needs no engine, no second card, and no life gain beyond not losing any.
+2. **The ranked list has Test of Endurance at #5 "rides the Reaver loop past 50 life passively."**
+   Felidar does the same thing at 40, which is where you already are.
+
+**Forge's header says "Game Outcome: Turn 14"; the log body runs to turn 27.** `ceil(27 / 2) = 14`.
+This is the **third** game in a row fitting that shape, and the first from a different deck and a
+different pod — the deathtouch file logged 17-against-33 and 7-against-13. **Forge's summary turn is
+the log turn halved and rounded up**, and the log body remains authoritative for own-turn counts.

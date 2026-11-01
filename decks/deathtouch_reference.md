@@ -3024,8 +3024,10 @@ have answered Exquisite Blood — it was pitched to find a land four turns befor
 
 **Forge's header says "Game Outcome: Turn 7"; the log body runs to turn 13.** Second consecutive
 game with this mismatch, and the two data points fit the same shape: game 34 read 17 against a log
-turn 33, this one reads 7 against 13 — **both are the log turn halved and rounded up.** Two games
-is not a proof, so this is an observation and not a rule. **The log body stays authoritative** —
+turn 33, this one reads 7 against 13 — **both are the log turn halved and rounded up.**
+**Confirmed on a third game, 2026-11-01** (the first Queza log, `draw_reference.md`): header 14
+against log turn 27, `ceil(27/2) = 14`. Three games across two decks and two pods, so this is now
+a reliable rule of thumb rather than a guess. **The log body stays authoritative** —
 the four-player rotation is visible turn by turn, and sleepy's turns here were 1, 5, 9 and 13.
 
 ### Grave Pact — running record (added 2026-10-27)
