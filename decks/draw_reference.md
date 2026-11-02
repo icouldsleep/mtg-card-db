@@ -337,12 +337,12 @@ Eight cards were suggested and each turned out to be load-bearing:
 
 ## LOGGED GAMES
 
-First Queza game logged in this repo. Turn numbers are **sleepy's own turns**, derived from the
-seating rotation, not Forge's log turns.
+Turn numbers are **sleepy's own turns**, derived from the seating rotation, not Forge's log turns.
 
 | # | Date | Result | Own turn | Clock | Won / lost by |
 |---|---|---|---|---|---|
 | 1 | 2026-11-01 | **W** | 7 | 4m26s | **Felidar Sovereign at 42 life** — never attacked, never interacted |
+| 2 | 2026-11-02 | **W** | 16 | **2h40m38s** | **Queza + Sheoldred grind** — Windfall killed one player outright; survived two Farewells and a Platinum Angel |
 
 ### Logged win — 2026-11-01, four-player pod, won on own turn 7 (log turn 27), 4m26s
 
@@ -454,3 +454,135 @@ deck in under five minutes of clock. **The passive plan is real and it is cheap.
 This is the **third** game in a row fitting that shape, and the first from a different deck and a
 different pod — the deathtouch file logged 17-against-33 and 7-against-13. **Forge's summary turn is
 the log turn halved and rounded up**, and the log body remains authoritative for own-turn counts.
+
+### Logged win — 2026-11-02, four-player pod, won on own turn 16 (log turn 52), 2h40m38s
+
+sleepy 1 — Brittany 0, Tonica 0, Stephen 0. **The grind, in full.** Queza was exiled once, Farewell
+was countered by a one-mana tax, Alhammarret's Archive was exiled after two turns, a Platinum Angel
+sat on the board for eight turns making the win literally impossible, and the deck still took the
+whole table down. Record 2-0.
+
+Seating was Brittany → Tonica → Stephen → **sleepy**, so sleepy's turns were log turns 4, 8, 12,
+16, 20, 24, 28, 32, 35, 38, 41, 44, 46, 48, 50, 52 — **own turn 16**. (The gaps close up as players
+die: Brittany on log turn 32, Tonica on 44.)
+
+**Final: sleepy 69.** Longest game in either reference file by a wide margin.
+
+**ONE WINDFALL TOOK 40 LIFE OFF THE TABLE AND PUT 30 ON sleepy, FOR {2}{U}.**
+
+This is log turn 32, own turn 8, and it is the single most productive spell in either file. Board
+was **Queza + Sheoldred + Teferi's Ageless Insight**. Every hand got discarded; the largest was 5,
+so everybody drew 5.
+
+| | Draws | What happened |
+|---|---|---|
+| **sleepy** | 5 → **10** | Teferi's Ageless Insight doubled **every** draw |
+| Brittany | 5 | **20 → 10** (Queza ×10) → **10 → 0** (Sheoldred ×5) — **dead** |
+| Tonica | 5 | 22 → **12** (Sheoldred ×5) |
+| Stephen | 5 | 34 → **24** (Sheoldred ×5) |
+| **sleepy's life** | | **45 → 75** (Queza +10, Sheoldred +20) |
+
+**THE RULING THAT MAKES IT WORK: Teferi's Ageless Insight doubles all of Windfall's draws, not all
+but one.** The text is *"if you would draw a card **except the first one you draw in each of your
+draw steps**, draw two cards instead."* Windfall is cast in your main phase, so **none** of its
+draws are draw-step draws and **none** of them are excepted. Five becomes ten. The same applies to
+Echo of Eons, Sea Gate Restoration, Decorum Dissertation and every other non-draw-step draw in the
+deck — and identically to **Alhammarret's Archive**, which has the same clause.
+
+**This settles the Sept 23 argument in the file.** The note defending Font of Mythos, Windfall and
+Echo of Eons said they are *"not symmetrical liabilities, they are a burn package with Sheoldred,
+who drains each opponent 2 per card drawn."* Confirmed, with a number: **a 5-card Windfall is 10
+damage to every opponent at once.** It killed a player from 20 outright.
+
+**What it cost:** sleepy discarded **Mana Drain, Drogskol Reaver, The One Ring, Exquisite Blood and
+Psychosis Crawler** to do it. The entire Reaver-loop package went in the bin, and Tonica's **Rest in
+Peace** (log turn 43) later exiled the graveyard, so none of it came back. **Windfall is not a free
+roll — it is a trade of your best five cards for a table-wide burn.** Here it was obviously right.
+
+**DECORUM DISSERTATION'S PARADIGM RAN FREE FOR SIX CONSECUTIVE TURNS AND SURVIVED A BOARD WIPE.**
+
+Cast once on own turn 11 targeting Tonica (draining her 2). After that it copied itself from exile
+at the beginning of every one of sleepy's first main phases — **own turns 12, 13, 14, 15 and 16, for
+no mana.** Two draws a turn, two Queza triggers a turn, forever.
+
+**It lives in exile, so Farewell could not touch it.** On log turn 37 Stephen exiled every artifact,
+creature and enchantment on the table; the Dissertation kept casting itself the next turn and every
+turn after. **This is the most resilient engine in the deck and the only one that is wipe-proof.**
+
+The one cost: targeting yourself loses you 2 life each time. sleepy did that five times — 10 life —
+and Queza paid it back twice over. Targeting an opponent drains them 2 instead but hands them two
+cards, which is why the self-target was correct once the race was on.
+
+**FAREWELL WAS COUNTERED BY A MANA TITHE, AND THEN THE OPPONENT CAST THEIR OWN.**
+
+Own turn 9, log turn 35: sleepy tapped exactly six lands for **Farewell**. Tonica cast **Mana Tithe**
+— *"counter target spell unless its controller pays {1}"* — and sleepy had nothing left to pay with.
+
+Two turns later **Stephen cast his own Farewell** and exiled all four categories:
+
+| sleepy lost | Tonica lost | Stephen lost |
+|---|---|---|
+| **Queza**, **Sheoldred**, Teferi's Ageless Insight, Lightning Greaves, Arcane Signet | Solemnity, Linvala, Platinum Angel, Cursed Totem, Aven Mindcensor, Leonin Arbiter, Windborn Muse, Angel of Jubilation, Doorkeeper Thrull | Luminous Broodmoth, Vanguard of the Restless, Ainok Bond-Kin, Kinscaer Sentry, Heraldic Banner |
+
+**The play note: against untapped white mana, leave one mana up when casting Farewell.** A
+six-mana sorcery that loses to a one-mana tax is not a wipe, and the wipe still happened — on
+somebody else's terms, taking the whole engine with it.
+
+**STEPHEN'S FAREWELL IS ALSO WHY TONICA DIED.** Tonica had **Platinum Angel** on the battlefield
+from log turn 30 — *"you can't lose the game and your opponents can't win the game."* For eight
+turns **sleepy could not win and Tonica could not lose**, which is why her life total sat at 12
+without consequence. Stephen's Farewell exiled it on turn 37. Tonica was dead seven turns later.
+
+Also on that board: **Angel of Jubilation** (turns 27–37) — *"players can't pay life or sacrifice
+creatures to cast spells or activate abilities."* In a deck that pays life for mana constantly, that
+turned off **Mana Confluence, all three fetchlands, Necropotence, Spellskite's {U/P}** and Tonica's
+own War Room. The painlands and the shocklands kept working (they deal damage, or pay life as the
+land enters, neither of which is a cost paid to cast or activate).
+
+**THE DECK REBUILT FROM ZERO AND WON ANYWAY.** Everything on the battlefield was exiled on log turn
+37. What followed:
+
+| Own turn | Log turn | Rebuild |
+|---|---|---|
+| 10 | 38 | **Queza** re-cast, The Mind Stone |
+| 11 | 41 | Decorum Dissertation (Paradigm starts) |
+| 12 | 44 | **Sea Gate Restoration for 16** — Queza triggers kill **Tonica** from 7 |
+| 13 | 46 | **Cyclonic Rift, overloaded** — clears Stephen's board |
+| 14 | 48 | **Jace, Wielder of Mysteries** |
+| 15 | 50 | **Sanguine Bond**, Smothering Tithe, Spellskite |
+| 16 | 52 | **Echo of Eons** — Stephen dead 5 draws into a 7-card refill |
+
+**SANGUINE BOND + QUEZA DOUBLES THE DRAIN RATE WITHOUT EXQUISITE BLOOD.** Each draw: Queza takes 1
+and gains you 1 → **that life gain triggers Sanguine Bond for 1 more.** Two life per card drawn, one
+life gained, no loop. The full Bond + Blood infinite was never available (Exquisite Blood had been
+discarded to Windfall and then exiled by Rest in Peace), and it did not need to be.
+
+**The kill:** Echo of Eons refilled sleepy and Stephen for seven. Stephen was on 9. Queza plus
+Sanguine Bond is 2 a card, so **he died on the fifth of seven draws** — two of the draws never
+needed to resolve. sleepy finished on 69.
+
+**STEPHEN WAS PLAYING FELIDAR SOVEREIGN AND NEVER GOT TO USE IT.** He cast it three times (log turns
+43, 47, 48 after a Cyclonic Rift) and attacked with it repeatedly, gaining 4 and 5 off lifelink. He
+was never above 16 life after turn 45 — **Queza and Sanguine Bond drained faster than his own
+lifelink could climb.** He also discarded **Teferi's Protection** to the turn-32 Windfall, which is
+the card that would have saved him.
+
+**THIS IS THE WORST MATCHUP IN THE FILE, CONFIRMED AND BEATEN.** The 1v1 ratings note says
+*"Stax/Prison ~4-5/10 (worst)."* Tonica's board across the game was **Linvala, Cursed Totem,
+Solemnity, Leonin Arbiter, Aven Mindcensor, Rest in Peace, Windborn Muse, Angel of Jubilation,
+Platinum Angel** plus Mana Tithe, Disenchant and Return to Dust. That is the rating earned — and
+the deck won through it. **The price was 2h40m38s and sixteen of its own turns.** Both halves of
+that are the real result.
+
+**OTHER THINGS WORTH KEEPING**
+
+- **Alhammarret's Archive lasted two turns.** Cast own turn 5, exiled by Tonica's **Return to Dust**
+  on log turn 22. Against a white pod it does not stay on the battlefield; plan the Windfall turn
+  around Teferi's Ageless Insight instead, which is what actually happened.
+- **Morphic Pool and Sea of Clouds both entered untapped again** — the four-player clause. Second
+  logged game in a row where that mattered.
+- **Jace, Wielder of Mysteries was used as a +1 engine, not a win condition.** It milled Stephen and
+  drew a card, then died to a Righteous Valkyrie attack on log turn 51. The deck-out win was never
+  close — the library was never going to empty with Reaver in the graveyard.
+- **Forge's header says "Game Outcome: Turn 26"; the log body runs to turn 52.** `ceil(52/2) = 26`.
+  **Fourth consecutive confirmation** of the halving rule, now across two decks and three pods.
