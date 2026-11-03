@@ -343,6 +343,7 @@ Turn numbers are **sleepy's own turns**, derived from the seating rotation, not 
 |---|---|---|---|---|---|
 | 1 | 2026-11-01 | **W** | 7 | 4m26s | **Felidar Sovereign at 42 life** — never attacked, never interacted |
 | 2 | 2026-11-02 | **W** | 16 | **2h40m38s** | **Queza + Sheoldred grind** — Windfall killed one player outright; survived two Farewells and a Platinum Angel |
+| 3 | 2026-11-03 | **W** | 9 | 30m30s | **Queza × Exquisite Blood × Alhammarret's Archive × Well of Lost Dreams** — Sea Gate Restoration for 39. **Finished on 172 life** |
 
 ### Logged win — 2026-11-01, four-player pod, won on own turn 7 (log turn 27), 4m26s
 
@@ -586,3 +587,116 @@ that are the real result.
   close — the library was never going to empty with Reaver in the graveyard.
 - **Forge's header says "Game Outcome: Turn 26"; the log body runs to turn 52.** `ceil(52/2) = 26`.
   **Fourth consecutive confirmation** of the halving rule, now across two decks and three pods.
+
+### Logged win — 2026-11-03, four-player pod, won on own turn 9 (log turn 35), 30m30s
+
+sleepy 1 — Darko 0, Daisy 0, Irefist 0. **The four-card engine the file has been describing, running
+for real: Queza × Exquisite Blood × Alhammarret's Archive × Well of Lost Dreams.** Finished on
+**172 life** — the highest total in either reference file. Record 3-0.
+
+Seating was Darko → Daisy → Irefist → **sleepy**, so sleepy's turns were log turns 4, 8, 12, 16, 20,
+24, 28, 32 and 35 — **own turn 9**. (Irefist died at the end of log turn 32, so the rotation closes
+up after that.)
+
+**THE ENGINE, AND EXACTLY WHAT ONE DRAW IS WORTH.**
+
+With all four on the battlefield, every single card sleepy draws produces this:
+
+| Step | Effect |
+|---|---|
+| **Queza** | target opponent loses **1**, sleepy gains 1 → |
+| **Alhammarret's Archive** | *"if you would gain life, you gain twice that much instead"* → **+2** |
+| **Exquisite Blood** | sees the opponent lose 1 → sleepy gains 1 → |
+| **Alhammarret's Archive** | again → **+2** |
+| **Well of Lost Dreams** | triggers **twice**, once per life-gain event, each able to pay {X} ≤ 2 to draw X |
+
+**One draw = 1 off an opponent, 4 onto sleepy, and two optional draw triggers.** Confirmed line by
+line in the log: `sleepy 98 > 100` (Queza, doubled), `sleepy 100 > 102` (Blood, doubled), `Daisy 11 > 10`.
+
+**IS IT INFINITE? NO — AND THE FILE ALREADY SAID WHY.** Neither life-gain event draws a card on its
+own; **Well of Lost Dreams pays {X} in mana**, so the chain stops the moment the mana does. The
+Sept 23 note saying *"Well of Lost Dreams is NOT the same effect... it pays {X} MANA, not life, so
+it is a mana-gated engine rather than a loop"* is exactly right, and this game is the proof.
+
+**But the gate is cheap, and that is the part worth writing down.** One Queza trigger produces two
+separate 2-life gains. Pay {2} on each Well trigger and you draw 4 cards, which are **4 more Queza
+triggers**. So **{4} of mana turns one trigger into four** — it is a genuine loop the moment you
+have mana to spare, and it compounds. The mana for this deck is Smothering Tithe.
+
+**THE KILL DID NOT EVEN USE THE LOOP.** sleepy just cast **Sea Gate Restoration** for **39 cards**
+on own turn 9 and let 39 raw Queza triggers run through the engine.
+
+| | Before | After |
+|---|---|---|
+| sleepy | 94 | **172** |
+| Daisy | 11 | **0** (11 triggers) |
+| Darko | 9 | **0** (8 triggers) |
+
+**Seven Queza triggers fizzled** after Daisy died with the stack still full — the log says so
+outright, `Queza, Augur of Agonies ability fizzles` ×7. There was that much margin.
+
+**SMOTHERING TITHE WAS THE WHOLE MANA BASE FROM OWN TURN 5 ONWARD.** Cast log turn 20, and from
+there it triggered on essentially every opponent's draw step for the rest of the game. **Three
+opponents, none of them ever paying the {2}.** What the Treasures bought:
+
+| Treasures | Spent on |
+|---|---|
+| 4 | **The One Ring** (own turn 7) |
+| 3 | **Alhammarret's Archive** (own turn 8) |
+| 1 | **Path to Exile** on Darko's attacking Wyll, Blade of Frontiers |
+| several | Well of Lost Dreams activations |
+
+**This is the Enlightened Tutor priority confirmed in play.** In a four-player pod Smothering Tithe
+is not a value enchantment, it is the deck's second mana base, and it paid for the two most
+expensive pieces of the engine.
+
+**BUILD ORDER — NINE TURNS, NOTHING WASTED.**
+
+| Own turn | Log turn | Play |
+|---|---|---|
+| 1–3 | 4, 8, 12 | Lands only. Cracked **Polluted Delta** for Raffine's Tower on turn 9 |
+| 4 | 16 | **Queza, Augur of Agonies** |
+| 5 | 20 | **Smothering Tithe** |
+| 6 | 24 | **Well of Lost Dreams** + **Mystic Remora** |
+| 7 | 28 | **Exquisite Blood** + **The One Ring** (off 4 Treasures) |
+| 8 | 32 | **Rhystic Study** + **Alhammarret's Archive** — **Irefist dies** on the end step |
+| 9 | 35 | Vampiric Tutor, **Sea Gate Restoration for 39** — **Daisy and Darko die** |
+
+**EXQUISITE BLOOD TOOK 17 LIFE IN ONE TRIGGER OFF SOMEBODY ELSE'S COMBAT.** Log turn 30: Darko's
+team — Wyll, Faceless One, Bloodsworn Steward and Brazen Dwarf — hit **Irefist for 17**. Exquisite
+Blood read it as one life-loss event and gave sleepy all of it: **50 → 67**, and Well of Lost Dreams
+triggered for an X of up to 17.
+
+This is the passive table-wide property already recorded on the deathtouch side, now with the
+largest single trigger in either file. **Exquisite Blood does not need a partner to be an engine —
+it taxes every point of damage anybody at the table deals to anybody else.** Alhammarret's Archive
+was not out yet; had it been, that trigger would have been 34.
+
+**THE ONE RING'S PROTECTION ACTUALLY PREVENTED DAMAGE.** Cast own turn 7. On log turn 29 Darko's
+**Brazen Dwarf** tried to deal 1 to each opponent off a dice roll and the log records
+`Replacement Effect: Protection from everything` on sleepy's side. It is a real fog for a turn
+cycle, not just a draw engine — worth remembering as the "cast this and survive the turn" line.
+
+**MYSTIC REMORA IS A THREE-TURN RENTAL AND IT PAID.** Cast own turn 6 for {U}; sacrificed on own
+turn 9 rather than pay the third cumulative upkeep. In between it drew off **Level Up, Masterwork of
+Ingenuity, Tavern Brawler, Special Move, Dragon Cultist and Campfire** — six opponent noncreature
+spells, none of whom paid the {4}. Against decks casting cheap artifacts and combat tricks it is
+close to a Rhystic Study for one mana, for exactly as long as you want it.
+
+**NOBODY SERIOUSLY ATTACKED sleepy UNTIL LOG TURN 33.** Before that it was two 1-damage Ninja tokens
+off Irefist's **Endless Foot Assault** (which makes a token attacking *each* opponent, so sleepy was
+hit incidentally rather than targeted). Then on log turn 33 Darko swung for **19** — Faceless One
+10, Bloodsworn Steward 4, Swarming Goblins 4, a Ninja token 1 — taking sleepy 84 → 65. **sleepy
+answered with the only removal spell it cast all game**, Path to Exile on Wyll off a Treasure, and
+the engine had the 19 back within a turn.
+
+**THE DISCREPANCY TO SORT OUT.** On log turn 32's cleanup sleepy discarded four cards, and one of
+them was **`Shadowbringers`**. That card is **not in `draw_decklist.txt`, not in this reference, and
+not in `scryfall.db` at all** (no fuzzy match across 38,980 rows). The other three discards —
+Mystical Tutor, Glacial Fortress, Sea of Clouds — are all in the list. **Flagged, not resolved.**
+This file already carries a verification failure on record from assuming a change was made, so this
+needs confirming with the owner rather than guessing: either the Forge decklist has drifted from the
+repo, or there is a card in the physical deck this repo does not know about.
+
+**Forge's header says "Game Outcome: Turn 18"; the log body runs to turn 35.** `ceil(35/2) = 18`.
+**Fifth consecutive confirmation** of the halving rule.
