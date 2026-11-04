@@ -344,6 +344,7 @@ Turn numbers are **sleepy's own turns**, derived from the seating rotation, not 
 | 1 | 2026-11-01 | **W** | 7 | 4m26s | **Felidar Sovereign at 42 life** — never attacked, never interacted |
 | 2 | 2026-11-02 | **W** | 16 | **2h40m38s** | **Queza + Sheoldred grind** — Windfall killed one player outright; survived two Farewells and a Platinum Angel |
 | 3 | 2026-11-03 | **W** | 9 | 30m30s | **Queza × Exquisite Blood × Alhammarret's Archive × Well of Lost Dreams** — Sea Gate Restoration for 39. **Finished on 172 life** |
+| 4 | 2026-11-04 | **W** | 9 | 9m37s | **Aetherflux Reservoir for 50** after a board wipe took everything but Queza; **Gift of Immortality saved the commander** |
 
 ### Logged win — 2026-11-01, four-player pod, won on own turn 7 (log turn 27), 4m26s
 
@@ -700,3 +701,132 @@ repo, or there is a card in the physical deck this repo does not know about.
 
 **Forge's header says "Game Outcome: Turn 18"; the log body runs to turn 35.** `ceil(35/2) = 18`.
 **Fifth consecutive confirmation** of the halving rule.
+
+### Logged win — 2026-11-04, four-player pod, won on own turn 9 (log turn 33), 9m37s
+
+sleepy 1 — Chesmarn 0, Chamon 0, Celthric 0. **Lost every permanent but the commander to a board
+wipe on own turn 7 and killed the whole table anyway.** Two players died to Queza triggers off one
+Sea Gate Restoration; the third died to **Aetherflux Reservoir, cast and fired on the same turn with
+no spell-count build-up at all.** Record 4-0.
+
+Seating was Chamon → Celthric → **sleepy** → Chesmarn, so sleepy's turns were log turns 3, 7, 11,
+15, 19, 23, 27, 31 and 33 — **own turn 9**. Second game in a row finishing on own turn 9.
+
+**AETHERFLUX RESERVOIR IS A ONE-CARD, FOUR-MANA KILL ONCE THE ENGINE HAS BANKED THE LIFE.**
+
+Own turn 9, Chesmarn on 19. sleepy cast **Aetherflux Reservoir** off four lands and immediately
+activated it:
+
+| Step | Life |
+|---|---|
+| sleepy before | **65** |
+| Pay 50 | **65 → 15** |
+| Reservoir deals 50 to Chesmarn | **19 → −31** |
+
+**The Reservoir's own lifegain clause never mattered.** *"Whenever you cast a spell, you gain 1 life
+for each spell you've cast this turn"* contributed nothing here — the 50 life was already on the
+table, put there by Queza and Sheoldred over the preceding six turns. **It was four mana and a
+single activation.**
+
+The practical floor is **51 life**, not 50: you may pay life only down to 0, and paying exactly 50
+at 50 leaves you at 0 and you lose at the next state check. Above 51, this is the cheapest kill in
+the deck — **one card, no second piece, no combat, no upkeep wait, and it can be pointed at any
+target at instant speed.**
+
+**Like Felidar Sovereign, Aetherflux Reservoir is not in "Alternate win conditions, fastest to
+slowest" either.** That list still has six entries and neither of the two cards that have now
+actually closed Queza games is one of them.
+
+**CONSECRATED SPHINX + SHEOLDRED + QUEZA IS THE ENGINE, AND IT RUNS ON THE OPPONENTS' TURNS.**
+
+With all three out, **every single draw step an opponent takes** produces this:
+
+| Trigger | Effect |
+|---|---|
+| **Sheoldred** (opponent draws) | that player loses **2** |
+| **Consecrated Sphinx** (opponent draws) | sleepy draws **2** |
+| **Queza** ×2 | target opponent loses **2**, sleepy gains **2** |
+| **Sheoldred** ×2 (you draw) | sleepy gains **4** |
+
+**Per opponent draw step: 2 off them, 2 off a target of your choice, 2 cards and 6 life to you.**
+Three opponents, so that fires three times a round before sleepy's own turn even starts. Confirmed
+line by line from log turn 24 onward.
+
+**And on sleepy's own draws the rate is +3 life and −1 to a target per card** — Queza's 1 plus
+Sheoldred's 2. That is what put 65 life on the board for the Reservoir.
+
+**CRISIS OF CONSCIENCE DESTROYED 27 PERMANENTS AND GIFT OF IMMORTALITY SAVED THE ONLY ONE THAT
+MATTERED.**
+
+Log turn 28, Chesmarn cast **Crisis of Conscience** — *"destroy all nonland, nontoken permanents."*
+sleepy lost **Sheoldred, Consecrated Sphinx, Gilded Lotus, Mana Vault, Esper Sentinel** and the Gift
+itself. The whole engine above, gone in one card.
+
+**Queza came back.** Gift of Immortality had gone on it the turn before: *"when enchanted creature
+dies, return that card to the battlefield under its owner's control. Return this card to the
+battlefield attached to that creature at the beginning of the next end step."* Queza returned
+immediately, the Gift re-attached at Chesmarn's end step, and the log records both triggers.
+
+**This is the Sept 23 cut-list defense of Gift of Immortality confirmed exactly as written.** It was
+cast on own turn 7, one turn before the wipe, and it is the reason this game was not a loss. Note
+what it means in practice: **the Gift does not have to be held for a removal spell. Putting it on
+Queza as soon as you have three spare mana is the play** — it answers a sweeper the deck has no
+other out to.
+
+**After the wipe, sleepy had Queza and one thing in exile.** **Decorum Dissertation's Paradigm** had
+started on own turn 7 and kept casting itself free on turns 8 and 9. **Second consecutive game where
+Paradigm outlived a board wipe** — it lives in exile, so Crisis of Conscience could not touch it,
+exactly as Farewell could not two games ago.
+
+**That was enough.** Own turn 8: Paradigm Dissertation, then **Sea Gate Restoration for 38 cards**.
+
+| | Before | After |
+|---|---|---|
+| Celthric | 3 | **0** (died to the Dissertation's two draws, before the Restoration even resolved) |
+| Chamon | 8 | **0** |
+| Chesmarn | 30 | **19** |
+| sleepy | 45 | **64** |
+
+**SWAN SONG SAVED THE COMMANDER FROM EXILE-BASED REMOVAL.** Log turn 30, Celthric cast **Swords to
+Plowshares** on Queza. sleepy countered with **Swan Song** off Mana Confluence. Swords is an instant,
+so Swan Song is legal on it — and the alternative was losing Queza to exile, which Gift of
+Immortality does **not** answer (the Gift triggers on dying, not on being exiled).
+
+The cost was a 2/2 flying Bird token handed to a Storm Crow deck. **Worth it without hesitation.**
+Worth writing down as the general rule: against white removal, Swan Song covers Swords and Path;
+Gift of Immortality does not.
+
+**CELTHRIK'S BIRDS WERE THE ONLY REAL CLOCK AND THE ENGINE OUT-GAINED THEM.** Celthric ran
+**Murmuration** (a 1/2 flying Storm Crow per spell cast, each end step), **Tempest Hawk** (tutors
+another copy of itself on combat damage, and a deck may run any number) and **Soraya the Falconer**.
+
+| Log turn | Damage to sleepy | Life |
+|---|---|---|
+| 19 | 3 | 42 → 39 |
+| 26 | 13 | 40 → 27 |
+| **30** | **25** — seven Storm Crows and a Tempest Hawk under **Rally of Wings** (+2/+2 to fliers) | **71 → 46** |
+
+**sleepy was back to 65 by own turn 9.** 41 damage taken across the game and the draw engine simply
+out-paced it. Note that Celthric also pointed that same board at **Chamon for 23** on log turn 27 —
+the bird deck was the table's clock, not sleepy's problem alone.
+
+**ESPER SENTINEL TAXED EIGHT SPELLS AND NOBODY EVER PAID.** Cast own turn 2 for {W}. It triggered on
+Talisman of Progress, Murmuration, Ichor Wellspring, Tezzeret the Seeker, Banish to Another Universe,
+River Song's Diary, Dimir Signet and Crisis of Conscience. **Not one opponent paid the {1}.** In a
+deck where every card drawn is +3 life and −1 to a target, a one-mana 1/1 that draws eight is worth
+roughly 24 life and 8 damage.
+
+**OTHER THINGS WORTH KEEPING**
+
+- **Mana Vault pinged sleepy for 1 on four consecutive draw steps** (own turns 4–7) because it stayed
+  tapped. Add it to the list of cards in this deck that charge life for mana — it never mattered here
+  because the engine gained 3 per draw, but it is the same tension as the Felidar plan.
+- **Sea of Clouds entered untapped again** (the four-player clause). Fourth logged game in a row.
+- **The Mystical Tutor on own turn 6 is not recorded in the log.** The two candidates that later
+  mattered are the **Swan Song** that saved Queza on log turn 30 and **Sea Gate Restoration**, which
+  is a Sorcery and therefore a legal target. The log does not say which, so neither is claimed.
+- **No `Shadowbringers` this game.** The discrepancy flagged in the 2026-11-03 entry is still open:
+  that card is in neither the decklist, this reference, nor `scryfall.db`, and needs confirming with
+  the owner.
+- **Forge's header says "Game Outcome: Turn 17"; the log body runs to turn 33.** `ceil(33/2) = 17`.
+  **Sixth consecutive confirmation** of the halving rule.
